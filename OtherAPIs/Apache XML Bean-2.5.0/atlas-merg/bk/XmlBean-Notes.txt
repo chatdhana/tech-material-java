@@ -1,0 +1,56 @@
+
+Steps:
+1) Set the environment variable XMLBEANS_HOME to extracted XMLBean API directory.
+2) Convert a raw XML Instance file into XSD. 
+	>inst2xsd -design ss -simple-content-types string -enumerations never -outPrefix CUSTOMER-FM CUSTOMER-FM.xml
+3) Generate Java Beans from XSD. 
+	>scomp -src ./src -d ./bin -out CUSTOMER-FM.jar -compiler "C:\Program Files\Java\jdk1.5.0_09\bin\javac" -javasource 1.4 CUSTOMER-FM0.xsd CUSTOMER-FM.xsdconfig
+4) Use the generated jar file or source files to write or read xml data.
+
+Test) xsd2inst (Schema to Instance Tool) 
+	>xsd2inst CUSTOMER0.xsd -name SCIMessages
+
+----------
+set XMLBEANS_HOME=C:\zsoft\xmlbeans-2.5.0
+set JAVA_HOME=C:\Program Files\Java\jdk1.5.0_09
+set PATH=C:\Program Files\Java\jdk1.5.0_09\bin;C:\zsoft\xmlbeans-2.5.0\bin;%PATH%
+
+cd C:\dhana\atlas\XML-Bean\atlas-merg
+
+inst2xsd -design ss -simple-content-types string -enumerations never -outPrefix CUSTOMER-FM CUSTOMER-FM.xml
+scomp -src ./src -d ./bin -out xmlbean-customer-fm.jar -compiler "C:\Program Files\Java\jdk1.5.0_09\bin\javac" -javasource 1.5 CUSTOMER-FM.xsd CUSTOMER-FM.xsdconfig
+----------
+
+
+General Notes:
+-------------------------------------------------------------------------------
+-->Havig User Defined Package Name:
+There are two ways to do this.
+
+Way 1) Using the Configuration file *.xsdconfig file.
+
+<xb:config xmlns:pol="http://openuri.org/easypoLocal" 
+    xmlns:xb="http://www.bea.com/2002/09/xbean/config">
+
+    <!-- Use the "namespace" element to map a namespace to the Java package
+        name that should be generated. 
+	<xb:namespace uri="http://openuri.org/easypoLocal">
+        <xb:package>org.openuri.easypo.xsdconfig</xb:package>
+    </xb:namespace>
+	If schema doesn't include targetNamespace then use 
+	<xb:namespace uri="##any">
+		<xb:package>org.openuri.easypo.xsdconfig</xb:package>
+	</xb:namespace>
+	-->
+    <xb:namespace uri="##any">
+        <xb:package>atlas.pubsub.xmlbeans.le</xb:package>
+    </xb:namespace>
+
+    <!-- Use the "qname" element to map schema type names to generated
+        Java type names. In these examples, the name attribute's value is the
+        XML element name; the javaname attribute's value is the Java type 
+        that should be generated. -->
+    <!-- <xb:qname name="pol:CUST" javaname="Customer"/>
+    <xb:qname name="pol:PURCH_ORDER" javaname="PurchaseOrder"/> 
+	-->
+</xb:config>

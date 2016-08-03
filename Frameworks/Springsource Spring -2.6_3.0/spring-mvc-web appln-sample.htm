@@ -1,0 +1,1196 @@
+<html><head><title>Introduction to Spring MVC Web Framework - Sample Application</title>
+		
+		
+		<meta name="description" content="Introduction to Spring MVC Web Framework - Sample Application">
+		<meta name="keywords" content="Introduction to Spring MVC Web Framework - Sample Application">
+	<link rel="StyleSheet" href="spring-mvc-web%20appln-sample_files/cert.css" title="Contemporary" type="text/css">
+	<script type="text/javascript" src="spring-mvc-web%20appln-sample_files/javabeat.js"></script>
+		<link rel="StyleSheet" href="spring-mvc-web%20appln-sample_files/articles.css" title="Contemporary" type="text/css">
+		<script type="text/javascript" src="spring-mvc-web%20appln-sample_files/jquery-1.js"></script>
+		<script type="text/javascript" src="spring-mvc-web%20appln-sample_files/ddaccordion.js"></script>
+		<script>
+			function feedback(obj)
+			{
+				window.open('http://www.javabeat.net/articles/feedback.php?article_id='+obj,'P','width=550,height=370,toolbar=no,location=no,directories=no,status=no,menubar=no, scrollbars=yes,resizable=yes,copyhistory=no');
+			}
+			function reqArticle(obj)
+			{
+				window.open('http://www.javabeat.net/articles/reqarticle.php?article_id='+obj,'P','width=550,height=370,toolbar=no,location=no,directories=no,status=no,menubar=no, scrollbars=yes,resizable=yes,copyhistory=no');
+			}
+			function print(obj)
+			{
+				window.open('http://www.javabeat.net/articles/print.php?article_id='+obj,'P','width=750,height=600,toolbar=no,location=no,directories=no,status=no,menubar=no, scrollbars=yes,resizable=yes,copyhistory=no');
+			}
+			function sendEmail(obj)
+			{
+				window.open('http://www.javabeat.net/articles/email.php?article_id='+obj,'P','width=550,height=370,toolbar=no,location=no,directories=no,status=no,menubar=no, scrollbars=yes,resizable=yes,copyhistory=no');
+			}
+			function submit(obj)
+			{
+				window.open('http://www.javabeat.net/articles/submit.php?article_id='+obj,'P','width=550,height=170,toolbar=no,location=no,directories=no,status=no,menubar=no, scrollbars=yes,resizable=yes,copyhistory=no');
+			}
+		</script>
+	<style> 
+.test { 
+ color: black; 
+ font-weight:bold; 
+ text-align: left; 
+ height:30;
+} 
+</style><style type="text/css">
+.submenu{display: none}
+</style><style type="text/css">
+
+.glossymenu{
+margin: 1px 0;
+padding: 0;
+width: 200px; /*width of menu*/
+border: 1px solid #9A9A9A;
+border-bottom-width: 0;
+}
+
+.glossymenu a.menuitem{
+background: black url(http://www.javabeat.net/templates/glossyback.gif) repeat-x bottom left;
+font: bold 14px "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;
+color: white;
+display: block;
+position: relative; /*To help in the anchoring of the ".statusicon" icon image*/
+width: auto;
+padding: 4px 0;
+padding-left: 10px;
+text-decoration: none;
+}
+
+
+.glossymenu a.menuitem:visited, .glossymenu .menuitem:active{
+color: white;
+}
+
+.glossymenu a.menuitem .statusicon{ /*CSS for icon image that gets dynamically added to headers*/
+position: absolute;
+top: 5px;
+right: 5px;
+border: none;
+}
+
+.glossymenu a.menuitem:hover{
+background-image: url(http://www.javabeat.net/templates/glossyback2.gif);
+}
+
+.glossymenu div.submenu{ /*DIV that contains each sub menu*/
+background: white;
+}
+
+.glossymenu div.submenu ul{ /*UL of each sub menu*/
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+.glossymenu div.submenu ul li{
+border-bottom: 1px solid blue;
+}
+
+.glossymenu div.submenu ul li a{
+display: block;
+font: normal 13px "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;
+color: black;
+text-decoration: none;
+padding: 2px 0;
+padding-left: 10px;
+}
+
+.glossymenu div.submenu ul li a:hover{
+background: #DFDCCB;
+colorz: white;
+}
+
+</style></head><body class="body_format">
+		<table align="center" cellpadding="0" cellspacing="0" width="1000">
+			<tbody><tr>
+				<td>
+					 
+<table background="spring-mvc-web%20appln-sample_files/back.jpg" height="80" width="100%">
+	<tbody><tr>
+		<td width="20%">
+			<a href="http://www.javabeat.net/"><img src="spring-mvc-web%20appln-sample_files/jbheader.jpg" border="0" height="80"></a>
+		</td>
+		<td>
+			<a href="http://www.webthosting.com/" target="_blank" rel="nofollow"><img src="spring-mvc-web%20appln-sample_files/WebTHosting_484X60.gif" border="0"></a>			
+		</td>
+		<td>
+			<table height="80" width="100%">
+				<tbody><tr>
+					<td class="text_format" align="right" valign="top" width="100%">
+						<font size="1">
+							<a href="http://www.elitesat.com/" target="_blank">Satellite Internet</a>
+							<a href="http://www.rockryno.com/quickbooks/1.htm" target="_blank">QuickBooks Advice</a>	
+							<a href="http://www.enjoyprepaid.com/" target="_blank">international calling cards</a>
+							<a href="http://www.nobelcom.com/" target="_blank">international phone cards</a>
+						</font>
+					</td>
+				</tr>				
+				<tr>
+					<td class="text_format" align="right" valign="bottom" width="100%">
+						<form action="http://www.javabeat.net/search/index.php" id="cse-search-box">
+						  <div>
+							<input name="cx" value="007688475696303719593:jkbg31bkfjm" type="hidden">
+							<input name="cof" value="FORID:10" type="hidden">
+							<input name="ie" value="UTF-8" type="hidden">
+							<table>
+								<tbody><tr>
+									<td>
+										<input style="border: 1px solid rgb(126, 157, 185); padding: 2px; background: rgb(255, 255, 255) url(http://www.google.com/cse/intl/en/images/google_custom_search_watermark.gif) no-repeat scroll left center; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" name="q" size="30" class="test" type="text">
+									</td>
+									<td>
+										<input name="sa" value="Search" class="searchbutton" type="submit">
+									</td>
+								</tr>
+							</tbody></table>
+						  </div>
+						</form>
+						<script type="text/javascript" src="spring-mvc-web%20appln-sample_files/brand.htm"></script>
+					</td>
+				</tr>				
+			</tbody></table>
+		</td>
+	</tr>
+</tbody></table>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<table cellpadding="0" cellspacing="0">
+						<tbody><tr>
+							<td valign="top" width="90">
+								
+<script type="text/javascript">
+ddaccordion.init({
+	headerclass: "submenuheader", //Shared CSS class name of headers group
+	contentclass: "submenu", //Shared CSS class name of contents group
+	revealtype: "click", //Reveal content when user clicks or onmouseover the header? Valid value: "click" or "mouseover
+	mouseoverdelay: 200, //if revealtype="mouseover", set delay in milliseconds before header expands onMouseover
+	collapseprev: true, //Collapse previous content (so only one open at any time)? true/false 
+	defaultexpanded: [], //index of content(s) open by default [index1, index2, etc] [] denotes no content
+	onemustopen: false, //Specify whether at least one header should be open always (so never all headers closed)
+	animatedefault: false, //Should contents open by default be animated into view?
+	persiststate: true, //persist state of opened contents within browser session?
+	toggleclass: ["", ""], //Two CSS classes to be applied to the header when it's collapsed and expanded, respectively ["class1", "class2"]
+	togglehtml: ["suffix", "<img src='http://www.javabeat.net/templates/plus.gif' class='statusicon' />", "<img src='http://www.javabeat.net/templates/minus.gif' class='statusicon' />"], //Additional HTML added to the header when it's collapsed and expanded, respectively  ["position", "html1", "html2"] (see docs)
+	animatespeed: "fast", //speed of animation: integer in milliseconds (ie: 200), or keywords "fast", "normal", or "slow"
+	oninit:function(headers, expandedindices){ //custom code to run when headers have initalized
+		//do nothing
+	},
+	onopenclose:function(header, index, state, isuseractivated){ //custom code to run whenever a header is opened or closed
+		//do nothing
+	}
+})
+
+
+</script>
+
+
+
+
+
+
+<div class="glossymenu">
+<a headerindex="0h" class="menuitem submenuheader" href=""><span class="accordprefix"></span>JavaBeat<span class="accordsuffix"><img src="spring-mvc-web%20appln-sample_files/plus.gif" class="statusicon"></span></a>
+<div contentindex="0c" class="submenu">
+	<ul>
+		<li><a href="http://www.javabeat.net/">Home</a></li>
+		<li><a href="http://www.javabeat.net/articles/page/1/">Articles</a></li>
+		<li><a href="http://www.javabeat.net/tips/page/1/">Tips</a></li>
+		<li><a href="http://www.javabeat.net/qna/all/1/">Qna</a></li>
+		<li><a href="http://www.javabeat.net/dlinks/">Dlinks</a></li>
+		<li><a href="http://astore.amazon.com/javabeat-20">Books</a></li>
+		<li><a href="http://forums.javabeat.net/">Forums</a></li>
+	</ul>
+</div>
+
+
+<a headerindex="1h" class="menuitem submenuheader" href=""><span class="accordprefix"></span>Certifications<span class="accordsuffix"><img src="spring-mvc-web%20appln-sample_files/plus.gif" class="statusicon"></span></a>
+<div contentindex="1c" class="submenu">
+	<ul>
+		<li><a href="http://www.javabeat.net/cert/scja/">SCJA</a></li>
+		<li><a href="http://www.javabeat.net/javabeat/scjp2/">SCJP 1.4</a></li>
+		<li><a href="http://www.javabeat.net/javabeat/scjp5/">SCJP 1.5</a></li>
+		<li><a href="http://www.javabeat.net/cert/scjp-6-0/">SCJP 1.6</a></li>
+		<li><a href="http://www.javabeat.net/javabeat/scwcd/">SCWCD 1.4</a></li>
+		<li><a href="http://www.javabeat.net/cert/scwcd-5-0/">SCWCD 5.0</a></li>
+		<li><a href="http://www.javabeat.net/javabeat/scbcd/">SCBCD</a></li>
+		<li><a href="http://www.javabeat.net/javabeat/scbcd5/">SCBCD 5.0</a></li>
+		<li><a href="http://www.javabeat.net/javabeat/scdjws/">SCDJWS</a></li>
+		<li><a href="http://www.javabeat.net/cert/scea/">SCEA</a></li>
+		<li><a href="http://www.javabeat.net/cert/scea-5-0/">SCEA 5.0</a></li>
+		<li><a href="http://www.javabeat.net/cert/scmad/">SCMAD</a></li>
+	</ul>
+</div>
+
+<a headerindex="2h" class="menuitem submenuheader" href=""><span class="accordprefix"></span>Certifications Kits<span class="accordsuffix"><img src="spring-mvc-web%20appln-sample_files/plus.gif" class="statusicon"></span></a>
+<div contentindex="2c" class="submenu">
+	<ul>
+		<li><a href="http://www.javabeat.net/products/cert/scjp-1-5.php">SCJP 1.5</a></li>
+		<li><a href="http://www.javabeat.net/products/cert/scjp-1-6.php">SCJP 1.6</a></li>
+		<li><a href="http://www.javabeat.net/products/cert/scwcd-5-0.php">SCWCD 5.0</a></li>
+		<li><a href="http://www.javabeat.net/products/cert/scbcd-5-0.php">SCBCD 5.0</a></li>
+		<li><a href="http://www.javabeat.net/products/cert/interview-questions.php">Interview Questions</a></li>
+	</ul>
+</div>
+
+<a headerindex="3h" class="menuitem submenuheader" href=""><span class="accordprefix"></span>Articles<span class="accordsuffix"><img src="spring-mvc-web%20appln-sample_files/plus.gif" class="statusicon"></span></a>
+<div contentindex="3c" class="submenu">
+	<ul>
+		<li><a href="http://www.javabeat.net/articles/page/1/">All Articles</a></li>
+		<li><a href="http://www.javabeat.net/articles/j2ee/1/">J2EE 1.4</a> </li>
+		<li><a href="http://www.javabeat.net/articles/java-ee-5-0/1/">Java EE 5.0</a></li>
+		<li><a href="http://www.javabeat.net/articles/java-ee-6-0/1/">Java EE 6.0</a></li>
+		<li><a href="http://www.javabeat.net/articles/ejb3/1/">EJB 3.0</a></li>
+		<li><a href="http://www.javabeat.net/articles/java5/1/">Java 5.0</a></li>
+		<li><a href="http://www.javabeat.net/articles/java6/1/">Java 6.0</a></li>
+		<li><a href="http://www.javabeat.net/articles/java7/1/">Java 7.0</a></li>
+		<li><a href="http://www.javabeat.net/articles/j2me/1/">J2ME</a></li>
+		<li><a href="http://www.javabeat.net/articles/struts/1/">Struts</a></li>
+		<li><a href="http://www.javabeat.net/articles/spring/1/">Spring</a></li>
+		<li><a href="http://www.javabeat.net/articles/hibernate/1/">Hibernate</a></li>
+		<li><a href="http://www.javabeat.net/articles/jpa/1/">JPA</a></li>
+		<li><a href="http://www.javabeat.net/articles/jsf/1/">JSF</a></li>
+		<li><a href="http://www.javabeat.net/articles/seam/1/">JBoss Seam</a></li>
+		<li><a href="http://www.javabeat.net/articles/guice/1/">Google Guice</a></li>
+		<li><a href="http://www.javabeat.net/articles/groovy/1/">Groovy</a></li>
+		<li><a href="http://www.javabeat.net/articles/web-beans/1/">Web Beans</a></li>
+		<li><a href="http://www.javabeat.net/articles/ajax/1/">AJAX</a></li>
+		<li><a href="http://www.javabeat.net/articles/gwt/1/">GWT</a></li>
+		<li><a href="http://www.javabeat.net/articles/javafx/1/">JavaFx</a></li>
+		<li><a href="http://www.javabeat.net/articles/eclipse/1/">Eclipse</a></li>
+		<li><a href="http://www.javabeat.net/articles/netbeans/1/">NetBeans</a></li>
+		<li><a href="http://www.javabeat.net/articles/jca/1/">JCA</a></li>
+		<li><a href="http://www.javabeat.net/articles/webservice/1/">WebServices</a></li>
+		<li><a href="http://www.javabeat.net/articles/soa/1/">SOA</a></li>
+		<li><a href="http://www.javabeat.net/articles/books/1/">Java Books</a></li>
+	</ul>
+</div>
+
+<a headerindex="4h" class="menuitem submenuheader" href=""><span class="accordprefix"></span>Tips<span class="accordsuffix"><img src="spring-mvc-web%20appln-sample_files/plus.gif" class="statusicon"></span></a>
+<div contentindex="4c" class="submenu">
+	<ul>
+		<li><a href="http://www.javabeat.net/tips/java/1/">Java Basics</a></li>
+		<li><a href="http://www.javabeat.net/tips/jsp/1/">JSP</a></li>
+		<li><a href="http://www.javabeat.net/tips/jsf/1/">JSF</a></li>
+		<li><a href="http://www.javabeat.net/tips/spring/1/">Spring</a></li>
+		<li><a href="http://www.javabeat.net/tips/hibernate/1/">Hibernate</a></li>
+		<li><a href="http://www.javabeat.net/tips/ejb3/1/">EJB 3.0</a></li>
+	</ul>
+</div>
+
+<a headerindex="5h" class="menuitem submenuheader" href=""><span class="accordprefix"></span>QNA<span class="accordsuffix"><img src="spring-mvc-web%20appln-sample_files/plus.gif" class="statusicon"></span></a>
+<div contentindex="5c" class="submenu">
+	<ul>
+		<li><a href="http://www.javabeat.net/qna/java/1/">Java</a></li>
+		<li><a href="http://www.javabeat.net/qna/jsp/1/">JSP</a></li>
+		<li><a href="http://www.javabeat.net/qna/jsf/1/">JSF</a></li>
+		<li><a href="http://www.javabeat.net/qna/spring/1/">Spring</a></li>
+		<li><a href="http://www.javabeat.net/qna/hibernate/1/">Hibernate</a></li>
+		<li><a href="http://www.javabeat.net/qna/ejb3/1/">EJB 3.0</a></li>
+	</ul>
+</div>
+
+<a headerindex="6h" class="menuitem submenuheader" href=""><span class="accordprefix"></span>Interview Questions<span class="accordsuffix"><img src="spring-mvc-web%20appln-sample_files/plus.gif" class="statusicon"></span></a>
+<div contentindex="6c" class="submenu">
+	<ul>
+		<li><a href="http://www.javabeat.net/articles/java-j2ee-interview-questions.php">Interview Questions</a></li>
+		<li><a href="http://www.javabeat.net/articles/java-interview-questions.php">Java</a></li>
+		<li><a href="http://www.javabeat.net/articles/j2ee-interview-questions.php">J2EE</a></li>
+		<li><a href="http://www.javabeat.net/articles/servlets-interview-questions.php">Servlets</a></li>
+		<li><a href="http://www.javabeat.net/articles/ejb-interview-questions.php">EJB</a></li>
+		<li><a href="http://www.javabeat.net/articles/jdbc-interview-questions.php">JDBC</a></li>
+		<li><a href="http://www.javabeat.net/articles/rmi-interview-questions.php">RMI</a></li>
+		<li><a href="http://www.javabeat.net/articles/jms-interview-questions.php">JMS</a></li>
+		<li><a href="http://www.javabeat.net/articles/jni-interview-questions.php">JNI</a></li>
+		<li><a href="http://www.javabeat.net/articles/jsf-interview-questions.php">JSF</a></li>
+		<li><a href="http://www.javabeat.net/articles/design-patterns-interview-questions.php">Design Patterns</a></li>
+		<li><a href="http://www.javabeat.net/articles/java-exception-handling-interview-questions.php">Exception</a></li>
+		<li><a href="http://www.javabeat.net/articles/spring-framework-interview-questions.php">Spring</a></li>
+		<li><a href="http://www.javabeat.net/articles/hibernate-interview-questions.php">Hibernate</a></li>
+	</ul>
+</div>
+
+<a headerindex="7h" class="menuitem submenuheader" href=""><span class="accordprefix"></span>SCJP 1.5<span class="accordsuffix"><img src="spring-mvc-web%20appln-sample_files/plus.gif" class="statusicon"></span></a>
+<div contentindex="7c" class="submenu">
+	<ul>
+		<li><a href="http://www.javabeat.net/javabeat/scjp5/">Home</a></li>
+		<li><a href="http://www.javabeat.net/cert/scjp-books/">SCJP Books</a></li>
+		<li><a href="http://www.javabeat.net/javabeat/scjp5/newbie/">New to SCJP?</a></li>
+		<li><a href="http://www.javabeat.net/javabeat/scjp5/difference-scjp-1-4-scjp-1-5.php">SCJP 1.4 or SCJP 1.5</a></li>
+		<li><a href="http://www.javabeat.net/javabeat/scjp5/objectives/">Objectives</a></li>
+		<li><a href="http://www.javabeat.net/javabeat/scjp5/articles/">Articles</a></li>
+		<li><a href="http://www.javabeat.net/javabeat/scjp5/mocks/">Mock Exams</a></li>
+		<li><a href="http://www.javabeat.net/javabeat/scjp5/tutorials/">Tutorials</a></li>
+	</ul>
+</div>
+
+<a headerindex="8h" class="menuitem submenuheader" href=""><span class="accordprefix"></span>SCBCD 5.0<span class="accordsuffix"><img src="spring-mvc-web%20appln-sample_files/plus.gif" class="statusicon"></span></a>
+<div contentindex="8c" class="submenu">
+	<ul>
+		<li><a href="http://www.javabeat.net/cert/scbcd-5-0/">Home</a></li>
+		<li><a href="http://www.javabeat.net/cert/scjp-books/">SCJP Books</a></li>
+		<li><a href="http://www.javabeat.net/cert/scbcd-5-0/objectives/">Objectives</a></li>
+		<li><a href="http://www.javabeat.net/cert/scbcd-5-0/mocks/">Mock Exams</a></li>
+		<li><a href="http://www.javabeat.net/cert/scbcd-5-0/mocks/1-ejb-3-0-overview.php">Objective - 1</a></li>
+		<li><a href="http://www.javabeat.net/cert/scbcd-5-0/mocks/scbcd-5-0-mock-exam-1.php">Mock Exam - 1</a></li>
+		<li><a href="http://www.javabeat.net/cert/scbcd-5-0/mocks/scbcd-5-0-mock-exam-2.php">Mock Exam - 2</a></li>
+		<li><a href="http://www.javabeat.net/cert/scbcd-5-0/mocks/scbcd-5-0-mock-exam-3.php">Mock Exam - 3</a></li>
+		<li><a href="http://www.javabeat.net/cert/scbcd-5-0/mocks/scbcd-5-0-mock-exam-4.php">Mock Exam - 4</a></li>
+		<li><a href="http://forums.javabeat.net/index.php?board=4.0">SCBCD 5.0 Forums</a></li>
+	</ul>
+</div>
+
+<a headerindex="9h" class="menuitem submenuheader" href=""><span class="accordprefix"></span>Java/J2EE<span class="accordsuffix"><img src="spring-mvc-web%20appln-sample_files/plus.gif" class="statusicon"></span></a>
+<div contentindex="9c" class="submenu">
+	<ul>
+		<li><a href="http://www.javabeat.net/javabeat/java5/">Java 5.0</a></li>
+		<li><a href="http://www.javabeat.net/javabeat/java6/">Java 6.0</a></li>
+		<li><a href="http://www.javabeat.net/javabeat/java7/">Java 7.0</a></li>
+		<li><a href="http://jsp.javabeat.net/">JSP</a></li>
+		<li><a href="http://servlet.javabeat.net/">Servlets</a></li>
+		<li><a href="http://ejb.javabeat.net/">EJB</a></li>
+		<li><a href="http://www.javabeat.net/javabeat/ejb3/">EJB 3.0</a></li>
+		<li><a href="http://www.javabeat.net/advanced/design-pattern/">Design Patterns</a></li>
+	</ul>
+</div>
+
+<a headerindex="10h" class="menuitem submenuheader" href=""><span class="accordprefix"></span>Feeds<span class="accordsuffix"><img src="spring-mvc-web%20appln-sample_files/plus.gif" class="statusicon"></span></a>
+<div contentindex="10c" class="submenu">
+	<ul>
+		<li><a href="http://feeds.feedburner.com/JavabeatArticles">Articles</a></li>
+		<li><a href="http://feeds.feedburner.com/JavabeatTips">Tips</a></li>
+	</ul>
+</div>
+<div>
+<script type="text/javascript"><!--
+google_ad_client = "pub-1490953723360528";
+/* Site Left Nav Bar */
+google_ad_slot = "2356032116";
+google_ad_width = 200;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript" src="spring-mvc-web%20appln-sample_files/show_ads.js">
+</script><script src="spring-mvc-web%20appln-sample_files/test_domain.js"></script><script>google_protectAndRun("ads_core.google_render_ad", google_handleError, google_render_ad);</script><iframe name="google_ads_frame" src="spring-mvc-web%20appln-sample_files/ads.htm" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" frameborder="0" height="90" scrolling="no" width="200"></iframe>
+</div>
+
+
+	
+							</div></td>
+							<td valign="top" width="910">
+								<div id="container_common">
+								<table width="100%">
+									<tbody><tr>
+										<td>
+											<script type="text/javascript"><!--
+											google_ad_client = "pub-1490953723360528";
+											/* Article - LU - Hor */
+											google_ad_slot = "8797912967";
+											google_ad_width = 728;
+											google_ad_height = 15;
+											//-->
+											</script>
+											<script type="text/javascript" src="spring-mvc-web%20appln-sample_files/show_ads.js">
+											</script><script>google_protectAndRun("ads_core.google_render_ad", google_handleError, google_render_ad);</script><iframe name="google_ads_frame" src="spring-mvc-web%20appln-sample_files/ads_002.htm" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" frameborder="0" height="15" scrolling="no" width="728"></iframe>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<table width="100%">
+												<tbody><tr>
+													<td class="text_format" bgcolor="#cee3f6" width="100%">
+														<table width="100%">
+															<tbody><tr>
+																
+																
+																<td align="right">
+																	<a href="javascript:submit('18')" class="cssbutton">Submit Your Blog</a>
+																	<a href="javascript:feedback('18')" class="cssbutton">Feedback</a>
+																	<a href="javascript:reqArticle('18')" class="cssbutton">Request Article</a>
+																	<a href="javascript:print('18')" class="cssbutton">Print</a>
+																	<a href="javascript:sendEmail('18')" class="cssbutton">Email</a>
+																</td>
+															</tr>
+														</tbody></table>
+													</td>
+												</tr>
+											</tbody></table>											
+										</td>
+									</tr>
+									<tr>
+										<td class="text_format">
+											<h1>Introduction to Spring MVC Web Framework - Web Tier</h1>
+										</td>
+									</tr>
+									<tr>							
+										<td class="text_format">
+											<table class="title_colors">
+												<tbody><tr>
+													<td>Author</td>
+													<td>:</td>
+													<td><a href="http://www.javabeat.net/authors/Raja/">Raja</a></td>
+													<!--<td>Date</td>
+													<td>:</td>
+													<td>Sat Jun 23rd, 2007</td>-->
+													<td>Topic</td>
+													<td>:</td>
+													<td><a href="http://www.javabeat.net/articles/spring/1/">spring</a>&nbsp;<a href="http://www.javabeat.net/articles//1/"></a>&nbsp;<a href="http://www.javabeat.net/articles//1/"></a></td>
+													<td>Pages</td>
+													<td>:</td>
+													<td>
+														<div class="pagination">
+															<ul>
+																																	<li>
+																		<a href="http://www.javabeat.net/articles/18-introduction-to-spring-mvc-web-framework-web-tier-1.html">1</a>
+																	</li>
+																																	<li>
+																		<a href="http://www.javabeat.net/articles/18-introduction-to-spring-mvc-web-framework-web-tier-2.html">2</a>
+																	</li>
+																																	<li>
+																		<a href="http://www.javabeat.net/articles/18-introduction-to-spring-mvc-web-framework-web-tier-3.html">3</a>
+																	</li>
+																																	<li>
+																		<a href="http://www.javabeat.net/articles/18-introduction-to-spring-mvc-web-framework-web-tier-4.html">4</a>
+																	</li>
+																	
+															</ul>
+														</div>
+													</td>
+												</tr>
+											</tbody></table>
+										</td>
+									</tr>
+			<tr>
+				<td align="center" width="100%">
+					<table class="text_format">
+						<tbody><tr>
+							<td>
+										</td></tr>
+					</tbody></table>
+
+				</td>
+			</tr>			
+			<tr>
+				<td class="text_format">
+					<div style="float: left;">
+						<script type="text/javascript"><!--
+									google_ad_client = "pub-1490953723360528";
+									//Article Rect
+									google_ad_slot = "9976259118";
+									google_ad_width = 300;
+									google_ad_height = 250;
+									//--></script>
+									<script type="text/javascript" src="spring-mvc-web%20appln-sample_files/show_ads.js">
+									</script><script>google_protectAndRun("ads_core.google_render_ad", google_handleError, google_render_ad);</script><iframe name="google_ads_frame" src="spring-mvc-web%20appln-sample_files/ads_003.htm" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" frameborder="0" height="250" scrolling="no" width="300"></iframe>
+					</div>
+					<h2>9) Sample Application</h2>
+
+				<h3>9.1) Introduction</h3>
+
+				<p align="justify">
+The final Section of this article details a Simple Contact Application
+that has provisions for Creating, Deleting and Listing Contact Objects.
+The aim of this Application is to show the various use of Controller
+Components like Abstract Controller, Abstract Command Controller and
+Form Controller along with Configuration Information. </p>
+
+				<h3>9.2) The Web Descriptor File</h3>
+
+				<p align="justify">
+				As mentioned previously, since the <b><i>Dispatcher Servlet</i></b> acts as an <b><i>Interceptor</i></b> for the Client Request, an entry for the same has to be mentioned in the <code>web.xml</code> file. Follow is the code snippet for the same,
+				</p>
+
+				<p>
+				<b>web.xml</b>
+				</p><pre bgcolor="#E7E7E7">				<code>
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;web-app version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" <br>xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"<br>xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee<br>http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"&gt;
+
+    &lt;servlet&gt;
+        &lt;servlet-name&gt;dispatcher&lt;/servlet-name&gt;
+        &lt;servlet-class&gt;
+            org.springframework.web.servlet.DispatcherServlet
+        &lt;/servlet-class&gt;
+        &lt;load-on-startup&gt;2&lt;/load-on-startup&gt;
+    &lt;/servlet&gt;
+
+    &lt;servlet-mapping&gt;
+        &lt;servlet-name&gt;dispatcher&lt;/servlet-name&gt;
+        &lt;url-pattern&gt;*.htm&lt;/url-pattern&gt;
+    &lt;/servlet-mapping&gt;
+
+&lt;/web-app&gt;</code>
+				</pre>
+				<p></p>
+
+				<h3>9.3) Configuration File</h3>
+
+				<p align="justify">
+The following represents the Configuration File for holding various
+piece of Configuration Information. The first thing to note is the type
+of Handler Mapping configured. In our case, it is the Bean Name Url
+Handler Mapping which means that the Url of the Client is tightly
+coupled with the class name of the Bean (Controller). Since all the Jsp
+files are maintained in the <code>'/WEB/contacts'</code> directory the <code>'prefix'</code> property is pointing to <code>'/WEB/contacts'</code>. 
+				</p>
+
+				<p align="justify">
+				For the Create, Delete and List operation on Contacts, three different Controller Components have been defined. They are <code>CreateContactController</code>, <code>DeleteContactController</code> and <code>ListContactsController</code> respectively. 
+				</p>
+
+				<p>
+				<b>dispatcher-servlet.xml</b>
+				</p><pre bgcolor="#E7E7E7">				<code>
+&lt;?xml version="1.0" encoding="UTF-8" ?&gt;
+&lt;!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" 
+"http://www.springframework.org/dtd/spring-beans.dtd"&gt;
+&lt;beans&gt;
+
+    &lt;bean id="beanNameUrlMapping" class="org.springframework.web.servlet.handler.
+    BeanNameUrlHandlerMapping"/&gt;
+
+    &lt;bean name = "/CreateContact.htm" class="net.javabeat.articles.spring.mvc.
+    contacts.CreateContactController"&gt;
+
+        &lt;property name="formView"&gt;
+            &lt;value&gt;CreateContact&lt;/value&gt;
+        &lt;/property&gt;
+        &lt;property name="successView"&gt;
+            &lt;value&gt;ContactCreated&lt;/value&gt;
+        &lt;/property&gt;    
+
+    &lt;/bean&gt;    
+
+    &lt;bean name = "/DeleteContact.htm" class= "net.javabeat.articles.spring.mvc.
+    contacts.DeleteContactController"&gt;                    
+    &lt;/bean&gt;    
+
+    &lt;bean name = "/ListContacts.htm" class= "net.javabeat.articles.spring.mvc.
+    contacts.ListContactsController"&gt;                    
+    &lt;/bean&gt;    
+
+    &lt;bean id="viewResolver" class="org.springframework.web.servlet.view.
+    InternalResourceViewResolver"&gt;
+        &lt;property name="prefix" value="/WEB-INF/contacts/"/&gt;
+        &lt;property name="suffix" value=".jsp" /&gt;
+    &lt;/bean&gt;
+
+&lt;/beans&gt;</code>
+				</pre>
+				<p></p>
+
+				<h3>9.4) CreateContact and ContactCreated Jsp Files</h3>
+
+				<p align="justify">
+				The following is the code for CreateContact.jsp file. 
+				</p>
+										<p>
+					
+					</p>
+
+				<p>
+				<b>CreateContact.jsp</b>
+				</p><pre bgcolor="#E7E7E7">				<code>
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8"&gt;
+
+    &lt;title&gt;Create a Contact&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+
+    &lt;h1&gt;Create a Contact&lt;/h1&gt;
+
+    &lt;form name = "CreateContact" method = "get""&gt;
+        &lt;input type = "text" name = "firstname" /&gt;
+        &lt;input type = "text" name = "lastname" /&gt;        
+        &lt;br&gt;
+        &lt;input type="submit" name = "Create Contact" value = "Create Contact"/&gt;
+   &lt;/form&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</code>
+				</pre>
+				<p></p>
+
+				<p align="justify">
+				Note that since this is the page that will be shown to the user initially, in the Configuration file, the property <code>'formView'</code> is pointed to <code>'CreateContact'</code>.
+Following is the code for ContactCreated.jsp. Since this is the View
+that will be shown after the Form Submission the property <code>'successView'</code> is made to point to <code>'ContactCreated'</code>.
+				</p>
+
+				<p>
+				<b>ContactCreated.jsp</b>
+				</p><pre bgcolor="#E7E7E7">				<code>
+&lt;html&gt;
+    &lt;head&gt;
+    &lt;meta http-equiv = "Content-Type" content = "text/html; charset = UTF-8"&gt;
+    &lt;title&gt;Contact is Created&lt;/title&gt;
+    &lt;/head&gt;
+
+    &lt;body&gt;
+
+    &lt;h1&gt;Contact is successfully Created&lt;/h1&gt;
+
+   &lt;/body&gt;
+&lt;/html&gt;</code>
+				</pre>
+				<p></p>
+
+				<h3>9.5) DeleteContact.jsp</h3>
+
+				<p align="justify">
+				Following is the complete listing for DeleteContact.jsp file. Note that this Jsp File is mapped to <code>DeleteContactController</code> in the Configuration File.
+				</p>
+
+				<p>
+				<b>DeleteContact.jsp</b>
+				</p><pre bgcolor="#E7E7E7">				<code>
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8"&gt;
+
+    &lt;title&gt;Delete Contact&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+
+    &lt;h1&gt;Delete Contact&lt;/h1&gt;
+
+    &lt;form name = "DeleteContact" method = "get"&gt;
+        &lt;input type = "text" name = "firstname" /&gt;
+        &lt;br&gt;
+        &lt;input type="submit" name = "DeleteContact" value = "Delete Contact"/&gt;
+    &lt;/form&gt;
+
+    &lt;/body&gt;
+&lt;/html&gt;</code>
+				</pre>
+				<p></p>
+
+				<h3>9.6) ListContacts.jsp</h3>
+
+				<p align="justify">
+				This page is to list all the existing Contacts that were created before. It should be noted that the <b><i>Model Object</i></b> that holds all the Contact Information in the form of List is available in the ListContactsController. The <b><i>Model Information</i></b> from the Controller after getting bound to the <b><i>Request Scope</i></b> is being taken off from the View in the form of <b><i>Expression Language</i></b>.
+				</p>
+
+				<p align="justify">
+				Following is the listing for ListContacts.jsp
+				</p>
+
+				<p>
+				<b>ListContacts.jsp</b>
+				</p><pre bgcolor="#E7E7E7">				<code>
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8"&gt;
+
+    &lt;title&gt;Showing All Contacts&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+
+    &lt;h1&gt;Showing All Contacts&lt;/h1&gt;
+
+    &lt;p&gt; The following are the created Contacts &lt;/p&gt;
+
+        &lt;c:forEach items = "${allContacts}" var="contact"&gt;
+            &lt;c:out value="${contact.firstname}"/&gt;&lt;br&gt;
+            &lt;c:out value="${contact.lastname}"/&gt;&lt;br&gt;
+        &lt;/c:forEach&gt;
+
+    &lt;/body&gt;
+&lt;/html&gt;</code>
+				</pre>
+				<p></p>
+
+				<h3>9.7) Contacts.java</h3>
+
+				<p align="justify">
+				The following is the Class structure for Contacts.java for encapsulating the properties firstname and lastname. 
+				</p>
+
+				<p>
+				<b>Contact.java</b>
+				</p><pre bgcolor="#E7E7E7">				<code>
+package net.javabeat.articles.spring.mvc.contacts;
+
+public class Contact {
+
+    private String firstName;
+    private String lastName;
+
+    public Contact() {
+    }
+
+    public Contact(String firstName, String lastName){
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+ 
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public int hashCode(){
+        return firstName.hashCode() + lastName.hashCode();
+    }
+
+    public boolean equals(Object object){
+        if (object instanceof Contact){
+            Contact second = (Contact)object;
+            return (firstName.equals(second.getFirstName()) &amp;&amp; 
+                lastName.equals(second.getLastName()));
+        }
+        return false;
+    }
+
+    public String toString(){
+        return "[First Name = " + firstName + ", Last Name = " + lastName + "]";
+    }
+}</code>
+				</pre>
+				<p></p>
+
+				<h3>9.8) ContactService.java</h3>
+
+				<p align="justify">
+This simple service class provides functionalities for creating,
+deleting and listing the Contact information. All the Controller
+Components makes use of this class to achieve their respective
+functionalities. </p>
+
+				<p>
+				<b>ContactService.java</b>
+				</p><pre bgcolor="#E7E7E7">				<code>
+package net.javabeat.articles.spring.mvc.contacts;
+
+import java.util.*;
+
+public class ContactService {
+
+    private static Map contacts = new HashMap();
+
+    public ContactService() {
+    }
+
+    public static Contact createContact(Contact contact){
+        contacts.put(new Integer(contact.hashCode()), contact);
+        return contact;        
+    }
+
+    public static Contact createContact(String firstName, String lastName){
+        return createContact(new Contact(firstName, lastName));
+    }
+
+    public static boolean deleteContact(String firstName){
+        Iterator iterator = contacts.entrySet().iterator();        
+        while (iterator.hasNext()){
+            Map.Entry entry = (Map.Entry)iterator.next();
+            Contact contact = (Contact)entry.getValue();            
+            if (contact.getFirstName().equals(firstName)){
+                contacts.remove(new Integer(contact.hashCode()));
+                return true;
+            }            
+        }
+        return false;
+    }
+
+    public static List listContacts(){
+        return toList(contacts);
+    }    
+
+    private static List toList(Map contacts){
+        List contactList = new ArrayList();
+        Iterator iterator = contacts.entrySet().iterator();
+        while (iterator.hasNext()){
+            Map.Entry entry = (Map.Entry)iterator.next();
+            Contact contact = (Contact)entry.getValue();            
+            contactList.add(contact);
+        }
+        return contactList;
+    }
+}</code>
+				</pre>
+				<p></p>
+
+				<h3>9.9) Controller Classes</h3>
+
+				<p align="justify">
+				Following is the listing for <code>CreateContact Controller</code>.
+Note that since the Model Information for creating a contact (for which
+the Client supplies the firstname and the lastname parameters) is the
+Contact class, call has been made in the Constructor to <code>setCommandClass()</code> by passing the class name of the <code>Contact</code> class.
+				</p>
+
+				<p>
+				<b>CreateContactController.java</b>
+				</p><pre bgcolor="#E7E7E7">				<code>
+package net.javabeat.articles.spring.mvc.contacts;
+
+import org.springframework.web.servlet.mvc.SimpleFormController;
+
+public class CreateContactController extends SimpleFormController{
+
+    public CreateContactController() {
+        setCommandClass(Contact.class);
+    }
+
+    public void doSubmitAction(Object command){
+        Contact contact = (Contact)command;
+        ContactService.createContact(contact);
+    }        
+}</code>
+				</pre>
+				<p></p>
+
+				<p align="justify">
+				Note that the method <code>doSubmitAction()</code>
+doesn't return anything because the next Logical View to be displayed
+will be taken from the Configuration file which is represented by the
+property called <code>'successView'</code>.
+				</p>
+
+				<p align="justify">
+Following two classes are the Controller Components for Deleting and
+Listing Contacts. Note that in the case of Delete Operation, a Jsp Page
+(<code>DeletedContact.jsp</code>)
+containing information telling that the Contact has been Deleted will
+displayed. But since for the Contact Listing operation, the model
+information containing a Collection of Contact Objects has to be passed
+from the Controller to the View and the same is achieved in the 3
+argument constructor to ModelAndView. </p>
+
+				<p>
+				<b>DeleteContactController.java</b>
+				</p><pre bgcolor="#E7E7E7">				<code>
+package net.javabeat.articles.spring.mvc.contacts;
+
+import javax.servlet.http.*;
+import org.springframework.validation.BindException;
+import org.springframework.web.servlet.ModelAndView;
+import org.springframework.web.servlet.mvc.AbstractCommandController;
+
+public class DeleteContactController extends AbstractCommandController{
+
+    public DeleteContactController(){
+        setCommandClass(Contact.class);
+    }
+
+    public ModelAndView handle(HttpServletRequest request, 
+        HttpServletResponse response, Object command, BindException errors) 
+            throws Exception {
+
+        Contact contact = (Contact)command;
+        ContactService.deleteContact(contact.getFirstName());
+        return new ModelAndView("DeletedContact");
+
+    }
+}</code>
+				</pre>
+				<p></p>
+			
+				<p align="justify">
+				Here is the listing for ListContactsController.java.
+				</p>
+
+				<p>
+				<b>ListContactsController.java</b>
+				</p><pre bgcolor="#E7E7E7">				<code>
+package net.javabeat.articles.spring.mvc.contacts;
+
+import java.util.List;
+import javax.servlet.http.*;
+import org.springframework.web.servlet.ModelAndView;
+import org.springframework.web.servlet.mvc.AbstractController;
+
+public class ListContactsController extends AbstractController{
+
+    public ListContactsController() {
+    }
+
+    public ModelAndView handleRequestInternal(HttpServletRequest request, 
+        HttpServletResponse response) throws Exception{
+
+        List allContacts = ContactService.listContacts();
+        return new ModelAndView("ListContacts", "allContacts", allContacts);
+
+    }
+}</code>
+				</pre>
+				<p></p>
+
+				<h2>10) Conclusion</h2>
+
+				<p align="justify">
+				The Article provided a basic Introduction over the core concepts in <b><i>Spring MVC</i></b> for the Web Tier. Since the Spring Web Tier is built on top of the <b><i>Spring Core Layer</i></b> all the functionalities like <b><i>Bean Lifecycle Management</i></b>, <b><i>Dependency Injection</i></b>
+etc. will be automatically available to the Bean Components. Starting
+off with the Interactions that will take place when a Client Request
+for a Resource, it pointed out the various micro-level activities that
+take place in that Work flow. Then the Core Components of Spring like <b><i>Dispatcher Servlet</i></b>, <b><i>Controllers</i></b>, <b><i>Model/View</i></b>, <b><i>Handler Mappings</i></b>, <b><i>Handler Adapters</i></b> and <b><i>View Resolvers</i></b>
+are also discussed briefly. Finally the article ended up with the
+Simple Contact Application that demonstrated the usage of the various
+types of Controllers. </p>				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<table>
+						<tbody><tr>
+							<td>
+								
+							</td>
+							<td>
+								<script type="text/javascript"><!--
+google_ad_client = "pub-1490953723360528";
+/* Article-Bottom */
+google_ad_slot = "9293062558";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript" src="spring-mvc-web%20appln-sample_files/show_ads.js">
+</script><script>google_protectAndRun("ads_core.google_render_ad", google_handleError, google_render_ad);</script><iframe name="google_ads_frame" src="spring-mvc-web%20appln-sample_files/ads_004.htm" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" frameborder="0" height="90" scrolling="no" width="728"></iframe>
+							</td>
+						</tr>
+					</tbody></table>
+				</td>
+			</tr>
+			<tr>
+				<td class="text_format" bgcolor="#cee3f6" width="100%">
+					<table width="100%">
+						<tbody><tr>
+							<td class="text_format" width="30%">
+								<div class="pagination">
+									<ul>
+																					<li>
+												<a href="http://www.javabeat.net/articles/18-introduction-to-spring-mvc-web-framework-web-tier-1.html">1</a>
+											</li>
+																					<li>
+												<a href="http://www.javabeat.net/articles/18-introduction-to-spring-mvc-web-framework-web-tier-2.html">2</a>
+											</li>
+																					<li>
+												<a href="http://www.javabeat.net/articles/18-introduction-to-spring-mvc-web-framework-web-tier-3.html">3</a>
+											</li>
+																					<li>
+												<a href="http://www.javabeat.net/articles/18-introduction-to-spring-mvc-web-framework-web-tier-4.html">4</a>
+											</li>
+											
+									</ul>									
+								</div>																
+							</td>
+							
+							<td align="right" width="70%">
+								<a href="javascript:submit('18')" class="cssbutton">Submit Your Blog</a>
+								<a href="javascript:feedback('18')" class="cssbutton">Feedback</a>
+								<a href="javascript:reqArticle('18')" class="cssbutton">Request Article</a>
+								<a href="javascript:print('18')" class="cssbutton">Print</a>
+								<a href="javascript:sendEmail('18')" class="cssbutton">Email</a>
+							</td>
+						
+					</tr></tbody></table>
+				</td>
+			</tr>
+		<tr>
+							<td class="pr_buy" align="center">
+								<table width="100%">
+									<tbody><tr>
+										<td align="center" width="15%">
+											<table>
+												<tbody><tr>
+													<td>
+														<input value="Order Now" class="butt-format" onclick="orderFormFaqs();" type="button">
+													</td>
+													<td>
+														<img src="spring-mvc-web%20appln-sample_files/images.jpg">
+													</td>
+												</tr>
+											</tbody></table>
+										</td>
+										<td class="text_format" width="85%">
+											<font color="#0b0b61">
+												<b>1000 Interview Questions - JUST Rs.400 or 25 USD  <br>
+												Send us mail to sales@javabeat.net</b>
+											</font>
+										</td>
+									</tr>
+								</tbody></table>
+							</td>
+						</tr>
+						<tr>
+							<td class="text_format">
+								Do you have <a href="javascript:payPal();">paypal</a> account (or) creditcard? <a href="http://www.javabeat.net/products/cert/payment.php">Click Here</a> to pay now and get the questions.
+							</td>
+						</tr>
+
+						<tr>
+							<td align="center" bgcolor="#f8e0ec">
+								<font color="#0b0b61">
+									<b>contact our sales support team at 91-9500035455</b>
+								</font>
+							</td>
+						</tr>					
+	
+						<tr>
+							<td align="center" bgcolor="#a9f5d0">
+								contact us at sales@javabeat.net
+							</td>
+						</tr>
+		</tbody></table>
+	</div>
+</td>
+						</tr>
+
+
+				
+					</tbody></table>
+				</td>
+			</tr>
+
+		</tbody></table>
+				
+			
+			
+			
+				
+					<table align="center" width="1000">
+	<tbody><tr>
+		<td>
+			<hr class="dark">
+		</td>
+	</tr>
+	<tr>
+		<td width="100%">
+			<table>
+				<tbody><tr>
+					<td valign="top" width="35%">
+						<table class="text_format" width="100%">
+							<tbody><tr>
+								<td class="column-header">
+									Favorites
+								</td>
+							</tr>	
+						</tbody></table>
+					</td>
+					<td width="30%">
+						
+					</td>
+					<td valign="top" width="30%">
+						<table>
+							<tbody><tr>
+								<td>
+									
+								</td>
+							</tr>
+							<tr>
+								<td class="column-header">
+									Latest QnA
+								</td>
+							</tr>
+															<tr>
+									<td class="text_format">
+										<a href="http://www.javabeat.net/qna/872-scjd-tips/">SCJD Tips</a><br>
+									</td>
+								</tr>
+															<tr>
+									<td class="text_format">
+										<a href="http://www.javabeat.net/qna/871-when-we-start-a-thread-by-applying-start-me/">When we start a thread by applying start() method on it ,how does it knows that to execute run()method?</a><br>
+									</td>
+								</tr>
+															<tr>
+									<td class="text_format">
+										<a href="http://www.javabeat.net/qna/870-about-wrapper-class-in-java/">About Wrapper class in Java</a><br>
+									</td>
+								</tr>
+															<tr>
+									<td class="text_format">
+										<a href="http://www.javabeat.net/qna/869-how-to-configure-weblogic-70-in-myeclipse/">How to configure weblogic 7.0 in MyEclipse?</a><br>
+									</td>
+								</tr>
+															<tr>
+									<td class="text_format">
+										<a href="http://www.javabeat.net/qna/868-static-block-and-static-initializer-in-java/">Static Block and Static Initializer in Java</a><br>
+									</td>
+								</tr>
+								
+						</tbody></table>
+					</td>
+				</tr>
+			</tbody></table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<hr class="dark">
+		</td>
+	</tr>
+	<tr>
+		<td class="text_format" align="center"> 
+		JavaBeat Website (2004-2009), India 
+		</td>
+	</tr>
+	<tr>
+		<td class="text_format" align="center">
+			<a href="http://www.javabeat.net/">javabeat</a> |			
+			<a href="http://www.javabeat.net/about/">about us</a> |
+			<a href="http://www.javabeat.net/resources/">useful resources</a>
+		</td>
+	</tr>
+	<tr>
+		<td align="center">
+			<table class="text_format">
+				<tbody><tr>
+					<td align="center">
+						Copyright (2004 - 2009), JavaBeat
+					</td>
+				</tr>
+			</tbody></table>
+		</td>
+	</tr>
+</tbody></table>
+
+
+<!-- Kontera ContentLink(TM);-->
+<!--<script type='text/javascript'>
+var dc_AdLinkColor = 'blue' ;
+var dc_UnitID = 14 ;
+var dc_PublisherID = 24157 ;
+var dc_adprod = 'ADL' ;
+</script>
+<script type='text/javascript' src='http://kona.kontera.com/javascript/lib/KonaLibInline.js'>
+</script>
+<!-- Kontera ContentLink(TM) -->
+
+
+<script type="text/javascript">var infolink_pid = 14761;</script>
+<script type="text/javascript" src="spring-mvc-web%20appln-sample_files/infolinks_main.js"></script>
+
+
+
+<!-- Google Analytics - Start -->
+<script src="spring-mvc-web%20appln-sample_files/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-96332-1";
+urchinTracker();
+</script>
+<!-- Google Analytics - End -->
+				
+			
+		
+</body></html>

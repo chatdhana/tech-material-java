@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<atlasMessage>
+<message>
+<messageId>400534797</messageId>
+<messageType>C_HOL_GM_ALL</messageType>
+<publishType>NORMAL</publishType>
+<publishDate>10-Aug201011:08:23</publishDate>
+<topicName>ATLAS/CUSTOMER/CUST_CURR_HOL</topicName>
+<subscriberId/>
+<transactionProcessingSystems>
+<bkgLocationCountry/>
+<bkgLocationOrganization/>
+<extSystemTypeNum/>
+<extSystemTypeValue/>
+</transactionProcessingSystems>
+</message>
+<RESPONSE atlasMessageID="400534797" publishedDateTime="10-Aug-2010 11:08:23" subscriberName="BENCH" messageType ="C_HOL" subscriberLocation="GBL">
+<NEGATIVE-ACKNOWLEDGEMENT>
+<REASON>Currency Holiday Atlas Delta event NOT FOUND in BENCH database: com.scb.ecom.fx.calendar.CurrencyHoliday@29d2af[id=&lt;null&gt;,currency=SGD,date=29/04/1996 00:00:00:000 UTC]
+</REASON>
+</NEGATIVE-ACKNOWLEDGEMENT>
+</RESPONSE>
+</atlasMessage>

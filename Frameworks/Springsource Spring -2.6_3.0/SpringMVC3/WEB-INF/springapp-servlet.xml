@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<!-- This is the file where definitions used by the DispatcherServlet should be entered.  
+     This file  is named, based on the DispatcherServlet servlet-name from  web.xml with '-servlet' appended. -->
+      
+        <beans>
+            <!--This defines the controller that our application will be using. -->
+            <bean id="springappController" class="com.amir.web.SpringappController">
+                <property name="productManager">
+                    <ref bean="prodMan"/>
+                </property>
+            </bean>  
+            
+            <!-- 
+                Now we need to add an entry in the springapp-servlet.xml file to define the new form and controller.
+                We define properties for command object and validator. We also specify two views, one that is used
+                for the form and one that we will go to after successful form processing. The latter which is called the
+                success view can be of two types. It can be a regular view reference that is forwarded to one of our JSP pages. 
+                One disadvantage with this approach is, that if the user refreshes the page, the form data is submitted again,
+                and you would end up with a double priceincrease. An alternative way is to use a redirect, where a response
+                is sent back to the users browser instructing it to redirect to a new url. The url we use in this case can't be 
+               one of our JSP pages, since they are hidden from direct access. It has to be a url that is externally reachable.
+               I have choosen to use 'hello.htm' as my redirect url. This url maps to the 'hello.jsp' page, so this should work nicely.
+             -->
+            <!--  Validator and Form Controller for the "Price Increase" page -->
+            <!-- 
+                * commandClass—the class of the object that will be used to represent the data in this form.
+                * commandName—the name of the command object.
+                * sessionForm—if set to false, Spring uses a new bean instance (i.e. command object) per request, otherwise it will use the same bean instance for the duration of the session.
+                * validator—a class that implements Spring's Validator interface, used to validate data that is passed in from the form.
+                * formView—the JSP for the form, the user is sent here when the controller initially loads the form and when the form has been submitted with invalid data.
+                * successView—the JSP that the user is routed to if the form submits with no validation errors.                
+             -->
+            <bean id="priceIncreaseValidator" class="com.amir.business.PriceIncreaseValidator"/>
+            <bean id="priceIncreaseForm" class="com.amir.web.PriceIncreaseFormController">
+                <property name="sessionForm"><value>true</value></property>
+                <property name="commandName"><value>priceIncrease</value></property>
+                <property name="commandClass"><value>com.amir.business.PriceIncrease</value></property>
+                <property name="validator"><ref bean="priceIncreaseValidator"/></property>
+                <property name="formView"><value>priceincrease</value></property>
+                <property name="successView"><value>hello.htm</value></property>
+                <property name="productManager">
+                    <ref bean="prodMan"/>
+                </property>
+            </bean>
+            
+            <bean id="prodMan" class="com.amir.business.ProductManager">
+                <property name="products">
+                    <list>
+                        <ref bean="product1"/>
+                        <ref bean="product2"/>
+                        <ref bean="product3"/>
+                    </list>
+                </property>
+            </bean>
+            
+            <!-- Add some  data to automatically populate some business objects 
+                  We can “wire up” a couple of instances using Spring's bean and application context support.
+                  I will simply put the data I need as a couple of bean entries in springapp-servlet.xml.
+            -->
+            <bean id="product1" class="com.amir.business.Product">
+                <property name="description"><value>Lamp</value></property>
+                <property name="price"><value>5.75</value></property>
+            </bean>
+            
+            <bean id="product2" class="com.amir.business.Product">
+                <property name="description"><value>Table</value></property>
+                <property name="price"><value>75.25</value></property>
+            </bean>
+            
+            <bean id="product3" class="com.amir.business.Product">
+                <property name="description"><value>Chair</value></property>
+                <property name="price"><value>22.79</value></property>
+            </bean>
+            <!-- ******************************************************************* -->
+            
+            <bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
+                <property name="basename"><value>messages</value></property>
+            </bean>
+            
+            <!-- We also need to add a url mapping ,so the DispatcherServlet knows which 
+                controller should be invoked for different urls -->
+            <bean id="urlMapping" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">   
+                <property name="mappings">
+                    <props>
+                        <prop key="/hello.htm">springappController</prop> 
+                        <prop key="/priceincrease.htm">priceIncreaseForm</prop>
+                    </props>
+                </property>
+            </bean>
+            
+            <!-- map to the view using a logical name, allowing us to switch the view without having to change the controller. 
+                You can set this mapping in a properties file if you like using a ResourceBundleViewResolver and a SimpleUrlHandlerMapping class. 
+                If your mapping needs are simple it is easier to just set a prefix and a suffix on the InternalResourceViewResolver. 
+                I have elected to use a JstlView which will enable us to use JSTL in combination with message resource bundles and it will also support internationalization.
+            -->
+            <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+                <property name="viewClass"><value>org.springframework.web.servlet.view.JstlView</value></property>
+                <property name="prefix"><value>/WEB-INF/jsp/</value></property>
+                <property name="suffix"><value>.jsp</value></property>
+            </bean>
+          
+            
+        </beans>
+        

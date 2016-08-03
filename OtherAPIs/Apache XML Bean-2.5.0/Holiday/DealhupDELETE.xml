@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ATLAS-DELTA-EVENT publishedDateTime="22/03/2010 13:24:45" atlasMessageID="0002">
+	<CURRENCY-HOLIDAY eventType="DELETE">
+		<CCY-FI-ID>INR</CCY-FI-ID>
+		<HOL-DATE>2010-06-16</HOL-DATE>
+	</CURRENCY-HOLIDAY>
+</ATLAS-DELTA-EVENT>

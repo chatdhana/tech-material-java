@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<atlasMessage>
+<message>
+<messageId>400534797</messageId>
+<messageType>C_HOL_GM_ALL</messageType>
+<publishType>NORMAL</publishType>
+<publishDate>10-Aug201011:08:23</publishDate>
+<topicName>ATLAS/CUSTOMER/CUST_CURR_HOL</topicName>
+<subscriberId/>
+<transactionProcessingSystems>
+<bkgLocationCountry/>
+<bkgLocationOrganization/>
+<extSystemTypeNum/>
+<extSystemTypeValue/>
+</transactionProcessingSystems>
+</message>
+<RESPONSE atlasMessageID="400534797" publishedDateTime="10-Aug-2010 11:08:23" subscriberName="BENCH" messageType ="C_HOL" subscriberLocation="GBL">
+<ACKNOWLEDGEMENT/>
+</RESPONSE>
+</atlasMessage>

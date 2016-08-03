@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+			http://www.springframework.org/schema/beans spring-beans-2.5.xsd
+			http://www.springframework.org/schema/beans spring-beans-2.5.xsd
+			http://www.springframework.org/schema/context spring-context-2.5.xsd
+			http://www.springframework.org/schema/jee spring-jee-2.5.xsd
+			http://www.springframework.org/schema/tx spring-tx-2.5.xsd">
+
+	<!-- Hello World Example -->
+	<bean id="helloWorld" class="mine.spring.sample1.HelloWorldImpl">
+		<property name="hello">
+			<value>Welcome to spring basic class.</value>
+		</property>
+	</bean>
+	<alias name="helloWorld" alias="hW" />
+</beans>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="messageId" type="xs:string"/>
+  <xs:element name="messageType" type="xs:string"/>
+  <xs:element name="publishType" type="xs:string"/>
+  <xs:element name="publishDate" type="xs:string"/>
+  <xs:element name="topicName" type="xs:string"/>
+  <xs:element name="subscriberId" type="xs:string"/>
+  <xs:element name="stdCodeNumber" type="xs:string"/>
+  <xs:element name="stdCodeValue" type="xs:string"/>
+  <xs:element name="stdCodeDescription" type="xs:string"/>
+  <xs:element name="leId" type="xs:string"/>
+  <xs:element name="custHrySysGenId" type="xs:string"/>
+  <xs:element name="parentLeId" type="xs:string"/>
+  <xs:element name="hryType">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="hryWeightage" type="xs:string"/>
+  <xs:element name="updateStatusIndicator" type="xs:string"/>
+  <xs:element name="changeIndicator" type="xs:string"/>
+  <xs:element name="customerHry">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="leId"/>
+        <xs:element ref="custHrySysGenId"/>
+        <xs:element ref="parentLeId"/>
+        <xs:element ref="hryType"/>
+        <xs:element ref="hryWeightage"/>
+        <xs:element ref="updateStatusIndicator"/>
+        <xs:element ref="changeIndicator"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="customerHryDetails">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="customerHry" maxOccurs="unbounded" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="header">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="messageId"/>
+        <xs:element ref="messageType"/>
+        <xs:element ref="publishType"/>
+        <xs:element ref="publishDate"/>
+        <xs:element ref="topicName"/>
+        <xs:element ref="subscriberId"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="message">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="customerHryDetails"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SCIMessage">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="header"/>
+        <xs:element ref="message"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,914 @@
+<SCIMessages>
+	<message>
+		<messageId>2671451</messageId>
+		<messageType>CUSTOMER</messageType>
+		<publishType>NORMAL</publishType>
+		<publishDate>06-Sep-2010 07:30:47</publishDate>
+		<topicName/>
+		<subscriberId>LNCMS1P1_CMS.SCI.SUB.IN</subscriberId>
+		<transactionProcessingSystems>
+			<bkgLocationCountry/>
+			<bkgLocationOrganization/>
+			<extSystemTypeNum/>
+			<extSystemTypeValue/>
+		</transactionProcessingSystems>
+		<legalEntity>
+			<mainProfileDetails>
+				<mainProfile>
+					<leId>11225765</leId>
+					<shortName>FORMOSA SHYEN HORNG METAL SDN BHD</shortName>
+					<legalName>FORMOSA SHYEN HORNG METAL SDN BHD</legalName>
+					<legalConstitution>
+						<stdCodeNumber>56</stdCodeNumber>
+						<stdCodeValue>05</stdCodeValue>
+						<stdCodeDescription>Private Limited Company - Others</stdCodeDescription>
+					</legalConstitution>
+					<incorporatedCountry>MY</incorporatedCountry>
+					<incorporationNumber>434300K</incorporationNumber>
+					<incorporationDate>02-JAN-1998 12:00:00</incorporationDate>
+					<customerType>
+						<stdCodeNumber>8</stdCodeNumber>
+						<stdCodeValue>CB</stdCodeValue>
+						<stdCodeDescription>NON-INDIVIDUAL BORROWING</stdCodeDescription>
+					</customerType>
+					<relationshipStartDate>12-MAR-2011 12:00:00</relationshipStartDate>
+					<segmentCode>
+						<stdCodeNumber>5</stdCodeNumber>
+						<stdCodeValue>A</stdCodeValue>
+						<stdCodeDescription>NON-INDIVIDUAL BORROWING</stdCodeDescription>
+					</segmentCode>
+					<subSegmentCode>
+						<stdCodeNumber>6</stdCodeNumber>
+						<stdCodeValue>A1</stdCodeValue>
+						<stdCodeDescription>Middle Markets</stdCodeDescription>
+					</subSegmentCode>
+					<baselCustomerSegment>
+						<stdCodeNumber>57</stdCodeNumber>
+						<stdCodeValue>BSC10</stdCodeValue>
+						<stdCodeDescription>(NEW) Corporate Entity</stdCodeDescription>
+					</baselCustomerSegment>
+					<baselCustomerSubSegment>
+						<stdCodeNumber>58</stdCodeNumber>
+						<stdCodeValue>BSC51</stdCodeValue>
+						<stdCodeDescription>Not Applicable</stdCodeDescription>
+					</baselCustomerSubSegment>
+					<businessType>
+						<stdCodeNumber>7</stdCodeNumber>
+						<stdCodeValue>NA</stdCodeValue>
+						<stdCodeDescription>Not Applicable</stdCodeDescription>
+					</businessType>
+					<envRiskGrade>
+						<stdCodeNumber>12</stdCodeNumber>
+						<stdCodeValue>M</stdCodeValue>
+						<stdCodeDescription>MEDIUM</stdCodeDescription>
+					</envRiskGrade>
+					<top1000Bank>N</top1000Bank>
+					<referralStatus>
+						<stdCodeNumber>42</stdCodeNumber>
+						<stdCodeValue>NA</stdCodeValue>
+						<stdCodeDescription>Not Applicable</stdCodeDescription>
+					</referralStatus>
+					<operationStatus1>
+						<stdCodeNumber>13</stdCodeNumber>
+						<stdCodeValue>ACTIVE</stdCodeValue>
+						<stdCodeDescription>ACTIVE</stdCodeDescription>
+					</operationStatus1>
+					<operationStatus1EffDate>12-MAR-2011 12:00:00</operationStatus1EffDate>
+					<borrowerExceptionChkInd>N</borrowerExceptionChkInd>
+					<updateStatusIndicator>U</updateStatusIndicator>
+					<changeIndicator>N</changeIndicator>
+				</mainProfile>
+				<registeredAddress>
+					<leId>11225765</leId>
+					<addressId>26352321</addressId>
+					<addressType>
+						<stdCodeNumber>4</stdCodeNumber>
+						<stdCodeValue>REGISTERED</stdCodeValue>
+						<stdCodeDescription>REGISTERED ADDRESS</stdCodeDescription>
+					</addressType>
+					<attnParty/>
+					<line1>TKT 1,275,JALAN HARUAN 1,OAKLAND INDUSTRI PARK,SEREMBANNEGERI SEMBILAN
+					</line1>
+					<line2>.</line2>
+					<city>.</city>
+					<state>.</state>
+					<country>MY</country>
+					<postCode/>
+					<fax/>
+					<email/>
+					<phone/>
+					<telex/>
+					<updateStatusIndicator>U</updateStatusIndicator>
+					<changeIndicator>N</changeIndicator>
+				</registeredAddress>
+				<creditGradeDetails>
+					<creditGrade>
+						<leId>11225765</leId>
+						<creditGradeId>29298018</creditGradeId>
+						<creditGradeType>
+							<stdCodeNumber>18</stdCodeNumber>
+							<stdCodeValue>INTERNAL</stdCodeValue>
+							<stdCodeDescription>SCB INTERNAL CREDIT RISK GRADE</stdCodeDescription>
+						</creditGradeType>
+						<creditGradeCode>
+							<stdCodeNumber>19</stdCodeNumber>
+							<stdCodeValue>8B</stdCodeValue>
+							<stdCodeDescription>Credit Risk Grade 8B</stdCodeDescription>
+						</creditGradeCode>
+						<creditGradeEffectiveDate>24-JUN-2010 12:54:25</creditGradeEffectiveDate>
+						<creditGradeReasonForChange/>
+						<approverLocation>
+							<approverLocationId>13000067</approverLocationId>
+							<approverCountry>MY</approverCountry>
+							<approverOrganization>SCMY</approverOrganization>
+						</approverLocation>
+						<coinNo>08/106</coinNo>
+						<approverEmpId>14023384</approverEmpId>
+						<approverName>Wong Shin Tze</approverName>
+						<updateStatusIndicator>U</updateStatusIndicator>
+						<changeIndicator>N</changeIndicator>
+					</creditGrade>
+				</creditGradeDetails>
+				<ISICDetails>
+					<ISIC>
+						<leId>11225765</leId>
+						<ISICId>30420817</ISICId>
+						<ISICType>
+							<stdCodeNumber>15</stdCodeNumber>
+							<stdCodeValue>ISIC</stdCodeValue>
+							<stdCodeDescription>4 digit TYPE ISIC code</stdCodeDescription>
+						</ISICType>
+						<ISICCode>
+							<stdCodeNumber>17</stdCodeNumber>
+							<stdCodeValue>3721</stdCodeValue>
+							<stdCodeDescription>ALUMINUM</stdCodeDescription>
+						</ISICCode>
+						<ISICEffectiveDate>12-MAR-2011 12:00:00</ISICEffectiveDate>
+						<ISICWeightage>0</ISICWeightage>
+						<updateStatusIndicator>I</updateStatusIndicator>
+						<changeIndicator>N</changeIndicator>
+					</ISIC>
+					<ISIC>
+						<leId>11225765</leId>
+						<ISICId>30420818</ISICId>
+						<ISICType>
+							<stdCodeNumber>15</stdCodeNumber>
+							<stdCodeValue>PRIMARY</stdCodeValue>
+							<stdCodeDescription>6-digit mandatory ISIC code</stdCodeDescription>
+						</ISICType>
+						<ISICCode>
+							<stdCodeNumber>17</stdCodeNumber>
+							<stdCodeValue>273200</stdCodeValue>
+							<stdCodeDescription>OTHER NON-FERROUS METAL FOUNDRIES</stdCodeDescription>
+						</ISICCode>
+						<ISICEffectiveDate>12-MAR-2008 12:00:00</ISICEffectiveDate>
+						<ISICWeightage>0</ISICWeightage>
+						<updateStatusIndicator>I</updateStatusIndicator>
+						<changeIndicator>N</changeIndicator>
+					</ISIC>
+				</ISICDetails>
+				<kycDetails>
+					<knowYourCustomer>
+						<leId>11225765</leId>
+						<KYCid>13194624</KYCid>
+						<documentOriginatingLocation>
+							<documentOriginatingId>13000067</documentOriginatingId>
+							<documentOriginatingCountry>MY</documentOriginatingCountry>
+							<documentOriginatingOrganization>SCMY</documentOriginatingOrganization>
+						</documentOriginatingLocation>
+						<mlRiskRating>
+							<stdCodeNumber>59</stdCodeNumber>
+							<stdCodeValue>L1</stdCodeValue>
+							<stdCodeDescription>Low risk</stdCodeDescription>
+						</mlRiskRating>
+						<mlLastReviewDate>20-JAN-2010 12:00:00</mlLastReviewDate>
+						<mlNextReviewDate>20-JAN-2011 12:00:00</mlNextReviewDate>
+						<firstKYCreview>Y</firstKYCreview>
+						<KYCdocumentSubmitted>Y</KYCdocumentSubmitted>
+						<GICdocumentSubmitted>N</GICdocumentSubmitted>
+						<exceptionalApprovalObtained>N</exceptionalApprovalObtained>
+						<updateStatusIndicator>U</updateStatusIndicator>
+						<changeIndicator>N</changeIndicator>
+					</knowYourCustomer>
+				</kycDetails>
+			</mainProfileDetails>
+			<subProfileDetails>
+				<subProfile>
+					<leId>11225765</leId>
+					<subProfileId>1</subProfileId>
+					<subProfileName>FORMOSA SHYEN HORNG METAL SDN BHD</subProfileName>
+					<domicileCountry>MY</domicileCountry>
+					<domicileCountryRegistrationNumber/>
+					<swiftCountryCode>13000067</swiftCountryCode>
+					<CustomerOrgType>
+						<stdCodeNumber>53</stdCodeNumber>
+						<stdCodeValue>HO</stdCodeValue>
+						<stdCodeDescription>HEAD OFFICE</stdCodeDescription>
+					</CustomerOrgType>
+					<disclosureAgreementIndicator>Y</disclosureAgreementIndicator>
+					<agreementDate>28-JUN-2010 12:00:00</agreementDate>
+					<languageCode>
+						<stdCodeNumber>11</stdCodeNumber>
+						<stdCodeValue>ENUK</stdCodeValue>
+						<stdCodeDescription>English (UK)</stdCodeDescription>
+					</languageCode>
+					<relationshipStartDate>12-MAR-2008 12:00:00</relationshipStartDate>
+					<serviceLevelPriority>
+						<stdCodeNumber/>
+						<stdCodeValue/>
+						<stdCodeDescription/>
+					</serviceLevelPriority>
+					<treaturyInd>
+						<stdCodeNumber>10</stdCodeNumber>
+						<stdCodeValue>3</stdCodeValue>
+						<stdCodeDescription>Category 3 as determined after completing the appropriateness profile</stdCodeDescription>
+					</treaturyInd>
+					<operationStatus2>
+						<stdCodeNumber>13</stdCodeNumber>
+						<stdCodeValue>ACTIVE</stdCodeValue>
+						<stdCodeDescription>ACTIVE</stdCodeDescription>
+					</operationStatus2>
+					<operationStatus2EffDate>30-JUN-2011 12:00:00</operationStatus2EffDate>
+					<updateStatusIndicator>U</updateStatusIndicator>
+					<changeIndicator>N</changeIndicator>
+				</subProfile>
+				<officialAddressDetails>
+					<officialAddress>
+						<leId>11225765</leId>
+						<subProfileId>1</subProfileId>
+						<addressId>26362104</addressId>
+						<addressType>
+							<stdCodeNumber>4</stdCodeNumber>
+							<stdCodeValue>OFFICIAL</stdCodeValue>
+							<stdCodeDescription>OFFICIAL ADDRESS</stdCodeDescription>
+						</addressType>
+						<attnParty>Vincent Tan</attnParty>
+						<line1>Lot 2-33, Jalan Perindustrian Mahkota 7, Taman Perindus</line1>
+						<line2>trian Mahkota,
+43700 Beranang, Selangor D.E, Malaysia</line2>
+						<city>.</city>
+						<state>.</state>
+						<country>MY</country>
+						<postCode/>
+						<fax>03-87232009</fax>
+						<email>ttan@formosa.com.my</email>
+						<phone>03-87244662</phone>
+						<telex/>
+						<updateStatusIndicator>U</updateStatusIndicator>
+						<changeIndicator>N</changeIndicator>
+					</officialAddress>
+				</officialAddressDetails>
+				<empRelationshipDetails>
+					<empRelationship>
+						<leId>11225765</leId>
+						<subProfileId>1</subProfileId>
+						<empEmpCodeMapId>5009678</empEmpCodeMapId>
+						<empMapId>14752805</empMapId>
+						<empId/>
+						<empCode>A20</empCode>
+						<empName/>
+						<bkgLocation>
+							<bkgLocationId>13000067</bkgLocationId>
+							<bkgLocationCountry>MY</bkgLocationCountry>
+							<bkgLocationOrganization>SCMY</bkgLocationOrganization>
+						</bkgLocation>
+						<empRelationshipType>
+							<stdCodeNumber>22</stdCodeNumber>
+							<stdCodeValue>FAM</stdCodeValue>
+							<stdCodeDescription>Field Account Manager</stdCodeDescription>
+						</empRelationshipType>
+						<principalFAMInd>Y</principalFAMInd>
+						<updateStatusIndicator>I</updateStatusIndicator>
+						<changeIndicator>N</changeIndicator>
+					</empRelationship>
+				</empRelationshipDetails>
+			</subProfileDetails>
+			<fmDetails>
+				<fmGlobalInfo>
+					<leId>11225765</leId>
+					<subProfileId>1</subProfileId>
+					<fmGlblInfSysGenId>12345</fmGlblInfSysGenId>
+					<mifidClntClass>
+						<stdCodeNumber>17</stdCodeNumber>
+						<stdCodeValue>0</stdCodeValue>
+						<stdCodeDescription>0</stdCodeDescription>
+					</mifidClntClass>
+					<ultRiskCntry>
+						<stdCodeNumber>17</stdCodeNumber>
+						<stdCodeValue>FR</stdCodeValue>
+						<stdCodeDescription>FRANCE</stdCodeDescription>
+					</ultRiskCntry>
+					<scbAffltCode>
+						<stdCodeNumber>17</stdCodeNumber>
+						<stdCodeValue>890</stdCodeValue>
+						<stdCodeDescription>890</stdCodeDescription>
+					</scbAffltCode>
+					<omgAlertAcronym>MNO6</omgAlertAcronym>
+					<omgOgdAcronym>GH98</omgOgdAcronym>
+					<updateStatusIndicator>U</updateStatusIndicator>
+					<changeIndicator>N</changeIndicator>
+				</fmGlobalInfo>
+				<fmAccountInfo>
+					<fmProfileInfo>
+						<leId>11225765</leId>
+						<subProfileId>1</subProfileId>
+						<fmProfileSysGenId>1234</fmProfileSysGenId>
+						<fmProfileName>CREDIT LYONNAIS PARIS</fmProfileName>
+						<fmCode>CRED LYON*PAR</fmCode>
+						<fmProfileShortName>CREDIT LYONNAIS</fmProfileShortName>
+						<fmProfileStatus>
+							<stdCodeNumber>17</stdCodeNumber>
+							<stdCodeValue>ACTIVE</stdCodeValue>
+							<stdCodeDescription>Active</stdCodeDescription>
+						</fmProfileStatus>
+						<fmProfilePresentStatus>
+							<stdCodeNumber>17</stdCodeNumber>
+							<stdCodeValue>ACTIVE</stdCodeValue>
+							<stdCodeDescription>Active</stdCodeDescription>
+						</fmProfilePresentStatus>
+						<fmProfileNewStatus>
+							<stdCodeNumber>17</stdCodeNumber>
+							<stdCodeValue>ACTIVE</stdCodeValue>
+							<stdCodeDescription>Active</stdCodeDescription>
+						</fmProfileNewStatus>
+						<updateStatusIndicator>U</updateStatusIndicator>
+						<changeIndicator>N</changeIndicator>
+					</fmProfileInfo>
+					<fmEntityInfo>
+						<leId>11225765</leId>
+						<subProfileId>1</subProfileId>
+						<fmId>400021231</fmId>
+						<fmLeSysGenId>1234</fmLeSysGenId>
+						<fmLongName>CREDIT LYONNAIS PARIS</fmLongName>
+						<fmLongName1>null</fmLongName1>	
+						<ultParentFmId>10035702</ultParentFmId>
+						<domicileCntry>
+							<stdCodeNumber>17</stdCodeNumber>
+							<stdCodeValue>FR</stdCodeValue>
+							<stdCodeDescription>FRANCE</stdCodeDescription>
+						</domicileCntry>
+						<limitType>
+							<stdCodeNumber>17</stdCodeNumber>
+							<stdCodeValue>SGLMT</stdCodeValue>
+							<stdCodeDescription>Singapore Limit</stdCodeDescription>
+						</limitType>
+						<dvpCustInd>
+							<stdCodeNumber>17</stdCodeNumber>
+							<stdCodeValue>2</stdCodeValue>
+							<stdCodeDescription>2</stdCodeDescription>
+						</dvpCustInd>
+						<scbFmEntityInd>N</scbFmEntityInd>
+						<imlaCertification>N</imlaCertification>							
+						<!-- Omgoe Fields-->
+						<omgAlertAccount>null</omgAlertAccount>
+						<omgOgdAccount>null</omgOgdAccount>
+						<omgCtmAccount>null</omgCtmAccount>
+						<markitWireId>null</markitWireId>
+						<iceLinkId>null</iceLinkId>
+						<btsId>null</btsId>
+						<!-- Derived Field - Table Only -->
+						<rmfFlag>null</rmfFlag>
+						
+						<euroCompInd>Y</euroCompInd>
+						<bisWeighting>20</bisWeighting>
+						<languageCode>
+							<stdCodeNumber>17</stdCodeNumber>
+							<stdCodeValue>ENGLISH</stdCodeValue>
+							<stdCodeDescription>English</stdCodeDescription>
+						</languageCode>
+						<ccilCpId>null</ccilCpId>
+						<topBankInd>Y</topBankInd>
+
+						<updateStatusIndicator>U</updateStatusIndicator>
+						<changeIndicator>N</changeIndicator>
+					</fmEntityInfo>
+					<fmEntityMoreInfo>
+						<leId>11225765</leId>
+						<subProfileId>1</subProfileId>
+						<fmId>400021231</fmId>
+						<fmMoreDtlSysGenId>1234</fmMoreDtlSysGenId>
+						<scbClassCode>99</scbClassCode>
+						<isicCode>
+							<stdCodeNumber>17</stdCodeNumber>
+							<stdCodeValue>8123</stdCodeValue>
+							<stdCodeDescription>COMMERCIAL BANKS - FOREIGN</stdCodeDescription>
+						</isicCode>
+						<fmType>
+							<stdCodeNumber>17</stdCodeNumber>
+							<stdCodeValue>BANK</stdCodeValue>
+							<stdCodeDescription>Bank test</stdCodeDescription>
+						</fmType>						
+						<opicsClassCode>999</opicsClassCode>
+						<fmClassCode>
+							<stdCodeNumber>17</stdCodeNumber>
+							<stdCodeValue>BK</stdCodeValue>
+							<stdCodeDescription>BANKS</stdCodeDescription>
+						</fmClassCode>
+						<finInstType>
+							<stdCodeNumber>17</stdCodeNumber>
+							<stdCodeValue>BANK</stdCodeValue>
+							<stdCodeDescription>Bank</stdCodeDescription>
+						</finInstType>
+						<instSector>
+							<stdCodeNumber>17</stdCodeNumber>
+							<stdCodeValue>320</stdCodeValue>
+							<stdCodeDescription>Other Incorporated Companies</stdCodeDescription>
+						</instSector>						
+						<clsEigibility>Y</clsEigibility>
+						<clsCustType>
+							<stdCodeNumber>17</stdCodeNumber>
+							<stdCodeValue>SETTLEM</stdCodeValue>
+							<stdCodeDescription>Settlement</stdCodeDescription>
+						</clsCustType>
+						<clsStartDate>12-MAR-2011 12:00:00</clsStartDate>
+						<brokerId>null</brokerId>
+						<armCode>
+							<stdCodeNumber>17</stdCodeNumber>
+							<stdCodeValue>XXX</stdCodeValue>
+							<stdCodeDescription>DEFAULT ARM</stdCodeDescription>
+						</armCode>
+						
+						<dataProtInd>N</dataProtInd>
+						<fmNote>null</fmNote>
+						<nrdSignedInd>N</nrdSignedInd>
+						<confReqInd>N</confReqInd>
+						<tradingInd>Y</tradingInd>
+						<dateOfSigningOfDiscAgr>12-MAR-2011 12:00:00</dateOfSigningOfDiscAgr>
+						<disclosureAgrRecInd>N</disclosureAgrRecInd>
+						<docCompletionInd>N</docCompletionInd>
+						<docCompletionDate>12-MAR-2011 12:00:00</docCompletionDate>
+						<bankingSecrecyActInd>N</bankingSecrecyActInd>
+
+						<updateStatusIndicator>U</updateStatusIndicator>
+						<changeIndicator>N</changeIndicator>
+					</fmEntityMoreInfo>
+					<fmHierarchyDetails>
+						<fmHierarchy>
+							<leId>11225765</leId>
+							<subProfileId>1</subProfileId>
+							<fmId>400021231</fmId>
+							<fmHrySysGenId>1234</fmHrySysGenId>
+							<parentFmId>400086345</parentFmId>
+							<hierarchyType>
+								<stdCodeNumber>17</stdCodeNumber>
+								<stdCodeValue>BRANCH</stdCodeValue>
+								<stdCodeDescription>Branch</stdCodeDescription>
+							</hierarchyType>
+							<updateStatusIndicator>U</updateStatusIndicator>
+							<changeIndicator>N</changeIndicator>
+						</fmHierarchy>
+						<fmHierarchy>
+							<leId>11225765</leId>
+							<subProfileId>1</subProfileId>
+							<fmId>400021231</fmId>
+							<fmHrySysGenId>1234</fmHrySysGenId>
+							<parentFmId>400086346</parentFmId>
+							<hierarchyType>
+								<stdCodeNumber>17</stdCodeNumber>
+								<stdCodeValue>BRANCH</stdCodeValue>
+								<stdCodeDescription>Branch</stdCodeDescription>
+							</hierarchyType>
+							<updateStatusIndicator>U</updateStatusIndicator>
+							<changeIndicator>N</changeIndicator>
+						</fmHierarchy>
+					</fmHierarchyDetails>
+					<fmAddressDetails>
+						<fmAddress>
+							<leId>11225765</leId>
+							<subProfileId>1</subProfileId>
+							<fmId>400021231</fmId>
+							<fmAddrSysGenId>454957</fmAddrSysGenId>
+							<addrType>
+								<stdCodeNumber>17</stdCodeNumber>
+								<stdCodeValue>MAIN</stdCodeValue>
+								<stdCodeDescription>Main address</stdCodeDescription>
+							</addrType>
+							<addrLine1>CENTRE DES OPS AVEC L ETRANGER</addrLine1>
+							<addrLine2>7 RUE CHARLES PARADINAS</addrLine2>
+							<country>
+								<stdCodeNumber>17</stdCodeNumber>
+								<stdCodeValue>FR</stdCodeValue>
+								<stdCodeDescription>FRANCE</stdCodeDescription>
+							</country>
+							<city>
+								<stdCodeNumber>17</stdCodeNumber>
+								<stdCodeValue>PAR</stdCodeValue>
+								<stdCodeDescription>PARIS</stdCodeDescription>
+							</city>
+							<postCode>92583</postCode>
+							<state>null</state>
+							<altName>C/O ADDRESS</altName>							
+							<contEmail>null</contEmail>
+							<contPhone>null</contPhone>
+							<description>null</description>
+							
+							<contRole>null</contRole>
+							<contTitle>null</contTitle>
+							<contFirstName>null</contFirstName>
+							<contLastName>null</contLastName>
+							<contFax>null</contFax>							
+							<contTelex>null</contTelex>
+							<startDate>12-MAR-2011 12:00:00</startDate>
+
+							<updateStatusIndicator>U</updateStatusIndicator>
+							<changeIndicator>N</changeIndicator>
+						</fmAddress>
+						<fmAddress>
+							<leId>11225765</leId>
+							<subProfileId>1</subProfileId>
+							<fmId>400021231</fmId>
+							<fmAddrSysGenId>454957</fmAddrSysGenId>
+							<addrType>
+								<stdCodeNumber>17</stdCodeNumber>
+								<stdCodeValue>MAIN</stdCodeValue>
+								<stdCodeDescription>Main address</stdCodeDescription>
+							</addrType>
+							<addrLine1>CENTRE DES OPS AVEC L ETRANGER</addrLine1>
+							<addrLine2>7 RUE CHARLES PARADINAS</addrLine2>
+							<country>
+								<stdCodeNumber>17</stdCodeNumber>
+								<stdCodeValue>FR</stdCodeValue>
+								<stdCodeDescription>FRANCE</stdCodeDescription>
+							</country>
+							<city>
+								<stdCodeNumber>17</stdCodeNumber>
+								<stdCodeValue>PAR</stdCodeValue>
+								<stdCodeDescription>PARIS</stdCodeDescription>
+							</city>
+							<postCode>92583</postCode>
+							<state>null</state>
+							<altName>C/O ADDRESS</altName>							
+							<contEmail>null</contEmail>
+							<contPhone>null</contPhone>
+							<description>null</description>
+							
+							<contRole>null</contRole>
+							<contTitle>null</contTitle>
+							<contFirstName>null</contFirstName>
+							<contLastName>null</contLastName>
+							<contFax>null</contFax>							
+							<contTelex>null</contTelex>
+							<startDate>12-MAR-2011 12:00:00</startDate>
+
+							<updateStatusIndicator>U</updateStatusIndicator>
+							<changeIndicator>N</changeIndicator>
+						</fmAddress>
+					</fmAddressDetails>
+					<fmAltAddressDetails>
+						<fmAltAddress>
+							<leId>11225765</leId>
+							<subProfileId>1</subProfileId>
+							<fmId>400021231</fmId>
+							<fmAddrId>454957</fmAddrId>
+							<fmAltAddrSysGenId>1234</fmAltAddrSysGenId>
+							<scbFmId>8</scbFmId>
+							<product>
+								<stdCodeNumber>17</stdCodeNumber>
+								<stdCodeValue>DEPO</stdCodeValue>
+								<stdCodeDescription>DEPO</stdCodeDescription>
+							</product>
+							<productType>
+								<stdCodeNumber>17</stdCodeNumber>
+								<stdCodeValue>MD</stdCodeValue>
+								<stdCodeDescription>MD</stdCodeDescription>
+							</productType>
+							<updateStatusIndicator>U</updateStatusIndicator>
+							<changeIndicator>N</changeIndicator>
+						</fmAltAddress>
+						<fmAltAddress>
+							<leId>11225765</leId>
+							<subProfileId>1</subProfileId>
+							<fmId>400021231</fmId>
+							<fmAddrId>454957</fmAddrId>
+							<fmAltAddrSysGenId>1234</fmAltAddrSysGenId>
+							<scbFmId>8</scbFmId>
+							<product>
+								<stdCodeNumber>17</stdCodeNumber>
+								<stdCodeValue>DEPO</stdCodeValue>
+								<stdCodeDescription>DEPO</stdCodeDescription>
+							</product>
+							<productType>
+								<stdCodeNumber>17</stdCodeNumber>
+								<stdCodeValue>MD</stdCodeValue>
+								<stdCodeDescription>MD</stdCodeDescription>
+							</productType>
+							<updateStatusIndicator>U</updateStatusIndicator>
+							<changeIndicator>N</changeIndicator>
+						</fmAltAddress>
+					</fmAltAddressDetails>
+					<fmBranchDetails>
+						<fmBranch>
+							<leId>11225765</leId>
+							<subProfileId>1</subProfileId>
+							<fmId>400021231</fmId>
+							<fmBranchSysGenId>1234</fmBranchSysGenId>
+							<scbFmId>14</scbFmId>							
+							<custStatusRsnCode>01</custStatusRsnCode>
+							<custStatusChngDate>12-MAR-2011 12:00:00</custStatusChngDate>
+							<phoneConfirm>N</phoneConfirm>
+							<phoneNumber>null</phoneNumber>
+							<faxNumber>null</faxNumber>
+							<netSettle>
+								<stdCodeNumber>17</stdCodeNumber>
+								<stdCodeValue>NO</stdCodeValue>
+								<stdCodeDescription>NO</stdCodeDescription>
+							</netSettle>
+							<novation>
+								<stdCodeNumber>17</stdCodeNumber>
+								<stdCodeValue>NONE</stdCodeValue>
+								<stdCodeDescription>None</stdCodeDescription>
+							</novation>
+							<custStatus>
+								<stdCodeNumber>17</stdCodeNumber>
+								<stdCodeValue>OPEN</stdCodeValue>
+								<stdCodeDescription>Open</stdCodeDescription>
+							</custStatus>
+							<manualSettle>N</manualSettle>							
+							<armCode>
+								<stdCodeNumber>17</stdCodeNumber>
+								<stdCodeValue>XXX</stdCodeValue>
+								<stdCodeDescription>DEFAULT ARM</stdCodeDescription>
+							</armCode>							
+							<extrnlSystmCode>
+								<stdCodeNumber>17</stdCodeNumber>
+								<stdCodeValue>MXR</stdCodeValue>
+								<stdCodeDescription>MXR</stdCodeDescription>
+							</extrnlSystmCode>							
+							<updateStatusIndicator>U</updateStatusIndicator>
+							<changeIndicator>N</changeIndicator>
+						</fmBranch>
+						<fmBranch>
+							<leId>11225765</leId>
+							<subProfileId>1</subProfileId>
+							<fmId>400021231</fmId>
+							<fmBranchSysGenId>1234</fmBranchSysGenId>
+							<scbFmId>14</scbFmId>							
+							<custStatusRsnCode>01</custStatusRsnCode>
+							<custStatusChngDate>12-MAR-2011 12:00:00</custStatusChngDate>
+							<phoneConfirm>N</phoneConfirm>
+							<phoneNumber>null</phoneNumber>
+							<faxNumber>null</faxNumber>
+							<netSettle>
+								<stdCodeNumber>17</stdCodeNumber>
+								<stdCodeValue>NO</stdCodeValue>
+								<stdCodeDescription>NO</stdCodeDescription>
+							</netSettle>
+							<novation>
+								<stdCodeNumber>17</stdCodeNumber>
+								<stdCodeValue>NONE</stdCodeValue>
+								<stdCodeDescription>None</stdCodeDescription>
+							</novation>
+							<custStatus>
+								<stdCodeNumber>17</stdCodeNumber>
+								<stdCodeValue>OPEN</stdCodeValue>
+								<stdCodeDescription>Open</stdCodeDescription>
+							</custStatus>
+							<manualSettle>N</manualSettle>							
+							<armCode>
+								<stdCodeNumber>17</stdCodeNumber>
+								<stdCodeValue>XXX</stdCodeValue>
+								<stdCodeDescription>DEFAULT ARM</stdCodeDescription>
+							</armCode>							
+							<extrnlSystmCode>
+								<stdCodeNumber>17</stdCodeNumber>
+								<stdCodeValue>MXR</stdCodeValue>
+								<stdCodeDescription>MXR</stdCodeDescription>
+							</extrnlSystmCode>							
+							<updateStatusIndicator>U</updateStatusIndicator>
+							<changeIndicator>N</changeIndicator>
+						</fmBranch>
+					</fmBranchDetails>
+					<fmSysContactDetails>
+						<fmSysContact>
+							<leId>11225765</leId>
+							<subProfileId>1</subProfileId>
+							<fmId>400021231</fmId>
+							<fmSysContSysGenId>1234</fmSysContSysGenId>
+							<mediumCode>
+								<stdCodeNumber>17</stdCodeNumber>
+								<stdCodeValue>SWIFT</stdCodeValue>
+								<stdCodeDescription>SWIFT CODE</stdCodeDescription>
+							</mediumCode>
+							<mediumUsage>
+								<stdCodeNumber>17</stdCodeNumber>
+								<stdCodeValue>MAIN</stdCodeValue>
+								<stdCodeDescription>Main</stdCodeDescription>
+							</mediumUsage>
+							<addrLine>CRLYFRPPXXX</addrLine>
+							<confirmationText>null</confirmationText>
+							<description>null</description>
+							<updateStatusIndicator>U</updateStatusIndicator>
+							<changeIndicator>N</changeIndicator>
+						</fmSysContact>
+						<fmSysContact>
+							<leId>11225765</leId>
+							<subProfileId>1</subProfileId>
+							<fmId>400021231</fmId>
+							<fmSysContSysGenId>1234</fmSysContSysGenId>
+							<mediumCode>
+								<stdCodeNumber>17</stdCodeNumber>
+								<stdCodeValue>SWIFT</stdCodeValue>
+								<stdCodeDescription>SWIFT CODE</stdCodeDescription>
+							</mediumCode>
+							<mediumUsage>
+								<stdCodeNumber>17</stdCodeNumber>
+								<stdCodeValue>MAIN</stdCodeValue>
+								<stdCodeDescription>Main</stdCodeDescription>
+							</mediumUsage>
+							<addrLine>CRLYFRPPXXX</addrLine>
+							<confirmationText>null</confirmationText>
+							<description>null</description>
+							<updateStatusIndicator>U</updateStatusIndicator>
+							<changeIndicator>N</changeIndicator>
+						</fmSysContact>
+					</fmSysContactDetails>
+					<fmAltSysContactDetails>
+						<fmAltSysContact>
+							<leId>11225765</leId>
+							<subProfileId>1</subProfileId>
+							<fmId>400021231</fmId>
+							<fmSysContId>13900</fmSysContId>
+							<fmAltSysContSysGenId>1234</fmAltSysContSysGenId>
+							<scbFmId>400022272</scbFmId>
+							<product>
+								<stdCodeNumber>17</stdCodeNumber>
+								<stdCodeValue>DEPO</stdCodeValue>
+								<stdCodeDescription>DEPO</stdCodeDescription>
+							</product>
+							<productType>
+								<stdCodeNumber>17</stdCodeNumber>
+								<stdCodeValue>MD</stdCodeValue>
+								<stdCodeDescription>MD</stdCodeDescription>
+							</productType>
+							<updateStatusIndicator>U</updateStatusIndicator>
+							<changeIndicator>N</changeIndicator>
+						</fmAltSysContact>
+						<fmAltSysContact>
+							<leId>11225765</leId>
+							<subProfileId>1</subProfileId>
+							<fmId>400021231</fmId>
+							<fmSysContId>13900</fmSysContId>
+							<fmAltSysContSysGenId>1234</fmAltSysContSysGenId>
+							<scbFmId>400022272</scbFmId>
+							<product>
+								<stdCodeNumber>17</stdCodeNumber>
+								<stdCodeValue>DEPO</stdCodeValue>
+								<stdCodeDescription>DEPO</stdCodeDescription>
+							</product>
+							<productType>
+								<stdCodeNumber>17</stdCodeNumber>
+								<stdCodeValue>MD</stdCodeValue>
+								<stdCodeDescription>MD</stdCodeDescription>
+							</productType>
+							<updateStatusIndicator>U</updateStatusIndicator>
+							<changeIndicator>N</changeIndicator>
+						</fmAltSysContact>
+					</fmAltSysContactDetails>
+					<fmCrossReferenceDetails>
+						<fmCrossReference>
+							<leId>11225765</leId>
+							<subProfileId>1</subProfileId>
+							<fmId>400021231</fmId>
+							<fmXrefSysGenId>1234</fmXrefSysGenId>
+							<xrefLocation>
+								<stdCodeNumber>17</stdCodeNumber>
+								<stdCodeValue>HK</stdCodeValue>
+								<stdCodeDescription>Hong Kong</stdCodeDescription>
+							</xrefLocation>
+							<xrefSystem>
+								<stdCodeNumber>17</stdCodeNumber>
+								<stdCodeValue>FEDS</stdCodeValue>
+								<stdCodeDescription>HK FEDS</stdCodeDescription>
+							</xrefSystem>
+							<xrefExternalId>CRED LYON*PAR</xrefExternalId>							
+							
+							<immsMnemonic>CRLYPAR</immsMnemonic>
+
+							<updateStatusIndicator>D</updateStatusIndicator>
+							<changeIndicator>N</changeIndicator>
+						</fmCrossReference>
+						<fmCrossReference>
+							<leId>11225765</leId>
+							<subProfileId>1</subProfileId>
+							<fmId>400021231</fmId>
+							<fmXrefSysGenId>1234</fmXrefSysGenId>
+							<xrefLocation>
+								<stdCodeNumber>17</stdCodeNumber>
+								<stdCodeValue>HK</stdCodeValue>
+								<stdCodeDescription>Hong Kong</stdCodeDescription>
+							</xrefLocation>
+							<xrefSystem>
+								<stdCodeNumber>17</stdCodeNumber>
+								<stdCodeValue>FEDS</stdCodeValue>
+								<stdCodeDescription>HK FEDS</stdCodeDescription>
+							</xrefSystem>
+							<xrefExternalId>CRED LYON*PAR</xrefExternalId>							
+							
+							<immsMnemonic>CRLYPAR</immsMnemonic>
+
+							<updateStatusIndicator>D</updateStatusIndicator>
+							<changeIndicator>N</changeIndicator>
+						</fmCrossReference>
+					</fmCrossReferenceDetails>
+					<fmTCIDDetails>
+						<fmTCID>
+							<leId>11225765</leId>
+							<subProfileId>1</subProfileId>
+							<fmId>400021231</fmId>
+							<fmTCIDSysGenId>1234</fmTCIDSysGenId>
+							<tcid>CLFP</tcid>
+							<status>
+								<stdCodeNumber>17</stdCodeNumber>
+								<stdCodeValue>ACTIVE</stdCodeValue>
+								<stdCodeDescription>Active</stdCodeDescription>
+							</status>
+							<updateStatusIndicator>U</updateStatusIndicator>
+							<changeIndicator>N</changeIndicator>
+						</fmTCID>
+						<fmTCID>
+							<leId>11225765</leId>
+							<subProfileId>1</subProfileId>
+							<fmId>400021231</fmId>
+							<fmTCIDSysGenId>1234</fmTCIDSysGenId>
+							<tcid>CLFP</tcid>
+							<status>
+								<stdCodeNumber>17</stdCodeNumber>
+								<stdCodeValue>ACTIVE</stdCodeValue>
+								<stdCodeDescription>Active</stdCodeDescription>
+							</status>
+							<updateStatusIndicator>U</updateStatusIndicator>
+							<changeIndicator>N</changeIndicator>
+						</fmTCID>
+					</fmTCIDDetails>
+					<scbInfo>
+						<leId>11225765</leId>
+						<subProfileId>1</subProfileId>
+						<fmId>400021231</fmId>
+						<fmScbDtlSysGenId>1234</fmScbDtlSysGenId>
+						<profitCurrency>
+							<stdCodeNumber>17</stdCodeNumber>
+							<stdCodeValue>USD</stdCodeValue>
+							<stdCodeDescription>US Dollars</stdCodeDescription>
+						</profitCurrency>
+						<immsBranchCode>51</immsBranchCode>
+						<location>
+							<stdCodeNumber>17</stdCodeNumber>
+							<stdCodeValue>HK</stdCodeValue>
+							<stdCodeDescription>Honk Kong</stdCodeDescription>
+						</location>
+						<nettingAllowedInd>Y</nettingAllowedInd>
+						
+						<baseCurrency>
+							<stdCodeNumber>17</stdCodeNumber>
+							<stdCodeValue>USD</stdCodeValue>
+							<stdCodeDescription>US Dollars</stdCodeDescription>
+						</baseCurrency>
+						<lateTradingStartTime>12-MAR-2011 12:00:00</lateTradingStartTime>
+						<dealStartLocalTime>12-MAR-2011 12:00:00</dealStartLocalTime>
+						<dealEndLocalTime>12-MAR-2011 12:00:00</dealEndLocalTime>
+						<regulatoryBody>
+							<stdCodeNumber>17</stdCodeNumber>
+							<stdCodeValue>BOE</stdCodeValue>
+							<stdCodeDescription>BOE</stdCodeDescription>
+						</regulatoryBody>
+
+						<updateStatusIndicator>U</updateStatusIndicator>
+						<changeIndicator>N</changeIndicator>
+					</scbInfo>
+					<synInfo>
+						<leId>11225765</leId>
+						<subProfileId>1</subProfileId>
+						<fmId>400021231</fmId>
+						<fidessaViewCode>VIEW CODE</fidessaViewCode>
+						<contractingRelationship>
+							<stdCodeNumber>17</stdCodeNumber>
+							<stdCodeValue>REL01</stdCodeValue>
+							<stdCodeDescription>RELATIONSHIP 01</stdCodeDescription>
+						</contractingRelationship>
+						<vatFlag></vatFlag>
+						<euVatRegistrationNo></euVatRegistrationNo>
+						<profitSharing>
+							<stdCodeNumber>17</stdCodeNumber>
+							<stdCodeValue>SHR01</stdCodeValue>
+							<stdCodeDescription>SHARING 01</stdCodeDescription>
+						</profitSharing>
+						<micCode></micCode>
+						<symbology>
+							<stdCodeNumber>17</stdCodeNumber>
+							<stdCodeValue>SYM01</stdCodeValue>
+							<stdCodeDescription>SYMBOLOGY 01</stdCodeDescription>
+						</symbology>
+						<usTaxId></usTaxId>
+						<oasisLevel>
+							<stdCodeNumber>17</stdCodeNumber>
+							<stdCodeValue>OASIS01</stdCodeValue>
+							<stdCodeDescription>OASIS LEVEL 01</stdCodeDescription>
+						</oasisLevel>
+						<updateStatusIndicator>U</updateStatusIndicator>
+						<changeIndicator>N</changeIndicator>
+					</synInfo>
+				</fmAccountInfo>
+			</fmDetails>
+		</legalEntity>
+	</message>
+</SCIMessages>

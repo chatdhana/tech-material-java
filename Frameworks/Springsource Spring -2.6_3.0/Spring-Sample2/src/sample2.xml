@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+			http://www.springframework.org/schema/beans spring-beans-2.5.xsd
+			http://www.springframework.org/schema/beans spring-beans-2.5.xsd
+			http://www.springframework.org/schema/context spring-context-2.5.xsd
+			http://www.springframework.org/schema/jee spring-jee-2.5.xsd
+			http://www.springframework.org/schema/tx spring-tx-2.5.xsd">
+
+	<!-- Hello World Example -->
+	<bean id="helloWorld" class="mine.spring.sample1.HelloWorldImpl">
+		<property name="hello">
+			<value>Welcome to spring basic class.</value>
+		</property>
+	</bean>
+	<alias name="helloWorld" alias="hW" />
+
+	<!-- Inner Class Example-->
+	<!-- Static Inner Class -->
+	<bean id="staticInnerClass"
+		class="mine.spring.sample2.OuterClass$StaticInnerClass">
+		<property name="address1" value="My Address Line 1" />
+		<property name="address2" value="My Address Line 2" />
+	</bean>
+
+	<!-- Instance Inner Class -->
+	<bean id="instanceInnerClass"
+		class="mine.spring.sample2.OuterClass$InstanceInnerClass">
+		<property name="address1" value="My Address Line 1" />
+		<property name="address2" value="My Address Line 2" />
+	</bean>
+	<!-- Outer Class -->
+	<bean id="outerClass" class="mine.spring.sample2.OuterClass">
+		<property name="id" value="11278" />
+		<property name="name" value="Dhananjayan" />
+	</bean>
+
+	<!-- Initialization using Static Factory Method -->
+	<bean id="outerClassStaFact" class="mine.spring.sample2.OuterClass"
+		factory-method="createInstance">
+	</bean>
+	<!-- Initialization using Instance Factory Method -->
+	<bean id="outerClassInsFact" factory-bean="outerClass" factory-method="getInstance">
+	</bean>
+
+
+
+</beans>

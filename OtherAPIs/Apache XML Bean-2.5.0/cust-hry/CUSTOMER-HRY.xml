@@ -1,0 +1,40 @@
+<SCIMessage>
+	<header>
+		<messageId>0123456789</messageId>
+		<messageType>CUSTHRY</messageType>
+		<publishType>NORMAL</publishType>
+		<publishDate>21-Oct-2011 09:30:47</publishDate>
+		<topicName>CUSTOMER/HEIRARCHY</topicName>
+		<subscriberId>LNXXX1S1.SCI.SUB.IN</subscriberId>
+	</header>
+	<message>
+		<customerHryDetails>
+			<customerHry>
+				<leId>11225765</leId>
+				<custHrySysGenId>1001</custHrySysGenId>
+				<parentLeId>11225760</parentLeId>
+				<hryType>
+					<stdCodeNumber>102</stdCodeNumber>
+					<stdCodeValue>TYPE1</stdCodeValue>
+					<stdCodeDescription>Type1</stdCodeDescription>
+				</hryType>
+				<hryWeightage>58</hryWeightage>
+				<updateStatusIndicator>U</updateStatusIndicator>
+				<changeIndicator>Y</changeIndicator>
+			</customerHry>
+			<customerHry>
+				<leId>11225765</leId>
+				<custHrySysGenId>1002</custHrySysGenId>
+				<parentLeId>11225762</parentLeId>
+				<hryType>
+					<stdCodeNumber>102</stdCodeNumber>
+					<stdCodeValue>TYPE2</stdCodeValue>
+					<stdCodeDescription>Type2</stdCodeDescription>
+				</hryType>
+				<hryWeightage>92</hryWeightage>
+				<updateStatusIndicator>U</updateStatusIndicator>
+				<changeIndicator>N</changeIndicator>
+			</customerHry>
+		</customerHryDetails>
+	</message>
+</SCIMessage>

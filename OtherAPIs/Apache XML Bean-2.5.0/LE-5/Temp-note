@@ -1,0 +1,47 @@
+|G|Y|4|1|le_hierarchy|*EOH*
+le_id|number|*EOH*|400178566
+parent_le_id|number|*EOH*|400086345
+hierarchy_type|varchar2|*EOH*|BRANCH
+hierarchy_type_desc|varchar|*EOH*|Branch|
+
+
+<leHierarchy>
+<leId>10035702</leId>
+<parentLeId>400086345</parentLeId>
+<hierarchyType>BRANCH</hierarchyType>
+<hierarchyTypeDesc>Branch</hierarchyTypeDesc>
+</leHierarchy>
+
+-------
+<leHierarchy><leId>10035702</leId><parentLeId>400086345</parentLeId><hierarchyType>BRANCH</hierarchyType><hierarchyTypeDesc>Branch</hierarchyTypeDesc></leHierarchy>
+-------
+segment|varchar2|*EOH*|K
+segment_desc|varchar2|*EOH*|Global Corporate
+sub_segment|varchar2|*EOH*|K
+sub_segment_desc|varchar2|*EOH*|Global Corporate
+rmf_flag|char|*EOH*|null
+omg_alert_acronym|varchar2|*EOH*|null
+omg_alert_account|varchar2|*EOH*|null
+omg_ogd_acronym|varchar2|*EOH*|null
+omg_ogd_account|varchar2|*EOH*|null
+omg_ctm_account|varchar2|*EOH*|null
+bts_id|varchar2|*EOH*|null
+markit_wire_id|varchar2|*EOH*|null
+ice_link_id|varchar2|*EOH*|null
+
+<segment>K</segment>
+<segmentDesc>Global Corporate</segmentDesc>
+<subSegment>K</subSegment>
+<subSegmentDesc>Global Corporate</subSegmentDesc>
+<rmfFlag>null</rmfFlag>
+<omgAlertAcronym>null</omgAlertAcronym>
+<omgAlertAccount>null</omgAlertAccount>
+<omgOgdAcronym>null</omgOgdAcronym>
+<omgOgdAccount>null</omgOgdAccount>
+<omgCtmAccount>null</omgCtmAccount>
+<btsId>null</btsId>
+<markitWireId>null</markitWireId>
+<iceLinkId>null</iceLinkId>
+-------
+<segment>K</segment><segmentDesc>Global Corporate</segmentDesc><subSegment>K</subSegment><subSegmentDesc>Global Corporate</subSegmentDesc><rmfFlag>null</rmfFlag><omgAlertAcronym>null</omgAlertAcronym><omgAlertAccount>null</omgAlertAccount><omgOgdAcronym>null</omgOgdAcronym><omgOgdAccount>null</omgOgdAccount><omgCtmAccount>null</omgCtmAccount><btsId>null</btsId><markitWireId>null</markitWireId><iceLinkId>null</iceLinkId>
+-------

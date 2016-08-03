@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+			http://www.springframework.org/schema/beans spring-beans-2.5.xsd
+			http://www.springframework.org/schema/beans spring-beans-2.5.xsd
+			http://www.springframework.org/schema/context spring-context-2.5.xsd
+			http://www.springframework.org/schema/jee spring-jee-2.5.xsd
+			http://www.springframework.org/schema/tx spring-tx-2.5.xsd"
+	default-lazy-init="true" default-init-method="init"
+	default-destroy-method="destroy">
+
+	<!-- ############# Constructor Injection ############## -->
+	<!-- Single argument constructor -->
+	<bean id="consInj1" class="mine.spring.sample3.ConstructorInjection"
+		lazy-init="true">
+		<constructor-arg>
+			<!-- User defined class -->
+			<bean class="mine.spring.sample3.CollaboratingClass">
+				<property name="empId" value="11278"></property>
+				<property name="empName" value="Dhana"></property>
+			</bean>
+		</constructor-arg>
+	</bean>
+
+	<!-- Three arguments constructor -->
+	<bean id="consInj2"
+		class="mine.spring.sample3.ConstructorInjection">
+		<!-- Referring Dependent Class (e.g: DataSource, Connection,..) -->
+		<constructor-arg index="0" ref="depClass"></constructor-arg>
+		<!-- String Type -->
+		<constructor-arg index="1" type="java.lang.String"
+			value="115514557157" />
+		<!-- String Type -->
+		<constructor-arg index="2" value="Permanent" />
+	</bean>
+
+	<!-- Dependent Class (e.g: DataSource, Connection,..) -->
+	<bean id="depClass" name="depObj"
+		class="mine.spring.sample3.CollaboratingClass"
+		autowire-candidate="true">
+		<property name="empId" value="11278"></property>
+		<property name="empName">
+			<null />
+		</property>
+	</bean>
+	<!-- ############# Constructor Injection End ############## -->
+
+	<!-- ##############		Setter injection	############## -->
+	<bean id="settInj1" class="mine.spring.sample3.SetterInjection">
+		<property name="depObj" ref="depClass"></property>
+		<property name="empAccNo" value="11224244444"></property>
+		<property name="empNature">
+			<value>Permanent</value>
+		</property>
+	</bean>
+	<!--  Setter injection with Auto wiring enabled-->
+	<bean id="settInj2" class="mine.spring.sample3.SetterInjection"
+		dependency-check="objects">
+		<property name="depObj" ref="depObj"></property>
+		<property name="empAccNo" value="11224244444"></property>
+		<property name="empNature">
+			<value>Permanent</value>
+		</property>
+	</bean>
+	<!-- ############################ -->
+
+	<!-- ############# p-namespace ############## -->
+	<bean id="pNamespace" class="mine.spring.sample3.PNameSpace"
+		p:id="11278" p:name="dhana" p:collObj-ref="depClass"
+		lazy-init="default">
+	</bean>
+	<!-- ############################ -->
+
+	<!-- ############# Life Cycle CallBack ############## -->
+
+	<!-- Implementing InitializingBean and/or DisposableBean interfaces-->
+	<bean id="lifeCycle1"
+		class="mine.spring.sample3.LifeCycleCallbacks1">
+		<property name="field1" value="field-1 value"></property>
+		<property name="field2" value="field-2 value"></property>
+		<!-- <property name="field3" value="field-3 value"></property> -->
+		<property name="field3">
+			<null />
+		</property>
+	</bean>
+
+	<!-- generic init and destroy methods: Using the attributes: init-method and destroy-method-->
+	<bean id="lifeCycle2"
+		class="mine.spring.sample3.LifeCycleCallbacks2" init-method="init"
+		destroy-method="clean">
+		<property name="field1" value="field-1 value"></property>
+		<property name="field2" value="field-2 value"></property>
+		<!-- <property name="field3" value="field-3 value"></property> -->
+		<property name="field3">
+			<null />
+		</property>
+	</bean>
+	<!-- ############################ -->
+
+	<!-- ############# Bean definition inheritance ############## -->
+	<bean id="parentBean" >
+		<property name="empAccNo" value="1209222"></property>
+		<property name="empNature">
+			<value>Permanent</value>
+		</property>
+	</bean>
+
+	<bean id="childBean" class="mine.spring.sample3.SetterInjection"
+		parent="parentBean">
+		<property name="depObj" ref="depObj"></property>
+	</bean>
+
+	<!-- ############################ -->
+	<!-- ############# Topic ############## -->
+	<!-- ############################ -->
+
+</beans>
+

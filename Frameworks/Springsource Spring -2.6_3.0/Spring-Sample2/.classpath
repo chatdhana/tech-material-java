@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/commons-logging-api-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/spring-beans.jar" sourcepath="C:/dhana/tmep/spring-framework-2.5.6.SEC02/dist/module-sources/spring-beans-sources.jar"/>
+	<classpathentry kind="lib" path="lib/spring-core.jar" sourcepath="C:/dhana/tmep/spring-framework-2.5.6.SEC02/dist/module-sources/spring-core-sources.jar"/>
+	<classpathentry kind="lib" path="lib/spring.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<!-- This is the file where definitions used by the DispatcherServlet should be entered.  
+     This file  is named, based on the DispatcherServlet servlet-name from  web.xml with '-servlet' appended. -->
+      
+        
+        <beans>
+            <!--This defines the controller that our application will be using. -->
+            <bean id="springappController" class="SpringappController"/>  
+            
+            <!-- We also need to add a url mapping ,so the DispatcherServlet knows which 
+                controller should be invoked for different urls -->
+            <bean id="urlMapping" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">   
+                <property name="mappings">
+                    <props>
+                        <prop key="/hello.htm">springappController</prop> 
+                    </props>
+                </property>
+            </bean>
+          
+            
+        </beans>
+        

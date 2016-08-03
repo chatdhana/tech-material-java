@@ -1,0 +1,905 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="SCIMessages" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="addressType">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="stdCodeNumber" type="xs:string" minOccurs="0" />
+        <xs:element name="stdCodeValue" type="xs:string" minOccurs="0" />
+		<xs:element name="stdCodeDescription" type="xs:string" minOccurs="0" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="instructionRefType">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="stdCodeNumber" type="xs:string" minOccurs="0" />
+        <xs:element name="stdCodeValue" type="xs:string" minOccurs="0" />
+		<xs:element name="stdCodeDescription" type="xs:string" minOccurs="0" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="instructionBookingLocation">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="bookingLocationId" type="xs:string" minOccurs="0" />
+        <xs:element name="bookingLocationCountry" type="xs:string" minOccurs="0" />
+        <xs:element name="bookingLocationOrganization" type="xs:string" minOccurs="0" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="systemXRefLocation">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="locationId" type="xs:string" minOccurs="0" />
+        <xs:element name="locationCountry" type="xs:string" minOccurs="0" />
+        <xs:element name="locationOrganization" type="xs:string" minOccurs="0" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="externalSystem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="extSystemTypeNum" type="xs:string" minOccurs="0" />
+        <xs:element name="extSystemTypeValue" type="xs:string" minOccurs="0" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="externalCustDetail">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="externalCustId" type="xs:string" minOccurs="0" />
+        <xs:element name="externalCustName" type="xs:string" minOccurs="0" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="securityLocation">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="locationId" type="xs:string" minOccurs="0" />
+        <xs:element name="locationCountry" type="xs:string" minOccurs="0" />
+        <xs:element name="locationOrganization" type="xs:string" minOccurs="0" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="securityType">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="stdCodeNumber" type="xs:string" minOccurs="0" />
+        <xs:element name="stdCodeValue" type="xs:string" minOccurs="0" />
+		<xs:element name="stdCodeDescription" type="xs:string" minOccurs="0" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="securitySubType">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="stdCodeNumber" type="xs:string" minOccurs="0" />
+        <xs:element name="stdCodeValue" type="xs:string" minOccurs="0" />
+		<xs:element name="stdCodeDescription" type="xs:string" minOccurs="0" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SCIMessages" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="addressType" />
+        <xs:element ref="instructionRefType" />
+        <xs:element ref="instructionBookingLocation" />
+        <xs:element ref="systemXRefLocation" />
+        <xs:element ref="externalSystem" />
+        <xs:element ref="externalCustDetail" />
+        <xs:element ref="securityLocation" />
+        <xs:element ref="securityType" />
+        <xs:element ref="securitySubType" />
+        <xs:element name="com_isis_mhdr">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="VerId" type="xs:string" minOccurs="0" />
+              <xs:element name="HdrLst" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="ErrHdrF" type="xs:string" minOccurs="0" />
+                    <xs:element name="AudtHdrF" type="xs:string" minOccurs="0" />
+                    <xs:element name="TrcHdrF" type="xs:string" minOccurs="0" />
+                    <xs:element name="ErrPayloadF" type="xs:string" minOccurs="0" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="SrcLst" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="LocnId" type="xs:string" minOccurs="0" />
+                    <xs:element name="SystemId" type="xs:string" minOccurs="0" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="AdapterUsrIdLst" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="UsrId" type="xs:string" minOccurs="0" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="RcnclLst" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Amt" type="xs:string" minOccurs="0" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="MsgTp" type="xs:string" minOccurs="0" />
+              <xs:element name="ApplMsgUUId" type="xs:string" minOccurs="0" />
+              <xs:element name="ApplKeyLst" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="ApplKey" type="xs:string" minOccurs="0" />
+                    <xs:element name="ApplVal" type="xs:string" minOccurs="0" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="MsgUUId" type="xs:string" minOccurs="0" />
+              <xs:element name="UsrTxt" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="message">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="messageId" type="xs:string" minOccurs="0" />
+              <xs:element name="messageType" type="xs:string" minOccurs="0" />
+              <xs:element name="publishType" type="xs:string" minOccurs="0" />
+              <xs:element name="publishDate" type="xs:string" minOccurs="0" />
+              <xs:element name="topicName" type="xs:string" minOccurs="0" />
+              <xs:element name="subscriberId" type="xs:string" minOccurs="0" />
+              <xs:element name="transactionProcessingSystems" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="bkgLocationCountry" type="xs:string" minOccurs="0" />
+                    <xs:element name="bkgLocationOrganization" type="xs:string" minOccurs="0" />
+                    <xs:element name="extSystemTypeNum" type="xs:string" minOccurs="0" />
+                    <xs:element name="extSystemTypeValue" type="xs:string" minOccurs="0" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="legalEntity" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="mainProfileDetails" minOccurs="0" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="mainProfile" minOccurs="0" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="leId" type="xs:string" minOccurs="0" />
+                                <xs:element name="shortName" type="xs:string" minOccurs="0" />
+                                <xs:element name="legalName" type="xs:string" minOccurs="0" />
+                                <xs:element name="legalConstitution" minOccurs="0" maxOccurs="unbounded">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="stdCodeNumber" type="xs:string" minOccurs="0" />
+                                      <xs:element name="stdCodeValue" type="xs:string" minOccurs="0" />
+									  <xs:element name="stdCodeDescription" type="xs:string" minOccurs="0" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="incorporatedCountry" type="xs:string" minOccurs="0" />
+                                <xs:element name="incorporationNumber" type="xs:string" minOccurs="0" />
+                                <xs:element name="incorporationDate" type="xs:string" minOccurs="0" />
+                                <xs:element name="customerType" minOccurs="0" maxOccurs="unbounded">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="stdCodeNumber" type="xs:string" minOccurs="0" />
+                                      <xs:element name="stdCodeValue" type="xs:string" minOccurs="0" />
+									  <xs:element name="stdCodeDescription" type="xs:string" minOccurs="0" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="relationshipStartDate" type="xs:string" minOccurs="0" />
+                                <xs:element name="segmentCode" minOccurs="0" maxOccurs="unbounded">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="stdCodeNumber" type="xs:string" minOccurs="0" />
+                                      <xs:element name="stdCodeValue" type="xs:string" minOccurs="0" />
+									  <xs:element name="stdCodeDescription" type="xs:string" minOccurs="0" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="subSegmentCode" minOccurs="0" maxOccurs="unbounded">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="stdCodeNumber" type="xs:string" minOccurs="0" />
+                                      <xs:element name="stdCodeValue" type="xs:string" minOccurs="0" />
+									  <xs:element name="stdCodeDescription" type="xs:string" minOccurs="0" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="baselCustomerSegment" minOccurs="0" maxOccurs="unbounded">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="stdCodeNumber" type="xs:string" minOccurs="0" />
+                                      <xs:element name="stdCodeValue" type="xs:string" minOccurs="0" />
+									  <xs:element name="stdCodeDescription" type="xs:string" minOccurs="0" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="baselCustomerSubSegment" minOccurs="0" maxOccurs="unbounded">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="stdCodeNumber" type="xs:string" minOccurs="0" />
+                                      <xs:element name="stdCodeValue" type="xs:string" minOccurs="0" />
+									  <xs:element name="stdCodeDescription" type="xs:string" minOccurs="0" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="businessType" minOccurs="0" maxOccurs="unbounded">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="stdCodeNumber" type="xs:string" minOccurs="0" />
+                                      <xs:element name="stdCodeValue" type="xs:string" minOccurs="0" />
+									  <xs:element name="stdCodeDescription" type="xs:string" minOccurs="0" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="envRiskGrade" minOccurs="0" maxOccurs="unbounded">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="stdCodeNumber" type="xs:string" minOccurs="0" />
+                                      <xs:element name="stdCodeValue" type="xs:string" minOccurs="0" />
+									  <xs:element name="stdCodeDescription" type="xs:string" minOccurs="0" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="top1000Bank" type="xs:string" minOccurs="0" />
+                                <xs:element name="referralStatus" minOccurs="0" maxOccurs="unbounded">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="stdCodeNumber" type="xs:string" minOccurs="0" />
+                                      <xs:element name="stdCodeValue" type="xs:string" minOccurs="0" />
+									  <xs:element name="stdCodeDescription" type="xs:string" minOccurs="0" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="operationStatus1" minOccurs="0" maxOccurs="unbounded">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="stdCodeNumber" type="xs:string" minOccurs="0" />
+                                      <xs:element name="stdCodeValue" type="xs:string" minOccurs="0" />
+									  <xs:element name="stdCodeDescription" type="xs:string" minOccurs="0" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="operationStatus1EffDate" type="xs:string" minOccurs="0" />
+                                <xs:element name="borrowerExceptionChkInd" type="xs:string" minOccurs="0" />
+                                <xs:element name="updateStatusIndicator" type="xs:string" minOccurs="0" />
+                                <xs:element name="changeIndicator" type="xs:string" minOccurs="0" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="registeredAddress" minOccurs="0" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="leId" type="xs:string" minOccurs="0" />
+                                <xs:element name="addressId" type="xs:string" minOccurs="0" />
+                                <xs:element ref="addressType" minOccurs="0" maxOccurs="unbounded" />
+                                <xs:element name="attnParty" type="xs:string" minOccurs="0" />
+                                <xs:element name="line1" type="xs:string" minOccurs="0" />
+                                <xs:element name="line2" type="xs:string" minOccurs="0" />
+                                <xs:element name="city" type="xs:string" minOccurs="0" />
+                                <xs:element name="state" type="xs:string" minOccurs="0" />
+                                <xs:element name="country" type="xs:string" minOccurs="0" />
+                                <xs:element name="postCode" type="xs:string" minOccurs="0" />
+                                <xs:element name="fax" type="xs:string" minOccurs="0" />
+                                <xs:element name="email" type="xs:string" minOccurs="0" />
+                                <xs:element name="phone" type="xs:string" minOccurs="0" />
+                                <xs:element name="telex" type="xs:string" minOccurs="0" />
+                                <xs:element name="updateStatusIndicator" type="xs:string" minOccurs="0" />
+                                <xs:element name="changeIndicator" type="xs:string" minOccurs="0" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="creditGrade" minOccurs="0" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="leId" type="xs:string" minOccurs="0" />
+                                <xs:element name="creditGradeId" type="xs:string" minOccurs="0" />
+                                <xs:element name="creditGradeType" minOccurs="0" maxOccurs="unbounded">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="stdCodeNumber" type="xs:string" minOccurs="0" />
+                                      <xs:element name="stdCodeValue" type="xs:string" minOccurs="0" />
+									  <xs:element name="stdCodeDescription" type="xs:string" minOccurs="0" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="creditGradeCode" minOccurs="0" maxOccurs="unbounded">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="stdCodeNumber" type="xs:string" minOccurs="0" />
+                                      <xs:element name="stdCodeValue" type="xs:string" minOccurs="0" />
+									  <xs:element name="stdCodeDescription" type="xs:string" minOccurs="0" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="creditGradeEffectiveDate" type="xs:string" minOccurs="0" />
+                                <xs:element name="creditGradeReasonForChange" type="xs:string" minOccurs="0" />
+                                <xs:element name="approverLocation" minOccurs="0" maxOccurs="unbounded">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="approverLocationId" type="xs:string" minOccurs="0" />
+                                      <xs:element name="approverCountry" type="xs:string" minOccurs="0" />
+                                      <xs:element name="approverOrganization" type="xs:string" minOccurs="0" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="coinNo" type="xs:string" minOccurs="0" />
+                                <xs:element name="approverEmpId" type="xs:string" minOccurs="0" />
+                                <xs:element name="approverName" type="xs:string" minOccurs="0" />
+                                <xs:element name="updateStatusIndicator" type="xs:string" minOccurs="0" />
+                                <xs:element name="changeIndicator" type="xs:string" minOccurs="0" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="ISIC" minOccurs="0" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="leId" type="xs:string" minOccurs="0" />
+                                <xs:element name="ISICId" type="xs:string" minOccurs="0" />
+                                <xs:element name="ISICType" minOccurs="0" maxOccurs="unbounded">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="stdCodeNumber" type="xs:string" minOccurs="0" />
+                                      <xs:element name="stdCodeValue" type="xs:string" minOccurs="0" />
+									  <xs:element name="stdCodeDescription" type="xs:string" minOccurs="0" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="ISICCode" minOccurs="0" maxOccurs="unbounded">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="stdCodeNumber" type="xs:string" minOccurs="0" />
+                                      <xs:element name="stdCodeValue" type="xs:string" minOccurs="0" />
+									  <xs:element name="stdCodeDescription" type="xs:string" minOccurs="0" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="ISICEffectiveDate" type="xs:string" minOccurs="0" />
+                                <xs:element name="ISICWeightage" type="xs:string" minOccurs="0" />
+                                <xs:element name="updateStatusIndicator" type="xs:string" minOccurs="0" />
+                                <xs:element name="changeIndicator" type="xs:string" minOccurs="0" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="creditStatus" minOccurs="0" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="leId" type="xs:string" minOccurs="0" />
+                                <xs:element name="creditStatusId" type="xs:string" minOccurs="0" />
+                                <xs:element name="creditStatusType" minOccurs="0" maxOccurs="unbounded">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="stdCodeNumber" type="xs:string" minOccurs="0" />
+                                      <xs:element name="stdCodeValue" type="xs:string" minOccurs="0" />
+									  <xs:element name="stdCodeDescription" type="xs:string" minOccurs="0" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="creditStatusCode" minOccurs="0" maxOccurs="unbounded">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="stdCodeNumber" type="xs:string" minOccurs="0" />
+                                      <xs:element name="stdCodeValue" type="xs:string" minOccurs="0" />
+									  <xs:element name="stdCodeDescription" type="xs:string" minOccurs="0" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="creditStatusEffectiveDate" type="xs:string" minOccurs="0" />
+                                <xs:element name="comments" type="xs:string" minOccurs="0" />
+                                <xs:element name="updateStatusIndicator" type="xs:string" minOccurs="0" />
+                                <xs:element name="changeIndicator" type="xs:string" minOccurs="0" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="mainProfileInstructionRef" minOccurs="0" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="leId" type="xs:string" minOccurs="0" />
+                                <xs:element name="instructionRefMapId" type="xs:string" minOccurs="0" />
+                                <xs:element name="instructionRefId" type="xs:string" minOccurs="0" />
+                                <xs:element name="instructionRefNumber" type="xs:string" minOccurs="0" />
+                                <xs:element ref="instructionRefType" minOccurs="0" maxOccurs="unbounded" />
+                                <xs:element ref="instructionBookingLocation" minOccurs="0" maxOccurs="unbounded" />
+                                <xs:element name="instructionRefApprovalDate" type="xs:string" minOccurs="0" />
+                                <xs:element name="comments" type="xs:string" minOccurs="0" />
+                                <xs:element name="userGroupInd" type="xs:string" minOccurs="0" />
+                                <xs:element name="updateStatusIndicator" type="xs:string" minOccurs="0" />
+                                <xs:element name="changeIndicator" type="xs:string" minOccurs="0" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="knowYourCustomer" minOccurs="0" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="leId" type="xs:string" minOccurs="0" />
+                                <xs:element name="KYCid" type="xs:string" minOccurs="0" />
+                                <xs:element name="documentOriginatingLocation" minOccurs="0" maxOccurs="unbounded">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="documentOriginatingId" type="xs:string" minOccurs="0" />
+                                      <xs:element name="documentOriginatingCountry" type="xs:string" minOccurs="0" />
+                                      <xs:element name="documentOriginatingOrganization" type="xs:string" minOccurs="0" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="mlRiskRating" minOccurs="0" maxOccurs="unbounded">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="stdCodeNumber" type="xs:string" minOccurs="0" />
+                                      <xs:element name="stdCodeValue" type="xs:string" minOccurs="0" />
+									  <xs:element name="stdCodeDescription" type="xs:string" minOccurs="0" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="mlLastReviewDate" type="xs:string" minOccurs="0" />
+                                <xs:element name="mlNextReviewDate" type="xs:string" minOccurs="0" />
+                                <xs:element name="firstKYCreview" type="xs:string" minOccurs="0" />
+                                <xs:element name="KYCdocumentSubmitted" type="xs:string" minOccurs="0" />
+                                <xs:element name="GICdocumentSubmitted" type="xs:string" minOccurs="0" />
+                                <xs:element name="exceptionalApprovalObtained" type="xs:string" minOccurs="0" />
+                                <xs:element name="updateStatusIndicator" type="xs:string" minOccurs="0" />
+                                <xs:element name="changeIndicator" type="xs:string" minOccurs="0" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="subProfileDetails" minOccurs="0" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="subProfile" minOccurs="0" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="leId" type="xs:string" minOccurs="0" />
+                                <xs:element name="subProfileId" type="xs:string" minOccurs="0" />
+                                <xs:element name="subProfileName" type="xs:string" minOccurs="0" />
+                                <xs:element name="domicileCountry" type="xs:string" minOccurs="0" />
+                                <xs:element name="domicileCountryRegistrationNumber" type="xs:string" minOccurs="0" />
+                                <xs:element name="swiftCountryCode" type="xs:string" minOccurs="0" />
+                                <xs:element name="CustomerOrgType" minOccurs="0" maxOccurs="unbounded">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="stdCodeNumber" type="xs:string" minOccurs="0" />
+                                      <xs:element name="stdCodeValue" type="xs:string" minOccurs="0" />
+									  <xs:element name="stdCodeDescription" type="xs:string" minOccurs="0" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="disclosureAgreementIndicator" type="xs:string" minOccurs="0" />
+                                <xs:element name="agreementDate" type="xs:string" minOccurs="0" />
+                                <xs:element name="languageCode" minOccurs="0" maxOccurs="unbounded">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="stdCodeNumber" type="xs:string" minOccurs="0" />
+                                      <xs:element name="stdCodeValue" type="xs:string" minOccurs="0" />
+									  <xs:element name="stdCodeDescription" type="xs:string" minOccurs="0" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="relationshipStartDate" type="xs:string" minOccurs="0" />
+                                <xs:element name="serviceLevelPriority" minOccurs="0" maxOccurs="unbounded">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="stdCodeNumber" type="xs:string" minOccurs="0" />
+                                      <xs:element name="stdCodeValue" type="xs:string" minOccurs="0" />
+									  <xs:element name="stdCodeDescription" type="xs:string" minOccurs="0" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="treaturyInd" minOccurs="0" maxOccurs="unbounded">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="stdCodeNumber" type="xs:string" minOccurs="0" />
+                                      <xs:element name="stdCodeValue" type="xs:string" minOccurs="0" />
+									  <xs:element name="stdCodeDescription" type="xs:string" minOccurs="0" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="operationStatus2" minOccurs="0" maxOccurs="unbounded">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="stdCodeNumber" type="xs:string" minOccurs="0" />
+                                      <xs:element name="stdCodeValue" type="xs:string" minOccurs="0" />
+									  <xs:element name="stdCodeDescription" type="xs:string" minOccurs="0" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="operationStatus2EffDate" type="xs:string" minOccurs="0" />
+                                <xs:element name="updateStatusIndicator" type="xs:string" minOccurs="0" />
+                                <xs:element name="changeIndicator" type="xs:string" minOccurs="0" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="officialAddress" minOccurs="0" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="leId" type="xs:string" minOccurs="0" />
+                                <xs:element name="subProfileId" type="xs:string" minOccurs="0" />
+                                <xs:element name="addressId" type="xs:string" minOccurs="0" />
+                                <xs:element ref="addressType" minOccurs="0" maxOccurs="unbounded" />
+                                <xs:element name="attnParty" type="xs:string" minOccurs="0" />
+                                <xs:element name="line1" type="xs:string" minOccurs="0" />
+                                <xs:element name="line2" type="xs:string" minOccurs="0" />
+                                <xs:element name="city" type="xs:string" minOccurs="0" />
+                                <xs:element name="state" type="xs:string" minOccurs="0" />
+                                <xs:element name="country" type="xs:string" minOccurs="0" />
+                                <xs:element name="postCode" type="xs:string" minOccurs="0" />
+                                <xs:element name="fax" type="xs:string" minOccurs="0" />
+                                <xs:element name="email" type="xs:string" minOccurs="0" />
+                                <xs:element name="phone" type="xs:string" minOccurs="0" />
+                                <xs:element name="telex" type="xs:string" minOccurs="0" />
+                                <xs:element name="updateStatusIndicator" type="xs:string" minOccurs="0" />
+                                <xs:element name="changeIndicator" type="xs:string" minOccurs="0" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="empRelationship" minOccurs="0" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="leId" type="xs:string" minOccurs="0" />
+                                <xs:element name="subProfileId" type="xs:string" minOccurs="0" />
+                                <xs:element name="empEmpCodeMapId" type="xs:string" minOccurs="0" />
+                                <xs:element name="empMapId" type="xs:string" minOccurs="0" />
+                                <xs:element name="empId" type="xs:string" minOccurs="0" />
+                                <xs:element name="empCode" type="xs:string" minOccurs="0" />
+                                <xs:element name="empName" type="xs:string" minOccurs="0" />
+                                <xs:element name="bkgLocation" minOccurs="0" maxOccurs="unbounded">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="bkgLocationId" type="xs:string" minOccurs="0" />
+                                      <xs:element name="bkgLocationCountry" type="xs:string" minOccurs="0" />
+                                      <xs:element name="bkgLocationOrganization" type="xs:string" minOccurs="0" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="empRelationshipType" minOccurs="0" maxOccurs="unbounded">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="stdCodeNumber" type="xs:string" minOccurs="0" />
+                                      <xs:element name="stdCodeValue" type="xs:string" minOccurs="0" />
+									  <xs:element name="stdCodeDescription" type="xs:string" minOccurs="0" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="principalFAMInd" type="xs:string" minOccurs="0" />
+                                <xs:element name="updateStatusIndicator" type="xs:string" minOccurs="0" />
+                                <xs:element name="changeIndicator" type="xs:string" minOccurs="0" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="subProfileInstructionRef" minOccurs="0" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="leId" type="xs:string" minOccurs="0" />
+                                <xs:element name="subProfileId" type="xs:string" minOccurs="0" />
+                                <xs:element name="instructionRefMapId" type="xs:string" minOccurs="0" />
+                                <xs:element name="instructionRefId" type="xs:string" minOccurs="0" />
+                                <xs:element name="instructionRefNumber" type="xs:string" minOccurs="0" />
+                                <xs:element ref="instructionRefType" minOccurs="0" maxOccurs="unbounded" />
+                                <xs:element ref="instructionBookingLocation" minOccurs="0" maxOccurs="unbounded" />
+                                <xs:element name="instructionRefApprovalDate" type="xs:string" minOccurs="0" />
+                                <xs:element name="comments" type="xs:string" minOccurs="0" />
+                                <xs:element name="updateMainProfileInd" type="xs:string" minOccurs="0" />
+                                <xs:element name="userGroupInd" type="xs:string" minOccurs="0" />
+                                <xs:element name="updateStatusIndicator" type="xs:string" minOccurs="0" />
+                                <xs:element name="changeIndicator" type="xs:string" minOccurs="0" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="limitProfile" minOccurs="0" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="leId" type="xs:string" minOccurs="0" />
+                                <xs:element name="subProfileId" type="xs:string" minOccurs="0" />
+                                <xs:element name="limitProfileId" type="xs:string" minOccurs="0" />
+                                <xs:element name="BCArefNumber" type="xs:string" minOccurs="0" />
+                                <xs:element name="BCAapproveDate" type="xs:string" minOccurs="0" />
+                                <xs:element name="originatingLocation" minOccurs="0" maxOccurs="unbounded">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="originatingLocationId" type="xs:string" minOccurs="0" />
+                                      <xs:element name="originatingLocationCountry" type="xs:string" minOccurs="0" />
+                                      <xs:element name="originatingLocationOrganization" type="xs:string" minOccurs="0" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="interimReviewDate" type="xs:string" minOccurs="0" />
+                                <xs:element name="annualReviewDate" type="xs:string" minOccurs="0" />
+                                <xs:element name="extensionDate" type="xs:string" minOccurs="0" />
+                                <xs:element name="projectedEconomicPorfit" type="xs:string" minOccurs="0" />
+                                <xs:element name="expectedLossForCreditPurpose" type="xs:string" minOccurs="0" />
+                                <xs:element name="productProgramComplianceInd" type="xs:string" minOccurs="0" />
+                                <xs:element name="creditPolicyComplianceInd" type="xs:string" minOccurs="0" />
+                                <xs:element name="underWritingComplianceInd" type="xs:string" minOccurs="0" />
+                                <xs:element name="countryRiskApprReqd" type="xs:string" minOccurs="0" />
+                                <xs:element name="firstApproverEmpId" type="xs:string" minOccurs="0" />
+                                <xs:element name="firstApproverLocation" minOccurs="0" maxOccurs="unbounded">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="locationId" type="xs:string" minOccurs="0" />
+                                      <xs:element name="locationCountry" type="xs:string" minOccurs="0" />
+                                      <xs:element name="locationOrganization" type="xs:string" minOccurs="0" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="firstApproverCoinNo" type="xs:string" minOccurs="0" />
+                                <xs:element name="firstApproverName" type="xs:string" minOccurs="0" />
+                                <xs:element name="secondApproverEmpId" type="xs:string" minOccurs="0" />
+                                <xs:element name="secondApproverLocation" minOccurs="0" maxOccurs="unbounded">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="locationId" type="xs:string" minOccurs="0" />
+                                      <xs:element name="locationCountry" type="xs:string" minOccurs="0" />
+                                      <xs:element name="locationOrganization" type="xs:string" minOccurs="0" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="secondApproverCoinNo" type="xs:string" minOccurs="0" />
+                                <xs:element name="secondApproverName" type="xs:string" minOccurs="0" />
+                                <xs:element name="updateStatusIndicator" type="xs:string" minOccurs="0" />
+                                <xs:element name="changeIndicator" type="xs:string" minOccurs="0" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="policyException" minOccurs="0" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="leId" type="xs:string" minOccurs="0" />
+                                <xs:element name="subProfileId" type="xs:string" minOccurs="0" />
+                                <xs:element name="limitProfileId" type="xs:string" minOccurs="0" />
+                                <xs:element name="policyExceptionId" type="xs:string" minOccurs="0" />
+                                <xs:element name="policyExceptionCode" minOccurs="0" maxOccurs="unbounded">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="stdCodeNumber" type="xs:string" minOccurs="0" />
+                                      <xs:element name="stdCodeValue" type="xs:string" minOccurs="0" />
+									  <xs:element name="stdCodeDescription" type="xs:string" minOccurs="0" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="ExceptionCodeEffectiveDate" type="xs:string" minOccurs="0" />
+                                <xs:element name="comments" type="xs:string" minOccurs="0" />
+                                <xs:element name="updateStatusIndicator" type="xs:string" minOccurs="0" />
+                                <xs:element name="changeIndicator" type="xs:string" minOccurs="0" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="limits" minOccurs="0" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="leId" type="xs:string" minOccurs="0" />
+                                <xs:element name="subProfileId" type="xs:string" minOccurs="0" />
+                                <xs:element name="limitProfileId" type="xs:string" minOccurs="0" />
+                                <xs:element name="limitId" type="xs:string" minOccurs="0" />
+                                <xs:element name="expiryDate" type="xs:string" minOccurs="0" />
+                                <xs:element name="outerLimitId" type="xs:string" minOccurs="0" />
+                                <xs:element name="originatingBookingLocation" minOccurs="0" maxOccurs="unbounded">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="originatingLocationId" type="xs:string" minOccurs="0" />
+                                      <xs:element name="originatingLocationCountry" type="xs:string" minOccurs="0" />
+                                      <xs:element name="originatingLocationOrganization" type="xs:string" minOccurs="0" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="productType" minOccurs="0" maxOccurs="unbounded">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="stdCodeNumber" type="xs:string" minOccurs="0" />
+                                      <xs:element name="stdCodeValue" type="xs:string" minOccurs="0" />
+									  <xs:element name="stdCodeDescription" type="xs:string" minOccurs="0" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="limitType" minOccurs="0" maxOccurs="unbounded">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="stdCodeNumber" type="xs:string" minOccurs="0" />
+                                      <xs:element name="stdCodeValue" type="xs:string" minOccurs="0" />
+									  <xs:element name="stdCodeDescription" type="xs:string" minOccurs="0" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="limitCurrency" type="xs:string" minOccurs="0" />
+                                <xs:element name="limitAmount" type="xs:string" minOccurs="0" />
+                                <xs:element name="limitSecurity" minOccurs="0" maxOccurs="unbounded">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="stdCodeNumber" type="xs:string" minOccurs="0" />
+                                      <xs:element name="stdCodeValue" type="xs:string" minOccurs="0" />
+									  <xs:element name="stdCodeDescription" type="xs:string" minOccurs="0" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="limitTenor" type="xs:string" minOccurs="0" />
+                                <xs:element name="limitTenorBasis" minOccurs="0" maxOccurs="unbounded">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="stdCodeNumber" type="xs:string" minOccurs="0" />
+                                      <xs:element name="stdCodeValue" type="xs:string" minOccurs="0" />
+									  <xs:element name="stdCodeDescription" type="xs:string" minOccurs="0" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="limitInterestBase" minOccurs="0" maxOccurs="unbounded">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="stdCodeNumber" type="xs:string" minOccurs="0" />
+                                      <xs:element name="stdCodeValue" type="xs:string" minOccurs="0" />
+									  <xs:element name="stdCodeDescription" type="xs:string" minOccurs="0" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="interestMargin" type="xs:string" minOccurs="0" />
+                                <xs:element name="commission" type="xs:string" minOccurs="0" />
+                                <xs:element name="fee" type="xs:string" minOccurs="0" />
+                                <xs:element name="condition" type="xs:string" minOccurs="0" />
+                                <xs:element name="limitAdvisedInd" type="xs:string" minOccurs="0" />
+                                <xs:element name="limitCommittedInd" type="xs:string" minOccurs="0" />
+                                <xs:element name="sharedLimitInd" type="xs:string" minOccurs="0" />
+                                <xs:element name="updateStatusIndicator" type="xs:string" minOccurs="0" />
+                                <xs:element name="changeIndicator" type="xs:string" minOccurs="0" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="limitsSysXRefMap" minOccurs="0" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="leId" type="xs:string" minOccurs="0" />
+                                <xs:element name="subProfileId" type="xs:string" minOccurs="0" />
+                                <xs:element name="limitProfileId" type="xs:string" minOccurs="0" />
+                                <xs:element name="limitId" type="xs:string" minOccurs="0" />
+                                <xs:element name="extSysXRefId" type="xs:string" minOccurs="0" />
+                                <xs:element name="limitsXrefMapId" type="xs:string" minOccurs="0" />
+                                <xs:element ref="systemXRefLocation" minOccurs="0" maxOccurs="unbounded" />
+                                <xs:element ref="externalSystem" minOccurs="0" maxOccurs="unbounded" />
+                                <xs:element ref="externalCustDetail" minOccurs="0" maxOccurs="unbounded" />
+                                <xs:element name="updateStatusIndicator" type="xs:string" minOccurs="0" />
+                                <xs:element name="changeIndicator" type="xs:string" minOccurs="0" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="limitsApprSecMap" minOccurs="0" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="leId" type="xs:string" minOccurs="0" />
+                                <xs:element name="subProfileId" type="xs:string" minOccurs="0" />
+                                <xs:element name="limitProfileId" type="xs:string" minOccurs="0" />
+                                <xs:element name="limitId" type="xs:string" minOccurs="0" />
+                                <xs:element name="secId" type="xs:string" minOccurs="0" />
+                                <xs:element name="limitsApprSecMapId" type="xs:string" minOccurs="0" />
+                                <xs:element name="pledgorId" type="xs:string" minOccurs="0" />
+                                <xs:element ref="securityLocation" minOccurs="0" maxOccurs="unbounded" />
+                                <xs:element ref="securityType" minOccurs="0" maxOccurs="unbounded" />
+                                <xs:element ref="securitySubType" minOccurs="0" maxOccurs="unbounded" />
+                                <xs:element name="securityCurrency" type="xs:string" minOccurs="0" />
+                                <xs:element name="ForceSaleValue" type="xs:string" minOccurs="0" />
+                                <xs:element name="FSVDate" type="xs:string" minOccurs="0" />
+                                <xs:element name="updateStatusIndicator" type="xs:string" minOccurs="0" />
+                                <xs:element name="changeIndicator" type="xs:string" minOccurs="0" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="coborrowerLimits" minOccurs="0" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="leId" type="xs:string" minOccurs="0" />
+                                <xs:element name="subProfileId" type="xs:string" minOccurs="0" />
+                                <xs:element name="limitProfileId" type="xs:string" minOccurs="0" />
+                                <xs:element name="limitId" type="xs:string" minOccurs="0" />
+                                <xs:element name="coborrowerLeId" type="xs:string" minOccurs="0" />
+                                <xs:element name="coborrowerSubProfileId" type="xs:string" minOccurs="0" />
+                                <xs:element name="coborrowerLimitsId" type="xs:string" minOccurs="0" />
+                                <xs:element name="coBorrowerBookingLocation" minOccurs="0" maxOccurs="unbounded">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="locationId" type="xs:string" minOccurs="0" />
+                                      <xs:element name="locationCountry" type="xs:string" minOccurs="0" />
+                                      <xs:element name="locationOrganization" type="xs:string" minOccurs="0" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="coBorrowerLimitCurrency" type="xs:string" minOccurs="0" />
+                                <xs:element name="coborrowerLimitAmount" type="xs:string" minOccurs="0" />
+                                <xs:element name="coborrowerLimitSecurity" minOccurs="0" maxOccurs="unbounded">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="stdCodeNumber" type="xs:string" minOccurs="0" />
+                                      <xs:element name="stdCodeValue" type="xs:string" minOccurs="0" />
+									  <xs:element name="stdCodeDescription" type="xs:string" minOccurs="0" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="updateStatusIndicator" type="xs:string" minOccurs="0" />
+                                <xs:element name="changeIndicator" type="xs:string" minOccurs="0" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="coborrowerLmtsSecMap" minOccurs="0" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="leId" type="xs:string" minOccurs="0" />
+                                <xs:element name="subProfileId" type="xs:string" minOccurs="0" />
+                                <xs:element name="limitProfileId" type="xs:string" minOccurs="0" />
+                                <xs:element name="limitId" type="xs:string" minOccurs="0" />
+                                <xs:element name="coborrowerLeId" type="xs:string" minOccurs="0" />
+                                <xs:element name="coborrowerSubProfileId" type="xs:string" minOccurs="0" />
+                                <xs:element name="coborrowerLimitsId" type="xs:string" minOccurs="0" />
+                                <xs:element name="secId" type="xs:string" minOccurs="0" />
+                                <xs:element name="coborrowerLmtsSecMapId" type="xs:string" minOccurs="0" />
+                                <xs:element name="pledgorId" type="xs:string" minOccurs="0" />
+                                <xs:element ref="securityLocation" minOccurs="0" maxOccurs="unbounded" />
+                                <xs:element ref="securityType" minOccurs="0" maxOccurs="unbounded" />
+                                <xs:element ref="securitySubType" minOccurs="0" maxOccurs="unbounded" />
+                                <xs:element name="securityCurrency" type="xs:string" minOccurs="0" />
+                                <xs:element name="ForceSaleValue" type="xs:string" minOccurs="0" />
+                                <xs:element name="FSVDate" type="xs:string" minOccurs="0" />
+                                <xs:element name="updateStatusIndicator" type="xs:string" minOccurs="0" />
+                                <xs:element name="changeIndicator" type="xs:string" minOccurs="0" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+			  <xs:element name="coborrowSysXRefMap" minOccurs="0" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="leId" type="xs:string" minOccurs="0" />
+                                <xs:element name="subProfileId" type="xs:string" minOccurs="0" />
+                                <xs:element name="limitProfileId" type="xs:string" minOccurs="0" />
+                                <xs:element name="limitId" type="xs:string" minOccurs="0" />
+                                <xs:element name="coborrowerLeId" type="xs:string" minOccurs="0" />
+                                <xs:element name="coborrowerSubProfileId" type="xs:string" minOccurs="0" />
+                                <xs:element name="coborrowerLimitsId" type="xs:string" minOccurs="0" />
+                                <xs:element name="extSysXRefId" type="xs:string" minOccurs="0" />
+                                <xs:element name="coborrowerLmtsXrefMapId" type="xs:string" minOccurs="0" />
+                                <xs:element ref="systemXRefLocation" minOccurs="0" maxOccurs="unbounded" />
+                                <xs:element ref="externalSystem" minOccurs="0" maxOccurs="unbounded" />
+                                <xs:element ref="externalCustDetail" minOccurs="0" maxOccurs="unbounded" />
+                                <xs:element name="updateStatusIndicator" type="xs:string" minOccurs="0" />
+                                <xs:element name="changeIndicator" type="xs:string" minOccurs="0" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="subProfileSystemXRef" minOccurs="0" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="leId" type="xs:string" minOccurs="0" />
+                                <xs:element name="subProfileId" type="xs:string" minOccurs="0" />
+                                <xs:element name="sysemXRefId" type="xs:string" minOccurs="0" />
+                                <xs:element ref="systemXRefLocation" minOccurs="0" maxOccurs="unbounded" />
+                                <xs:element ref="externalSystem" minOccurs="0" maxOccurs="unbounded" />
+                                <xs:element ref="externalCustDetail" minOccurs="0" maxOccurs="unbounded" />
+                                <xs:element name="accountDetail" minOccurs="0" maxOccurs="unbounded">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="accountNumber" type="xs:string" minOccurs="0" />
+                                      <xs:element name="accountStatus" type="xs:string" minOccurs="0" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="updateStatusIndicator" type="xs:string" minOccurs="0" />
+                                <xs:element name="changeIndicator" type="xs:string" minOccurs="0" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

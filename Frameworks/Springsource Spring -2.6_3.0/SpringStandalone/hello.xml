@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
+    "http://www.springframework.org/dtd/spring-beans.dtd">
+ <beans>
+   <!-- Use either setter or constructor injection .
+   note: If both setter or constructor injection are used,then
+    the id values must be unique.The 1st is considered(ie:setter  injection).
+   -->
+  
+  <!--  setter  injection -->
+  <bean id="greetingService"
+       class="pkg1.GreetingServiceImpl">
+       <property name="greeting">
+         <value>Rosary Amirthan</value>
+       </property>
+  </bean>
+
+  <!-- constructor injection -->
+  <!--
+   <bean id="greetingService"
+       class="pkg1.GreetingServiceImpl">
+       <constructor-arg>
+         <value>Rosary</value>
+       </constructor-arg>
+   </bean>
+  -->
+
+  
+ </beans>

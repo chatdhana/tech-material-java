@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="le.pubsub.atlas" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="bkgLocationCountry" type="xs:string"/>
+  <xs:element name="bkgLocationOrganization" type="xs:string"/>
+  <xs:element name="extSystemTypeNum" type="xs:string"/>
+  <xs:element name="extSystemTypeValue" type="xs:string"/>
+  <xs:element name="messageId" type="xs:string"/>
+  <xs:element name="messageType" type="xs:string"/>
+  <xs:element name="publishType" type="xs:string"/>
+  <xs:element name="publishDate" type="xs:string"/>
+  <xs:element name="topicName" type="xs:string"/>
+  <xs:element name="subscriberId" type="xs:string"/>
+  <xs:element name="transactionProcessingSystems">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="le:bkgLocationCountry" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:bkgLocationOrganization" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:extSystemTypeNum" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:extSystemTypeValue" xmlns:le="le.pubsub.atlas"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="action" type="xs:string"/>
+  <xs:element name="sourceSystem" type="xs:string"/>
+  <xs:element name="environment" type="xs:string"/>
+  <xs:element name="ultParentLeId" type="xs:string"/>
+  <xs:element name="parentLeId" type="xs:string"/>
+  <xs:element name="domicileCntry" type="xs:string"/>
+  <xs:element name="ultRiskCntry" type="xs:string"/>
+  <xs:element name="ultRiskCntryDesc" type="xs:string"/>
+  <xs:element name="atlasCode" type="xs:string"/>
+  <xs:element name="leName" type="xs:string"/>
+  <xs:element name="leLegalName" type="xs:string"/>
+  <xs:element name="leLegalName1" type="xs:string"/>
+  <xs:element name="leStatusCode" type="xs:string"/>
+  <xs:element name="leStatusCodeDesc" type="xs:string"/>
+  <xs:element name="finInstType" type="xs:string"/>
+  <xs:element name="finInstTypeDesc" type="xs:string"/>
+  <xs:element name="leClassCode" type="xs:string"/>
+  <xs:element name="leClassCodeDesc" type="xs:string"/>
+  <xs:element name="scbLeInd" type="xs:string"/>
+  <xs:element name="hierarchyType" type="xs:string"/>
+  <xs:element name="hierarchyTypeDesc" type="xs:string"/>
+  <xs:element name="isicCode" type="xs:string"/>
+  <xs:element name="isicCodeDesc" type="xs:string"/>
+  <xs:element name="instSector" type="xs:string"/>
+  <xs:element name="instSectorDesc" type="xs:string"/>
+  <xs:element name="leLangCode" type="xs:string"/>
+  <xs:element name="leLangCodeDesc" type="xs:string"/>
+  <xs:element name="dataProtInd" type="xs:string"/>
+  <xs:element name="norDeclInd" type="xs:string"/>
+  <xs:element name="trdInd" type="xs:string"/>
+  <xs:element name="glbLimitInd" type="xs:string"/>
+  <xs:element name="brokerId" type="xs:string"/>
+  <xs:element name="disclosureAgrInd" type="xs:string"/>
+  <xs:element name="docComplInd" type="xs:string"/>
+  <xs:element name="docComplDate" type="xs:string"/>
+  <xs:element name="leNote" type="xs:string"/>
+  <xs:element name="confReqInd" type="xs:string"/>
+  <xs:element name="scbCreditGrade" type="xs:string"/>
+  <xs:element name="scbCreditGradeDesc" type="xs:string"/>
+  <xs:element name="topBankInd" type="xs:string"/>
+  <xs:element name="leType" type="xs:string"/>
+  <xs:element name="leTypeDesc" type="xs:string"/>
+  <xs:element name="euroCompInd" type="xs:string"/>
+  <xs:element name="activateInd" type="xs:string"/>
+  <xs:element name="clsEigibility" type="xs:string"/>
+  <xs:element name="clsCustType" type="xs:string"/>
+  <xs:element name="clsStartDate" type="xs:string"/>
+  <xs:element name="groupCoType" type="xs:string"/>
+  <xs:element name="cruser" type="xs:string"/>
+  <xs:element name="crdate" type="xs:string"/>
+  <xs:element name="upcount" type="xs:string"/>
+  <xs:element name="updstatus" type="xs:string"/>
+  <xs:element name="upddate" type="xs:string"/>
+  <xs:element name="upduser" type="xs:string"/>
+  <xs:element name="verified" type="xs:string"/>
+  <xs:element name="verifieduser" type="xs:string"/>
+  <xs:element name="verifydate" type="xs:string"/>
+  <xs:element name="bisWeighting" type="xs:string"/>
+  <xs:element name="disclAgrDate" type="xs:string"/>
+  <xs:element name="dvpCustIndicator" type="xs:string"/>
+  <xs:element name="opicsClassCode" type="xs:string"/>
+  <xs:element name="mediumCode" type="xs:string"/>
+  <xs:element name="mediumCodeDesc" type="xs:string"/>
+  <xs:element name="mediumUsage" type="xs:string"/>
+  <xs:element name="mediumUsageDesc" type="xs:string"/>
+  <xs:element name="addrLine" type="xs:string"/>
+  <xs:element name="leSysConId" type="xs:string"/>
+  <xs:element name="confirmationText" type="xs:string"/>
+  <xs:element name="description" type="xs:string"/>
+  <xs:element name="scbLeId" type="xs:string"/>
+  <xs:element name="product" type="xs:string"/>
+  <xs:element name="productType" type="xs:string"/>
+  <xs:element name="tcIdCode" type="xs:string"/>
+  <xs:element name="status" type="xs:string"/>
+  <xs:element name="statusDesc" type="xs:string"/>
+  <xs:element name="leAddrId" type="xs:string"/>
+  <xs:element name="addrType" type="xs:string"/>
+  <xs:element name="addrTypeDesc" type="xs:string"/>
+  <xs:element name="startDate" type="xs:string"/>
+  <xs:element name="countryIsoCode" type="xs:string"/>
+  <xs:element name="countryName" type="xs:string"/>
+  <xs:element name="cityCode" type="xs:string"/>
+  <xs:element name="cityName" type="xs:string"/>
+  <xs:element name="addrLine1" type="xs:string"/>
+  <xs:element name="addrLine2" type="xs:string"/>
+  <xs:element name="postCode" type="xs:string"/>
+  <xs:element name="state" type="xs:string"/>
+  <xs:element name="contRole" type="xs:string"/>
+  <xs:element name="altName" type="xs:string"/>
+  <xs:element name="title" type="xs:string"/>
+  <xs:element name="contFirstName" type="xs:string"/>
+  <xs:element name="contLastName" type="xs:string"/>
+  <xs:element name="contFax" type="xs:string"/>
+  <xs:element name="contEmail" type="xs:string"/>
+  <xs:element name="contPhone" type="xs:string"/>
+  <xs:element name="contTelex" type="xs:string"/>
+  <xs:element name="leAltAddressInfo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="le:leAddrId" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:scbLeId" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:product" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:productType" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:updstatus" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:verified" xmlns:le="le.pubsub.atlas"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="partyXrefCode" type="xs:string"/>
+  <xs:element name="locationCode" type="xs:string"/>
+  <xs:element name="extrnlSystmCode" type="xs:string"/>
+  <xs:element name="immsMnemonic" type="xs:string"/>
+  <xs:element name="armCrfId" type="xs:string"/>
+  <xs:element name="armCode" type="xs:string"/>
+  <xs:element name="armCrfStatus" type="xs:string"/>
+  <xs:element name="custStatRsnCode" type="xs:string"/>
+  <xs:element name="custStatChngDt" type="xs:string"/>
+  <xs:element name="phoneConfirm" type="xs:string"/>
+  <xs:element name="netSettle" type="xs:string"/>
+  <xs:element name="novation" type="xs:string"/>
+  <xs:element name="manualSettle" type="xs:string"/>
+  <xs:element name="phoneNumber" type="xs:string"/>
+  <xs:element name="faxNumber" type="xs:string"/>
+  <xs:element name="custStatus" type="xs:string"/>
+  <xs:element name="leBranchInfo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="le:scbLeId" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:custStatRsnCode" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:custStatChngDt" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:phoneConfirm" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:netSettle" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:novation" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:manualSettle" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:phoneNumber" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:faxNumber" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:armCode" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:custStatus" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:updstatus" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:verified" xmlns:le="le.pubsub.atlas"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="message">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="le:messageId" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:messageType" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:publishType" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:publishDate" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:topicName" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:subscriberId" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:transactionProcessingSystems" xmlns:le="le.pubsub.atlas"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="header">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="le:messageId" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:action" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:sourceSystem" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:environment" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:messageType" xmlns:le="le.pubsub.atlas"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="leId" type="xs:string"/>
+  <xs:element name="leInfo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="le:ultParentLeId" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:parentLeId" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:domicileCntry" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:ultRiskCntry" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:ultRiskCntryDesc" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:atlasCode" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:leName" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:leLegalName" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:leLegalName1" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:leStatusCode" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:leStatusCodeDesc" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:finInstType" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:finInstTypeDesc" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:leClassCode" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:leClassCodeDesc" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:scbLeInd" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:hierarchyType" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:hierarchyTypeDesc" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:isicCode" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:isicCodeDesc" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:instSector" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:instSectorDesc" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:leLangCode" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:leLangCodeDesc" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:dataProtInd" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:norDeclInd" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:trdInd" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:glbLimitInd" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:brokerId" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:disclosureAgrInd" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:docComplInd" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:docComplDate" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:leNote" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:confReqInd" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:scbCreditGrade" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:scbCreditGradeDesc" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:topBankInd" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:leType" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:leTypeDesc" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:euroCompInd" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:activateInd" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:clsEigibility" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:clsCustType" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:clsStartDate" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:groupCoType" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:cruser" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:crdate" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:upcount" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:updstatus" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:upddate" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:upduser" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:verified" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:verifieduser" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:verifydate" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:bisWeighting" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:disclAgrDate" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:dvpCustIndicator" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:opicsClassCode" xmlns:le="le.pubsub.atlas"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="leSysContact">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="le:mediumCode" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:mediumCodeDesc" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:mediumUsage" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:mediumUsageDesc" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:addrLine" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:leSysConId" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:confirmationText" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:description" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:updstatus" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:verified" xmlns:le="le.pubsub.atlas"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="leAltSysContact">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="le:leSysConId" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:scbLeId" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:product" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:productType" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:updstatus" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:verified" xmlns:le="le.pubsub.atlas"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="leTcId">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="le:tcIdCode" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:status" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:statusDesc" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:updstatus" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:verified" xmlns:le="le.pubsub.atlas"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="leAddress">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="le:leAddrId" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:addrType" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:addrTypeDesc" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:startDate" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:countryIsoCode" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:countryName" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:cityCode" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:cityName" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:addrLine1" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:addrLine2" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:postCode" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:state" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:contRole" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:altName" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:title" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:contFirstName" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:contLastName" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:contFax" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:contEmail" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:contPhone" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:contTelex" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:description" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:updstatus" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:verified" xmlns:le="le.pubsub.atlas"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="leAltAddress">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="le:leAltAddressInfo" maxOccurs="unbounded" minOccurs="0" xmlns:le="le.pubsub.atlas"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="counterpartyXref">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="le:partyXrefCode" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:locationCode" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:extrnlSystmCode" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:immsMnemonic" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:upcount" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:updstatus" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:verified" xmlns:le="le.pubsub.atlas"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="armLeCrf">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="le:armCrfId" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:armCode" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:armCrfStatus" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:updstatus" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:verified" xmlns:le="le.pubsub.atlas"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="leBranchDetails">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="le:leBranchInfo" maxOccurs="unbounded" minOccurs="0" xmlns:le="le.pubsub.atlas"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="atlasMessage">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="le:message" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:header" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:leId" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:leInfo" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:leSysContact" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:leAltSysContact" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:leTcId" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:leAddress" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:leAltAddress" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:counterpartyXref" maxOccurs="unbounded" minOccurs="0" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:armLeCrf" xmlns:le="le.pubsub.atlas"/>
+        <xs:element ref="le:leBranchDetails" xmlns:le="le.pubsub.atlas"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

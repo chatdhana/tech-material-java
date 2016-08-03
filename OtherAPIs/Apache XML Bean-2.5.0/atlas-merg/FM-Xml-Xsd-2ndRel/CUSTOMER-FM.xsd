@@ -1,0 +1,1368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="bkgLocationCountry" type="xs:string"/>
+  <xs:element name="bkgLocationOrganization" type="xs:string"/>
+  <xs:element name="extSystemTypeNum" type="xs:string"/>
+  <xs:element name="extSystemTypeValue" type="xs:string"/>
+  <xs:element name="stdCodeNumber" type="xs:string"/>
+  <xs:element name="stdCodeValue" type="xs:string"/>
+  <xs:element name="stdCodeDescription" type="xs:string"/>
+  <xs:element name="leId" type="xs:string"/>
+  <xs:element name="shortName" type="xs:string"/>
+  <xs:element name="legalName" type="xs:string"/>
+  <xs:element name="legalConstitution">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="incorporatedCountry" type="xs:string"/>
+  <xs:element name="incorporationNumber" type="xs:string"/>
+  <xs:element name="incorporationDate" type="xs:string"/>
+  <xs:element name="customerType">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="relationshipStartDate" type="xs:string"/>
+  <xs:element name="segmentCode">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="subSegmentCode">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="baselCustomerSegment">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="baselCustomerSubSegment">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="businessType">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="envRiskGrade">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="top1000Bank" type="xs:string"/>
+  <xs:element name="referralStatus">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="operationStatus1">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="operationStatus1EffDate" type="xs:string"/>
+  <xs:element name="borrowerExceptionChkInd" type="xs:string"/>
+  <xs:element name="updateStatusIndicator" type="xs:string"/>
+  <xs:element name="changeIndicator" type="xs:string"/>
+  <xs:element name="addressId" type="xs:string"/>
+  <xs:element name="addressType">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="attnParty" type="xs:string"/>
+  <xs:element name="line1" type="xs:string"/>
+  <xs:element name="line2" type="xs:string"/>
+  <xs:element name="city">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber" minOccurs="0"/>
+        <xs:element ref="stdCodeValue" minOccurs="0"/>
+        <xs:element ref="stdCodeDescription" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="state" type="xs:string"/>
+  <xs:element name="country">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber" minOccurs="0"/>
+        <xs:element ref="stdCodeValue" minOccurs="0"/>
+        <xs:element ref="stdCodeDescription" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="postCode" type="xs:string"/>
+  <xs:element name="fax" type="xs:string"/>
+  <xs:element name="email" type="xs:string"/>
+  <xs:element name="phone" type="xs:string"/>
+  <xs:element name="telex" type="xs:string"/>
+  <xs:element name="approverLocationId" type="xs:string"/>
+  <xs:element name="approverCountry" type="xs:string"/>
+  <xs:element name="approverOrganization" type="xs:string"/>
+  <xs:element name="creditGradeId" type="xs:string"/>
+  <xs:element name="creditGradeType">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="creditGradeCode">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="creditGradeEffectiveDate" type="xs:string"/>
+  <xs:element name="creditGradeReasonForChange" type="xs:string"/>
+  <xs:element name="approverLocation">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="approverLocationId"/>
+        <xs:element ref="approverCountry"/>
+        <xs:element ref="approverOrganization"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="coinNo" type="xs:string"/>
+  <xs:element name="approverEmpId" type="xs:string"/>
+  <xs:element name="approverName" type="xs:string"/>
+  <xs:element name="creditGrade">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="leId"/>
+        <xs:element ref="creditGradeId"/>
+        <xs:element ref="creditGradeType"/>
+        <xs:element ref="creditGradeCode"/>
+        <xs:element ref="creditGradeEffectiveDate"/>
+        <xs:element ref="creditGradeReasonForChange"/>
+        <xs:element ref="approverLocation"/>
+        <xs:element ref="coinNo"/>
+        <xs:element ref="approverEmpId"/>
+        <xs:element ref="approverName"/>
+        <xs:element ref="updateStatusIndicator"/>
+        <xs:element ref="changeIndicator"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ISICId" type="xs:string"/>
+  <xs:element name="ISICType">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ISICCode">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ISICEffectiveDate" type="xs:string"/>
+  <xs:element name="ISICWeightage" type="xs:string"/>
+  <xs:element name="ISIC">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="leId"/>
+        <xs:element ref="ISICId"/>
+        <xs:element ref="ISICType"/>
+        <xs:element ref="ISICCode"/>
+        <xs:element ref="ISICEffectiveDate"/>
+        <xs:element ref="ISICWeightage"/>
+        <xs:element ref="updateStatusIndicator"/>
+        <xs:element ref="changeIndicator"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="documentOriginatingId" type="xs:string"/>
+  <xs:element name="documentOriginatingCountry" type="xs:string"/>
+  <xs:element name="documentOriginatingOrganization" type="xs:string"/>
+  <xs:element name="KYCid" type="xs:string"/>
+  <xs:element name="documentOriginatingLocation">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="documentOriginatingId"/>
+        <xs:element ref="documentOriginatingCountry"/>
+        <xs:element ref="documentOriginatingOrganization"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="mlRiskRating">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="mlLastReviewDate" type="xs:string"/>
+  <xs:element name="mlNextReviewDate" type="xs:string"/>
+  <xs:element name="firstKYCreview" type="xs:string"/>
+  <xs:element name="KYCdocumentSubmitted" type="xs:string"/>
+  <xs:element name="GICdocumentSubmitted" type="xs:string"/>
+  <xs:element name="exceptionalApprovalObtained" type="xs:string"/>
+  <xs:element name="knowYourCustomer">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="leId"/>
+        <xs:element ref="KYCid"/>
+        <xs:element ref="documentOriginatingLocation"/>
+        <xs:element ref="mlRiskRating"/>
+        <xs:element ref="mlLastReviewDate"/>
+        <xs:element ref="mlNextReviewDate"/>
+        <xs:element ref="firstKYCreview"/>
+        <xs:element ref="KYCdocumentSubmitted"/>
+        <xs:element ref="GICdocumentSubmitted"/>
+        <xs:element ref="exceptionalApprovalObtained"/>
+        <xs:element ref="updateStatusIndicator"/>
+        <xs:element ref="changeIndicator"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="mainProfile">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="leId"/>
+        <xs:element ref="shortName"/>
+        <xs:element ref="legalName"/>
+        <xs:element ref="legalConstitution"/>
+        <xs:element ref="incorporatedCountry"/>
+        <xs:element ref="incorporationNumber"/>
+        <xs:element ref="incorporationDate"/>
+        <xs:element ref="customerType"/>
+        <xs:element ref="relationshipStartDate"/>
+        <xs:element ref="segmentCode"/>
+        <xs:element ref="subSegmentCode"/>
+        <xs:element ref="baselCustomerSegment"/>
+        <xs:element ref="baselCustomerSubSegment"/>
+        <xs:element ref="businessType"/>
+        <xs:element ref="envRiskGrade"/>
+        <xs:element ref="top1000Bank"/>
+        <xs:element ref="referralStatus"/>
+        <xs:element ref="operationStatus1"/>
+        <xs:element ref="operationStatus1EffDate"/>
+        <xs:element ref="borrowerExceptionChkInd"/>
+        <xs:element ref="updateStatusIndicator"/>
+        <xs:element ref="changeIndicator"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="registeredAddress">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="leId"/>
+        <xs:element ref="addressId"/>
+        <xs:element ref="addressType"/>
+        <xs:element ref="attnParty"/>
+        <xs:element ref="line1"/>
+        <xs:element ref="line2"/>
+        <xs:element ref="city"/>
+        <xs:element ref="state"/>
+        <xs:element ref="country"/>
+        <xs:element ref="postCode"/>
+        <xs:element ref="fax"/>
+        <xs:element ref="email"/>
+        <xs:element ref="phone"/>
+        <xs:element ref="telex"/>
+        <xs:element ref="updateStatusIndicator"/>
+        <xs:element ref="changeIndicator"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="creditGradeDetails">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="creditGrade"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ISICDetails">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ISIC" maxOccurs="unbounded" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="kycDetails">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="knowYourCustomer"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="subProfileId" type="xs:string"/>
+  <xs:element name="subProfileName" type="xs:string"/>
+  <xs:element name="domicileCountry" type="xs:string"/>
+  <xs:element name="domicileCountryRegistrationNumber" type="xs:string"/>
+  <xs:element name="swiftCountryCode" type="xs:string"/>
+  <xs:element name="CustomerOrgType">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="disclosureAgreementIndicator" type="xs:string"/>
+  <xs:element name="agreementDate" type="xs:string"/>
+  <xs:element name="languageCode">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="serviceLevelPriority">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="treaturyInd">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="operationStatus2">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="operationStatus2EffDate" type="xs:string"/>
+  <xs:element name="officialAddress">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="leId"/>
+        <xs:element ref="subProfileId"/>
+        <xs:element ref="addressId"/>
+        <xs:element ref="addressType"/>
+        <xs:element ref="attnParty"/>
+        <xs:element ref="line1"/>
+        <xs:element ref="line2"/>
+        <xs:element ref="city"/>
+        <xs:element ref="state"/>
+        <xs:element ref="country"/>
+        <xs:element ref="postCode"/>
+        <xs:element ref="fax"/>
+        <xs:element ref="email"/>
+        <xs:element ref="phone"/>
+        <xs:element ref="telex"/>
+        <xs:element ref="updateStatusIndicator"/>
+        <xs:element ref="changeIndicator"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="bkgLocationId" type="xs:string"/>
+  <xs:element name="empEmpCodeMapId" type="xs:string"/>
+  <xs:element name="empMapId" type="xs:string"/>
+  <xs:element name="empId" type="xs:string"/>
+  <xs:element name="empCode" type="xs:string"/>
+  <xs:element name="empName" type="xs:string"/>
+  <xs:element name="bkgLocation">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="bkgLocationId"/>
+        <xs:element ref="bkgLocationCountry"/>
+        <xs:element ref="bkgLocationOrganization"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="empRelationshipType">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="principalFAMInd" type="xs:string"/>
+  <xs:element name="empRelationship">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="leId"/>
+        <xs:element ref="subProfileId"/>
+        <xs:element ref="empEmpCodeMapId"/>
+        <xs:element ref="empMapId"/>
+        <xs:element ref="empId"/>
+        <xs:element ref="empCode"/>
+        <xs:element ref="empName"/>
+        <xs:element ref="bkgLocation"/>
+        <xs:element ref="empRelationshipType"/>
+        <xs:element ref="principalFAMInd"/>
+        <xs:element ref="updateStatusIndicator"/>
+        <xs:element ref="changeIndicator"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="subProfile">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="leId"/>
+        <xs:element ref="subProfileId"/>
+        <xs:element ref="subProfileName"/>
+        <xs:element ref="domicileCountry"/>
+        <xs:element ref="domicileCountryRegistrationNumber"/>
+        <xs:element ref="swiftCountryCode"/>
+        <xs:element ref="CustomerOrgType"/>
+        <xs:element ref="disclosureAgreementIndicator"/>
+        <xs:element ref="agreementDate"/>
+        <xs:element ref="languageCode"/>
+        <xs:element ref="relationshipStartDate"/>
+        <xs:element ref="serviceLevelPriority"/>
+        <xs:element ref="treaturyInd"/>
+        <xs:element ref="operationStatus2"/>
+        <xs:element ref="operationStatus2EffDate"/>
+        <xs:element ref="updateStatusIndicator"/>
+        <xs:element ref="changeIndicator"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="officialAddressDetails">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="officialAddress"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="empRelationshipDetails">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="empRelationship"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fmGlblInfSysGenId" type="xs:string"/>
+  <xs:element name="mifidClntClass">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ultRiskCntry">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="scbAffltCode">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="omgAlertAcronym" type="xs:string"/>
+  <xs:element name="omgOgdAcronym" type="xs:string"/>
+  <xs:element name="fmProfileSysGenId" type="xs:string"/>
+  <xs:element name="fmProfileName" type="xs:string"/>
+  <xs:element name="fmCode" type="xs:string"/>
+  <xs:element name="fmProfileShortName" type="xs:string"/>
+  <xs:element name="fmProfileStatus">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fmProfilePresentStatus">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fmProfileNewStatus">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fmId" type="xs:string"/>
+  <xs:element name="fmLeSysGenId" type="xs:string"/>
+  <xs:element name="fmLongName" type="xs:string"/>
+  <xs:element name="fmLongName1" type="xs:string"/>
+  <xs:element name="ultParentFmId" type="xs:string"/>
+  <xs:element name="domicileCntry">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="limitType">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="dvpCustInd">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="scbFmEntityInd" type="xs:string"/>
+  <xs:element name="imlaCertification" type="xs:string"/>
+  <xs:element name="omgAlertAccount" type="xs:string"/>
+  <xs:element name="omgOgdAccount" type="xs:string"/>
+  <xs:element name="omgCtmAccount" type="xs:string"/>
+  <xs:element name="markitWireId" type="xs:string"/>
+  <xs:element name="iceLinkId" type="xs:string"/>
+  <xs:element name="btsId" type="xs:string"/>
+  <xs:element name="rmfFlag" type="xs:string"/>
+  <xs:element name="euroCompInd" type="xs:string"/>
+  <xs:element name="bisWeighting" type="xs:string"/>
+  <xs:element name="ccilCpId" type="xs:string"/>
+  <xs:element name="topBankInd" type="xs:string"/>
+  <xs:element name="fmMoreDtlSysGenId" type="xs:string"/>
+  <xs:element name="scbClassCode" type="xs:string"/>
+  <xs:element name="isicCode">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fmType">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="opicsClassCode" type="xs:string"/>
+  <xs:element name="fmClassCode">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="finInstType">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="instSector">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="clsEigibility" type="xs:string"/>
+  <xs:element name="clsCustType">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="clsStartDate" type="xs:string"/>
+  <xs:element name="brokerId" type="xs:string"/>
+  <xs:element name="armCode">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="dataProtInd" type="xs:string"/>
+  <xs:element name="fmNote" type="xs:string"/>
+  <xs:element name="nrdSignedInd" type="xs:string"/>
+  <xs:element name="confReqInd" type="xs:string"/>
+  <xs:element name="tradingInd" type="xs:string"/>
+  <xs:element name="dateOfSigningOfDiscAgr" type="xs:string"/>
+  <xs:element name="disclosureAgrRecInd" type="xs:string"/>
+  <xs:element name="docCompletionInd" type="xs:string"/>
+  <xs:element name="docCompletionDate" type="xs:string"/>
+  <xs:element name="bankingSecrecyActInd" type="xs:string"/>
+  <xs:element name="fmHrySysGenId" type="xs:string"/>
+  <xs:element name="parentFmId" type="xs:string"/>
+  <xs:element name="hierarchyType">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fmHierarchy">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="leId"/>
+        <xs:element ref="subProfileId"/>
+        <xs:element ref="fmId"/>
+        <xs:element ref="fmHrySysGenId"/>
+        <xs:element ref="parentFmId"/>
+        <xs:element ref="hierarchyType"/>
+        <xs:element ref="updateStatusIndicator"/>
+        <xs:element ref="changeIndicator"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fmAddrSysGenId" type="xs:string"/>
+  <xs:element name="addrType">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="addrLine1" type="xs:string"/>
+  <xs:element name="addrLine2" type="xs:string"/>
+  <xs:element name="altName" type="xs:string"/>
+  <xs:element name="contEmail" type="xs:string"/>
+  <xs:element name="contPhone" type="xs:string"/>
+  <xs:element name="description" type="xs:string"/>
+  <xs:element name="contRole" type="xs:string"/>
+  <xs:element name="contTitle" type="xs:string"/>
+  <xs:element name="contFirstName" type="xs:string"/>
+  <xs:element name="contLastName" type="xs:string"/>
+  <xs:element name="contFax" type="xs:string"/>
+  <xs:element name="contTelex" type="xs:string"/>
+  <xs:element name="startDate" type="xs:string"/>
+  <xs:element name="fmAddress">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="leId"/>
+        <xs:element ref="subProfileId"/>
+        <xs:element ref="fmId"/>
+        <xs:element ref="fmAddrSysGenId"/>
+        <xs:element ref="addrType"/>
+        <xs:element ref="addrLine1"/>
+        <xs:element ref="addrLine2"/>
+        <xs:element ref="country"/>
+        <xs:element ref="city"/>
+        <xs:element ref="postCode"/>
+        <xs:element ref="state"/>
+        <xs:element ref="altName"/>
+        <xs:element ref="contEmail"/>
+        <xs:element ref="contPhone"/>
+        <xs:element ref="description"/>
+        <xs:element ref="contRole"/>
+        <xs:element ref="contTitle"/>
+        <xs:element ref="contFirstName"/>
+        <xs:element ref="contLastName"/>
+        <xs:element ref="contFax"/>
+        <xs:element ref="contTelex"/>
+        <xs:element ref="startDate"/>
+        <xs:element ref="updateStatusIndicator"/>
+        <xs:element ref="changeIndicator"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fmAddrId" type="xs:string"/>
+  <xs:element name="fmAltAddrSysGenId" type="xs:string"/>
+  <xs:element name="scbFmId" type="xs:string"/>
+  <xs:element name="product">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="productType">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fmAltAddress">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="leId"/>
+        <xs:element ref="subProfileId"/>
+        <xs:element ref="fmId"/>
+        <xs:element ref="fmAddrId"/>
+        <xs:element ref="fmAltAddrSysGenId"/>
+        <xs:element ref="scbFmId"/>
+        <xs:element ref="product"/>
+        <xs:element ref="productType"/>
+        <xs:element ref="updateStatusIndicator"/>
+        <xs:element ref="changeIndicator"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fmBranchSysGenId" type="xs:string"/>
+  <xs:element name="custStatusRsnCode" type="xs:string"/>
+  <xs:element name="custStatusChngDate" type="xs:string"/>
+  <xs:element name="phoneConfirm" type="xs:string"/>
+  <xs:element name="phoneNumber" type="xs:string"/>
+  <xs:element name="faxNumber" type="xs:string"/>
+  <xs:element name="netSettle">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="novation">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="custStatus">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="manualSettle" type="xs:string"/>
+  <xs:element name="extrnlSystmCode">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fmBranch">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="leId"/>
+        <xs:element ref="subProfileId"/>
+        <xs:element ref="fmId"/>
+        <xs:element ref="fmBranchSysGenId"/>
+        <xs:element ref="scbFmId"/>
+        <xs:element ref="custStatusRsnCode"/>
+        <xs:element ref="custStatusChngDate"/>
+        <xs:element ref="phoneConfirm"/>
+        <xs:element ref="phoneNumber"/>
+        <xs:element ref="faxNumber"/>
+        <xs:element ref="netSettle"/>
+        <xs:element ref="novation"/>
+        <xs:element ref="custStatus"/>
+        <xs:element ref="manualSettle"/>
+        <xs:element ref="armCode"/>
+        <xs:element ref="extrnlSystmCode"/>
+        <xs:element ref="updateStatusIndicator"/>
+        <xs:element ref="changeIndicator"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fmSysContSysGenId" type="xs:string"/>
+  <xs:element name="mediumCode">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="mediumUsage">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="addrLine" type="xs:string"/>
+  <xs:element name="confirmationText" type="xs:string"/>
+  <xs:element name="fmSysContact">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="leId"/>
+        <xs:element ref="subProfileId"/>
+        <xs:element ref="fmId"/>
+        <xs:element ref="fmSysContSysGenId"/>
+        <xs:element ref="mediumCode"/>
+        <xs:element ref="mediumUsage"/>
+        <xs:element ref="addrLine"/>
+        <xs:element ref="confirmationText"/>
+        <xs:element ref="description"/>
+        <xs:element ref="updateStatusIndicator"/>
+        <xs:element ref="changeIndicator"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fmSysContId" type="xs:string"/>
+  <xs:element name="fmAltSysContSysGenId" type="xs:string"/>
+  <xs:element name="fmAltSysContact">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="leId"/>
+        <xs:element ref="subProfileId"/>
+        <xs:element ref="fmId"/>
+        <xs:element ref="fmSysContId"/>
+        <xs:element ref="fmAltSysContSysGenId"/>
+        <xs:element ref="scbFmId"/>
+        <xs:element ref="product"/>
+        <xs:element ref="productType"/>
+        <xs:element ref="updateStatusIndicator"/>
+        <xs:element ref="changeIndicator"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fmXrefSysGenId" type="xs:string"/>
+  <xs:element name="xrefLocation">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="xrefSystem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="xrefExternalId" type="xs:string"/>
+  <xs:element name="immsMnemonic" type="xs:string"/>
+  <xs:element name="fmCrossReference">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="leId"/>
+        <xs:element ref="subProfileId"/>
+        <xs:element ref="fmId"/>
+        <xs:element ref="fmXrefSysGenId"/>
+        <xs:element ref="xrefLocation"/>
+        <xs:element ref="xrefSystem"/>
+        <xs:element ref="xrefExternalId"/>
+        <xs:element ref="immsMnemonic"/>
+        <xs:element ref="updateStatusIndicator"/>
+        <xs:element ref="changeIndicator"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fmTCIDSysGenId" type="xs:string"/>
+  <xs:element name="tcid" type="xs:string"/>
+  <xs:element name="status">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fmTCID">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="leId"/>
+        <xs:element ref="subProfileId"/>
+        <xs:element ref="fmId"/>
+        <xs:element ref="fmTCIDSysGenId"/>
+        <xs:element ref="tcid"/>
+        <xs:element ref="status"/>
+        <xs:element ref="updateStatusIndicator"/>
+        <xs:element ref="changeIndicator"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fmScbDtlSysGenId" type="xs:string"/>
+  <xs:element name="profitCurrency">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="immsBranchCode" type="xs:string"/>
+  <xs:element name="location">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="nettingAllowedInd" type="xs:string"/>
+  <xs:element name="baseCurrency">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="lateTradingStartTime" type="xs:string"/>
+  <xs:element name="dealStartLocalTime" type="xs:string"/>
+  <xs:element name="dealEndLocalTime" type="xs:string"/>
+  <xs:element name="regulatoryBody">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fidessaViewCode" type="xs:string"/>
+  <xs:element name="contractingRelationship">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="vatFlag" type="xs:string"/>
+  <xs:element name="euVatRegistrationNo" type="xs:string"/>
+  <xs:element name="profitSharing">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="micCode" type="xs:string"/>
+  <xs:element name="symbology">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="usTaxId" type="xs:string"/>
+  <xs:element name="oasisLevel">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="stdCodeNumber"/>
+        <xs:element ref="stdCodeValue"/>
+        <xs:element ref="stdCodeDescription"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fmProfileInfo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="leId"/>
+        <xs:element ref="subProfileId"/>
+        <xs:element ref="fmProfileSysGenId"/>
+        <xs:element ref="fmProfileName"/>
+        <xs:element ref="fmCode"/>
+        <xs:element ref="fmProfileShortName"/>
+        <xs:element ref="fmProfileStatus"/>
+        <xs:element ref="fmProfilePresentStatus"/>
+        <xs:element ref="fmProfileNewStatus"/>
+        <xs:element ref="updateStatusIndicator"/>
+        <xs:element ref="changeIndicator"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fmEntityInfo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="leId"/>
+        <xs:element ref="subProfileId"/>
+        <xs:element ref="fmId"/>
+        <xs:element ref="fmLeSysGenId"/>
+        <xs:element ref="fmLongName"/>
+        <xs:element ref="fmLongName1"/>
+        <xs:element ref="ultParentFmId"/>
+        <xs:element ref="domicileCntry"/>
+        <xs:element ref="limitType"/>
+        <xs:element ref="dvpCustInd"/>
+        <xs:element ref="scbFmEntityInd"/>
+        <xs:element ref="imlaCertification"/>
+        <xs:element ref="omgAlertAccount"/>
+        <xs:element ref="omgOgdAccount"/>
+        <xs:element ref="omgCtmAccount"/>
+        <xs:element ref="markitWireId"/>
+        <xs:element ref="iceLinkId"/>
+        <xs:element ref="btsId"/>
+        <xs:element ref="rmfFlag"/>
+        <xs:element ref="euroCompInd"/>
+        <xs:element ref="bisWeighting"/>
+        <xs:element ref="languageCode"/>
+        <xs:element ref="ccilCpId"/>
+        <xs:element ref="topBankInd"/>
+        <xs:element ref="updateStatusIndicator"/>
+        <xs:element ref="changeIndicator"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fmEntityMoreInfo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="leId"/>
+        <xs:element ref="subProfileId"/>
+        <xs:element ref="fmId"/>
+        <xs:element ref="fmMoreDtlSysGenId"/>
+        <xs:element ref="scbClassCode"/>
+        <xs:element ref="isicCode"/>
+        <xs:element ref="fmType"/>
+        <xs:element ref="opicsClassCode"/>
+        <xs:element ref="fmClassCode"/>
+        <xs:element ref="finInstType"/>
+        <xs:element ref="instSector"/>
+        <xs:element ref="clsEigibility"/>
+        <xs:element ref="clsCustType"/>
+        <xs:element ref="clsStartDate"/>
+        <xs:element ref="brokerId"/>
+        <xs:element ref="armCode"/>
+        <xs:element ref="dataProtInd"/>
+        <xs:element ref="fmNote"/>
+        <xs:element ref="nrdSignedInd"/>
+        <xs:element ref="confReqInd"/>
+        <xs:element ref="tradingInd"/>
+        <xs:element ref="dateOfSigningOfDiscAgr"/>
+        <xs:element ref="disclosureAgrRecInd"/>
+        <xs:element ref="docCompletionInd"/>
+        <xs:element ref="docCompletionDate"/>
+        <xs:element ref="bankingSecrecyActInd"/>
+        <xs:element ref="updateStatusIndicator"/>
+        <xs:element ref="changeIndicator"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fmHierarchyDetails">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="fmHierarchy" maxOccurs="unbounded" minOccurs="1"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fmAddressDetails">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="fmAddress" maxOccurs="unbounded" minOccurs="1"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fmAltAddressDetails">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="fmAltAddress" maxOccurs="unbounded" minOccurs="1"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fmBranchDetails">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="fmBranch" maxOccurs="unbounded" minOccurs="1"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fmSysContactDetails">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="fmSysContact" maxOccurs="unbounded" minOccurs="1"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fmAltSysContactDetails">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="fmAltSysContact" maxOccurs="unbounded" minOccurs="1"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fmCrossReferenceDetails">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="fmCrossReference" maxOccurs="unbounded" minOccurs="1"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fmTCIDDetails">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="fmTCID" maxOccurs="unbounded" minOccurs="1"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="scbInfo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="leId"/>
+        <xs:element ref="subProfileId"/>
+        <xs:element ref="fmId"/>
+        <xs:element ref="fmScbDtlSysGenId"/>
+        <xs:element ref="profitCurrency"/>
+        <xs:element ref="immsBranchCode"/>
+        <xs:element ref="location"/>
+        <xs:element ref="nettingAllowedInd"/>
+        <xs:element ref="baseCurrency"/>
+        <xs:element ref="lateTradingStartTime"/>
+        <xs:element ref="dealStartLocalTime"/>
+        <xs:element ref="dealEndLocalTime"/>
+        <xs:element ref="regulatoryBody"/>
+        <xs:element ref="updateStatusIndicator"/>
+        <xs:element ref="changeIndicator"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="synInfo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="leId"/>
+        <xs:element ref="subProfileId"/>
+        <xs:element ref="fmId"/>
+        <xs:element ref="fidessaViewCode"/>
+        <xs:element ref="contractingRelationship"/>
+        <xs:element ref="vatFlag"/>
+        <xs:element ref="euVatRegistrationNo"/>
+        <xs:element ref="profitSharing"/>
+        <xs:element ref="micCode"/>
+        <xs:element ref="symbology"/>
+        <xs:element ref="usTaxId"/>
+        <xs:element ref="oasisLevel"/>
+        <xs:element ref="updateStatusIndicator"/>
+        <xs:element ref="changeIndicator"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fmGlobalInfo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="leId"/>
+        <xs:element ref="subProfileId"/>
+        <xs:element ref="fmGlblInfSysGenId"/>
+        <xs:element ref="mifidClntClass"/>
+        <xs:element ref="ultRiskCntry"/>
+        <xs:element ref="scbAffltCode"/>
+        <xs:element ref="omgAlertAcronym"/>
+        <xs:element ref="omgOgdAcronym"/>
+        <xs:element ref="updateStatusIndicator"/>
+        <xs:element ref="changeIndicator"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fmAccountInfo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="fmProfileInfo"/>
+        <xs:element ref="fmEntityInfo"/>
+        <xs:element ref="fmEntityMoreInfo"/>
+        <xs:element ref="fmHierarchyDetails"/>
+        <xs:element ref="fmAddressDetails"/>
+        <xs:element ref="fmAltAddressDetails" maxOccurs="1" minOccurs="0"/>
+        <xs:element ref="fmBranchDetails" maxOccurs="1" minOccurs="0"/>
+        <xs:element ref="fmSysContactDetails" maxOccurs="1" minOccurs="0"/>
+        <xs:element ref="fmAltSysContactDetails" maxOccurs="1" minOccurs="0"/>
+        <xs:element ref="fmCrossReferenceDetails"/>
+        <xs:element ref="fmTCIDDetails" maxOccurs="1" minOccurs="0"/>
+        <xs:element ref="scbInfo" maxOccurs="1" minOccurs="0"/>
+        <xs:element ref="synInfo" maxOccurs="1" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="mainProfileDetails">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="mainProfile"/>
+        <xs:element ref="registeredAddress"/>
+        <xs:element ref="creditGradeDetails" maxOccurs="unbounded" minOccurs="1"/>
+        <xs:element ref="ISICDetails" maxOccurs="unbounded" minOccurs="1"/>
+        <xs:element ref="kycDetails" maxOccurs="unbounded" minOccurs="1"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="subProfileDetails">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="subProfile"/>
+        <xs:element ref="officialAddressDetails" maxOccurs="unbounded" minOccurs="1"/>
+        <xs:element ref="empRelationshipDetails" maxOccurs="unbounded" minOccurs="1"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fmDetails">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="fmGlobalInfo"/>
+        <xs:element ref="fmAccountInfo"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="messageId" type="xs:string"/>
+  <xs:element name="messageType" type="xs:string"/>
+  <xs:element name="publishType" type="xs:string"/>
+  <xs:element name="publishDate" type="xs:string"/>
+  <xs:element name="topicName" type="xs:string"/>
+  <xs:element name="subscriberId" type="xs:string"/>
+  <xs:element name="transactionProcessingSystems" maxOccurs="1" minOccurs="0" >
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="bkgLocationCountry"/>
+        <xs:element ref="bkgLocationOrganization"/>
+        <xs:element ref="extSystemTypeNum"/>
+        <xs:element ref="extSystemTypeValue"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="legalEntity">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="mainProfileDetails"/>
+        <xs:element ref="subProfileDetails"/>
+        <xs:element ref="fmDetails"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="message">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="messageId"/>
+        <xs:element ref="messageType"/>
+        <xs:element ref="publishType"/>
+        <xs:element ref="publishDate"/>
+        <xs:element ref="topicName"/>
+        <xs:element ref="subscriberId"/>
+        <xs:element ref="transactionProcessingSystems"/>
+        <xs:element ref="legalEntity"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SCIMessages">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="message"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

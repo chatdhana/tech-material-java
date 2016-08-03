@@ -1,0 +1,11 @@
+<Schema xmlns="urn:schemas-microsoft-com:xml-data"> 
+<ElementType name="title" content="textOnly"/>
+<ElementType name="authors" content="textOnly"/> 
+<AttributeType name="pages" content="textOnly"/> 
+<ElementType name="book" order="seq" content="eltOnly">     
+<attribute type="pages" />     
+<element type="title" />     
+<element type="authors" />
+</ElementType>
+</s:Schema> 
+

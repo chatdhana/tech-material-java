@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<atlasMessage xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<message>
+    <messageId>1872309</messageId>
+    <messageType>C_HOL_ALL</messageType>
+    <publishType>NORMAL</publishType>
+	<publishDate>05-Aug-2009 01:44:32</publishDate>
+	<topicName>ATLAS/CUSTOMER/CUST_CURR_HOL</topicName>
+    <subscriberId></subscriberId>
+    <transactionProcessingSystems>
+      <bkgLocationCountry></bkgLocationCountry>
+      <bkgLocationOrganization></bkgLocationOrganization>
+      <extSystemTypeNum></extSystemTypeNum>
+      <extSystemTypeValue></extSystemTypeValue>
+    </transactionProcessingSystems>    
+ </message>
+<ATLAS-DELTA-EVENT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:\SYM\00 Project\16 Atlas 2 Bench\AtlasDeltaEvent.xsd" publishedDateTime="" atlasMessageID="">
+	<CURRENCY-HOLIDAY eventType="INSERT">
+		<CCY-FI-ID>INR</CCY-FI-ID>
+		<HOL-DATE>2010-06-16</HOL-DATE>
+	</CURRENCY-HOLIDAY>
+</ATLAS-DELTA-EVENT>
+</atlasMessage>

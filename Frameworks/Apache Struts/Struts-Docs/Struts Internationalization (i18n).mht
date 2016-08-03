@@ -1,0 +1,2543 @@
+From: <Saved by Windows Internet Explorer 8>
+Subject: Struts Internationalization (i18n)
+Date: Wed, 4 Nov 2009 21:57:44 +0530
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CA5D99.D6C0A7D0"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.2180
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01CA5D99.D6C0A7D0
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.allappforum.com/struts/struts_internationalization.htm
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>Struts Internationalization (i18n)</TITLE>
+<META content=3Den-us http-equiv=3DContent-Language>
+<META content=3D"text/html; charset=3Dwindows-1252" =
+http-equiv=3DContent-Type>
+<META name=3Ddescription=20
+content=3D"Allapplabs.com : Struts, Struts Internationalization (i18n)">
+<META name=3Dkeywords=20
+content=3D"A developer, content publishing site, for java, servlets, =
+jsp, ejb, xml, xsl, dtd, log4j, weblogic, ant, struts, java design =
+paterns, ejb performance tuning, collection framework, codes examples, =
+web services, search engine for software developers">
+<STYLE type=3Dtext/css>A {
+	TEXT-DECORATION: none
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+.tabbor {
+	BORDER-BOTTOM: #cccccc thin; BORDER-LEFT: #cccccc thin; BORDER-TOP: =
+#cccccc thin; BORDER-RIGHT: #cccccc thin
+}
+.bodytext {
+	TEXT-ALIGN: justify; FONT-FAMILY: Verdana, Arial, Helvetica, =
+sans-serif; FONT-SIZE: 16px
+}
+.toplink {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; COLOR: #666666; =
+FONT-SIZE: 9px; CURSOR: hand
+}
+</STYLE>
+
+<META name=3DGENERATOR content=3D"MSHTML 8.00.6001.18702"></HEAD>
+<BODY leftMargin=3D0 topMargin=3D0 marginheight=3D"0" marginwidth=3D"0">
+<TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D"100%">
+  <TBODY>
+  <TR>
+    <TD vAlign=3Dtop>
+      <TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D"100%">
+        <TBODY>
+        <TR>
+          <TD background=3Dhttp://www.allappforum.com/images/side_bg.jpg =
+rowSpan=3D3=20
+          width=3D"3%">&nbsp;</TD>
+          <TD width=3D"97%">
+            <TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 =
+width=3D"100%">
+              <TBODY>
+              <TR>
+                <TD rowSpan=3D4 width=3D"20%"><A=20
+                  href=3D"http://www.allappforum.com/index.htm"><IMG =
+border=3D0=20
+                  =
+src=3D"http://www.allappforum.com/images/allapplabs_logo.jpg"=20
+                  width=3D102 height=3D103></A></TD>
+                <TD width=3D"60%">&nbsp;</TD>
+                <TD vAlign=3Dbottom rowSpan=3D4 width=3D"20%">
+                  <DIV align=3Dright><A=20
+                  href=3D"http://www.allappforum.com/index.htm"><IMG =
+border=3D0=20
+                  =
+src=3D"http://www.allappforum.com/images/site_name.jpg"=20
+                  width=3D149 height=3D45></A></DIV></TD></TR>
+              <TR>
+                <TD>&nbsp;</TD></TR>
+              <TR>
+                <TD height=3D18 vAlign=3Dcenter align=3Dright>&nbsp; =
+</TD></TR>
+              <TR>
+                <TD height=3D19 vAlign=3Dcenter align=3Dleft>
+                  <TABLE class=3Dtabbor border=3D1 cellSpacing=3D0 =
+borderColor=3D#cccccc=20
+                  cellPadding=3D0 width=3D"75%">
+                    <TBODY>
+                    <TR>
+                      <TD class=3Dtoplink height=3D20 width=3D"13%">
+                        <DIV align=3Dcenter><A=20
+                        =
+href=3D"http://www.allappforum.com/java/java.htm"><FONT=20
+                        color=3D#999999 size=3D1 face=3DVerdana, =
+sans-serif?=20
+                        Helvetica, Arial,>JAVA </FONT></A></DIV></TD>
+                      <TD width=3D"15%">
+                        <DIV align=3Dcenter><A=20
+                        =
+href=3D"http://www.allappforum.com/ejb/ejb.htm"><FONT=20
+                        color=3D#999999 size=3D1 face=3DVerdana, =
+sans-serif?=20
+                        Helvetica, Arial,>EJB </FONT></A></DIV></TD>
+                      <TD width=3D"15%">
+                        <DIV align=3Dcenter><A=20
+                        =
+href=3D"http://www.allappforum.com/xml/xml.htm"><FONT=20
+                        color=3D#999999 size=3D1 face=3DVerdana, =
+sans-serif?=20
+                        Helvetica, Arial,>XML </FONT></A></DIV></TD>
+                      <TD width=3D"20%">
+                        <DIV align=3Dcenter><A=20
+                        =
+href=3D"http://www.allappforum.com/log4j/log4j.htm"><FONT=20
+                        color=3D#999999 size=3D1 face=3DVerdana, =
+sans-serif?=20
+                        Helvetica, Arial,>LOG4J </FONT></A></DIV></TD>
+                      <TD width=3D"16%">
+                        <DIV align=3Dcenter><A=20
+                        =
+href=3D"http://www.allappforum.com/struts/struts.htm"><FONT=20
+                        color=3D#999999 size=3D1 face=3DVerdana, =
+sans-serif?=20
+                        Helvetica, Arial,>STRUTS </FONT></A></DIV></TD>
+                      <TD width=3D"21%">
+                        <DIV align=3Dcenter><A=20
+                        =
+href=3D"http://www.allappforum.com/ant/ant.htm"><FONT=20
+                        color=3D#999999 size=3D1 face=3DVerdana, =
+sans-serif?=20
+                        Helvetica, Arial,>ANT=20
+                  =
+</FONT></A></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD=
+></TR>
+        <TR>
+          <TD>
+            <TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 =
+width=3D"100%">
+              <TBODY>
+              <TR vAlign=3Dtop>
+                <TD>
+                  <TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 =
+width=3D"100%">
+                    <TBODY>
+                    <TR>
+                      <TD colSpan=3D4>
+                        <TABLE border=3D0 cellSpacing=3D0 =
+cellPadding=3D0 width=3D"90%"=20
+                        align=3Dcenter height=3D3>
+                          <TBODY>
+                          <TR>
+                            <TD=20
+                    =
+height=3D4>&nbsp;</TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+                  <TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 =
+width=3D"100%">
+                    <TBODY>
+                    <TR>
+                      <TD vAlign=3Dcenter=20
+                      =
+background=3Dhttp://www.allappforum.com/images/menu_bg.jpg=20
+                      align=3Dmiddle>
+                        <TABLE border=3D0 cellSpacing=3D0 =
+cellPadding=3D0 width=3D"100%"=20
+                        height=3D20>
+                          <TBODY>
+                          <TR>
+                            <TD>
+                              <DIV align=3Dcenter><STRONG><A=20
+                              =
+href=3D"http://www.allappforum.com/index.htm"><FONT=20
+                              color=3D#ffffff size=3D2=20
+                              face=3D"Verdana, Arial, Helvetica, =
+sans-serif">Home=20
+                              </FONT></A></STRONG><FONT color=3D#ffffff =
+size=3D2=20
+                              face=3D"Verdana, Arial, Helvetica, =
+sans-serif"><STRONG>|=20
+                              </STRONG></FONT><STRONG><FONT=20
+                              color=3D#ffffff></FONT><A=20
+                              =
+href=3D"http://www.allappforum.com/about_us.htm"><FONT=20
+                              color=3D#ffffff size=3D2=20
+                              face=3D"Verdana, Arial, Helvetica, =
+sans-serif">About=20
+                              us </FONT></A><FONT color=3D#ffffff =
+size=3D2=20
+                              face=3D"Verdana, Arial, Helvetica, =
+sans-serif"><FONT=20
+                              color=3D#ffffff>|</FONT> <A=20
+                              =
+href=3D"http://www.allappforum.com/forum/index.php?c=3D2"><FONT=20
+                              color=3D#ffffff size=3D2=20
+                              face=3D"Verdana, Arial, Helvetica, =
+sans-serif">Developer=20
+                              Forum </FONT></A><FONT =
+color=3D#ffffff>|</FONT> <A=20
+                              =
+href=3D"http://www.allappforum.com/forum/index.php?c=3D5"><FONT=20
+                              color=3D#ffffff size=3D2=20
+                              face=3D"Verdana, Arial, Helvetica, =
+sans-serif">Code=20
+                              Library Forum</FONT> </A><FONT=20
+                              color=3D#ffffff>|</FONT> <A=20
+                              =
+href=3D"http://www.allappforum.com/contact_us.htm"><FONT=20
+                              color=3D#ffffff size=3D2=20
+                              face=3D"Verdana, Arial, Helvetica, =
+sans-serif">Contact=20
+                              us </FONT></A><FONT =
+color=3D#ffffff>|</FONT> <A=20
+                              =
+href=3D"http://www.allappforum.com/site_map.htm"><FONT=20
+                              color=3D#ffffff size=3D2=20
+                              face=3D"Verdana, Arial, Helvetica, =
+sans-serif">Site=20
+                              map=20
+                        =
+</FONT></A></FONT></STRONG></DIV></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR>
+                      <TD vAlign=3Dtop>
+                        <DIV align=3Dcenter></DIV>
+                        <DIV align=3Dcenter>
+                        <TABLE class=3Dbodytext border=3D0 =
+cellSpacing=3D0=20
+                        cellPadding=3D4 width=3D"100%">
+                          <TBODY>
+                          <TR>
+                            <TD colSpan=3D3>
+                              <DIV align=3Dcenter><BR><BR>
+                              <TABLE border=3D0 width=3D"100%">
+                                <TBODY>
+                                <TR>
+                                <TD>
+                                <DIV align=3Dcenter>
+                                <SCRIPT type=3Dtext/javascript><!--
+google_ad_client =3D "pub-8254183508085747";
+google_ad_width =3D 728;
+google_ad_height =3D 90;
+google_ad_format =3D "728x90_as";
+google_ad_type =3D "text";
+google_ad_channel =3D"";
+google_color_border =3D "FFFFFF";
+google_color_bg =3D "FFFFFF";
+google_color_link =3D "000000";
+google_color_url =3D "000000";
+google_color_text =3D "000000";
+//--></SCRIPT>
+
+                                <SCRIPT type=3Dtext/javascript=20
+                                =
+src=3D"http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</SCRIPT>
+                                =
+</DIV></TD></TR></TBODY></TABLE></DIV></TD></TR>
+                          <TR>
+                            <TD width=3D"5%">&nbsp;</TD>
+                            <TD vAlign=3Dtop width=3D"73%">
+                              <P><FONT size=3D2=20
+                              face=3D"Verdana, Arial, Helvetica, =
+sans-serif"><STRONG><BR></STRONG><FONT=20
+                              color=3D#990000 size=3D5><STRONG>Struts=20
+                              Internationalization=20
+                              (i18n)</STRONG></FONT></FONT><BR><FONT =
+size=3D2=20
+                              face=3D"Verdana, Arial, Helvetica, =
+sans-serif"><BR></FONT><FONT=20
+                              size=3D2=20
+                              face=3D"Verdana, Arial, Helvetica, =
+sans-serif">Struts=20
+                              Internationalization (i18n) can be done =
+with some=20
+                              handy modifications in our existing =
+application.=20
+                              We have to know the two =
+Internationalization=20
+                              (i18n) components that are packaged with =
+the=20
+                              Struts Framework. The first of these =
+components,=20
+                              which is managed by the application =
+Controller, is=20
+                              a Message class that references a resource =
+bundle=20
+                              containing Locale-dependent strings. The =
+second=20
+                              Internationalization (i18n) component is a =
+JSP=20
+                              custom tag, &lt;bean:message /&gt;, which =
+is used=20
+                              in the View layer to present the actual =
+strings=20
+                              managed by the Controller.<BR><BR>In this =
+section=20
+                              we will move with an example to understand =
+the=20
+                              whole process. We are continuing the same =
+example=20
+                              which we used earlier to understand the =
+simple=20
+                              struts example in the section <A=20
+                              =
+href=3D"http://www.allappforum.com/struts/configuring_struts.htm"><FONT=20
+                              color=3D#990000 size=3D2=20
+                              face=3D"Verdana, Arial, Helvetica, =
+sans-serif"><STRONG>Struts=20
+                              Example</STRONG></FONT></A>.<BR><BR>First =
+thing we=20
+                              will require for Internationalization =
+(i18n) is a=20
+                              set of simple Java properties files. Each =
+file=20
+                              contains a key/value pair for each message =
+that=20
+                              you expect your application to present, in =
+the=20
+                              language appropriate for the requesting =
+client.=20
+                              <BR><BR>This property file contains the =
+key/value=20
+                              pairs for the default language of your=20
+                              application. The naming format for this =
+file is=20
+                              ResourceBundleName.properties. An example =
+of this=20
+                              default file, using English as the default =
+
+                              language, would be=20
+                              =
+<STRONG>ApplicationResources.properties</STRONG> A=20
+                              sample entry in this file would be =
+app.name=3DName,=20
+                              this tells Struts that for every =
+occurrence of the=20
+                              app.name key the Name will be=20
+                              substituted.</FONT></P>
+                              <P><FONT size=3D2=20
+                              face=3D"Verdana, Arial, Helvetica, =
+sans-serif">We=20
+                              must define a properties file for each =
+language=20
+                              that your application will use. This file =
+must=20
+                              follow the same naming convention as the =
+default=20
+                              properties file, except that it must =
+include the=20
+                              two-letter ISO language code of the =
+language that=20
+                              it represents. Example of this naming =
+convention=20
+                              <BR>For an German-speaking client would be =
+
+                              =
+<STRONG>ApplicationResources_de.properties</STRONG>=20
+                              <BR>For an French-speaking client would be =
+
+                              =
+<STRONG>ApplicationResources_fr.properties<BR></STRONG>For=20
+                              an Italian-speaking client would be=20
+                              =
+<STRONG>ApplicationResources_it.properties<BR></STRONG>For=20
+                              an Spanish-speaking client would be=20
+                              <STRONG>ApplicationResources_es.properties =
+
+                              </STRONG><BR><BR>Now add the respective =
+entries in=20
+                              each properties files you =
+require.<BR><BR>After=20
+                              you define all of the properties files for =
+your=20
+                              application, you need to make Struts aware =
+of=20
+                              them. It is achieved by adding a=20
+                              &lt;message-resources&gt; sub-element to =
+the=20
+                              struts-config.xml file. Then you should =
+copy all=20
+                              the resource bundles into the application=20
+                              classpath, /WEB-INF/classes/example, and =
+then use=20
+                              the package path plus the base file name =
+as the=20
+                              value of the &lt;message-resources&gt; =
+subelement.=20
+                              The following snippet shows an example of =
+using=20
+                              the &lt;message-resources&gt; subelement =
+to=20
+                              configure a resource bundle, using the =
+properties=20
+                              files described =
+above<BR><BR>&lt;message-resources=20
+                              =
+parameter=3D"example.ApplicationResources"/&gt;<BR><BR>Once=20
+                              this part is done we customise the view =
+part ,=20
+                              this is achieved throught the second i18n=20
+                              component defined by the Struts Framework =
+is a JSP=20
+                              custom tag, &lt;bean:message /&gt;, which =
+is used=20
+                              to present the actual strings that have =
+been=20
+                              loaded by the Controller.<BR><BR>To use =
+the=20
+                              &lt;bean:message /&gt;, we must first =
+deploy the=20
+                              bean tag library, which contains the=20
+                              &lt;bean:message /&gt; tag. Deploying a =
+tag=20
+                              library is a very simple process that =
+requires=20
+                              only the addition of a new &lt;taglib&gt; =
+entry in=20
+                              the web.xml file of the Web application =
+using the=20
+                              bean library. Here is an example of=20
+                              this<BR>entry:</FONT></P>
+                              <TABLE border=3D0 width=3D"100%">
+                                <TBODY>
+                                <TR>
+                                <TD colSpan=3D2><STRONG><FONT size=3D2=20
+                                face=3D"Verdana, Arial, Helvetica, =
+sans-serif">&lt;taglib&gt;</FONT></STRONG></TD></TR>
+                                <TR>
+                                <TD width=3D"4%">&nbsp;</TD>
+                                <TD width=3D"96%"><STRONG><FONT size=3D2 =
+
+                                face=3D"Verdana, Arial, Helvetica, =
+sans-serif">&lt;taglib-uri&gt;/WEB-INF/struts-bean.tld&lt;/taglib-uri&gt;=
+<BR>&lt;taglib-location&gt;/WEB-INF/struts-bean.tld&lt;/taglib-location&g=
+t;</FONT></STRONG></TD></TR>
+                                <TR>
+                                <TD colSpan=3D2><STRONG><FONT size=3D2=20
+                                face=3D"Verdana, Arial, Helvetica, =
+sans-serif">&lt;/taglib&gt;=20
+                                =
+</FONT></STRONG></TD></TR></TBODY></TABLE>
+                              <P><FONT size=3D2=20
+                              face=3D"Verdana, Arial, Helvetica, =
+sans-serif">Also=20
+                              check that the struts-bean.tld file is =
+copied to=20
+                              the /WEB-INF/ =
+folder.<BR><BR><BR>&lt;bean:message=20
+                              /&gt; tag and how it is configured for=20
+                              use.<BR><BR>Now we are done we will check =
+step by=20
+                              step of our saple=20
+                              application.<BR><BR><STRONG>1.</STRONG> =
+WeCreate=20
+                              the resource bundles that will contain the =
+
+                              key/value pairs used in your application. =
+For our=20
+                              application, we will have four properties =
+files=20
+                              that contain our resource bundles. =
+<BR><BR>The=20
+                              German ApplicationResources_de.properties=20
+                              =
+file.<BR>app.name=3DName<BR>app.hello=3DHallo<BR><BR>The=20
+                              French ApplicationResources_fr.properties=20
+                              =
+file.<BR>app.name=3DNom<BR>app.hello=3DBonjour<BR><BR></FONT><FONT=20
+                              size=3D2=20
+                              face=3D"Verdana, Arial, Helvetica, =
+sans-serif">The=20
+                              Italian ApplicationResources_it.properties =
+
+                              =
+file.<BR>app.name=3DNome<BR>app.hello=3DCiao<BR><BR>The=20
+                              Spanish ApplicationResources_fr.properties =
+
+                              =
+file.<BR>app.name=3DNombre<BR>app.hello=3DHola<BR><BR></FONT><FONT=20
+                              size=3D2=20
+                              face=3D"Verdana, Arial, Helvetica, =
+sans-serif">The=20
+                              English ApplicationResources.properties=20
+                              =
+file.<BR>app.name=3DName<BR>app.hello=3DHello<BR><BR><STRONG>2.</STRONG> =
+
+                              Copy all of the properties files to the=20
+                              /WEB-INF/classes/example directory.<BR>Add =
+an=20
+                              application &lt;message-resources /&gt;=20
+                              subelement, naming the wiley. =
+ApplicationResources=20
+                              to the struts-config.xml file, as shown=20
+</FONT></P>
+                              <TABLE border=3D0 width=3D"100%">
+                                <TBODY>
+                                <TR>
+                                <TD colSpan=3D4><STRONG><FONT size=3D2=20
+                                face=3D"Verdana, Arial, Helvetica, =
+sans-serif">&lt;struts-config&gt;</FONT></STRONG></TD></TR>
+                                <TR>
+                                <TD width=3D"2%">&nbsp;</TD>
+                                <TD colSpan=3D3><STRONG><FONT size=3D2=20
+                                face=3D"Verdana, Arial, Helvetica, =
+sans-serif">&lt;form-beans&gt;</FONT></STRONG></TD></TR>
+                                <TR>
+                                <TD>&nbsp;</TD>
+                                <TD width=3D"3%">&nbsp;</TD>
+                                <TD colSpan=3D2><STRONG><FONT size=3D2=20
+                                face=3D"Verdana, Arial, Helvetica, =
+sans-serif">&lt;form-bean=20
+                                name=3D"nameForm" =
+type=3D"example.NameForm"/&gt;=20
+                                </FONT></STRONG></TD></TR>
+                                <TR>
+                                <TD>&nbsp;</TD>
+                                <TD colSpan=3D3><STRONG><FONT size=3D2=20
+                                face=3D"Verdana, Arial, Helvetica, =
+sans-serif">&lt;/form-beans&gt;</FONT></STRONG></TD></TR>
+                                <TR>
+                                <TD>&nbsp;</TD>
+                                <TD colSpan=3D3><STRONG><FONT size=3D2=20
+                                face=3D"Verdana, Arial, Helvetica, =
+sans-serif">&lt;action-mappings&gt;</FONT></STRONG></TD></TR>
+                                <TR>
+                                <TD>&nbsp;</TD>
+                                <TD>&nbsp;</TD>
+                                <TD colSpan=3D2><STRONG><FONT size=3D2=20
+                                face=3D"Verdana, Arial, Helvetica, =
+sans-serif">&lt;action=20
+                                path=3D"/Name" =
+type=3D"example.NameAction"=20
+                                name=3D"NameForm" =
+&gt;</FONT></STRONG></TD></TR>
+                                <TR>
+                                <TD>&nbsp;</TD>
+                                <TD>&nbsp;</TD>
+                                <TD width=3D"3%">&nbsp;</TD>
+                                <TD width=3D"92%"><STRONG><FONT size=3D2 =
+
+                                face=3D"Verdana, Arial, Helvetica, =
+sans-serif">&lt;forward=20
+                                name=3D"success"=20
+                                path=3D"/quote.jsp"/&gt;<BR>&lt;forward=20
+                                name=3D"failure"=20
+                                =
+path=3D"/index.jsp"/&gt;</FONT></STRONG></TD></TR>
+                                <TR>
+                                <TD>&nbsp;</TD>
+                                <TD>&nbsp;</TD>
+                                <TD colSpan=3D2><STRONG><FONT size=3D2=20
+                                face=3D"Verdana, Arial, Helvetica, =
+sans-serif">&lt;/action&gt;</FONT></STRONG></TD></TR>
+                                <TR>
+                                <TD>&nbsp;</TD>
+                                <TD colSpan=3D3><STRONG><FONT size=3D2=20
+                                face=3D"Verdana, Arial, Helvetica, =
+sans-serif">&lt;/action-mappings&gt;</FONT></STRONG></TD></TR>
+                                <TR>
+                                <TD>&nbsp;</TD>
+                                <TD colSpan=3D3>&nbsp;</TD></TR>
+                                <TR>
+                                <TD>&nbsp;</TD>
+                                <TD colSpan=3D3><STRONG><FONT =
+color=3D#990000 size=3D2=20
+                                face=3D"Verdana, Arial, Helvetica, =
+sans-serif">&lt;message-resources=20
+                                =
+parameter=3D"example.ApplicationResources"/&gt;</FONT></STRONG></TD></TR>=
+
+                                <TR>
+                                <TD colSpan=3D4><STRONG><FONT size=3D2=20
+                                face=3D"Verdana, Arial, Helvetica, =
+sans-serif">&lt;/struts-config&gt;</FONT></STRONG></TD></TR></TBODY></TAB=
+LE>
+                              <P><FONT size=3D2=20
+                              face=3D"Verdana, Arial, Helvetica, =
+sans-serif"><STRONG>3.=20
+                              </STRONG>Modify the web.xml file as =
+discussed=20
+                              above by adding </FONT></P>
+                              <TABLE border=3D0 width=3D"100%">
+                                <TBODY>
+                                <TR>
+                                <TD colSpan=3D2><STRONG><FONT =
+color=3D#990000 size=3D2=20
+                                face=3D"Verdana, Arial, Helvetica, =
+sans-serif">&lt;taglib&gt;</FONT></STRONG></TD></TR>
+                                <TR>
+                                <TD width=3D"4%"><FONT=20
+                                color=3D#990000>&nbsp;</FONT></TD>
+                                <TD width=3D"96%"><STRONG><FONT =
+color=3D#990000=20
+                                size=3D2=20
+                                face=3D"Verdana, Arial, Helvetica, =
+sans-serif">&lt;taglib-uri&gt;/WEB-INF/struts-bean.tld&lt;/taglib-uri&gt;=
+<BR>&lt;taglib-location&gt;/WEB-INF/struts-bean.tld&lt;/taglib-location&g=
+t;</FONT></STRONG></TD></TR>
+                                <TR>
+                                <TD colSpan=3D2><STRONG><FONT =
+color=3D#990000 size=3D2=20
+                                face=3D"Verdana, Arial, Helvetica, =
+sans-serif">&lt;/taglib&gt;=20
+                                =
+</FONT></STRONG></TD></TR></TBODY></TABLE><FONT=20
+                              size=3D2=20
+                              face=3D"Verdana, Arial, Helvetica, =
+sans-serif"><BR><STRONG>4.</STRONG>=20
+                              Modify the <STRONG>index.jsp</STRONG>=20
+                              file<BR></FONT><FONT size=3D2=20
+                              face=3D"Verdana, Arial, Helvetica, =
+sans-serif"><EM><STRONG>index.jsp</STRONG></EM><BR><BR><STRONG>&lt;%@=20
+                              page language=3D"java" %&gt;<BR>&lt;%@ =
+taglib=20
+                              uri=3D"/WEB-INF/struts-html.tld" =
+prefix=3D"html"=20
+                              %&gt;<BR><FONT color=3D#990000>&lt;%@ =
+taglib=20
+                              uri=3D"/WEB-INF/struts-bean.tld" =
+prefix=3D"bean"=20
+                              %&gt;</FONT> </STRONG></FONT>
+                              <TABLE border=3D0 width=3D"100%">
+                                <TBODY>
+                                <TR>
+                                <TD colSpan=3D5><STRONG><FONT size=3D2=20
+                                face=3D"Verdana, Arial, Helvetica, =
+sans-serif">&lt;html&gt;<BR>&lt;head&gt;<BR>&lt;title&gt;Sample=20
+                                Struts=20
+                                =
+Application&lt;/title&gt;<BR>&lt;/head&gt;<BR>&lt;body&gt;</FONT></STRONG=
+></TD></TR>
+                                <TR>
+                                <TD width=3D"2%">&nbsp;</TD>
+                                <TD colSpan=3D4><STRONG><FONT size=3D2=20
+                                face=3D"Verdana, Arial, Helvetica, =
+sans-serif">&lt;html:form=20
+                                action=3D"Name" name=3D"nameForm"=20
+                                =
+type=3D"example.NameForm"&gt;</FONT></STRONG></TD></TR>
+                                <TR>
+                                <TD>&nbsp;</TD>
+                                <TD width=3D"2%">&nbsp;</TD>
+                                <TD colSpan=3D3><STRONG><FONT size=3D2=20
+                                face=3D"Verdana, Arial, Helvetica, =
+sans-serif">&lt;table=20
+                                width=3D"80%"=20
+                                =
+border=3D"0"&gt;</FONT></STRONG></TD></TR>
+                                <TR>
+                                <TD>&nbsp;</TD>
+                                <TD>&nbsp;</TD>
+                                <TD width=3D"2%">&nbsp;</TD>
+                                <TD colSpan=3D2><STRONG><FONT size=3D2=20
+                                face=3D"Verdana, Arial, Helvetica, =
+sans-serif">&lt;tr&gt;</FONT></STRONG></TD></TR>
+                                <TR>
+                                <TD>&nbsp;</TD>
+                                <TD>&nbsp;</TD>
+                                <TD>&nbsp;</TD>
+                                <TD width=3D"2%">&nbsp;</TD>
+                                <TD width=3D"92%"><STRONG><FONT =
+color=3D#990000=20
+                                size=3D2=20
+                                face=3D"Verdana, Arial, Helvetica, =
+sans-serif">&lt;td&gt;&lt;bean:message=20
+                                key=3D"app.name"=20
+                                =
+/&gt;:&lt;/td&gt;</FONT></STRONG></TD></TR>
+                                <TR>
+                                <TD>&nbsp;</TD>
+                                <TD>&nbsp;</TD>
+                                <TD>&nbsp;</TD>
+                                <TD>&nbsp;</TD>
+                                <TD><STRONG><FONT size=3D2=20
+                                face=3D"Verdana, Arial, Helvetica, =
+sans-serif">&lt;td&gt;&lt;html:text=20
+                                property=3D"name"=20
+                                =
+/&gt;&lt;/td&gt;</FONT></STRONG></TD></TR>
+                                <TR>
+                                <TD>&nbsp;</TD>
+                                <TD>&nbsp;</TD>
+                                <TD>&nbsp;</TD>
+                                <TD colSpan=3D2><STRONG><FONT size=3D2=20
+                                face=3D"Verdana, Arial, Helvetica, =
+sans-serif">&lt;/tr&gt;</FONT></STRONG></TD></TR>
+                                <TR>
+                                <TD>&nbsp;</TD>
+                                <TD>&nbsp;</TD>
+                                <TD>&nbsp;</TD>
+                                <TD colSpan=3D2><STRONG><FONT size=3D2=20
+                                face=3D"Verdana, Arial, Helvetica, =
+sans-serif">&lt;tr&gt;</FONT></STRONG></TD></TR>
+                                <TR>
+                                <TD>&nbsp;</TD>
+                                <TD>&nbsp;</TD>
+                                <TD>&nbsp;</TD>
+                                <TD>&nbsp;</TD>
+                                <TD><STRONG><FONT size=3D2=20
+                                face=3D"Verdana, Arial, Helvetica, =
+sans-serif">&lt;td&gt;&lt;html:submit=20
+                                =
+/&gt;&lt;/td&gt;</FONT></STRONG></TD></TR>
+                                <TR>
+                                <TD>&nbsp;</TD>
+                                <TD>&nbsp;</TD>
+                                <TD>&nbsp;</TD>
+                                <TD colSpan=3D2><STRONG><FONT size=3D2=20
+                                face=3D"Verdana, Arial, Helvetica, =
+sans-serif">&lt;/tr&gt;</FONT></STRONG></TD></TR>
+                                <TR>
+                                <TD>&nbsp;</TD>
+                                <TD>&nbsp;</TD>
+                                <TD colSpan=3D3><STRONG><FONT size=3D2=20
+                                face=3D"Verdana, Arial, Helvetica, =
+sans-serif">&lt;/table&gt;</FONT></STRONG></TD></TR>
+                                <TR>
+                                <TD>&nbsp;</TD>
+                                <TD colSpan=3D4><STRONG><FONT size=3D2=20
+                                face=3D"Verdana, Arial, Helvetica, =
+sans-serif">&lt;/html:form&gt;</FONT></STRONG></TD></TR>
+                                <TR>
+                                <TD colSpan=3D5><STRONG><FONT size=3D2=20
+                                face=3D"Verdana, Arial, Helvetica, =
+sans-serif">&lt;/body&gt;<BR>&lt;/html&gt;=20
+                                =
+</FONT></STRONG></TD></TR></TBODY></TABLE>
+                              <P><FONT size=3D2=20
+                              face=3D"Verdana, Arial, Helvetica, =
+sans-serif">Modify=20
+                              the=20
+                              =
+<STRONG>diplayname.jsp</STRONG><BR><STRONG>displayname.jsp</STRONG>=20
+                              </FONT></P><BR><FONT color=3D#990000 =
+size=3D2=20
+                              face=3D"Verdana, Arial, Helvetica, =
+sans-serif"><STRONG>&lt;%@=20
+                              taglib uri=3D"/WEB-INF/struts-bean.tld"=20
+                              prefix=3D"bean" %&gt;</STRONG></FONT>=20
+                              <TABLE border=3D0 width=3D"100%">
+                                <TBODY>
+                                <TR>
+                                <TD colSpan=3D5><STRONG><FONT size=3D2=20
+                                face=3D"Verdana, Arial, Helvetica, =
+sans-serif">&lt;html&gt;<BR>&lt;head&gt;<BR>&lt;title&gt;Sample=20
+                                Struts Display=20
+                                =
+Name&lt;/title&gt;<BR>&lt;/head&gt;<BR>&lt;body&gt;</FONT></STRONG></TD><=
+/TR>
+                                <TR>
+                                <TD width=3D"2%">&nbsp;</TD>
+                                <TD width=3D"2%">&nbsp;</TD>
+                                <TD colSpan=3D3><STRONG><FONT size=3D2=20
+                                face=3D"Verdana, Arial, Helvetica, =
+sans-serif">&lt;table=20
+                                width=3D"80%"=20
+                                =
+border=3D"0"&gt;</FONT></STRONG></TD></TR>
+                                <TR>
+                                <TD>&nbsp;</TD>
+                                <TD>&nbsp;</TD>
+                                <TD width=3D"2%">&nbsp;</TD>
+                                <TD colSpan=3D2><STRONG><FONT size=3D2=20
+                                face=3D"Verdana, Arial, Helvetica, =
+sans-serif">&lt;tr&gt;</FONT></STRONG></TD></TR>
+                                <TR>
+                                <TD>&nbsp;</TD>
+                                <TD>&nbsp;</TD>
+                                <TD>&nbsp;</TD>
+                                <TD width=3D"2%">&nbsp;</TD>
+                                <TD width=3D"92%"><STRONG><FONT size=3D2 =
+
+                                face=3D"Verdana, Arial, Helvetica, =
+sans-serif">&lt;td&gt;<FONT=20
+                                color=3D#990000>&lt;bean:message =
+key=3D"app.hello"=20
+                                /&gt;</FONT>&lt;%=3D =
+request.getAttribute("NAME")=20
+                                %&gt; =
+!!&lt;/td&gt;</FONT></STRONG></TD></TR>
+                                <TR>
+                                <TD>&nbsp;</TD>
+                                <TD>&nbsp;</TD>
+                                <TD>&nbsp;</TD>
+                                <TD colSpan=3D2><STRONG><FONT size=3D2=20
+                                face=3D"Verdana, Arial, Helvetica, =
+sans-serif">&lt;/tr&gt;</FONT></STRONG></TD></TR>
+                                <TR>
+                                <TD>&nbsp;</TD>
+                                <TD>&nbsp;</TD>
+                                <TD colSpan=3D3><STRONG><FONT size=3D2=20
+                                face=3D"Verdana, Arial, Helvetica, =
+sans-serif">&lt;/table&gt;</FONT></STRONG></TD></TR>
+                                <TR>
+                                <TD colSpan=3D5><STRONG><FONT size=3D2=20
+                                face=3D"Verdana, Arial, Helvetica, =
+sans-serif">&lt;/body&gt;<BR>&lt;/html&gt;=20
+                                =
+</FONT></STRONG></TD></TR></TBODY></TABLE>
+                              <P><FONT size=3D2=20
+                              face=3D"Verdana, Arial, Helvetica, =
+sans-serif">So we=20
+                              are done with Internationalization (i18n) =
+you need=20
+                              to open your Web browser to the following=20
+                              =
+URL:<BR><STRONG>http://localhost:port/example/=20
+                              </STRONG><BR><BR><BR><BR></FONT></P></TD>
+                            <TD vAlign=3Dtop width=3D"22%">
+                              <TABLE border=3D1 cellSpacing=3D0 =
+cellPadding=3D2=20
+                              width=3D"100%">
+                                <TBODY>
+                                <TR>
+                                <TD bgColor=3D#cccccc><FONT =
+color=3D#ffffff size=3D2=20
+                                face=3D"Verdana, Arial, Helvetica, =
+sans-serif"><STRONG><A=20
+                                =
+href=3D"http://www.allappforum.com/struts/struts.htm"><FONT=20
+                                color=3D#ffffff size=3D2=20
+                                face=3D"Verdana, Arial, Helvetica, =
+sans-serif">Struts</FONT></A></STRONG></FONT></TD></TR>
+                                <TR>
+                                <TD width=3D"6%"><A=20
+                                =
+href=3D"http://www.allappforum.com/struts/mvc.htm"><FONT=20
+                                color=3D#000000 size=3D1=20
+                                face=3D"Verdana, Arial, Helvetica, =
+sans-serif"><STRONG>MVC</STRONG></FONT></A>=20
+
+                                <HR SIZE=3D1 noShade>
+                                <A=20
+                                =
+href=3D"http://www.allappforum.com/struts/downloading_struts.htm"><FONT=20
+                                color=3D#000000 size=3D1=20
+                                face=3D"Verdana, Arial, Helvetica, =
+sans-serif"><STRONG>Downloading=20
+                                Struts</STRONG></FONT></A>=20
+                                <HR SIZE=3D1 noShade>
+                                <A=20
+                                =
+href=3D"http://www.allappforum.com/struts/installing_struts.htm"><FONT=20
+                                color=3D#000000 size=3D1=20
+                                face=3D"Verdana, Arial, Helvetica, =
+sans-serif"><STRONG>Installing=20
+                                Struts</STRONG></FONT></A>=20
+                                <HR SIZE=3D1 noShade>
+                                <A=20
+                                =
+href=3D"http://www.allappforum.com/struts/configuring_struts.htm"><FONT=20
+                                color=3D#000000 size=3D1=20
+                                face=3D"Verdana, Arial, Helvetica, =
+sans-serif"><STRONG>Configuring=20
+                                Struts</STRONG></FONT></A>=20
+                                <HR SIZE=3D1 noShade>
+                                <A=20
+                                =
+href=3D"http://www.allappforum.com/struts/struts_10_and%20_11.htm"><FONT =
+
+                                color=3D#000000 size=3D1=20
+                                face=3D"Verdana, Arial, Helvetica, =
+sans-serif"><STRONG>Struts=20
+                                1.0 and 1.1</STRONG></FONT></A>=20
+                                <HR SIZE=3D1 noShade>
+                                <A=20
+                                =
+href=3D"http://www.allappforum.com/struts/struts_controller.htm"><FONT=20
+                                color=3D#000000 size=3D1=20
+                                face=3D"Verdana, Arial, Helvetica, =
+sans-serif"><STRONG>Struts=20
+                                Controller</STRONG></FONT></A>=20
+                                <HR SIZE=3D1 noShade>
+                                <A=20
+                                =
+href=3D"http://www.allappforum.com/struts/struts_model.htm"><FONT=20
+                                color=3D#000000 size=3D1=20
+                                face=3D"Verdana, Arial, Helvetica, =
+sans-serif"><STRONG>Struts=20
+                                Model</STRONG></FONT></A>=20
+                                <HR SIZE=3D1 noShade>
+                                <A=20
+                                =
+href=3D"http://www.allappforum.com/struts/struts_view.htm"><FONT=20
+                                color=3D#000000 size=3D1=20
+                                face=3D"Verdana, Arial, Helvetica, =
+sans-serif"><STRONG>Struts=20
+                                View</STRONG></FONT></A>=20
+                                <HR SIZE=3D1 noShade>
+                                <A=20
+                                =
+href=3D"http://www.allappforum.com/struts/struts_tag_library.htm"><FONT=20
+                                color=3D#000000 size=3D1=20
+                                face=3D"Verdana, Arial, Helvetica, =
+sans-serif"><STRONG>Struts=20
+                                Tag Library</STRONG></FONT></A>=20
+                                <HR SIZE=3D1 noShade>
+                                <A=20
+                                =
+href=3D"http://www.allappforum.com/struts/struts_tag_library.htm"><FONT=20
+                                color=3D#000000 size=3D1=20
+                                face=3D"Verdana, Arial, Helvetica, =
+sans-serif"><STRONG></STRONG></FONT></A><A=20
+                                =
+href=3D"http://www.allappforum.com/struts/struts_example.htm"><FONT=20
+                                color=3D#000000 size=3D1=20
+                                face=3D"Verdana, Arial, Helvetica, =
+sans-serif"><STRONG></STRONG></FONT></A><A=20
+                                =
+href=3D"http://www.allappforum.com/struts/struts_tag_library.htm"><FONT=20
+                                color=3D#000000 size=3D1=20
+                                face=3D"Verdana, Arial, Helvetica, =
+sans-serif"><STRONG></STRONG></FONT></A><A=20
+                                =
+href=3D"http://www.allappforum.com/struts/struts_example.htm"><FONT=20
+                                color=3D#000000 size=3D1=20
+                                face=3D"Verdana, Arial, Helvetica, =
+sans-serif"><STRONG>Struts=20
+                                Example</STRONG></FONT></A>=20
+                                <HR SIZE=3D1 noShade>
+                                <A=20
+                                =
+href=3D"http://www.allappforum.com/struts/struts_tag_library.htm"><FONT=20
+                                color=3D#000000 size=3D1=20
+                                face=3D"Verdana, Arial, Helvetica, =
+sans-serif"><STRONG></STRONG></FONT></A><A=20
+                                =
+href=3D"http://www.allappforum.com/struts/struts_internationalization.htm=
+"><FONT=20
+                                color=3D#000000 size=3D1=20
+                                face=3D"Verdana, Arial, Helvetica, =
+sans-serif"><STRONG>Struts=20
+                                Internationalization</STRONG></FONT></A> =
+
+                                </TD></TR></TBODY></TABLE><BR>
+                              <TABLE border=3D0 width=3D"100%">
+                                <TBODY>
+                                <TR>
+                                <TD>
+                                <SCRIPT type=3Dtext/javascript><!--
+google_ad_client =3D "pub-8254183508085747";
+google_ad_width =3D 160;
+google_ad_height =3D 600;
+google_ad_format =3D "160x600_as";
+google_ad_type =3D "text";
+google_ad_channel =3D"";
+google_color_border =3D "FFFFFF";
+google_color_bg =3D "FFFFFF";
+google_color_link =3D "000000";
+google_color_url =3D "000000";
+google_color_text =3D "000000";
+//--></SCRIPT>
+
+                                <SCRIPT type=3Dtext/javascript=20
+                                =
+src=3D"http://pagead2.googlesyndication.com/pagead/show_ads.js">
+                                  </SCRIPT>
+                                =
+</TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV></TD></TR></TBO=
+DY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD>
+            <DIV align=3Dcenter><FONT color=3D#999999 size=3D1=20
+            face=3D"Verdana, Arial, Helvetica, sans-serif"><STRONG><FONT =
+
+            color=3D#000000 size=3D-2 face=3DVerdana>Use of this website =
+constitutes=20
+            acceptance of the AllAppLabs.com</FONT><A=20
+            =
+href=3D"http://www.allappforum.com/terms_and_condition.htm"><FONT=20
+            size=3D-2 face=3DVerdana><FONT color=3D#990000><EM> Terms =
+and=20
+            =
+Conditions</EM></FONT></FONT></A></STRONG></FONT></DIV></TD></TR>
+        <TR>
+          <TD=20
+          =
+background=3Dhttp://www.allappforum.com/images/side_bg.jpg>&nbsp;</TD>
+          <TD>
+            <TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 =
+width=3D"100%">
+              <TBODY>
+              <TR>
+                <TD>
+                  <DIV align=3Dcenter><STRONG><A=20
+                  href=3D"http://www.allapplabs.com/"><FONT =
+color=3D#999999 size=3D2=20
+                  face=3D"Verdana, Arial, Helvetica, =
+sans-serif">AllAppLabs.com=20
+                  =
+</FONT></A></STRONG></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></T=
+ABLE></TD></TR></TBODY></TABLE>
+<SCRIPT type=3Dtext/javascript =
+src=3D"http://www.google-analytics.com/urchin.js">
+</SCRIPT>
+
+<SCRIPT type=3Dtext/javascript>
+_uacct =3D "UA-425984-1";
+urchinTracker();
+</SCRIPT>
+</BODY></HTML>
+
+------=_NextPart_000_0000_01CA5D99.D6C0A7D0
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.allappforum.com/images/allapplabs_logo.jpg
+
+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
+
+------=_NextPart_000_0000_01CA5D99.D6C0A7D0
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.allappforum.com/images/site_name.jpg
+
+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
+
+------=_NextPart_000_0000_01CA5D99.D6C0A7D0
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.allappforum.com/images/side_bg.jpg
+
+/9j/4AAQSkZJRgABAgAAZABkAAD/7AARRHVja3kAAQAEAAAAOwAA/+4ADkFkb2JlAGTAAAAAAf/b
+AIQABwUFBQUFBwUFBwkGBQYJCwgHBwgLDQoKCwoKDRAMDAwMDAwQDA4PEA8ODBQUFRUUFB0cHBwd
+ICAgICAgICAgIAEHBwcNDA0ZEBAZGxYSFhsgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAg/8AAEQgADAAWAwERAAIRAQMRAf/EAGwAAAMBAAAAAAAAAAAAAAAA
+AAUGBwgBAAMBAQAAAAAAAAAAAAAAAAAEBgEFEAAAAwkBAAAAAAAAAAAAAAAAAweyhLQFdQZGhjfG
+EQABAQYHAQAAAAAAAAAAAAAAAYECMgQ0BbFCgrLCQ4PD/9oADAMBAAIRAxEAPwBBU3oFxVA9oc2Y
+jUt7RTOtxUKoh1CRvkEeCXjQy70zzNyF8xDcPWBzLq5E32+XyM3Kb0C4qge0E5iNSltFM63FQqiH
+UJG+QR4JeNDLvTPM3IXzENw9YHMurkTfb5fI/9k=
+
+------=_NextPart_000_0000_01CA5D99.D6C0A7D0
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.allappforum.com/images/menu_bg.jpg
+
+/9j/4AAQSkZJRgABAgAAZABkAAD/7AARRHVja3kAAQAEAAAAOwAA/+4ADkFkb2JlAGTAAAAAAf/b
+AIQABwUFBQUFBwUFBwkGBQYJCwgHBwgLDQoKCwoKDRAMDAwMDAwQDA4PEA8ODBQUFRUUFB0cHBwd
+ICAgICAgICAgIAEHBwcNDA0ZEBAZGxYSFhsgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAg/8AAEQgAHAAGAwERAAIRAQMRAf/EAFwAAQEAAAAAAAAAAAAAAAAA
+AAAGAQEBAQEAAAAAAAAAAAAAAAAABQMGEAEAAgMAAAAAAAAAAAAAAAAA45UGZhcRAQAABgMAAAAA
+AAAAAAAAAABhkeECkgMTYxX/2gAMAwEAAhEDEQA/AJbqul4fUypvNC2TtvN7NuVECxUwAH//2Q==
+
+------=_NextPart_000_0000_01CA5D99.D6C0A7D0
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://pagead2.googlesyndication.com/pagead/show_ads.js
+
+(function(){var g=3Dtrue,h=3Dnull,j=3Dfalse,aa=3D(new =
+Date).getTime(),k=3Dfunction(a){var b=3D(new =
+Date).getTime()-aa;b=3D"&dtd=3D"+(b<1000?b:"M");return a+b};var =
+l=3Dthis,ba=3Dfunction(a,b,c){a=3Da.split(".");c=3Dc||l;!(a[0]in =
+c)&&c.execScript&&c.execScript("var "+a[0]);for(var =
+d;a.length&&(d=3Da.shift());)if(!a.length&&b!=3D=3Dundefined)c[d]=3Db;els=
+e c=3Dc[d]?c[d]:(c[d]=3D{})},n=3Dfunction(a){var b=3Dtypeof =
+a;if(b=3D=3D"object")if(a){if(a instanceof Array||!(a instanceof =
+Object)&&Object.prototype.toString.call(a)=3D=3D"[object Array]"||typeof =
+a.length=3D=3D"number"&&typeof a.splice!=3D"undefined"&&typeof =
+a.propertyIsEnumerable!=3D"undefined"&&!a.propertyIsEnumerable("splice"))=
+return"array";=0A=
+if(!(a instanceof =
+Object)&&(Object.prototype.toString.call(a)=3D=3D"[object =
+Function]"||typeof a.call!=3D"undefined"&&typeof =
+a.propertyIsEnumerable!=3D"undefined"&&!a.propertyIsEnumerable("call")))r=
+eturn"function"}else return"null";else if(b=3D=3D"function"&&typeof =
+a.call=3D=3D"undefined")return"object";return b},o=3Dfunction(a){return =
+n(a)=3D=3D"array"},ca=3Dfunction(a){var b=3Dn(a);return =
+b=3D=3D"array"||b=3D=3D"object"&&typeof =
+a.length=3D=3D"number"},p=3Dfunction(a){return typeof =
+a=3D=3D"string"},da=3Dfunction(a){a=3Dn(a);return a=3D=3D"object"||=0A=
+a=3D=3D"array"||a=3D=3D"function"};Math.floor(Math.random()*2147483648).t=
+oString(36);=0A=
+var ea=3Dfunction(a){var =
+b=3Dn(a);if(b=3D=3D"object"||b=3D=3D"array"){if(a.clone)return =
+a.clone.call(a);b=3Db=3D=3D"array"?[]:{};for(var c in =
+a)b[c]=3Dea(a[c]);return b}return a},fa=3Dfunction(a,b){var =
+c=3Db||l;if(arguments.length>2){var =
+d=3DArray.prototype.slice.call(arguments,2);return function(){var =
+e=3DArray.prototype.slice.call(arguments);Array.prototype.unshift.apply(e=
+,d);return a.apply(c,e)}}else return function(){return =
+a.apply(c,arguments)}},ga=3DDate.now||function(){return(new =
+Date).getTime()},q=3Dfunction(a,b,c){ba(a,=0A=
+b,c)};var ha=3Dfunction(a,b,c){if(a.forEach)a.forEach(b,c);else =
+if(Array.forEach)Array.forEach(a,b,c);else for(var =
+d=3Da.length,e=3Dp(a)?a.split(""):a,f=3D0;f<d;f++)f in =
+e&&b.call(c,e[f],f,a)},ia=3Dfunction(a){if(o(a))return =
+a.concat();else{for(var =
+b=3D[],c=3D0,d=3Da.length;c<d;c++)b[c]=3Da[c];return b}};var =
+r=3Dfunction(a,b){this.width=3Da;this.height=3Db};r.prototype.clone=3Dfun=
+ction(){return new =
+r(this.width,this.height)};r.prototype.toString=3Dfunction(){return"("+th=
+is.width+" x =
+"+this.height+")"};r.prototype.ceil=3Dfunction(){this.width=3DMath.ceil(t=
+his.width);this.height=3DMath.ceil(this.height);return =
+this};r.prototype.floor=3Dfunction(){this.width=3DMath.floor(this.width);=
+this.height=3DMath.floor(this.height);return this};=0A=
+r.prototype.round=3Dfunction(){this.width=3DMath.round(this.width);this.h=
+eight=3DMath.round(this.height);return =
+this};r.prototype.scale=3Dfunction(a){this.width*=3Da;this.height*=3Da;re=
+turn this};var ja=3Dfunction(a,b,c){for(var d in =
+a)b.call(c,a[d],d,a)};var ka=3Dfunction(a){return =
+a.replace(/^[\s\xa0]+|[\s\xa0]+$/g,"")},qa=3Dfunction(a,b){if(b)return =
+a.replace(la,"&amp;").replace(ma,"&lt;").replace(na,"&gt;").replace(oa,"&=
+quot;");else{if(!pa.test(a))return =
+a;if(a.indexOf("&")!=3D-1)a=3Da.replace(la,"&amp;");if(a.indexOf("<")!=3D=
+-1)a=3Da.replace(ma,"&lt;");if(a.indexOf(">")!=3D-1)a=3Da.replace(na,"&gt=
+;");if(a.indexOf('"')!=3D-1)a=3Da.replace(oa,"&quot;");return =
+a}},la=3D/&/g,ma=3D/</g,na=3D/>/g,oa=3D/\"/g,pa=3D/[&<>\"]/,ta=3Dfunction=
+(a){if(t(a,"&"))return"document"in l&&!t(a,"<")?=0A=
+ra(a):sa(a);return a},ra=3Dfunction(a){var =
+b=3Dl.document.createElement("a");b.innerHTML=3Da;b.normalize&&b.normaliz=
+e();a=3Db.firstChild.nodeValue;b.innerHTML=3D"";return =
+a},sa=3Dfunction(a){return =
+a.replace(/&([^;]+);/g,function(b,c){switch(c){case "amp":return"&";case =
+"lt":return"<";case "gt":return">";case =
+"quot":return'"';default:if(c.charAt(0)=3D=3D"#"){c=3DNumber("0"+c.substr=
+(1));if(!isNaN(c))return String.fromCharCode(c)}return =
+b}})},ua=3Dfunction(a,b){for(var c=3Db.length,d=3D0;d<c;d++){var =
+e=3Dc=3D=3D1?b:b.charAt(d);=0A=
+if(a.charAt(0)=3D=3De&&a.charAt(a.length-1)=3D=3De)return =
+a.substring(1,a.length-1)}return a},t=3Dfunction(a,b){return =
+a.indexOf(b)!=3D-1},va=3Dfunction(a,b){var =
+c=3D0;a=3Dka(String(a)).split(".");b=3Dka(String(b)).split(".");for(var =
+d=3DMath.max(a.length,b.length),e=3D0;c=3D=3D0&&e<d;e++){var =
+f=3Da[e]||"",i=3Db[e]||"",m=3Dnew RegExp("(\\d*)(\\D*)","g"),s=3Dnew =
+RegExp("(\\d*)(\\D*)","g");do{var =
+x=3Dm.exec(f)||["","",""],y=3Ds.exec(i)||["","",""];if(x[0].length=3D=3D0=
+&&y[0].length=3D=3D0)break;c=3Dx[1].length=3D=3D0?0:parseInt(x[1],10);var=
+ sb=3Dy[1].length=3D=3D=0A=
+0?0:parseInt(y[1],10);c=3Du(c,sb)||u(x[2].length=3D=3D0,y[2].length=3D=3D=
+0)||u(x[2],y[2])}while(c=3D=3D0)}return =
+c},u=3Dfunction(a,b){if(a<b)return-1;else if(a>b)return 1;return =
+0};ga();var v,w,z,A,B,wa,xa,ya,za,Aa,Ba=3Dfunction(){return =
+l.navigator?l.navigator.userAgent:h},C=3Dfunction(){return =
+l.navigator},Ca=3Dfunction(){wa=3DB=3DA=3Dz=3Dw=3Dv=3Dj;var =
+a;if(a=3DBa()){var =
+b=3DC();v=3Da.indexOf("Opera")=3D=3D0;w=3D!v&&a.indexOf("MSIE")!=3D-1;A=3D=
+(z=3D!v&&a.indexOf("WebKit")!=3D-1)&&a.indexOf("Mobile")!=3D-1;wa=3D(B=3D=
+!v&&!z&&b.product=3D=3D"Gecko")&&b.vendor=3D=3D"Camino"}};Ca();=0A=
+var D=3Dv,E=3Dw,Da=3DB,F=3Dz,Ea=3DA,Fa=3Dfunction(){var a=3DC();return =
+a&&a.platform||""},Ga=3DFa(),Ha=3Dfunction(){xa=3Dt(Ga,"Mac");ya=3Dt(Ga,"=
+Win");za=3Dt(Ga,"Linux");Aa=3D!!C()&&t(C().appVersion||"","X11")};Ha();va=
+r Ia=3Dxa,Ja=3Dya,Ka=3Dza,La=3Dfunction(){var =
+a=3D"",b;if(D&&l.opera){a=3Dl.opera.version;a=3Dtypeof =
+a=3D=3D"function"?a():a}else{if(Da)b=3D/rv\:([^\);]+)(\)|;)/;else =
+if(E)b=3D/MSIE\s+([^\);]+)(\)|;)/;else =
+if(F)b=3D/WebKit\/(\S+)/;if(b)a=3D(a=3Db.exec(Ba()))?a[1]:""}return =
+a},Ma=3DLa(),Na=3D{},G=3Dfunction(a){return =
+Na[a]||(Na[a]=3Dva(Ma,a)>=3D0)};var Oa=3Dfunction(a){return =
+p(a)?document.getElementById(a):a},Pa=3DOa,Ra=3Dfunction(a,b){ja(b,functi=
+on(c,d){if(d=3D=3D"style")a.style.cssText=3Dc;else =
+if(d=3D=3D"class")a.className=3Dc;else =
+if(d=3D=3D"for")a.htmlFor=3Dc;else if(d in =
+Qa)a.setAttribute(Qa[d],c);else =
+a[d]=3Dc})},Qa=3D{cellpadding:"cellPadding",cellspacing:"cellSpacing",col=
+span:"colSpan",rowspan:"rowSpan",valign:"vAlign",height:"height",width:"w=
+idth",usemap:"useMap",frameborder:"frameBorder",type:"type"},Sa=3Dfunctio=
+n(a){var b=3Da.document;if(F&&!G("500")&&!Ea){if(typeof a.innerHeight=3D=3D=0A=
+"undefined")a=3Dwindow;b=3Da.innerHeight;var =
+c=3Da.document.documentElement.scrollHeight;if(a=3D=3Da.top)if(c<b)b-=3D1=
+5;return new =
+r(a.innerWidth,b)}a=3Db.compatMode=3D=3D"CSS1Compat"&&(!D||D&&G("9.50"))?=
+b.documentElement:b.body;return new =
+r(a.clientWidth,a.clientHeight)},Ua=3Dfunction(){return =
+Ta(document,arguments)},Ta=3Dfunction(a,b){var =
+c=3Db[0],d=3Db[1];if(E&&d&&(d.name||d.type)){c=3D["<",c];d.name&&c.push('=
+ name=3D"',qa(d.name),'"');if(d.type){c.push(' =
+type=3D"',qa(d.type),'"');d=3Dea(d);delete =
+d.type}c.push(">");c=3Dc.join("")}var e=3D=0A=
+a.createElement(c);if(d)if(p(d))e.className=3Dd;else =
+Ra(e,d);if(b.length>2){function =
+f(i){if(i)e.appendChild(p(i)?a.createTextNode(i):i)}for(d=3D2;d<b.length;=
+d++){c=3Db[d];ca(c)&&!(da(c)&&c.nodeType>0)?ha(Va(c)?ia(c):c,f):f(c)}}ret=
+urn e},Wa=3Dfunction(a,b){a.appendChild(b)};F&&G("522");var =
+Va=3Dfunction(a){if(a&&typeof a.length=3D=3D"number")if(da(a))return =
+typeof a.item=3D=3D"function"||typeof a.item=3D=3D"string";else =
+if(n(a)=3D=3D"function")return typeof a.item=3D=3D"function";return =
+j};function H(a,b){a=3DparseFloat(a);return =
+isNaN(a)||a>1||a<0?b:a}function I(a,b){if(a=3D=3D"true")return =
+g;if(a=3D=3D"false")return j;return b}function J(a,b){var =
+c=3D/^([\w-]+\.)+[\w-]{2,}(\:[0-9]+)?$/;return c.test(a)?a:b};var =
+Xa=3D"pagead2.googlesyndication.com",Ya=3D"googleads.g.doubleclick.net",Z=
+a=3D"pubads.g.doubleclick.net",$a=3D"securepubads.g.doubleclick.net",ab=3D=
+"partner.googleadservices.com",K=3DJ("pagead2.googlesyndication.com",Xa),=
+bb=3DJ("googleads.g.doubleclick.net",Ya),cb=3DJ("pagead2.googlesyndicatio=
+n.com",Xa);J("pubads.g.doubleclick.net",Za);J("partner.googleadservices.c=
+om",ab);J("securepubads.g.doubleclick.net",$a);var =
+L=3Dfunction(a,b){for(var c in =
+a)Object.prototype.hasOwnProperty.call(a,c)&&b.call(h,a[c],c,a)};function=
+ M(a){return typeof =
+encodeURIComponent=3D=3D"function"?encodeURIComponent(a):escape(a)}functi=
+on db(a,b,c){var =
+d=3Ddocument.createElement("script");d.type=3D"text/javascript";if(b)d.on=
+load=3Db;if(c)d.id=3Dc;d.src=3Da;var =
+e=3Ddocument.getElementsByTagName("head")[0];if(!e)return =
+j;window.setTimeout(function(){e.appendChild(d)},0);return g}=0A=
+function =
+eb(a,b){a.google_image_requests||(a.google_image_requests=3D[]);var =
+c=3Dnew Image;c.src=3Db;a.google_image_requests.push(c)}function =
+fb(a){if(a in gb)return gb[a];return =
+gb[a]=3Dnavigator.userAgent.toLowerCase().indexOf(a)!=3D-1}var gb=3D{};=0A=
+function hb(){if(navigator.plugins&&navigator.mimeTypes.length){var =
+a=3Dnavigator.plugins["Shockwave Flash"];if(a&&a.description)return =
+a.description.replace(/([a-zA-Z]|\s)+/,"").replace(/(\s)+r/,".")}else =
+if(navigator.userAgent&&navigator.userAgent.indexOf("Windows =
+CE")>=3D0){a=3D3;for(var b=3D1;b;)try{b=3Dnew =
+ActiveXObject("ShockwaveFlash.ShockwaveFlash."+(a+1));a++}catch(c){b=3Dh}=
+return a.toString()}else if(fb("msie")&&!window.opera){b=3Dh;try{b=3Dnew =
+ActiveXObject("ShockwaveFlash.ShockwaveFlash.7")}catch(d){a=3D=0A=
+0;try{b=3Dnew =
+ActiveXObject("ShockwaveFlash.ShockwaveFlash.6");a=3D6;b.AllowScriptAcces=
+s=3D"always"}catch(e){if(a=3D=3D6)return a.toString()}try{b=3Dnew =
+ActiveXObject("ShockwaveFlash.ShockwaveFlash")}catch(f){}}if(b){a=3Db.Get=
+Variable("$version").split(" ")[1];return =
+a.replace(/,/g,".")}}return"0"}function N(a){var =
+b=3Da.google_ad_format;if(b)return b.indexOf("_0ads")>0;return =
+a.google_ad_output!=3D"html"&&a.google_num_radlinks>0}function =
+O(a){return!!a&&a.indexOf("_sdo")!=3D-1}=0A=
+function P(a,b){var =
+c=3DMath.random();if(c<b){b=3DMath.floor(c/b*a.length);return =
+a[b]}return""}=0A=
+var ib=3Dfunction(a){a.u_tz=3D-(new =
+Date).getTimezoneOffset();a.u_his=3Dwindow.history.length;a.u_java=3Dnavi=
+gator.javaEnabled();if(window.screen){a.u_h=3Dwindow.screen.height;a.u_w=3D=
+window.screen.width;a.u_ah=3Dwindow.screen.availHeight;a.u_aw=3Dwindow.sc=
+reen.availWidth;a.u_cd=3Dwindow.screen.colorDepth}if(navigator.plugins)a.=
+u_nplug=3Dnavigator.plugins.length;if(navigator.mimeTypes)a.u_nmime=3Dnav=
+igator.mimeTypes.length},jb=3Dfunction(a){if(a.body)try{return =
+Sa(window)}catch(b){return new r(-12245933,-12245933)}else return new =
+r(-1,=0A=
+-1)};var =
+kb=3D{google_ad_channel:"channel",google_ad_host:"host",google_ad_host_ch=
+annel:"h_ch",google_ad_host_tier_id:"ht_id",google_ad_section:"region",go=
+ogle_ad_type:"ad_type",google_adtest:"adtest",google_allow_expandable_ads=
+:"ea",google_alternate_ad_url:"alternate_ad_url",google_alternate_color:"=
+alt_color",google_bid:"bid",google_city:"gcs",google_color_bg:"color_bg",=
+google_color_border:"color_border",google_color_line:"color_line",google_=
+color_link:"color_link",google_color_text:"color_text",google_color_url:"=
+color_url",=0A=
+google_contents:"contents",google_country:"gl",google_cust_age:"cust_age"=
+,google_cust_ch:"cust_ch",google_cust_gender:"cust_gender",google_cust_id=
+:"cust_id",google_cust_interests:"cust_interests",google_cust_job:"cust_j=
+ob",google_cust_l:"cust_l",google_cust_lh:"cust_lh",google_cust_u_url:"cu=
+st_u_url",google_disable_video_autoplay:"disable_video_autoplay",google_e=
+d:"ed",google_encoding:"oe",google_feedback:"feedback_link",google_flash_=
+version:"flash",google_font_face:"f",google_font_size:"fs",google_hints:"=
+hints",=0A=
+google_kw:"kw",google_kw_type:"kw_type",google_language:"hl",google_page_=
+url:"url",google_region:"gr",google_reuse_colors:"reuse_colors",google_sa=
+fe:"adsafe",google_tag_info:"gut",google_targeting:"targeting",google_ui_=
+features:"ui",google_ui_version:"uiv",google_video_doc_id:"video_doc_id",=
+google_video_product_type:"video_product_type"},lb=3D{google_ad_client:"c=
+lient",google_ad_format:"format",google_ad_output:"output",google_ad_call=
+back:"callback",google_ad_height:"h",google_ad_override:"google_ad_overri=
+de",=0A=
+google_ad_slot:"slotname",google_ad_width:"w",google_ctr_threshold:"ctr_t=
+",google_image_size:"image_size",google_last_modified_time:"lmt",google_m=
+ax_num_ads:"num_ads",google_max_radlink_len:"max_radlink_len",google_num_=
+radlinks:"num_radlinks",google_num_radlinks_per_unit:"num_radlinks_per_un=
+it",google_only_ads_with_video:"only_ads_with_video",google_rl_dest_url:"=
+rl_dest_url",google_rl_filtering:"rl_filtering",google_rl_mode:"rl_mode",=
+google_rt:"rt",google_skip:"skip"},mb=3D{google_only_pyv_ads:"pyv",=0A=
+google_with_pyv_ads:"withpyv"};function nb(a,b){try{return =
+a.top.document.URL=3D=3Db.URL}catch(c){}return j}function =
+ob(a,b,c,d){c=3Dc||a.google_ad_width;d=3Dd||a.google_ad_height;if(nb(a,b)=
+)return j;var e=3Db.documentElement;if(c&&d){var =
+f=3D1,i=3D1;if(a.innerHeight){f=3Da.innerWidth;i=3Da.innerHeight}else =
+if(e&&e.clientHeight){f=3De.clientWidth;i=3De.clientHeight}else =
+if(b.body){f=3Db.body.clientWidth;i=3Db.body.clientHeight}if(i>2*d||f>2*c=
+)return j}return g}function =
+pb(a,b){L(b,function(c,d){a["google_"+d]=3Dc})}=0A=
+function qb(a,b){if(!b)return a.URL;return a.referrer}function =
+rb(a,b){if(!b&&a.google_referrer_url=3D=3Dh)return"0";else =
+if(b&&a.google_referrer_url=3D=3Dh)return"1";else =
+if(!b&&a.google_referrer_url!=3Dh)return"2";else =
+if(b&&a.google_referrer_url!=3Dh)return"3";return"4"}function =
+tb(a,b,c,d){a.page_url=3Dqb(c,d);a.page_location=3Dh}function =
+ub(a,b,c,d){a.page_url=3Db.google_page_url;a.page_location=3Dqb(c,d)||"EM=
+PTY"}=0A=
+function vb(a,b){var =
+c=3D{},d=3Dob(a,b,a.google_ad_width,a.google_ad_height);c.iframing=3Drb(a=
+,d);a.google_page_url?ub(c,a,b,d):tb(c,a,b,d);c.last_modified_time=3Db.UR=
+L=3D=3Dc.page_url?Date.parse(b.lastModified)/1000:h;c.referrer_url=3Dd?a.=
+google_referrer_url:a.google_page_url&&a.google_referrer_url?a.google_ref=
+errer_url:b.referrer;return c}function wb(a){var =
+b=3D{},c=3Da.URL.substring(a.URL.lastIndexOf("http"));b.iframing=3Dh;b.pa=
+ge_url=3Dc;b.page_location=3Da.URL;b.last_modified_time=3Dh;b.referrer_ur=
+l=3Dc;return b}=0A=
+function xb(a,b){b=3Dyb(a,b);pb(a,b)}function yb(a,b){return =
+a=3Da.google_page_url=3D=3Dh&&zb[b.domain]?wb(b):vb(a,b)}var =
+zb=3D{};zb["ad.yieldmanager.com"]=3Dg;var =
+Ab=3Ddocument,Bb=3DI("false",j),Cb=3DI("false",j),Db=3DI("false",j);I("fa=
+lse",j);var Q=3Dwindow;var =
+Eb=3Dfunction(a,b,c){b=3Dfa(b,l,a);a=3Dwindow.onerror;window.onerror=3Db;=
+try{c()}catch(d){c=3Dd.toString();var =
+e=3D"";if(d.fileName)e=3Dd.fileName;var =
+f=3D-1;if(d.lineNumber)f=3Dd.lineNumber;b=3Db(c,e,f);if(!b)throw =
+d;}window.onerror=3Da};q("google_protectAndRun",Eb);=0A=
+var Gb=3Dfunction(a,b,c,d){if(Math.random()<0.01){var =
+e=3DAb;a=3D["http://",cb,"/pagead/gen_204","?id=3Djserror","&jscb=3D",Bb?=
+1:0,"&jscd=3D",Cb?1:0,"&context=3D",M(a),"&msg=3D",M(b),"&file=3D",M(c),"=
+&line=3D",M(d.toString()),"&url=3D",M(e.URL.substring(0,512)),"&ref=3D",M=
+(e.referrer.substring(0,512))];a.push(Fb());eb(Q,a.join(""))}return!Db};q=
+("google_handleError",Gb);=0A=
+var Ib=3Dfunction(a){Hb|=3Da},Hb=3D0,Fb=3Dfunction(){var =
+a=3D["&client=3D",M(Q.google_ad_client),"&format=3D",M(Q.google_ad_format=
+),"&slotname=3D",M(Q.google_ad_slot),"&output=3D",M(Q.google_ad_output),"=
+&ad_type=3D",M(Q.google_ad_type)];return a.join("")};var =
+R=3D"",Lb=3Dfunction(){if(window.google_ad_frameborder=3D=3Dh)window.goog=
+le_ad_frameborder=3D0;if(window.google_ad_output=3D=3Dh)window.google_ad_=
+output=3D"html";if(O(window.google_ad_format)){var =
+a=3Dwindow.google_ad_format.match(/^(\d+)x(\d+)_.*/);if(a){window.google_=
+ad_width=3DparseInt(a[1],10);window.google_ad_height=3DparseInt(a[2],10);=
+window.google_ad_output=3D"html"}}window.google_ad_format=3DJb(window.goo=
+gle_ad_format,window.google_ad_output,window.google_ad_width,window.googl=
+e_ad_height,window.google_ad_slot,=0A=
+!!window.google_override_format);R=3Dwindow.google_ad_client||"";window.g=
+oogle_ad_client=3DKb(window.google_ad_format,window.google_ad_client);xb(=
+window,document);if(window.google_num_slots_by_channel=3D=3Dh)window.goog=
+le_num_slots_by_channel=3D{};if(window.google_viewed_host_channels=3D=3Dh=
+)window.google_viewed_host_channels=3D{};if(window.google_num_slots_by_cl=
+ient=3D=3Dh)window.google_num_slots_by_client=3D{};if(window.google_prev_=
+ad_formats_by_region=3D=3Dh)window.google_prev_ad_formats_by_region=3D{};=
+if(window.google_prev_ad_slotnames_by_region=3D=3D=0A=
+h)window.google_prev_ad_slotnames_by_region=3D{};if(window.google_correla=
+tor=3D=3Dh)window.google_correlator=3D(new =
+Date).getTime();if(window.google_adslot_loaded=3D=3Dh)window.google_adslo=
+t_loaded=3D{};if(window.google_adContentsBySlot=3D=3Dh)window.google_adCo=
+ntentsBySlot=3D{};if(window.google_flash_version=3D=3Dh)window.google_fla=
+sh_version=3Dhb();if(window.google_new_domain_checked=3D=3Dh)window.googl=
+e_new_domain_checked=3D0;if(window.google_new_domain_enabled=3D=3Dh)windo=
+w.google_new_domain_enabled=3D0;if(!window.google_num_ad_slots)window.goo=
+gle_num_ad_slots=3D=0A=
+0;if(!window.google_num_0ad_slots)window.google_num_0ad_slots=3D0;if(!win=
+dow.google_num_sdo_slots)window.google_num_sdo_slots=3D0;window.google_ad=
+_section=3Dwindow.google_ad_section||window.google_ad_region||"";window.g=
+oogle_country=3Dwindow.google_country||window.google_gl||"";a=3D(new =
+Date).getTime();if(o(window.google_color_bg))window.google_color_bg=3DS(w=
+indow.google_color_bg,a);if(o(window.google_color_text))window.google_col=
+or_text=3DS(window.google_color_text,a);if(o(window.google_color_link))wi=
+ndow.google_color_link=3D=0A=
+S(window.google_color_link,a);if(o(window.google_color_url))window.google=
+_color_url=3DS(window.google_color_url,a);if(o(window.google_color_border=
+))window.google_color_border=3DS(window.google_color_border,a);if(o(windo=
+w.google_color_line))window.google_color_line=3DS(window.google_color_lin=
+e,a)},Mb=3Dfunction(a){L(kb,function(b,c){a[c]=3Dh});L(lb,function(b,c){a=
+[c]=3Dh});L(mb,function(b,c){a[c]=3Dh});a.google_container_id=3Dh;a.googl=
+e_eids=3Dh;a.google_page_location=3Dh;a.google_referrer_url=3Dh;a.google_=
+ad_region=3Dh;=0A=
+a.google_gl=3Dh},S=3Dfunction(a,b){Ib(2);return =
+a[b%a.length]},Kb=3Dfunction(a,b){if(!b)return"";b=3Db.toLowerCase();retu=
+rn =
+b=3DO(a)?Nb(b):Ob(b)},Ob=3Dfunction(a){if(a&&a.substring(0,3)!=3D"ca-")a=3D=
+"ca-"+a;return =
+a},Nb=3Dfunction(a){if(a&&a.substring(0,9)!=3D"dist-aff-")a=3D"dist-aff-"=
++a;return =
+a},Jb=3Dfunction(a,b,c,d,e,f){if(!a&&b=3D=3D"html")a=3Dc+"x"+d;return =
+a=3DPb(a,e,f)?a.toLowerCase():""},Pb=3Dfunction(a,b,c){if(!a)return =
+j;if(!b)return g;return c};var T=3Ddocument,U=3Dnavigator,V=3Dwindow;=0A=
+function Qb(){var a=3DT.cookie,b=3DMath.round((new =
+Date).getTime()/1000),c=3DV.google_analytics_domain_name;c=3Dtypeof =
+c=3D=3D"undefined"?Rb("auto"):Rb(c);var =
+d=3Da.indexOf("__utma=3D"+c+".")>-1,e=3Da.indexOf("__utmb=3D"+c)>-1,f=3Da=
+.indexOf("__utmc=3D"+c)>-1,i=3D{},m=3D!!V&&!!V.gaGlobal;if(d){a=3Da.split=
+("__utma=3D"+c+".")[1].split(";")[0].split(".");i.sid=3De&&f?a[3]+"":m&&V=
+.gaGlobal.sid?V.gaGlobal.sid:b+"";i.vid=3Da[0]+"."+a[1];i.from_cookie=3Dg=
+}else{i.sid=3Dm&&V.gaGlobal.sid?V.gaGlobal.sid:b+"";i.vid=3Dm&&V.gaGlobal=
+.vid?V.gaGlobal.vid:=0A=
+(Math.round(Math.random()*2147483647)^Sb()&2147483647)+"."+b;i.from_cooki=
+e=3Dj}i.dh=3Dc;i.hid=3Dm&&V.gaGlobal.hid?V.gaGlobal.hid:Math.round(Math.r=
+andom()*2147483647);return V.gaGlobal=3Di}=0A=
+function Sb(){var =
+a=3DT.cookie?T.cookie:"",b=3DV.history.length,c,d=3D[U.appName,U.version,=
+U.language?U.language:U.browserLanguage,U.platform,U.userAgent,U.javaEnab=
+led()?1:0].join("");if(V.screen)d+=3DV.screen.width+"x"+V.screen.height+V=
+.screen.colorDepth;else =
+if(V.java){c=3Djava.awt.Toolkit.getDefaultToolkit().getScreenSize();d+=3D=
+c.screen.width+"x"+c.screen.height}d+=3Da;d+=3DT.referrer?T.referrer:"";f=
+or(a=3Dd.length;b>0;)d+=3Db--^a++;return Tb(d)}=0A=
+function Tb(a){var =
+b=3D1,c=3D0,d;if(!(a=3D=3Dundefined||a=3D=3D"")){b=3D0;for(d=3Da.length-1=
+;d>=3D0;d--){c=3Da.charCodeAt(d);b=3D(b<<6&268435455)+c+(c<<14);c=3Db&266=
+338304;b=3Dc!=3D0?b^c>>21:b}}return b}function =
+Rb(a){if(!a||a=3D=3D""||a=3D=3D"none")return =
+1;if("auto"=3D=3Da){a=3DT.domain;if("www."=3D=3Da.substring(0,4))a=3Da.su=
+bstring(4,a.length)}return Tb(a.toLowerCase())};var =
+Ub=3D{google:1,googlegroups:1,gmail:1,googlemail:1,googleimages:1,googlep=
+rint:1};function =
+Vb(a){a=3Da.google_page_location||a.google_page_url;if(!a)return =
+j;a=3Da.toString();if(a.indexOf("http://")=3D=3D0)a=3Da.substring(7,a.len=
+gth);else =
+if(a.indexOf("https://")=3D=3D0)a=3Da.substring(8,a.length);var =
+b=3Da.indexOf("/");if(b=3D=3D-1)b=3Da.length;a=3Da.substring(0,b);a=3Da.s=
+plit(".");b=3Dj;if(a.length>=3D3)b=3Da[a.length-3]in =
+Ub;if(a.length>=3D2)b=3Db||a[a.length-2]in Ub;return b}=0A=
+function Wb(a,b,c){if(Vb(a)){a.google_new_domain_checked=3D1;return =
+j}if(a.google_new_domain_checked=3D=3D0){var =
+d=3DMath.random();if(d<=3Dc){c=3D"http://"+bb+"/pagead/test_domain.js";d=3D=
+"script";b.write("<"+d+' =
+src=3D"'+c+'"></'+d+">");a.google_new_domain_checked=3D1;return =
+g}}return j}function =
+Xb(a){if(!Vb(a)&&a.google_new_domain_enabled=3D=3D1)return"http://"+bb;re=
+turn"http://"+cb};var =
+W=3Dfunction(a){this.s=3Da;this.f=3D[];this.e=3D0;this.a=3D[];this.o=3D0;=
+this.b=3D[];this.m=3Dj;this.g=3Dthis.h=3D"";this.l=3Dj};W.prototype.q=3Df=
+unction(a,b){var =
+c=3Dthis.s[b],d=3Dthis.f;this.s[b]=3Dfunction(e){if(e&&e.length>0){var =
+f=3De.length>1?e[1].url:h;d.push([a,ta(e[0].url),f])}c(e)}};W.prototype.p=
+=3Dfunction(){this.e++};W.prototype.r=3Dfunction(a){this.a.push(a)};W.pro=
+totype.n=3Dfunction(){if(!this.m){db("http://"+K+"/pagead/osd.js");this.m=
+=3Dg}};=0A=
+W.prototype.i=3Dfunction(a){if(this.e>0)for(var =
+b=3Ddocument.getElementsByTagName("iframe"),c=3Dthis.l?"google_ads_iframe=
+_":"google_ads_frame",d=3D0;d<b.length;d++){var =
+e=3Db.item(d);e.src&&e.name&&e.name.indexOf(c)=3D=3D0&&a(e,e.src)}};=0A=
+W.prototype.j=3Dfunction(a){var b=3Dthis.f;if(b.length>0)for(var =
+c=3Ddocument.getElementsByTagName("a"),d=3Dfunction(x,y){return =
+x.innerHTML.indexOf(y)>0},e=3D0;e<c.length;e++)for(var =
+f=3D0;f<b.length;f++)if(c.item(e).href=3D=3Db[f][1]){var =
+i=3Dc.item(e).parentNode;if(b[f][2])for(var =
+m=3Di,s=3D0;s<4;s++){if(d(m,b[f][2])){i=3Dm;break}m=3Dm.parentNode}a(i,b[=
+f][0]);b.splice(f,1);break}};=0A=
+W.prototype.k=3Dfunction(a){for(var b=3D0;b<this.a.length;b++){var =
+c=3Dthis.a[b],d=3DYb(c);if(d)(d=3Ddocument.getElementById("google_ads_div=
+_"+d))&&a(d,c)}};W.prototype.c=3Dfunction(a){this.j(a);this.k(a);this.i(a=
+)};W.prototype.setupOsd=3Dfunction(a,b,c){this.o=3Da;this.h=3Db;this.g=3D=
+c};W.prototype.getOsdMode=3Dfunction(){return =
+this.o};W.prototype.getEid=3Dfunction(){return =
+this.h};W.prototype.getCorrelator=3Dfunction(){return =
+this.g};W.prototype.d=3Dfunction(){return =
+this.f.length+this.e+this.a.length};=0A=
+W.prototype.setValidAdBlockTypes=3Dfunction(a){this.b=3Da};W.prototype.re=
+gisterAdBlockByType=3Dfunction(a,b,c){if(this.b.length>0){for(var =
+d=3D0;d<this.b.length;d++)if(this.b[d]=3D=3Da){this.l=3Dc;if(a=3D=3D"js")=
+this.q(b,"google_ad_request_done");else if(a=3D=3D"html")this.p();else =
+a=3D=3D"json_html"&&this.r(b)}this.n()}};var =
+Yb=3Dfunction(a){if((a=3Da.match(/[&\?](?:slotname)=3D([^&]+)/))&&a.lengt=
+h=3D=3D2)return =
+a[1];return""},Zb=3Dfunction(){window.__google_ad_urls||(window.__google_=
+ad_urls=3Dnew W(window));return window.__google_ad_urls};=0A=
+q("Goog_AdSense_getAdAdapterInstance",Zb);q("Goog_AdSense_OsdAdapter",W);=
+q("Goog_AdSense_OsdAdapter.prototype.numBlocks",W.prototype.d);q("Goog_Ad=
+Sense_OsdAdapter.prototype.findBlocks",W.prototype.c);q("Goog_AdSense_Osd=
+Adapter.prototype.getOsdMode",W.prototype.getOsdMode);q("Goog_AdSense_Osd=
+Adapter.prototype.getEid",W.prototype.getEid);q("Goog_AdSense_OsdAdapter.=
+prototype.getCorrelator",W.prototype.getCorrelator);q("Goog_AdSense_OsdAd=
+apter.prototype.setValidAdBlockTypes",W.setValidAdBlockTypes);=0A=
+q("Goog_AdSense_OsdAdapter.prototype.setupOsd",W.prototype.setupOsd);q("G=
+oog_AdSense_OsdAdapter.prototype.registerAdBlockByType",W.prototype.regis=
+terAdBlockByType);var =
+$b,ac,bc,cc,dc,ec,fc=3Dfunction(){ec=3Ddc=3Dcc=3Dbc=3Dac=3D$b=3Dj;var =
+a=3DBa();if(a)if(a.indexOf("Firefox")!=3D-1)$b=3Dg;else =
+if(a.indexOf("Camino")!=3D-1)ac=3Dg;else =
+if(a.indexOf("iPhone")!=3D-1||a.indexOf("iPod")!=3D-1)bc=3Dg;else =
+if(a.indexOf("Android")!=3D-1)cc=3Dg;else =
+if(a.indexOf("Chrome")!=3D-1)dc=3Dg;else =
+if(a.indexOf("Safari")!=3D-1)ec=3Dg};fc();var gc=3Dfunction(a,b){var =
+c=3Da.nodeType=3D=3D9?a:a.ownerDocument||a.document;if(c.defaultView&&c.d=
+efaultView.getComputedStyle)if(a=3Dc.defaultView.getComputedStyle(a,""))r=
+eturn a[b];return h},hc=3Dfunction(a,b){return =
+gc(a,b)||(a.currentStyle?a.currentStyle[b]:h)||a.style[b]},ic=3Dfunction(=
+a,b,c,d){if(/^\d+px?$/.test(b))return parseInt(b,10);else{var =
+e=3Da.style[c],f=3Da.runtimeStyle[c];a.runtimeStyle[c]=3Da.currentStyle[c=
+];a.style[c]=3Db;b=3Da.style[d];a.style[c]=3De;a.runtimeStyle[c]=3Df;retu=
+rn b}},jc=3Dfunction(a){var b=3D=0A=
+a.nodeType=3D=3D9?a:a.ownerDocument||a.document,c=3D"";if(b.createTextRan=
+ge){c=3Db.body.createTextRange();c.moveToElementText(a);c=3Dc.queryComman=
+dValue("FontName")}if(!c){c=3Dhc(a,"fontFamily");if(D&&Ka)c=3Dc.replace(/=
+ \[[^\]]*\]/,"")}a=3Dc.split(",");if(a.length>1)c=3Da[0];return =
+ua(c,"\"'")},kc=3D/[^\d]+$/,lc=3Dfunction(a){return(a=3Da.match(kc))&&a[0=
+]||h},mc=3D{cm:1,"in":1,mm:1,pc:1,pt:1},nc=3D{em:1,ex:1},oc=3Dfunction(a)=
+{var b=3Dhc(a,"fontSize"),c=3Dlc(b);if(b&&"px"=3D=3Dc)return =
+parseInt(b,10);if(E)if(c in mc)return ic(a,b,"left",=0A=
+"pixelLeft");else if(a.parentNode&&a.parentNode.nodeType=3D=3D1&&c in =
+nc){a=3Da.parentNode;c=3Dhc(a,"fontSize");return =
+ic(a,b=3D=3Dc?"1em":b,"left","pixelLeft")}c=3DUa("span",{style:"visibilit=
+y:hidden;position:absolute;line-height:0;padding:0;margin:0;border:0;heig=
+ht:1em;"});Wa(a,c);b=3Dc.offsetHeight;c&&c.parentNode&&c.parentNode.remov=
+eChild(c);return b};var X=3D{};function pc(a){if(a=3D=3D1)return =
+g;return!X[a]}function =
+Y(a,b){if(a)if(b=3D=3D1)if(X[b])X[b]+=3D","+a;else X[b]=3Da;else =
+X[b]=3Da}function qc(){var a=3D[];L(X,function(b){a.push(b)});return =
+a.join(",")}function rc(a,b){if(a&&a instanceof Array)for(var =
+c=3D0;c<a.length;c++)a[c]&&typeof a[c]=3D=3D"string"&&Y(a[c],b)}var =
+Z=3Dj;=0A=
+function sc(a,b){var =
+c=3D"script";Z=3Dtc(a,b);if(!Z)a.google_allow_expandable_ads=3Dj;var =
+d=3D!uc();Z&&d&&b.write("<"+c+' =
+src=3D"http://'+K+'/pagead/expansion_embed.js"></'+c+">");a=3DWb(a,b,H("1=
+",0.01));(d=3Dd||a)&&fb("msie")&&!window.opera?b.write("<"+c+' =
+src=3D"http://'+K+'/pagead/render_ads.js"></'+c+">"):b.write("<"+c+'>goog=
+le_protectAndRun("ads_core.google_render_ad", google_handleError, =
+google_render_ad);</'+c+">")}function $(a){return a!=3Dh?'"'+a+'"':'""'}=0A=
+function vc(a){var b=3D"google_unique_id";if(a[b])++a[b];else =
+a[b]=3D1;return a[b]}var wc=3Dfunction(a,b){var =
+c=3Db.slice(-1),d=3Dc=3D=3D"?"||c=3D=3D"#"?"":"&",e=3D[b];b=3Dfunction(f,=
+i){if(f||f=3D=3D=3D0||f=3D=3D=3Dj){if(typeof =
+f=3D=3D"boolean")f=3Df?1:0;e.push(d,i,"=3D",M(f));d=3D"&"}};L(a,b);return=
+ e.join("")};function xc(){var =
+a=3DE&&G("6"),b=3DDa&&G("1.8.1"),c=3DF&&G("525");if(Ja&&(a||b||c))return =
+g;else if(Ia&&(c||b))return g;else if(Ka&&b)return g;return j}=0A=
+function uc(){return(typeof =
+ExpandableAdSlotFactory=3D=3D"function"||typeof =
+ExpandableAdSlotFactory=3D=3D"object")&&typeof =
+ExpandableAdSlotFactory.createIframe=3D=3D"function"}function =
+tc(a,b){if(a.google_allow_expandable_ads=3D=3D=3Dj||!b.body||a.google_ad_=
+output!=3D"html"||ob(a,b)||!yc(a)||isNaN(a.google_ad_height)||isNaN(a.goo=
+gle_ad_width)||!xc())return j;return g}function yc(a){var =
+b=3Da.google_ad_format;if(O(b))return =
+j;if(N(a)&&b!=3D"468x15_0ads_al")return j;return g}=0A=
+function zc(){var =
+a;if(Q.google_ad_output=3D=3D"html"&&!(N(Q)||O(Q.google_ad_format))&&pc(0=
+)){a=3D["6083035","6083034"];a=3DP(a,H("0.001",0));Y(a,0)}return =
+a=3D=3D"6083035"}=0A=
+function =
+Ac(a,b){if((a.google_unique_id||0)!=3D0||O(a.google_ad_format))return"";v=
+ar =
+c=3D"";a=3DN(a);if(b=3D=3D"html"||a)c=3DP(["36815001","36815002"],H("0.01=
+",0));if(c=3D=3D""&&(b=3D=3D"js"||a))c=3DP(["36815003","36815004"],H("0.0=
+1",0));if(c=3D=3D""&&(b=3D=3D"html"||b=3D=3D"js"))c=3DP(["36813005","3681=
+3006"],H("0.008",0));return c}=0A=
+function Bc(){var =
+a=3DZb(),b=3Dwindow.google_enable_osd,c=3D"";if(b=3D=3D=3Dg){c=3D"3681300=
+6";Cc(c,a)}else =
+if(b!=3D=3Dj&&pc(0)){c=3DAc(window,window.google_ad_output);if(c!=3D"")Cc=
+(c,a);else c=3Da.getEid()}return c}function Cc(a,b){var =
+c=3Db.getOsdMode(),d=3D[];switch(a){case =
+"36815004":c=3D1;d=3D["js"];break;case =
+"36815002":c=3D1;d=3D["html"];break;case =
+"36813006":c=3D0;d=3D["html","js"];break}d.length>0&&b.setValidAdBlockTyp=
+es(d);b.setupOsd(c,a,window.google_correlator)}=0A=
+function Dc(a,b,c,d){var =
+e=3Dvc(a);c=3Dwc({ifi:e},c);c=3Dc.substring(0,1992);c=3Dc.replace(/%\w?$/=
+,"");var =
+f=3D"script";if((a.google_ad_output=3D=3D"js"||a.google_ad_output=3D=3D"j=
+son_html")&&(a.google_ad_request_done||a.google_radlink_request_done))b.w=
+rite("<"+f+' language=3D"JavaScript1.1" =
+src=3D'+$(k(c))+"></"+f+">");else =
+if(a.google_ad_output=3D=3D"html")if(Z&&uc()){b=3Da.google_container_id||=
+d||h;a["google_expandable_ad_slot"+e]=3DExpandableAdSlotFactory.createIfr=
+ame("google_ads_frame"+e,k(c),a.google_ad_width,a.google_ad_height,=0A=
+b)}else{e=3D'<iframe name=3D"google_ads_frame" =
+width=3D'+$(a.google_ad_width)+" height=3D"+$(a.google_ad_height)+" =
+frameborder=3D"+$(a.google_ad_frameborder)+" src=3D"+$(k(c))+' =
+marginwidth=3D"0" marginheight=3D"0" vspace=3D"0" hspace=3D"0" =
+allowtransparency=3D"true" =
+scrolling=3D"no"></iframe>';a.google_container_id?Ec(a.google_container_i=
+d,b,e):b.write(e)}return c}function Fc(a){Mb(a)}function =
+Gc(a){if(!Hc())return j;var =
+b=3Dzc();a=3DIc(a);b=3DXb(window)+Jc(a.google_ad_format,b);window.google_=
+ad_url=3Dwc(a,b);return g}=0A=
+var Mc=3Dfunction(a){a.dt=3Daa;var =
+b=3Dwindow.google_prev_ad_formats_by_region,c=3Dwindow.google_ad_section,=
+d=3Dwindow.google_ad_format,e=3Dwindow.google_ad_slot;if(b[c])if(!O(d)){a=
+.prev_fmts=3Db[c];if(window.google_num_slots_by_client.length>1)a.slot=3D=
+window.google_num_slots_by_client[R]}var =
+f=3Dwindow.google_prev_ad_slotnames_by_region;if(f[c])a.prev_slotnames=3D=
+f[c].toLowerCase();if(d){if(!O(d))if(b[c])b[c]+=3D","+d;else =
+b[c]=3Dd}else if(e)if(f[c])f[c]+=3D","+e;else =
+f[c]=3De;a.correlator=3Dwindow.google_correlator;if(window.google_new_dom=
+ain_checked=3D=3D=0A=
+1&&window.google_new_domain_enabled=3D=3D0)a.dblk=3D1;if(window.google_ad=
+_channel){b=3Dwindow.google_num_slots_by_channel;c=3D"";d=3Dwindow.google=
+_ad_channel.split(Kc);for(e=3D0;e<d.length;e++){f=3Dd[e];if(b[f])c+=3Df+"=
++";else =
+b[f]=3D1}a.pv_ch=3Dc}if(window.google_ad_host_channel){b=3DLc(window.goog=
+le_ad_host_channel,window.google_viewed_host_channels);a.pv_h_ch=3Db}if(B=
+b)a.jscb=3D1;if(Cb)a.jscd=3D1;a.frm=3Dwindow.google_iframing;b=3DQb();a.g=
+a_vid=3Db.vid;a.ga_sid=3Db.sid;a.ga_hid=3Db.hid;a.ga_fc=3Db.from_cookie;a=
+.ga_wpids=3Dwindow.google_analytics_uacct},=0A=
+Nc=3Dfunction(a){var =
+b=3Djb(document);if(b){a.biw=3Db.width;a.bih=3Db.height}};function =
+Lc(a,b){var c=3Da.split("|");a=3D-1;for(var =
+d=3D[],e=3D0;e<c.length;e++){var =
+f=3Dc[e].split(Kc);b[e]||(b[e]=3D{});for(var =
+i=3D"",m=3D0;m<f.length;m++){var =
+s=3Df[m];if(s!=3D"")if(b[e][s])i+=3D"+"+s;else =
+b[e][s]=3D1}i=3Di.slice(1);d[e]=3Di;if(i!=3D"")a=3De}b=3D"";if(a>-1){for(=
+e=3D0;e<a;e++)b+=3Dd[e]+"|";b+=3Dd[a]}return b}=0A=
+function Oc(){var a=3DBc();Y(a,0);var b=3DMath.random()<0.01;a=3Dh;var =
+c=3D"";if(b){c=3D"google_temp_span";a=3DPc(c)}b=3DGc(a);a&&a.id=3D=3Dc&&(=
+a&&a.parentNode?a.parentNode.removeChild(a):h);if(b){a=3DDc(window,docume=
+nt,window.google_ad_url);Zb().registerAdBlockByType(window.google_ad_outp=
+ut,a,j);Fc(window)}}var =
+Qc=3Dfunction(a){L(lb,function(b,c){a[b]=3Dwindow[c]});L(kb,function(b,c)=
+{a[b]=3Dwindow[c]});L(mb,function(b,c){a[b]=3Dwindow[c]})},Rc=3Dfunction(=
+a){rc(window.google_eids,1);a.eid=3Dqc()};=0A=
+function Sc(a,b,c,d){a=3DGb(a,b,c,d);sc(window,document);return =
+a}function Tc(){Lb()}function Uc(a){var =
+b=3D{};a=3Da.split("?");a=3Da[a.length-1].split("&");for(var =
+c=3D0;c<a.length;c++){var =
+d=3Da[c].split("=3D");if(d[0])try{b[d[0].toLowerCase()]=3Dd.length>1?wind=
+ow.decodeURIComponent?decodeURIComponent(d[1].replace(/\+/g," =
+")):unescape(d[1]):""}catch(e){}}return b}function Vc(){var =
+a=3Dwindow,b=3DUc(document.URL);if(b.google_ad_override){a.google_ad_over=
+ride=3Db.google_ad_override;a.google_adtest=3D"on"}}=0A=
+function =
+Ec(a,b,c){if(a)if((a=3Db.getElementById(a))&&c&&c.length!=3D""){a.style.v=
+isibility=3D"visible";a.innerHTML=3Dc}}=0A=
+var Jc=3Dfunction(a,b){return =
+a=3DO(a)?"/pagead/sdo?":b?"/pagead/render_iframe_ads.html#":"/pagead/ads?=
+"},Wc=3Dfunction(a,b){b.dff=3Djc(a);b.dfs=3Doc(a)},Xc=3Dfunction(a){a.ref=
+=3Dwindow.google_referrer_url;a.loc=3Dwindow.google_page_location},Hc=3Df=
+unction(){var =
+a=3Dwindow.google_prev_ad_formats_by_region,b=3Dwindow.google_prev_ad_slo=
+tnames_by_region,c=3Dwindow.google_ad_section;if(O(window.google_ad_forma=
+t)){window.google_num_sdo_slots+=3D1;if(window.google_num_sdo_slots>4)ret=
+urn j}else if(N(window)){window.google_num_0ad_slots+=3D=0A=
+1;if(window.google_num_0ad_slots>3)return =
+j}else{window.google_num_ad_slots+=3D1;if(window.google_num_slots_to_rota=
+te){Ib(1);a[c]=3Dh;b[c]=3Dh;if(window.google_num_slot_to_show=3D=3Dh)wind=
+ow.google_num_slot_to_show=3D(new =
+Date).getTime()%window.google_num_slots_to_rotate+1;if(window.google_num_=
+slot_to_show!=3Dwindow.google_num_ad_slots)return j}else =
+if(window.google_num_ad_slots>6&&c=3D=3D"")return =
+j}a=3Dwindow.google_num_slots_by_client;if(a[R])a[R]+=3D1;else{a[R]=3D1;a=
+.length+=3D1}return g},Ic=3Dfunction(a){var b=3D{};Qc(b);=0A=
+Mc(b);ib(b);a&&Wc(a,b);Nc(b);Rc(b);Xc(b);b.fu=3DHb;return =
+b},Pc=3Dfunction(a){var =
+b=3Dwindow.google_container_id&&Pa(window.google_container_id)||Pa(a);if(=
+!b&&!window.google_container_id&&a){document.write("<span =
+id=3D"+a+"></span>");b=3DPa(a)}return b},Kc=3D/[+, =
+]/;window.google_render_ad=3DOc;var =
+Yc=3D["30143070","30143071","30143075"],Zc=3Dtypeof =
+window.postMessage=3D=3D"function"||typeof =
+window.postMessage=3D=3D"object"||typeof =
+document.postMessage=3D=3D"function",ad=3Dfunction(a,b){typeof =
+A1_googleCreateSlot=3D=3D"function"?A1_googleCreateSlot(a.google_ad_clien=
+t):$c(a,b)},cd=3Dfunction(){if(!bd())return j;return =
+g},dd=3Dfunction(a){if(O(a.google_ad_format))return j;var =
+b=3Da.google_ad_output;if(b&&b!=3D"html")return =
+j;a=3Da.google_ad_client;if(typeof =
+a!=3D"string"||a.substring(0,4)!=3D"pub-"&&a.substring(0,7)!=3D"ca-pub-")=
+return j;=0A=
+return g},fd=3Dfunction(a){if(typeof =
+a.google_a1_eid=3D=3D"string")return a.google_a1_eid;var =
+b=3DH("0",0);a.google_a1_eid=3Ded(Yc,b);return =
+a.google_a1_eid},$c=3Dfunction(a,b){if(!a.google_included_a1_script){var =
+c=3D"script",d=3D"/pagead/show_ads_sra3.js?v\x3d1";b.write("<"+c+' =
+src=3D"http://'+K+d+'"></'+c+">");a.google_included_a1_script=3Dg}},bd=3D=
+function(){if(E&&G("8"))return j;return Zc||!F},ed=3Dfunction(a,b){var =
+c=3DMath.random();if(c<b){b=3DMath.floor(c/b*a.length);return =
+a[b]}return""};function =
+gd(){Vc();Eb("show_ads.google_init_globals",Sc,Tc);sc(window,document)}fu=
+nction hd(){if(!cd(window)||!dd(window))gd();else =
+if(Db&&window.google_use_a1=3D=3D=3Dg)ad(window,document);else{var =
+a=3Dfd(window);if(a){Y(a,0);window.google_allow_expandable_ads=3Dj}!a||a=3D=
+=3D"30143070"?gd():ad(window,document)}}Eb("show_ads.main",Gb,hd);})()=0A=
+
+------=_NextPart_000_0000_01CA5D99.D6C0A7D0
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.google-analytics.com/urchin.js
+
+//-- Google Analytics Urchin Module=0A=
+//-- Copyright 2007 Google, All Rights Reserved.=0A=
+=0A=
+//-- Urchin On Demand Settings ONLY=0A=
+var _uacct=3D"";			// set up the Urchin Account=0A=
+var _userv=3D1;			// service mode (0=3Dlocal,1=3Dremote,2=3Dboth)=0A=
+=0A=
+//-- UTM User Settings=0A=
+var _ufsc=3D1;			// set client info flag (1=3Don|0=3Doff)=0A=
+var _udn=3D"auto";		// (auto|none|domain) set the domain name for cookies=0A=
+var _uhash=3D"on";		// (on|off) unique domain hash for cookies=0A=
+var _utimeout=3D"1800";   	// set the inactive session timeout in seconds=0A=
+var _ugifpath=3D"/__utm.gif";	// set the web path to the __utm.gif file=0A=
+var _utsp=3D"|";			// transaction field separator=0A=
+var _uflash=3D1;			// set flash version detect option (1=3Don|0=3Doff)=0A=
+var _utitle=3D1;			// set the document title detect option =
+(1=3Don|0=3Doff)=0A=
+var _ulink=3D0;			// enable linker functionality (1=3Don|0=3Doff)=0A=
+var _uanchor=3D0;			// enable use of anchors for campaign =
+(1=3Don|0=3Doff)=0A=
+var _utcp=3D"/";			// the cookie path for tracking=0A=
+var _usample=3D100;		// The sampling % of visitors to track (1-100).=0A=
+=0A=
+//-- UTM Campaign Tracking Settings=0A=
+var _uctm=3D1;			// set campaign tracking module (1=3Don|0=3Doff)=0A=
+var _ucto=3D"15768000";		// set timeout in seconds (6 month default)=0A=
+var _uccn=3D"utm_campaign";	// name=0A=
+var _ucmd=3D"utm_medium";		// medium (cpc|cpm|link|email|organic)=0A=
+var _ucsr=3D"utm_source";		// source=0A=
+var _uctr=3D"utm_term";		// term/keyword=0A=
+var _ucct=3D"utm_content";	// content=0A=
+var _ucid=3D"utm_id";		// id number=0A=
+var _ucno=3D"utm_nooverride";	// don't override=0A=
+=0A=
+//-- Auto/Organic Sources and Keywords=0A=
+var _uOsr=3Dnew Array();=0A=
+var _uOkw=3Dnew Array();=0A=
+_uOsr[0]=3D"google";	_uOkw[0]=3D"q";=0A=
+_uOsr[1]=3D"yahoo";	_uOkw[1]=3D"p";=0A=
+_uOsr[2]=3D"msn";		_uOkw[2]=3D"q";=0A=
+_uOsr[3]=3D"aol";		_uOkw[3]=3D"query";=0A=
+_uOsr[4]=3D"aol";		_uOkw[4]=3D"encquery";=0A=
+_uOsr[5]=3D"lycos";	_uOkw[5]=3D"query";=0A=
+_uOsr[6]=3D"ask";		_uOkw[6]=3D"q";=0A=
+_uOsr[7]=3D"altavista";	_uOkw[7]=3D"q";=0A=
+_uOsr[8]=3D"netscape";	_uOkw[8]=3D"query";=0A=
+_uOsr[9]=3D"cnn";	_uOkw[9]=3D"query";=0A=
+_uOsr[10]=3D"looksmart";	_uOkw[10]=3D"qt";=0A=
+_uOsr[11]=3D"about";	_uOkw[11]=3D"terms";=0A=
+_uOsr[12]=3D"mamma";	_uOkw[12]=3D"query";=0A=
+_uOsr[13]=3D"alltheweb";	_uOkw[13]=3D"q";=0A=
+_uOsr[14]=3D"gigablast";	_uOkw[14]=3D"q";=0A=
+_uOsr[15]=3D"voila";	_uOkw[15]=3D"rdata";=0A=
+_uOsr[16]=3D"virgilio";	_uOkw[16]=3D"qs";=0A=
+_uOsr[17]=3D"live";	_uOkw[17]=3D"q";=0A=
+_uOsr[18]=3D"baidu";	_uOkw[18]=3D"wd";=0A=
+_uOsr[19]=3D"alice";	_uOkw[19]=3D"qs";=0A=
+_uOsr[20]=3D"yandex";	_uOkw[20]=3D"text";=0A=
+_uOsr[21]=3D"najdi";	_uOkw[21]=3D"q";=0A=
+_uOsr[22]=3D"aol";	_uOkw[22]=3D"q";=0A=
+_uOsr[23]=3D"club-internet"; _uOkw[23]=3D"query";=0A=
+_uOsr[24]=3D"mama";	_uOkw[24]=3D"query";=0A=
+_uOsr[25]=3D"seznam";	_uOkw[25]=3D"q";=0A=
+_uOsr[26]=3D"search";	_uOkw[26]=3D"q";=0A=
+_uOsr[27]=3D"wp";	_uOkw[27]=3D"szukaj";=0A=
+_uOsr[28]=3D"onet";	_uOkw[28]=3D"qt";=0A=
+_uOsr[29]=3D"netsprint";	_uOkw[29]=3D"q";=0A=
+_uOsr[30]=3D"google.interia";	_uOkw[30]=3D"q";=0A=
+_uOsr[31]=3D"szukacz";	_uOkw[31]=3D"q";=0A=
+_uOsr[32]=3D"yam";	_uOkw[32]=3D"k";=0A=
+_uOsr[33]=3D"pchome";	_uOkw[33]=3D"q";=0A=
+_uOsr[34]=3D"kvasir";	_uOkw[34]=3D"searchExpr";=0A=
+_uOsr[35]=3D"sesam";	_uOkw[35]=3D"q";=0A=
+_uOsr[36]=3D"ozu"; _uOkw[36]=3D"q";=0A=
+_uOsr[37]=3D"terra"; _uOkw[37]=3D"query";=0A=
+_uOsr[38]=3D"nostrum"; _uOkw[38]=3D"query";=0A=
+_uOsr[39]=3D"mynet"; _uOkw[39]=3D"q";=0A=
+_uOsr[40]=3D"ekolay"; _uOkw[40]=3D"q";=0A=
+_uOsr[41]=3D"search.ilse"; _uOkw[41]=3D"search_for";=0A=
+_uOsr[42]=3D"bing"; _uOkw[42]=3D"q";=0A=
+=0A=
+//-- Auto/Organic Keywords to Ignore=0A=
+var _uOno=3Dnew Array();=0A=
+//_uOno[0]=3D"urchin";=0A=
+//_uOno[1]=3D"urchin.com";=0A=
+//_uOno[2]=3D"www.urchin.com";=0A=
+=0A=
+//-- Referral domains to Ignore=0A=
+var _uRno=3Dnew Array();=0A=
+//_uRno[0]=3D".urchin.com";=0A=
+=0A=
+//-- **** Don't modify below this point ***=0A=
+var =
+_uff,_udh,_udt,_ubl=3D0,_udo=3D"",_uu,_ufns=3D0,_uns=3D0,_ur=3D"-",_ufno=3D=
+0,_ust=3D0,_ubd=3Ddocument,_udl=3D_ubd.location,_udlh=3D"",_uwv=3D"1.3";=0A=
+var _ugifpath2=3D"http://www.google-analytics.com/__utm.gif";=0A=
+if (_udl.hash) _udlh=3D_udl.href.substring(_udl.href.indexOf('#'));=0A=
+if (_udl.protocol=3D=3D"https:") =
+_ugifpath2=3D"https://ssl.google-analytics.com/__utm.gif";=0A=
+if (!_utcp || _utcp=3D=3D"") _utcp=3D"/";=0A=
+function urchinTracker(page) {=0A=
+ if (_udl.protocol=3D=3D"file:") return;=0A=
+ if (_uff && (!page || page=3D=3D"")) return;=0A=
+ var a,b,c,xx,v,z,k,x=3D"",s=3D"",f=3D0,nv=3D0;=0A=
+ var nx=3D" expires=3D"+_uNx()+";";=0A=
+ var dc=3D_ubd.cookie;=0A=
+ _udh=3D_uDomain();=0A=
+ if (!_uVG()) return;=0A=
+ _uu=3DMath.round(Math.random()*2147483647);=0A=
+ _udt=3Dnew Date();=0A=
+ _ust=3DMath.round(_udt.getTime()/1000);=0A=
+ a=3Ddc.indexOf("__utma=3D"+_udh+".");=0A=
+ b=3Ddc.indexOf("__utmb=3D"+_udh);=0A=
+ c=3Ddc.indexOf("__utmc=3D"+_udh);=0A=
+ if (_udn && _udn!=3D"") { _udo=3D" domain=3D"+_udn+";"; }=0A=
+ if (_utimeout && _utimeout!=3D"") {=0A=
+  x=3Dnew Date(_udt.getTime()+(_utimeout*1000));=0A=
+  x=3D" expires=3D"+x.toGMTString()+";";=0A=
+ }=0A=
+ if (_ulink) {=0A=
+  if (_uanchor && _udlh && _udlh!=3D"") s=3D_udlh+"&";=0A=
+  s+=3D_udl.search;=0A=
+  if(s && s!=3D"" && s.indexOf("__utma=3D")>=3D0) {=0A=
+   if (!(_uIN(a=3D_uGC(s,"__utma=3D","&")))) a=3D"-";=0A=
+   if (!(_uIN(b=3D_uGC(s,"__utmb=3D","&")))) b=3D"-";=0A=
+   if (!(_uIN(c=3D_uGC(s,"__utmc=3D","&")))) c=3D"-";=0A=
+   v=3D_uGC(s,"__utmv=3D","&");=0A=
+   z=3D_uGC(s,"__utmz=3D","&");=0A=
+   k=3D_uGC(s,"__utmk=3D","&");=0A=
+   xx=3D_uGC(s,"__utmx=3D","&");=0A=
+   if ((k*1) !=3D ((_uHash(a+b+c+xx+z+v)*1)+(_udh*1))) =
+{_ubl=3D1;a=3D"-";b=3D"-";c=3D"-";xx=3D"-";z=3D"-";v=3D"-";}=0A=
+   if (a!=3D"-" && b!=3D"-" && c!=3D"-") f=3D1;=0A=
+   else if(a!=3D"-") f=3D2;=0A=
+  }=0A=
+ }=0A=
+ if(f=3D=3D1) {=0A=
+  _ubd.cookie=3D"__utma=3D"+a+"; path=3D"+_utcp+";"+nx+_udo;=0A=
+  _ubd.cookie=3D"__utmb=3D"+b+"; path=3D"+_utcp+";"+x+_udo;=0A=
+  _ubd.cookie=3D"__utmc=3D"+c+"; path=3D"+_utcp+";"+_udo;=0A=
+ } else if (f=3D=3D2) {=0A=
+  a=3D_uFixA(s,"&",_ust);=0A=
+  _ubd.cookie=3D"__utma=3D"+a+"; path=3D"+_utcp+";"+nx+_udo;=0A=
+  _ubd.cookie=3D"__utmb=3D"+_udh+"; path=3D"+_utcp+";"+x+_udo;=0A=
+  _ubd.cookie=3D"__utmc=3D"+_udh+"; path=3D"+_utcp+";"+_udo;=0A=
+  _ufns=3D1;=0A=
+ } else if (a>=3D0 && b>=3D0 && c>=3D0) {=0A=
+   b =3D _uGC(dc,"__utmb=3D"+_udh,";");=0A=
+   b =3D ("-" =3D=3D b) ? _udh : b;  =0A=
+  _ubd.cookie=3D"__utmb=3D"+b+"; path=3D"+_utcp+";"+x+_udo;=0A=
+ } else {=0A=
+  if (a>=3D0) a=3D_uFixA(_ubd.cookie,";",_ust);=0A=
+  else {=0A=
+   a=3D_udh+"."+_uu+"."+_ust+"."+_ust+"."+_ust+".1";=0A=
+   nv=3D1;=0A=
+  }=0A=
+  _ubd.cookie=3D"__utma=3D"+a+"; path=3D"+_utcp+";"+nx+_udo;=0A=
+  _ubd.cookie=3D"__utmb=3D"+_udh+"; path=3D"+_utcp+";"+x+_udo;=0A=
+  _ubd.cookie=3D"__utmc=3D"+_udh+"; path=3D"+_utcp+";"+_udo;=0A=
+  _ufns=3D1;=0A=
+ }=0A=
+ if (_ulink && xx && xx!=3D"" && xx!=3D"-") {=0A=
+   xx=3D_uUES(xx);=0A=
+   if (xx.indexOf(";")=3D=3D-1) _ubd.cookie=3D"__utmx=3D"+xx+"; =
+path=3D"+_utcp+";"+nx+_udo;=0A=
+ }=0A=
+ if (_ulink && v && v!=3D"" && v!=3D"-") {=0A=
+  v=3D_uUES(v);=0A=
+  if (v.indexOf(";")=3D=3D-1) _ubd.cookie=3D"__utmv=3D"+v+"; =
+path=3D"+_utcp+";"+nx+_udo;=0A=
+ }=0A=
+ var wc=3Dwindow;=0A=
+ var c=3D_ubd.cookie;=0A=
+ if(wc && wc.gaGlobal && wc.gaGlobal.dh=3D=3D_udh){=0A=
+  var g=3Dwc.gaGlobal;=0A=
+  var ua=3Dc.split("__utma=3D"+_udh+".")[1].split(";")[0].split(".");=0A=
+  if(g.sid)ua[3]=3Dg.sid;=0A=
+  if(nv>0){=0A=
+   ua[2]=3Dua[3];=0A=
+   if(g.vid){=0A=
+    var v=3Dg.vid.split(".");=0A=
+    ua[0]=3Dv[0];=0A=
+    ua[1]=3Dv[1];=0A=
+   }=0A=
+  }=0A=
+  _ubd.cookie=3D"__utma=3D"+_udh+"."+ua.join(".")+"; =
+path=3D"+_utcp+";"+nx+_udo;=0A=
+ }=0A=
+ _uInfo(page);=0A=
+ _ufns=3D0;=0A=
+ _ufno=3D0;=0A=
+ if (!page || page=3D=3D"") _uff=3D1;=0A=
+}=0A=
+function _uGH() {=0A=
+ var hid;=0A=
+ var wc=3Dwindow;=0A=
+ if (wc && wc.gaGlobal && wc.gaGlobal.hid) {=0A=
+  hid=3Dwc.gaGlobal.hid;=0A=
+ } else {=0A=
+  hid=3DMath.round(Math.random()*0x7fffffff);=0A=
+  if (!wc.gaGlobal) wc.gaGlobal=3D{};=0A=
+  wc.gaGlobal.hid=3Dhid;=0A=
+ }=0A=
+ return hid;=0A=
+}=0A=
+function _uInfo(page) {=0A=
+ var p,s=3D"",dm=3D"",pg=3D_udl.pathname+_udl.search;=0A=
+ if (page && page!=3D"") pg=3D_uES(page,1);=0A=
+ _ur=3D_ubd.referrer;=0A=
+ if (!_ur || _ur=3D=3D"") { _ur=3D"-"; }=0A=
+ else {=0A=
+  dm=3D_ubd.domain;=0A=
+  if(_utcp && _utcp!=3D"/") dm+=3D_utcp;=0A=
+  p=3D_ur.indexOf(dm);=0A=
+  if ((p>=3D0) && (p<=3D8)) { _ur=3D"0"; }=0A=
+  if (_ur.indexOf("[")=3D=3D0 && =
+_ur.lastIndexOf("]")=3D=3D(_ur.length-1)) { _ur=3D"-"; }=0A=
+ }=0A=
+ s+=3D"&utmn=3D"+_uu;=0A=
+ if (_ufsc) s+=3D_uBInfo();=0A=
+ if (_uctm) s+=3D_uCInfo();=0A=
+ if (_utitle && _ubd.title && _ubd.title!=3D"") =
+s+=3D"&utmdt=3D"+_uES(_ubd.title);=0A=
+ if (_udl.hostname && _udl.hostname!=3D"") =
+s+=3D"&utmhn=3D"+_uES(_udl.hostname);=0A=
+ if (_usample && _usample !=3D 100) s+=3D"&utmsp=3D"+_uES(_usample);=0A=
+ s+=3D"&utmhid=3D"+_uGH();=0A=
+ s+=3D"&utmr=3D"+_ur;=0A=
+ s+=3D"&utmp=3D"+pg;=0A=
+ if ((_userv=3D=3D0 || _userv=3D=3D2) && _uSP()) {=0A=
+  var i=3Dnew Image(1,1);=0A=
+  i.src=3D_ugifpath+"?"+"utmwv=3D"+_uwv+s;=0A=
+  i.onload=3Dfunction() { _uVoid(); }=0A=
+ }=0A=
+ if ((_userv=3D=3D1 || _userv=3D=3D2) && _uSP()) {=0A=
+  var i2=3Dnew Image(1,1);=0A=
+  =
+i2.src=3D_ugifpath2+"?"+"utmwv=3D"+_uwv+s+"&utmac=3D"+_uacct+"&utmcc=3D"+=
+_uGCS();=0A=
+  i2.onload=3Dfunction() { _uVoid(); }=0A=
+ }=0A=
+ return;=0A=
+}=0A=
+function _uVoid() { return; }=0A=
+function _uCInfo() {=0A=
+ if (!_ucto || _ucto=3D=3D"") { _ucto=3D"15768000"; }=0A=
+ if (!_uVG()) return;=0A=
+ var =
+c=3D"",t=3D"-",t2=3D"-",t3=3D"-",o=3D0,cs=3D0,cn=3D0,i=3D0,z=3D"-",s=3D""=
+;=0A=
+ if (_uanchor && _udlh && _udlh!=3D"") s=3D_udlh+"&";=0A=
+ s+=3D_udl.search;=0A=
+ var x=3Dnew Date(_udt.getTime()+(_ucto*1000));=0A=
+ var dc=3D_ubd.cookie;=0A=
+ x=3D" expires=3D"+x.toGMTString()+";";=0A=
+ if (_ulink && !_ubl) {=0A=
+  z=3D_uUES(_uGC(s,"__utmz=3D","&"));=0A=
+  if (z!=3D"-" && z.indexOf(";")=3D=3D-1) { =
+_ubd.cookie=3D"__utmz=3D"+z+"; path=3D"+_utcp+";"+x+_udo; return ""; }=0A=
+ }=0A=
+ z=3Ddc.indexOf("__utmz=3D"+_udh+".");=0A=
+ if (z>-1) { z=3D_uGC(dc,"__utmz=3D"+_udh+".",";"); }=0A=
+ else { z=3D"-"; }=0A=
+ t=3D_uGC(s,_ucid+"=3D","&");=0A=
+ t2=3D_uGC(s,_ucsr+"=3D","&");=0A=
+ t3=3D_uGC(s,"gclid=3D","&");=0A=
+ if ((t!=3D"-" && t!=3D"") || (t2!=3D"-" && t2!=3D"") || (t3!=3D"-" && =
+t3!=3D"")) {=0A=
+  if (t!=3D"-" && t!=3D"") c+=3D"utmcid=3D"+_uEC(t);=0A=
+  if (t2!=3D"-" && t2!=3D"") { if (c !=3D "") c+=3D"|"; =
+c+=3D"utmcsr=3D"+_uEC(t2); }=0A=
+  if (t3!=3D"-" && t3!=3D"") { if (c !=3D "") c+=3D"|"; =
+c+=3D"utmgclid=3D"+_uEC(t3); }=0A=
+  t=3D_uGC(s,_uccn+"=3D","&");=0A=
+  if (t!=3D"-" && t!=3D"") c+=3D"|utmccn=3D"+_uEC(t);=0A=
+  else c+=3D"|utmccn=3D(not+set)";=0A=
+  t=3D_uGC(s,_ucmd+"=3D","&");=0A=
+  if (t!=3D"-" && t!=3D"") c+=3D"|utmcmd=3D"+_uEC(t);=0A=
+  else  c+=3D"|utmcmd=3D(not+set)";=0A=
+  t=3D_uGC(s,_uctr+"=3D","&");=0A=
+  if (t!=3D"-" && t!=3D"") c+=3D"|utmctr=3D"+_uEC(t);=0A=
+  else { t=3D_uOrg(1); if (t!=3D"-" && t!=3D"") =
+c+=3D"|utmctr=3D"+_uEC(t); }=0A=
+  t=3D_uGC(s,_ucct+"=3D","&");=0A=
+  if (t!=3D"-" && t!=3D"") c+=3D"|utmcct=3D"+_uEC(t);=0A=
+  t=3D_uGC(s,_ucno+"=3D","&");=0A=
+  if (t=3D=3D"1") o=3D1;=0A=
+  if (z!=3D"-" && o=3D=3D1) return "";=0A=
+ }=0A=
+ if (c=3D=3D"-" || c=3D=3D"") { c=3D_uOrg(); if (z!=3D"-" && =
+_ufno=3D=3D1)  return ""; }=0A=
+ if (c=3D=3D"-" || c=3D=3D"") { if (_ufns=3D=3D1)  c=3D_uRef(); if =
+(z!=3D"-" && _ufno=3D=3D1)  return ""; }=0A=
+ if (c=3D=3D"-" || c=3D=3D"") {=0A=
+  if (z=3D=3D"-" && _ufns=3D=3D1) { =
+c=3D"utmccn=3D(direct)|utmcsr=3D(direct)|utmcmd=3D(none)"; }=0A=
+  if (c=3D=3D"-" || c=3D=3D"") return "";=0A=
+ }=0A=
+ if (z!=3D"-") {=0A=
+  i=3Dz.indexOf(".");=0A=
+  if (i>-1) i=3Dz.indexOf(".",i+1);=0A=
+  if (i>-1) i=3Dz.indexOf(".",i+1);=0A=
+  if (i>-1) i=3Dz.indexOf(".",i+1);=0A=
+  t=3Dz.substring(i+1,z.length);=0A=
+  if (t.toLowerCase()=3D=3Dc.toLowerCase()) cs=3D1;=0A=
+  t=3Dz.substring(0,i);=0A=
+  if ((i=3Dt.lastIndexOf(".")) > -1) {=0A=
+   t=3Dt.substring(i+1,t.length);=0A=
+   cn=3D(t*1);=0A=
+  }=0A=
+ }=0A=
+ if (cs=3D=3D0 || _ufns=3D=3D1) {=0A=
+  t=3D_uGC(dc,"__utma=3D"+_udh+".",";");=0A=
+  if ((i=3Dt.lastIndexOf(".")) > 9) {=0A=
+   _uns=3Dt.substring(i+1,t.length);=0A=
+   _uns=3D(_uns*1);=0A=
+  }=0A=
+  cn++;=0A=
+  if (_uns=3D=3D0) _uns=3D1;=0A=
+  _ubd.cookie=3D"__utmz=3D"+_udh+"."+_ust+"."+_uns+"."+cn+"."+c+"; =
+path=3D"+_utcp+"; "+x+_udo;=0A=
+ }=0A=
+ if (cs=3D=3D0 || _ufns=3D=3D1) return "&utmcn=3D1";=0A=
+ else return "&utmcr=3D1";=0A=
+}=0A=
+function _uRef() {=0A=
+ if (_ur=3D=3D"0" || _ur=3D=3D"" || _ur=3D=3D"-") return "";=0A=
+ var i=3D0,h,k,n;=0A=
+ if ((i=3D_ur.indexOf("://"))<0 || _uGCse()) return "";=0A=
+ h=3D_ur.substring(i+3,_ur.length);=0A=
+ if (h.indexOf("/") > -1) {=0A=
+  k=3Dh.substring(h.indexOf("/"),h.length);=0A=
+  if (k.indexOf("?") > -1) k=3Dk.substring(0,k.indexOf("?"));=0A=
+  h=3Dh.substring(0,h.indexOf("/"));=0A=
+ }=0A=
+ h=3Dh.toLowerCase();=0A=
+ n=3Dh;=0A=
+ if ((i=3Dn.indexOf(":")) > -1) n=3Dn.substring(0,i);=0A=
+ for (var ii=3D0;ii<_uRno.length;ii++) {=0A=
+  if ((i=3Dn.indexOf(_uRno[ii].toLowerCase())) > -1 && =
+n.length=3D=3D(i+_uRno[ii].length)) { _ufno=3D1; break; }=0A=
+ }=0A=
+ if (h.indexOf("www.")=3D=3D0) h=3Dh.substring(4,h.length);=0A=
+ return =
+"utmccn=3D(referral)|utmcsr=3D"+_uEC(h)+"|"+"utmcct=3D"+_uEC(k)+"|utmcmd=3D=
+referral";=0A=
+}=0A=
+function _uOrg(t) {=0A=
+ if (_ur=3D=3D"0" || _ur=3D=3D"" || _ur=3D=3D"-") return "";=0A=
+ var i=3D0,h,k;=0A=
+ if ((i=3D_ur.indexOf("://"))<0 || _uGCse()) return "";=0A=
+ h=3D_ur.substring(i+3,_ur.length);=0A=
+ if (h.indexOf("/") > -1) {=0A=
+  h=3Dh.substring(0,h.indexOf("/"));=0A=
+ }=0A=
+ for (var ii=3D0;ii<_uOsr.length;ii++) {=0A=
+  if (h.toLowerCase().indexOf(_uOsr[ii].toLowerCase()) > -1) {=0A=
+   if ((i=3D_ur.indexOf("?"+_uOkw[ii]+"=3D")) > -1 || =
+(i=3D_ur.indexOf("&"+_uOkw[ii]+"=3D")) > -1) {=0A=
+    k=3D_ur.substring(i+_uOkw[ii].length+2,_ur.length);=0A=
+    if ((i=3Dk.indexOf("&")) > -1) k=3Dk.substring(0,i);=0A=
+    for (var yy=3D0;yy<_uOno.length;yy++) {=0A=
+     if (_uOno[yy].toLowerCase()=3D=3Dk.toLowerCase()) { _ufno=3D1; =
+break; }=0A=
+    }=0A=
+    if (t) return _uEC(k);=0A=
+    else return =
+"utmccn=3D(organic)|utmcsr=3D"+_uEC(_uOsr[ii])+"|"+"utmctr=3D"+_uEC(k)+"|=
+utmcmd=3Dorganic";=0A=
+   }=0A=
+  }=0A=
+ }=0A=
+ return "";=0A=
+}=0A=
+function _uGCse() {=0A=
+ var h,p;=0A=
+ h=3Dp=3D_ur.split("://")[1];=0A=
+ if(h.indexOf("/")>-1) {=0A=
+  h=3Dh.split("/")[0];=0A=
+  p=3Dp.substring(p.indexOf("/")+1,p.length);=0A=
+ }=0A=
+ if(p.indexOf("?")>-1) {=0A=
+  p=3Dp.split("?")[0];=0A=
+ }=0A=
+ if(h.toLowerCase().indexOf("google")>-1) {=0A=
+  if(_ur.indexOf("?q=3D")>-1 || _ur.indexOf("&q=3D")>-1) {=0A=
+   if (p.toLowerCase().indexOf("cse")>-1) {=0A=
+    return true;=0A=
+   }=0A=
+  }=0A=
+ }=0A=
+}=0A=
+function _uBInfo() {=0A=
+ var sr=3D"-",sc=3D"-",ul=3D"-",fl=3D"-",cs=3D"-",je=3D1;=0A=
+ var n=3Dnavigator;=0A=
+ if (self.screen) {=0A=
+  sr=3Dscreen.width+"x"+screen.height;=0A=
+  sc=3Dscreen.colorDepth+"-bit";=0A=
+ } else if (self.java) {=0A=
+  var j=3Djava.awt.Toolkit.getDefaultToolkit();=0A=
+  var s=3Dj.getScreenSize();=0A=
+  sr=3Ds.width+"x"+s.height;=0A=
+ }=0A=
+ if (n.language) { ul=3Dn.language.toLowerCase(); }=0A=
+ else if (n.browserLanguage) { ul=3Dn.browserLanguage.toLowerCase(); }=0A=
+ je=3Dn.javaEnabled()?1:0;=0A=
+ if (_uflash) fl=3D_uFlash();=0A=
+ if (_ubd.characterSet) cs=3D_uES(_ubd.characterSet);=0A=
+ else if (_ubd.charset) cs=3D_uES(_ubd.charset);=0A=
+ return =
+"&utmcs=3D"+cs+"&utmsr=3D"+sr+"&utmsc=3D"+sc+"&utmul=3D"+ul+"&utmje=3D"+j=
+e+"&utmfl=3D"+fl;=0A=
+}=0A=
+function __utmSetTrans() {=0A=
+ var e;=0A=
+ if (_ubd.getElementById) e=3D_ubd.getElementById("utmtrans");=0A=
+ else if (_ubd.utmform && _ubd.utmform.utmtrans) =
+e=3D_ubd.utmform.utmtrans;=0A=
+ if (!e) return;=0A=
+ var l=3De.value.split("UTM:");=0A=
+ var i,i2,c;=0A=
+ if (_userv=3D=3D0 || _userv=3D=3D2) i=3Dnew Array();=0A=
+ if (_userv=3D=3D1 || _userv=3D=3D2) { i2=3Dnew Array(); c=3D_uGCS(); }=0A=
+=0A=
+ for (var ii=3D0;ii<l.length;ii++) {=0A=
+  l[ii]=3D_uTrim(l[ii]);=0A=
+  if (l[ii].charAt(0)!=3D'T' && l[ii].charAt(0)!=3D'I') continue;=0A=
+  var r=3DMath.round(Math.random()*2147483647);=0A=
+  if (!_utsp || _utsp=3D=3D"") _utsp=3D"|";=0A=
+  var f=3Dl[ii].split(_utsp),s=3D"";=0A=
+  if (f[0].charAt(0)=3D=3D'T') {=0A=
+   s=3D"&utmt=3Dtran"+"&utmn=3D"+r;=0A=
+   f[1]=3D_uTrim(f[1]); if(f[1]&&f[1]!=3D"") =
+s+=3D"&utmtid=3D"+_uES(f[1]);=0A=
+   f[2]=3D_uTrim(f[2]); if(f[2]&&f[2]!=3D"") =
+s+=3D"&utmtst=3D"+_uES(f[2]);=0A=
+   f[3]=3D_uTrim(f[3]); if(f[3]&&f[3]!=3D"") =
+s+=3D"&utmtto=3D"+_uES(f[3]);=0A=
+   f[4]=3D_uTrim(f[4]); if(f[4]&&f[4]!=3D"") =
+s+=3D"&utmttx=3D"+_uES(f[4]);=0A=
+   f[5]=3D_uTrim(f[5]); if(f[5]&&f[5]!=3D"") =
+s+=3D"&utmtsp=3D"+_uES(f[5]);=0A=
+   f[6]=3D_uTrim(f[6]); if(f[6]&&f[6]!=3D"") =
+s+=3D"&utmtci=3D"+_uES(f[6]);=0A=
+   f[7]=3D_uTrim(f[7]); if(f[7]&&f[7]!=3D"") =
+s+=3D"&utmtrg=3D"+_uES(f[7]);=0A=
+   f[8]=3D_uTrim(f[8]); if(f[8]&&f[8]!=3D"") =
+s+=3D"&utmtco=3D"+_uES(f[8]);=0A=
+  } else {=0A=
+   s=3D"&utmt=3Ditem"+"&utmn=3D"+r;=0A=
+   f[1]=3D_uTrim(f[1]); if(f[1]&&f[1]!=3D"") =
+s+=3D"&utmtid=3D"+_uES(f[1]);=0A=
+   f[2]=3D_uTrim(f[2]); if(f[2]&&f[2]!=3D"") =
+s+=3D"&utmipc=3D"+_uES(f[2]);=0A=
+   f[3]=3D_uTrim(f[3]); if(f[3]&&f[3]!=3D"") =
+s+=3D"&utmipn=3D"+_uES(f[3]);=0A=
+   f[4]=3D_uTrim(f[4]); if(f[4]&&f[4]!=3D"") =
+s+=3D"&utmiva=3D"+_uES(f[4]);=0A=
+   f[5]=3D_uTrim(f[5]); if(f[5]&&f[5]!=3D"") =
+s+=3D"&utmipr=3D"+_uES(f[5]);=0A=
+   f[6]=3D_uTrim(f[6]); if(f[6]&&f[6]!=3D"") =
+s+=3D"&utmiqt=3D"+_uES(f[6]);=0A=
+  }=0A=
+  if (_udl.hostname && _udl.hostname!=3D"") =
+s+=3D"&utmhn=3D"+_uES(_udl.hostname);=0A=
+  if (_usample && _usample !=3D 100) s+=3D"&utmsp=3D"+_uES(_usample);=0A=
+=0A=
+  if ((_userv=3D=3D0 || _userv=3D=3D2) && _uSP()) {=0A=
+   i[ii]=3Dnew Image(1,1);=0A=
+   i[ii].src=3D_ugifpath+"?"+"utmwv=3D"+_uwv+s;=0A=
+   i[ii].onload=3Dfunction() { _uVoid(); }=0A=
+  }=0A=
+  if ((_userv=3D=3D1 || _userv=3D=3D2) && _uSP()) {=0A=
+   i2[ii]=3Dnew Image(1,1);=0A=
+   =
+i2[ii].src=3D_ugifpath2+"?"+"utmwv=3D"+_uwv+s+"&utmac=3D"+_uacct+"&utmcc=3D=
+"+c;=0A=
+   i2[ii].onload=3Dfunction() { _uVoid(); }=0A=
+  }=0A=
+ }=0A=
+ return;=0A=
+}=0A=
+function _uFlash() {=0A=
+ var f=3D"-",n=3Dnavigator;=0A=
+ if (n.plugins && n.plugins.length) {=0A=
+  for (var ii=3D0;ii<n.plugins.length;ii++) {=0A=
+   if (n.plugins[ii].name.indexOf('Shockwave Flash')!=3D-1) {=0A=
+    f=3Dn.plugins[ii].description.split('Shockwave Flash ')[1];=0A=
+    break;=0A=
+   }=0A=
+  }=0A=
+ } else {=0A=
+  var fl;=0A=
+  try {=0A=
+   fl =3D new ActiveXObject("ShockwaveFlash.ShockwaveFlash.7");=0A=
+   f =3D fl.GetVariable("$version");=0A=
+  } catch(e) {}=0A=
+  if (f =3D=3D "-") {=0A=
+   try {=0A=
+    fl =3D new ActiveXObject("ShockwaveFlash.ShockwaveFlash.6");=0A=
+    f =3D "WIN 6,0,21,0";=0A=
+    fl.AllowScriptAccess =3D "always";=0A=
+    f =3D fl.GetVariable("$version");=0A=
+   } catch(e) {}=0A=
+  }=0A=
+  if (f =3D=3D "-") {=0A=
+   try {=0A=
+    fl =3D new ActiveXObject("ShockwaveFlash.ShockwaveFlash");=0A=
+    f =3D fl.GetVariable("$version");=0A=
+   } catch(e) {}=0A=
+  }=0A=
+  if (f !=3D "-") {=0A=
+   f =3D f.split(" ")[1].split(",");=0A=
+   f =3D f[0] + "." + f[1] + " r" + f[2];=0A=
+  }=0A=
+ }=0A=
+ return f;=0A=
+}=0A=
+function __utmLinkerUrl(l,h) {=0A=
+ var p,k,a=3D"-",b=3D"-",c=3D"-",x=3D"-",z=3D"-",v=3D"-";=0A=
+ var dc=3D_ubd.cookie;=0A=
+ var iq =3D l.indexOf("?");=0A=
+ var ih =3D l.indexOf("#");=0A=
+ var url=3Dl;=0A=
+ if (dc) {=0A=
+  a=3D_uES(_uGC(dc,"__utma=3D"+_udh+".",";"));=0A=
+  b=3D_uES(_uGC(dc,"__utmb=3D"+_udh,";"));=0A=
+  c=3D_uES(_uGC(dc,"__utmc=3D"+_udh,";"));=0A=
+  x=3D_uES(_uGC(dc,"__utmx=3D"+_udh,";"));=0A=
+  z=3D_uES(_uGC(dc,"__utmz=3D"+_udh+".",";"));=0A=
+  v=3D_uES(_uGC(dc,"__utmv=3D"+_udh+".",";"));=0A=
+  k=3D(_uHash(a+b+c+x+z+v)*1)+(_udh*1);=0A=
+  =
+p=3D"__utma=3D"+a+"&__utmb=3D"+b+"&__utmc=3D"+c+"&__utmx=3D"+x+"&__utmz=3D=
+"+z+"&__utmv=3D"+v+"&__utmk=3D"+k;=0A=
+ }=0A=
+ if (p) {=0A=
+  if (h && ih>-1) return;=0A=
+  if (h) { url=3Dl+"#"+p; }=0A=
+  else {=0A=
+   if (iq=3D=3D-1 && ih=3D=3D-1) url=3Dl+"?"+p;=0A=
+   else if (ih=3D=3D-1) url=3Dl+"&"+p;=0A=
+   else if (iq=3D=3D-1) url=3Dl.substring(0,ih-1)+"?"+p+l.substring(ih);=0A=
+   else url=3Dl.substring(0,ih-1)+"&"+p+l.substring(ih);=0A=
+  }=0A=
+ }=0A=
+ return url;=0A=
+}=0A=
+function __utmLinker(l,h) {=0A=
+ if (!_ulink || !l || l=3D=3D"") return;=0A=
+ _udl.href=3D__utmLinkerUrl(l,h);=0A=
+}=0A=
+function __utmLinkPost(f,h) {=0A=
+ if (!_ulink || !f || !f.action) return;=0A=
+ f.action=3D__utmLinkerUrl(f.action, h);=0A=
+ return;=0A=
+}=0A=
+function __utmSetVar(v) {=0A=
+ if (!v || v=3D=3D"") return;=0A=
+ if (!_udo || _udo =3D=3D "") {=0A=
+  _udh=3D_uDomain();=0A=
+  if (_udn && _udn!=3D"") { _udo=3D" domain=3D"+_udn+";"; }=0A=
+ }=0A=
+ if (!_uVG()) return;=0A=
+ var r=3DMath.round(Math.random() * 2147483647);=0A=
+ _ubd.cookie=3D"__utmv=3D"+_udh+"."+_uES(v)+"; path=3D"+_utcp+"; =
+expires=3D"+_uNx()+";"+_udo;=0A=
+ var s=3D"&utmt=3Dvar&utmn=3D"+r;=0A=
+ if (_usample && _usample !=3D 100) s+=3D"&utmsp=3D"+_uES(_usample);=0A=
+ if ((_userv=3D=3D0 || _userv=3D=3D2) && _uSP()) {=0A=
+  var i=3Dnew Image(1,1);=0A=
+  i.src=3D_ugifpath+"?"+"utmwv=3D"+_uwv+s;=0A=
+  i.onload=3Dfunction() { _uVoid(); }=0A=
+ }=0A=
+ if ((_userv=3D=3D1 || _userv=3D=3D2) && _uSP()) {=0A=
+  var i2=3Dnew Image(1,1);=0A=
+  =
+i2.src=3D_ugifpath2+"?"+"utmwv=3D"+_uwv+s+"&utmac=3D"+_uacct+"&utmcc=3D"+=
+_uGCS();=0A=
+  i2.onload=3Dfunction() { _uVoid(); }=0A=
+ }=0A=
+}=0A=
+function _uGCS() {=0A=
+ var t,c=3D"",dc=3D_ubd.cookie;=0A=
+ if ((t=3D_uGC(dc,"__utma=3D"+_udh+".",";"))!=3D"-") =
+c+=3D_uES("__utma=3D"+t+";+");=0A=
+ if ((t=3D_uGC(dc,"__utmx=3D"+_udh,";"))!=3D"-") =
+c+=3D_uES("__utmx=3D"+t+";+");=0A=
+ if ((t=3D_uGC(dc,"__utmz=3D"+_udh+".",";"))!=3D"-") =
+c+=3D_uES("__utmz=3D"+t+";+");=0A=
+ if ((t=3D_uGC(dc,"__utmv=3D"+_udh+".",";"))!=3D"-") =
+c+=3D_uES("__utmv=3D"+t+";");=0A=
+ if (c.charAt(c.length-1)=3D=3D"+") c=3Dc.substring(0,c.length-1);=0A=
+ return c;=0A=
+}=0A=
+function _uGC(l,n,s) {=0A=
+ if (!l || l=3D=3D"" || !n || n=3D=3D"" || !s || s=3D=3D"") return "-";=0A=
+ var i,i2,i3,c=3D"-";=0A=
+ i=3Dl.indexOf(n);=0A=
+ i3=3Dn.indexOf("=3D")+1;=0A=
+ if (i > -1) {=0A=
+  i2=3Dl.indexOf(s,i); if (i2 < 0) { i2=3Dl.length; }=0A=
+  c=3Dl.substring((i+i3),i2);=0A=
+ }=0A=
+ return c;=0A=
+}=0A=
+function _uDomain() {=0A=
+ if (!_udn || _udn=3D=3D"" || _udn=3D=3D"none") { _udn=3D""; return 1; }=0A=
+ if (_udn=3D=3D"auto") {=0A=
+  var d=3D_ubd.domain;=0A=
+  if (d.substring(0,4)=3D=3D"www.") {=0A=
+   d=3Dd.substring(4,d.length);=0A=
+  }=0A=
+  _udn=3Dd;=0A=
+ }=0A=
+ _udn =3D _udn.toLowerCase(); =0A=
+ if (_uhash=3D=3D"off") return 1;=0A=
+ return _uHash(_udn);=0A=
+}=0A=
+function _uHash(d) {=0A=
+ if (!d || d=3D=3D"") return 1;=0A=
+ var h=3D0,g=3D0;=0A=
+ for (var i=3Dd.length-1;i>=3D0;i--) {=0A=
+  var c=3DparseInt(d.charCodeAt(i));=0A=
+  h=3D((h << 6) & 0xfffffff) + c + (c << 14);=0A=
+  if ((g=3Dh & 0xfe00000)!=3D0) h=3D(h ^ (g >> 21));=0A=
+ }=0A=
+ return h;=0A=
+}=0A=
+function _uFixA(c,s,t) {=0A=
+ if (!c || c=3D=3D"" || !s || s=3D=3D"" || !t || t=3D=3D"") return "-";=0A=
+ var a=3D_uGC(c,"__utma=3D"+_udh+".",s);=0A=
+ var lt=3D0,i=3D0;=0A=
+ if ((i=3Da.lastIndexOf(".")) > 9) {=0A=
+  _uns=3Da.substring(i+1,a.length);=0A=
+  _uns=3D(_uns*1)+1;=0A=
+  a=3Da.substring(0,i);=0A=
+  if ((i=3Da.lastIndexOf(".")) > 7) {=0A=
+   lt=3Da.substring(i+1,a.length);=0A=
+   a=3Da.substring(0,i);=0A=
+  }=0A=
+  if ((i=3Da.lastIndexOf(".")) > 5) {=0A=
+   a=3Da.substring(0,i);=0A=
+  }=0A=
+  a+=3D"."+lt+"."+t+"."+_uns;=0A=
+ }=0A=
+ return a;=0A=
+}=0A=
+function _uTrim(s) {=0A=
+  if (!s || s=3D=3D"") return "";=0A=
+  while ((s.charAt(0)=3D=3D' ') || (s.charAt(0)=3D=3D'\n') || =
+(s.charAt(0,1)=3D=3D'\r')) s=3Ds.substring(1,s.length);=0A=
+  while ((s.charAt(s.length-1)=3D=3D' ') || =
+(s.charAt(s.length-1)=3D=3D'\n') || (s.charAt(s.length-1)=3D=3D'\r')) =
+s=3Ds.substring(0,s.length-1);=0A=
+  return s;=0A=
+}=0A=
+function _uEC(s) {=0A=
+  var n=3D"";=0A=
+  if (!s || s=3D=3D"") return "";=0A=
+  for (var i=3D0;i<s.length;i++) {if (s.charAt(i)=3D=3D" ") n+=3D"+"; =
+else n+=3Ds.charAt(i);}=0A=
+  return n;=0A=
+}=0A=
+function __utmVisitorCode(f) {=0A=
+ var r=3D0,t=3D0,i=3D0,i2=3D0,m=3D31;=0A=
+ var a=3D_uGC(_ubd.cookie,"__utma=3D"+_udh+".",";");=0A=
+ if ((i=3Da.indexOf(".",0))<0) return;=0A=
+ if ((i2=3Da.indexOf(".",i+1))>0) r=3Da.substring(i+1,i2); else return =
+"";  =0A=
+ if ((i=3Da.indexOf(".",i2+1))>0) t=3Da.substring(i2+1,i); else return =
+"";  =0A=
+ if (f) {=0A=
+  return r;=0A=
+ } else {=0A=
+  var c=3Dnew =
+Array('A','B','C','D','E','F','G','H','J','K','L','M','N','P','R','S','T'=
+,'U','V','W','X','Y','Z','1','2','3','4','5','6','7','8','9');=0A=
+  return =
+c[r>>28&m]+c[r>>23&m]+c[r>>18&m]+c[r>>13&m]+"-"+c[r>>8&m]+c[r>>3&m]+c[((r=
+&7)<<2)+(t>>30&3)]+c[t>>25&m]+c[t>>20&m]+"-"+c[t>>15&m]+c[t>>10&m]+c[t>>5=
+&m]+c[t&m];=0A=
+ }=0A=
+}=0A=
+function _uIN(n) {=0A=
+ if (!n) return false;=0A=
+ for (var i=3D0;i<n.length;i++) {=0A=
+  var c=3Dn.charAt(i);=0A=
+  if ((c<"0" || c>"9") && (c!=3D".")) return false;=0A=
+ }=0A=
+ return true;=0A=
+}=0A=
+function _uES(s,u) {=0A=
+ if (typeof(encodeURIComponent) =3D=3D 'function') {=0A=
+  if (u) return encodeURI(s);=0A=
+  else return encodeURIComponent(s);=0A=
+ } else {=0A=
+  return escape(s);=0A=
+ }=0A=
+}=0A=
+function _uUES(s) {=0A=
+ if (typeof(decodeURIComponent) =3D=3D 'function') {=0A=
+  return decodeURIComponent(s);=0A=
+ } else {=0A=
+  return unescape(s);=0A=
+ }=0A=
+}=0A=
+function _uVG() {=0A=
+ if((_udn.indexOf("www.google.") =3D=3D 0 || _udn.indexOf(".google.") =
+=3D=3D 0 || _udn.indexOf("google.") =3D=3D 0) && _utcp=3D=3D'/' && =
+_udn.indexOf("google.org")=3D=3D-1) {=0A=
+  return false;=0A=
+ }=0A=
+ return true;=0A=
+}=0A=
+function _uSP() {=0A=
+ var s=3D100;=0A=
+ if (_usample) s=3D_usample;=0A=
+ if(s>=3D100 || s<=3D0) return true;=0A=
+ return ((__utmVisitorCode(1)%10000)<(s*100));=0A=
+}=0A=
+function urchinPathCopy(p){=0A=
+ var d=3Ddocument,nx,tx,sx,i,c,cs,t,h,o;=0A=
+ cs=3Dnew Array("a","b","c","v","x","z");=0A=
+ h=3D_uDomain(); if (_udn && _udn!=3D"") o=3D" domain=3D"+_udn+";";=0A=
+ nx=3D_uNx()+";";=0A=
+ tx=3Dnew Date(); tx.setTime(tx.getTime()+(_utimeout*1000));=0A=
+ tx=3Dtx.toGMTString()+";";=0A=
+ sx=3Dnew Date(); sx.setTime(sx.getTime()+(_ucto*1000));=0A=
+ sx=3Dsx.toGMTString()+";";=0A=
+ for (i=3D0;i<6;i++){=0A=
+  t=3D" expires=3D";=0A=
+  if (i=3D=3D1) t+=3Dtx; else if (i=3D=3D2) t=3D""; else if (i=3D=3D5) =
+t+=3Dsx; else t+=3Dnx;=0A=
+  c=3D_uGC(d.cookie,"__utm"+cs[i]+"=3D"+h,";");=0A=
+  if (c!=3D"-") d.cookie=3D"__utm"+cs[i]+"=3D"+c+"; path=3D"+p+";"+t+o;=0A=
+ }=0A=
+}=0A=
+function _uCO() {=0A=
+ if (!_utk || _utk=3D=3D"" || _utk.length<10) return;=0A=
+ var d=3D'www.google.com';=0A=
+ if (_utk.charAt(0)=3D=3D'!') d=3D'analytics.corp.google.com';=0A=
+ _ubd.cookie=3D"GASO=3D"+_utk+"; path=3D"+_utcp+";"+_udo;=0A=
+ var sc=3Ddocument.createElement('script');=0A=
+ sc.type=3D'text/javascript';=0A=
+ sc.id=3D"_gasojs";=0A=
+ =
+sc.src=3D'https://'+d+'/analytics/reporting/overlay_js?gaso=3D'+_utk+'&'+=
+Math.random();=0A=
+ document.getElementsByTagName('head')[0].appendChild(sc);  =0A=
+}=0A=
+function _uGT() {=0A=
+ var h=3Dlocation.hash, a;=0A=
+ if (h && h!=3D"" && h.indexOf("#gaso=3D")=3D=3D0) {=0A=
+  a=3D_uGC(h,"gaso=3D","&");=0A=
+ } else {=0A=
+  a=3D_uGC(_ubd.cookie,"GASO=3D",";");=0A=
+ }=0A=
+ return a;=0A=
+}=0A=
+var _utk=3D_uGT();=0A=
+if (_utk && _utk!=3D"" && _utk.length>10 && _utk.indexOf("=3D")=3D=3D-1) =
+{=0A=
+ if (window.addEventListener) {=0A=
+  window.addEventListener('load', _uCO, false); =0A=
+ } else if (window.attachEvent) { =0A=
+  window.attachEvent('onload', _uCO);=0A=
+ }=0A=
+}=0A=
+=0A=
+function _uNx() {=0A=
+  return (new Date((new Date()).getTime()+63072000000)).toGMTString();=0A=
+}=0A=
+
+------=_NextPart_000_0000_01CA5D99.D6C0A7D0--

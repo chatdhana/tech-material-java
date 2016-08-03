@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="bkgLocationCountry" type="xs:string"/>
+  <xs:element name="bkgLocationOrganization" type="xs:string"/>
+  <xs:element name="extSystemTypeNum" type="xs:string"/>
+  <xs:element name="extSystemTypeValue" type="xs:string"/>
+  <xs:element name="messageId" type="xs:string"/>
+  <xs:element name="messageType" type="xs:string"/>
+  <xs:element name="publishType" type="xs:string"/>
+  <xs:element name="publishDate" type="xs:string"/>
+  <xs:element name="topicName" type="xs:string"/>
+  <xs:element name="subscriberId" type="xs:string"/>
+  <xs:element name="transactionProcessingSystems">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="bkgLocationCountry"/>
+        <xs:element ref="bkgLocationOrganization"/>
+        <xs:element ref="extSystemTypeNum"/>
+        <xs:element ref="extSystemTypeValue"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CCY-FI-ID" type="xs:string"/>
+  <xs:element name="HOL-DATE" type="xs:string"/>
+  <xs:element name="CURRENCY-HOLIDAY">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="CCY-FI-ID"/>
+        <xs:element ref="HOL-DATE"/>
+      </xs:sequence>
+      <xs:attribute type="xs:string" name="eventType"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="message">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="messageId"/>
+        <xs:element ref="messageType"/>
+        <xs:element ref="publishType"/>
+        <xs:element ref="publishDate"/>
+        <xs:element ref="topicName"/>
+        <xs:element ref="subscriberId"/>
+        <xs:element ref="transactionProcessingSystems"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ATLAS-DELTA-EVENT">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="CURRENCY-HOLIDAY"/>
+      </xs:sequence>
+      <xs:attribute type="xs:string" name="publishedDateTime"/>
+      <xs:attribute type="xs:string" name="atlasMessageID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="atlasMessage">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="message"/>
+        <xs:element ref="ATLAS-DELTA-EVENT"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

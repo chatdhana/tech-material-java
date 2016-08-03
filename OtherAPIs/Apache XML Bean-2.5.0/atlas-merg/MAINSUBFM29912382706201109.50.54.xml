@@ -1,0 +1,2477 @@
+<SCIMessages>
+  <message>
+    <messageId>2991238</messageId>
+    <messageType>CUSTOMER</messageType>
+    <publishType>NORMAL</publishType>
+    <publishDate>27-Jun-2011 09:50:54</publishDate>
+    <topicName/>
+    <subscriberId>LNCMS1P1_CMS.SCI.SUB.IN</subscriberId>
+    <transactionProcessingSystems>
+      <bkgLocationCountry/>
+      <bkgLocationOrganization/>
+      <extSystemTypeNum/>
+      <extSystemTypeValue/>
+    </transactionProcessingSystems>
+    <legalEntity>
+      <mainProfileDetails>
+        <mainProfile>
+          <leId>11018414</leId>
+          <shortName>S NAME 11018414</shortName>
+          <legalName>L NAME 11018414</legalName>
+          <legalConstitution>
+            <stdCodeNumber>56</stdCodeNumber>
+            <stdCodeValue>27</stdCodeValue>
+            <stdCodeDescription>Public Limited Company - Banks</stdCodeDescription>
+          </legalConstitution>
+          <incorporatedCountry>US</incorporatedCountry>
+          <incorporationNumber>FDIC CERTIFICATE 3510</incorporationNumber>
+          <incorporationDate>31-DEC-1904 12:00:00</incorporationDate>
+          <customerType>
+            <stdCodeNumber>8</stdCodeNumber>
+            <stdCodeValue>CB</stdCodeValue>
+            <stdCodeDescription>NON-INDIVIDUAL BORROWING</stdCodeDescription>
+          </customerType>
+          <relationshipStartDate>18-JUL-1986 12:00:00</relationshipStartDate>
+          <segmentCode>
+            <stdCodeNumber>5</stdCodeNumber>
+            <stdCodeValue>N</stdCodeValue>
+            <stdCodeDescription>Financial Institution</stdCodeDescription>
+          </segmentCode>
+          <subSegmentCode>
+            <stdCodeNumber>6</stdCodeNumber>
+            <stdCodeValue>N7</stdCodeValue>
+            <stdCodeDescription>Universal Banks</stdCodeDescription>
+          </subSegmentCode>
+          <baselCustomerSegment>
+            <stdCodeNumber>57</stdCodeNumber>
+            <stdCodeValue>BSC21</stdCodeValue>
+            <stdCodeDescription>(NEW)  Bank</stdCodeDescription>
+          </baselCustomerSegment>
+          <baselCustomerSubSegment>
+            <stdCodeNumber>58</stdCodeNumber>
+            <stdCodeValue>BSC51</stdCodeValue>
+            <stdCodeDescription>Not Applicable</stdCodeDescription>
+          </baselCustomerSubSegment>
+          <businessType>
+            <stdCodeNumber>7</stdCodeNumber>
+            <stdCodeValue>NA</stdCodeValue>
+            <stdCodeDescription>Not Applicable</stdCodeDescription>
+          </businessType>
+          <envRiskGrade>
+            <stdCodeNumber>12</stdCodeNumber>
+            <stdCodeValue>NA</stdCodeValue>
+            <stdCodeDescription>NOT APPLICABLE</stdCodeDescription>
+          </envRiskGrade>
+          <top1000Bank>N</top1000Bank>
+          <referralStatus>
+            <stdCodeNumber>42</stdCodeNumber>
+            <stdCodeValue>NA</stdCodeValue>
+            <stdCodeDescription>Not Applicable</stdCodeDescription>
+          </referralStatus>
+          <operationStatus1>
+            <stdCodeNumber>13</stdCodeNumber>
+            <stdCodeValue>ACTIVE</stdCodeValue>
+            <stdCodeDescription>ACTIVE</stdCodeDescription>
+          </operationStatus1>
+          <operationStatus1EffDate>19-AUG-2002 12:00:00</operationStatus1EffDate>
+          <borrowerExceptionChkInd>N</borrowerExceptionChkInd>
+          <updateStatusIndicator>U</updateStatusIndicator>
+          <changeIndicator>N</changeIndicator>
+        </mainProfile>
+        <registeredAddress>
+          <leId>11018414</leId>
+          <addressId>26026414</addressId>
+          <addressType>
+            <stdCodeNumber>4</stdCodeNumber>
+            <stdCodeValue>REGISTERED</stdCodeValue>
+            <stdCodeDescription>REGISTERED ADDRESS</stdCodeDescription>
+          </addressType>
+          <attnParty/>
+          <line1>Add 1 26026414</line1>
+          <line2>Add 2 26026414</line2>
+          <city>City 26026414</city>
+          <state>State 26026414</state>
+          <country>US</country>
+          <postCode>Post 26026414</postCode>
+          <fax>Fax 26026414</fax>
+          <email>Email 26026414</email>
+          <phone>Phone 26026414</phone>
+          <telex>Telex 26026414</telex>
+          <updateStatusIndicator>U</updateStatusIndicator>
+          <changeIndicator>N</changeIndicator>
+        </registeredAddress>
+        <creditGradeDetails>
+          <creditGrade>
+            <leId>11018414</leId>
+            <creditGradeId>29019414</creditGradeId>
+            <creditGradeType>
+              <stdCodeNumber>18</stdCodeNumber>
+              <stdCodeValue>INTERNAL</stdCodeValue>
+              <stdCodeDescription>SCB INTERNAL CREDIT RISK GRADE</stdCodeDescription>
+            </creditGradeType>
+            <creditGradeCode>
+              <stdCodeNumber>19</stdCodeNumber>
+              <stdCodeValue>2B</stdCodeValue>
+              <stdCodeDescription>Credit Risk Grade 2B</stdCodeDescription>
+            </creditGradeCode>
+            <creditGradeEffectiveDate>27-AUG-2010 12:00:00</creditGradeEffectiveDate>
+            <creditGradeReasonForChange/>
+            <approverLocation>
+              <approverLocationId>13000024</approverLocationId>
+              <approverCountry>GB</approverCountry>
+              <approverOrganization>SCBL</approverOrganization>
+            </approverLocation>
+            <coinNo>04/072</coinNo>
+            <approverEmpId>14014040</approverEmpId>
+            <approverName>Ariffin Iqbal</approverName>
+            <updateStatusIndicator>U</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </creditGrade>
+        </creditGradeDetails>
+        <ISICDetails>
+          <ISIC>
+            <leId>11018414</leId>
+            <ISICId>30320622</ISICId>
+            <ISICType>
+              <stdCodeNumber>15</stdCodeNumber>
+              <stdCodeValue>ISIC</stdCodeValue>
+              <stdCodeDescription>4 digit TYPE ISIC code</stdCodeDescription>
+            </ISICType>
+            <ISICCode>
+              <stdCodeNumber>17</stdCodeNumber>
+              <stdCodeValue>8123</stdCodeValue>
+              <stdCodeDescription>COMMERCIAL BANKS - FOREIGN</stdCodeDescription>
+            </ISICCode>
+			<UN2008IsicCode>6419</UN2008IsicCode>
+			<UN2008IsicDescription>Other monetary intermediation</UN2008IsicDescription>
+            <ISICEffectiveDate>07-APR-2006 12:00:00</ISICEffectiveDate>
+            <ISICWeightage>0</ISICWeightage>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </ISIC>
+		  <ISIC>
+            <leId>11018414</leId>
+            <ISICId>30023414</ISICId>
+            <ISICType>
+              <stdCodeNumber>15</stdCodeNumber>
+              <stdCodeValue>PRIMARY</stdCodeValue>
+              <stdCodeDescription>6-digit mandatory ISIC code</stdCodeDescription>
+            </ISICType>
+            <ISICCode>
+              <stdCodeNumber>17</stdCodeNumber>
+              <stdCodeValue>651901</stdCodeValue>
+              <stdCodeDescription>COMMERCIAL BANKS</stdCodeDescription>
+            </ISICCode>
+			<UN2008IsicCode/>
+			<UN2008IsicDescription/>
+            <ISICEffectiveDate>20-NOV-2003 12:00:00</ISICEffectiveDate>
+            <ISICWeightage>0</ISICWeightage>
+            <updateStatusIndicator>U</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </ISIC>
+        </ISICDetails>
+        <kycDetails>
+          <knowYourCustomer>
+            <leId>11018414</leId>
+            <KYCid>13007872</KYCid>
+            <documentOriginatingLocation>
+              <documentOriginatingId>13000019</documentOriginatingId>
+              <documentOriginatingCountry>CN</documentOriginatingCountry>
+              <documentOriginatingOrganization>SCCN</documentOriginatingOrganization>
+            </documentOriginatingLocation>
+            <mlRiskRating>
+              <stdCodeNumber>59</stdCodeNumber>
+              <stdCodeValue>L1</stdCodeValue>
+              <stdCodeDescription>Low risk</stdCodeDescription>
+            </mlRiskRating>
+            <mlLastReviewDate>28-OCT-2009 12:00:00</mlLastReviewDate>
+            <mlNextReviewDate>28-OCT-2010 12:00:00</mlNextReviewDate>
+            <firstKYCreview>N</firstKYCreview>
+            <KYCdocumentSubmitted>N</KYCdocumentSubmitted>
+            <GICdocumentSubmitted>Y</GICdocumentSubmitted>
+            <exceptionalApprovalObtained>N</exceptionalApprovalObtained>
+            <updateStatusIndicator>U</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </knowYourCustomer>
+          <knowYourCustomer>
+            <leId>11018414</leId>
+            <KYCid>13007873</KYCid>
+            <documentOriginatingLocation>
+              <documentOriginatingId>13000024</documentOriginatingId>
+              <documentOriginatingCountry>GB</documentOriginatingCountry>
+              <documentOriginatingOrganization>SCBL</documentOriginatingOrganization>
+            </documentOriginatingLocation>
+            <mlRiskRating>
+              <stdCodeNumber>59</stdCodeNumber>
+              <stdCodeValue>L1</stdCodeValue>
+              <stdCodeDescription>Low risk</stdCodeDescription>
+            </mlRiskRating>
+            <mlLastReviewDate>10-MAR-2010 12:00:00</mlLastReviewDate>
+            <mlNextReviewDate>10-MAR-2011 12:00:00</mlNextReviewDate>
+            <firstKYCreview>N</firstKYCreview>
+            <KYCdocumentSubmitted>N</KYCdocumentSubmitted>
+            <GICdocumentSubmitted>Y</GICdocumentSubmitted>
+            <exceptionalApprovalObtained>N</exceptionalApprovalObtained>
+            <updateStatusIndicator>U</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </knowYourCustomer>
+          <knowYourCustomer>
+            <leId>11018414</leId>
+            <KYCid>13085988</KYCid>
+            <documentOriginatingLocation>
+              <documentOriginatingId>13000029</documentOriginatingId>
+              <documentOriginatingCountry>GH</documentOriginatingCountry>
+              <documentOriginatingOrganization>SCGH</documentOriginatingOrganization>
+            </documentOriginatingLocation>
+            <mlRiskRating>
+              <stdCodeNumber>59</stdCodeNumber>
+              <stdCodeValue>L1</stdCodeValue>
+              <stdCodeDescription>Low risk</stdCodeDescription>
+            </mlRiskRating>
+            <mlLastReviewDate>27-JUN-2007 12:00:00</mlLastReviewDate>
+            <mlNextReviewDate>27-JUN-2008 12:00:00</mlNextReviewDate>
+            <firstKYCreview>N</firstKYCreview>
+            <KYCdocumentSubmitted>N</KYCdocumentSubmitted>
+            <GICdocumentSubmitted>Y</GICdocumentSubmitted>
+            <exceptionalApprovalObtained>N</exceptionalApprovalObtained>
+            <updateStatusIndicator>U</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </knowYourCustomer>
+          <knowYourCustomer>
+            <leId>11018414</leId>
+            <KYCid>13007875</KYCid>
+            <documentOriginatingLocation>
+              <documentOriginatingId>13000033</documentOriginatingId>
+              <documentOriginatingCountry>ID</documentOriginatingCountry>
+              <documentOriginatingOrganization>SCBL</documentOriginatingOrganization>
+            </documentOriginatingLocation>
+            <mlRiskRating>
+              <stdCodeNumber>59</stdCodeNumber>
+              <stdCodeValue>L1</stdCodeValue>
+              <stdCodeDescription>Low risk</stdCodeDescription>
+            </mlRiskRating>
+            <mlLastReviewDate>17-APR-2007 12:00:00</mlLastReviewDate>
+            <mlNextReviewDate>17-APR-2008 12:00:00</mlNextReviewDate>
+            <firstKYCreview>N</firstKYCreview>
+            <KYCdocumentSubmitted>N</KYCdocumentSubmitted>
+            <GICdocumentSubmitted>Y</GICdocumentSubmitted>
+            <exceptionalApprovalObtained>N</exceptionalApprovalObtained>
+            <updateStatusIndicator>U</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </knowYourCustomer>
+          <knowYourCustomer>
+            <leId>11018414</leId>
+            <KYCid>13007878</KYCid>
+            <documentOriginatingLocation>
+              <documentOriginatingId>13000067</documentOriginatingId>
+              <documentOriginatingCountry>MY</documentOriginatingCountry>
+              <documentOriginatingOrganization>SCMY</documentOriginatingOrganization>
+            </documentOriginatingLocation>
+            <mlRiskRating>
+              <stdCodeNumber>59</stdCodeNumber>
+              <stdCodeValue>L1</stdCodeValue>
+              <stdCodeDescription>Low risk</stdCodeDescription>
+            </mlRiskRating>
+            <mlLastReviewDate>30-NOV-2007 12:00:00</mlLastReviewDate>
+            <mlNextReviewDate>30-NOV-2008 12:00:00</mlNextReviewDate>
+            <firstKYCreview>N</firstKYCreview>
+            <KYCdocumentSubmitted>N</KYCdocumentSubmitted>
+            <GICdocumentSubmitted>Y</GICdocumentSubmitted>
+            <exceptionalApprovalObtained>N</exceptionalApprovalObtained>
+            <updateStatusIndicator>U</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </knowYourCustomer>
+          <knowYourCustomer>
+            <leId>11018414</leId>
+            <KYCid>13007882</KYCid>
+            <documentOriginatingLocation>
+              <documentOriginatingId>13010147</documentOriginatingId>
+              <documentOriginatingCountry>TH</documentOriginatingCountry>
+              <documentOriginatingOrganization>SCBT</documentOriginatingOrganization>
+            </documentOriginatingLocation>
+            <mlRiskRating>
+              <stdCodeNumber>59</stdCodeNumber>
+              <stdCodeValue>L1</stdCodeValue>
+              <stdCodeDescription>Low risk</stdCodeDescription>
+            </mlRiskRating>
+            <mlLastReviewDate>30-JUN-2006 12:00:00</mlLastReviewDate>
+            <mlNextReviewDate>30-JUN-2007 12:00:00</mlNextReviewDate>
+            <firstKYCreview>N</firstKYCreview>
+            <KYCdocumentSubmitted>N</KYCdocumentSubmitted>
+            <GICdocumentSubmitted>Y</GICdocumentSubmitted>
+            <exceptionalApprovalObtained>N</exceptionalApprovalObtained>
+            <updateStatusIndicator>U</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </knowYourCustomer>
+          <knowYourCustomer>
+            <leId>11018414</leId>
+            <KYCid>13354755</KYCid>
+            <documentOriginatingLocation>
+              <documentOriginatingId>13000058</documentOriginatingId>
+              <documentOriginatingCountry>KR</documentOriginatingCountry>
+              <documentOriginatingOrganization>SCFB</documentOriginatingOrganization>
+            </documentOriginatingLocation>
+            <mlRiskRating>
+              <stdCodeNumber>59</stdCodeNumber>
+              <stdCodeValue>L2</stdCodeValue>
+              <stdCodeDescription>Medium Risk</stdCodeDescription>
+            </mlRiskRating>
+            <mlLastReviewDate>05-JUN-2009 12:00:00</mlLastReviewDate>
+            <mlNextReviewDate>05-JUN-2010 12:00:00</mlNextReviewDate>
+            <firstKYCreview>N</firstKYCreview>
+            <KYCdocumentSubmitted>Y</KYCdocumentSubmitted>
+            <GICdocumentSubmitted>N</GICdocumentSubmitted>
+            <exceptionalApprovalObtained>N</exceptionalApprovalObtained>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </knowYourCustomer>
+          <knowYourCustomer>
+            <leId>11018414</leId>
+            <KYCid>13064792</KYCid>
+            <documentOriginatingLocation>
+              <documentOriginatingId>13000090</documentOriginatingId>
+              <documentOriginatingCountry>US</documentOriginatingCountry>
+              <documentOriginatingOrganization>SCBL</documentOriginatingOrganization>
+            </documentOriginatingLocation>
+            <mlRiskRating>
+              <stdCodeNumber>59</stdCodeNumber>
+              <stdCodeValue>L2</stdCodeValue>
+              <stdCodeDescription>Medium Risk</stdCodeDescription>
+            </mlRiskRating>
+            <mlLastReviewDate>09-MAR-2010 12:00:00</mlLastReviewDate>
+            <mlNextReviewDate>09-MAR-2011 12:00:00</mlNextReviewDate>
+            <firstKYCreview>Y</firstKYCreview>
+            <KYCdocumentSubmitted>Y</KYCdocumentSubmitted>
+            <GICdocumentSubmitted>N</GICdocumentSubmitted>
+            <exceptionalApprovalObtained>N</exceptionalApprovalObtained>
+            <updateStatusIndicator>U</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </knowYourCustomer>
+          <knowYourCustomer>
+            <leId>11018414</leId>
+            <KYCid>13007869</KYCid>
+            <documentOriginatingLocation>
+              <documentOriginatingId>13000001</documentOriginatingId>
+              <documentOriginatingCountry>AE</documentOriginatingCountry>
+              <documentOriginatingOrganization>SCBL</documentOriginatingOrganization>
+            </documentOriginatingLocation>
+            <mlRiskRating>
+              <stdCodeNumber>59</stdCodeNumber>
+              <stdCodeValue>L3</stdCodeValue>
+              <stdCodeDescription>Special Risk</stdCodeDescription>
+            </mlRiskRating>
+            <mlLastReviewDate>18-DEC-2001 12:00:00</mlLastReviewDate>
+            <mlNextReviewDate>17-JUN-2002 12:00:00</mlNextReviewDate>
+            <firstKYCreview>N</firstKYCreview>
+            <KYCdocumentSubmitted>N</KYCdocumentSubmitted>
+            <GICdocumentSubmitted>Y</GICdocumentSubmitted>
+            <exceptionalApprovalObtained>N</exceptionalApprovalObtained>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </knowYourCustomer>
+          <knowYourCustomer>
+            <leId>11018414</leId>
+            <KYCid>13128936</KYCid>
+            <documentOriginatingLocation>
+              <documentOriginatingId>13000004</documentOriginatingId>
+              <documentOriginatingCountry>AU</documentOriginatingCountry>
+              <documentOriginatingOrganization>SCBL</documentOriginatingOrganization>
+            </documentOriginatingLocation>
+            <mlRiskRating>
+              <stdCodeNumber>59</stdCodeNumber>
+              <stdCodeValue>L3</stdCodeValue>
+              <stdCodeDescription>Special Risk</stdCodeDescription>
+            </mlRiskRating>
+            <mlLastReviewDate>18-DEC-2001 12:00:00</mlLastReviewDate>
+            <mlNextReviewDate>18-JUN-2002 12:00:00</mlNextReviewDate>
+            <firstKYCreview>N</firstKYCreview>
+            <KYCdocumentSubmitted>N</KYCdocumentSubmitted>
+            <GICdocumentSubmitted>N</GICdocumentSubmitted>
+            <exceptionalApprovalObtained>N</exceptionalApprovalObtained>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </knowYourCustomer>
+          <knowYourCustomer>
+            <leId>11018414</leId>
+            <KYCid>13007870</KYCid>
+            <documentOriginatingLocation>
+              <documentOriginatingId>13000005</documentOriginatingId>
+              <documentOriginatingCountry>BD</documentOriginatingCountry>
+              <documentOriginatingOrganization>SCBL</documentOriginatingOrganization>
+            </documentOriginatingLocation>
+            <mlRiskRating>
+              <stdCodeNumber>59</stdCodeNumber>
+              <stdCodeValue>L3</stdCodeValue>
+              <stdCodeDescription>Special Risk</stdCodeDescription>
+            </mlRiskRating>
+            <mlLastReviewDate>18-DEC-2001 12:00:00</mlLastReviewDate>
+            <mlNextReviewDate>17-JUN-2002 12:00:00</mlNextReviewDate>
+            <firstKYCreview>N</firstKYCreview>
+            <KYCdocumentSubmitted>N</KYCdocumentSubmitted>
+            <GICdocumentSubmitted>Y</GICdocumentSubmitted>
+            <exceptionalApprovalObtained>N</exceptionalApprovalObtained>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </knowYourCustomer>
+          <knowYourCustomer>
+            <leId>11018414</leId>
+            <KYCid>13007871</KYCid>
+            <documentOriginatingLocation>
+              <documentOriginatingId>13000007</documentOriginatingId>
+              <documentOriginatingCountry>BH</documentOriginatingCountry>
+              <documentOriginatingOrganization>SCBL</documentOriginatingOrganization>
+            </documentOriginatingLocation>
+            <mlRiskRating>
+              <stdCodeNumber>59</stdCodeNumber>
+              <stdCodeValue>L3</stdCodeValue>
+              <stdCodeDescription>Special Risk</stdCodeDescription>
+            </mlRiskRating>
+            <mlLastReviewDate>18-DEC-2001 12:00:00</mlLastReviewDate>
+            <mlNextReviewDate>17-JUN-2002 12:00:00</mlNextReviewDate>
+            <firstKYCreview>N</firstKYCreview>
+            <KYCdocumentSubmitted>N</KYCdocumentSubmitted>
+            <GICdocumentSubmitted>Y</GICdocumentSubmitted>
+            <exceptionalApprovalObtained>N</exceptionalApprovalObtained>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </knowYourCustomer>
+          <knowYourCustomer>
+            <leId>11018414</leId>
+            <KYCid>13524531</KYCid>
+            <documentOriginatingLocation>
+              <documentOriginatingId>13000012</documentOriginatingId>
+              <documentOriginatingCountry>BR</documentOriginatingCountry>
+              <documentOriginatingOrganization>SCBL</documentOriginatingOrganization>
+            </documentOriginatingLocation>
+            <mlRiskRating>
+              <stdCodeNumber>59</stdCodeNumber>
+              <stdCodeValue>L3</stdCodeValue>
+              <stdCodeDescription>Special Risk</stdCodeDescription>
+            </mlRiskRating>
+            <mlLastReviewDate>18-DEC-2001 12:00:00</mlLastReviewDate>
+            <mlNextReviewDate>18-JUN-2002 12:00:00</mlNextReviewDate>
+            <firstKYCreview>N</firstKYCreview>
+            <KYCdocumentSubmitted>N</KYCdocumentSubmitted>
+            <GICdocumentSubmitted>N</GICdocumentSubmitted>
+            <exceptionalApprovalObtained>N</exceptionalApprovalObtained>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </knowYourCustomer>
+          <knowYourCustomer>
+            <leId>11018414</leId>
+            <KYCid>13346545</KYCid>
+            <documentOriginatingLocation>
+              <documentOriginatingId>13000014</documentOriginatingId>
+              <documentOriginatingCountry>BW</documentOriginatingCountry>
+              <documentOriginatingOrganization>SCBW</documentOriginatingOrganization>
+            </documentOriginatingLocation>
+            <mlRiskRating>
+              <stdCodeNumber>59</stdCodeNumber>
+              <stdCodeValue>L3</stdCodeValue>
+              <stdCodeDescription>Special Risk</stdCodeDescription>
+            </mlRiskRating>
+            <mlLastReviewDate>18-DEC-2001 12:00:00</mlLastReviewDate>
+            <mlNextReviewDate>18-JUN-2002 12:00:00</mlNextReviewDate>
+            <firstKYCreview>N</firstKYCreview>
+            <KYCdocumentSubmitted>Y</KYCdocumentSubmitted>
+            <GICdocumentSubmitted>N</GICdocumentSubmitted>
+            <exceptionalApprovalObtained>N</exceptionalApprovalObtained>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </knowYourCustomer>
+          <knowYourCustomer>
+            <leId>11018414</leId>
+            <KYCid>13610379</KYCid>
+            <documentOriginatingLocation>
+              <documentOriginatingId>13000017</documentOriginatingId>
+              <documentOriginatingCountry>CI</documentOriginatingCountry>
+              <documentOriginatingOrganization>SCCI</documentOriginatingOrganization>
+            </documentOriginatingLocation>
+            <mlRiskRating>
+              <stdCodeNumber>59</stdCodeNumber>
+              <stdCodeValue>L3</stdCodeValue>
+              <stdCodeDescription>Special Risk</stdCodeDescription>
+            </mlRiskRating>
+            <mlLastReviewDate>18-DEC-2001 12:00:00</mlLastReviewDate>
+            <mlNextReviewDate>18-JUN-2002 12:00:00</mlNextReviewDate>
+            <firstKYCreview>N</firstKYCreview>
+            <KYCdocumentSubmitted>N</KYCdocumentSubmitted>
+            <GICdocumentSubmitted>N</GICdocumentSubmitted>
+            <exceptionalApprovalObtained>N</exceptionalApprovalObtained>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </knowYourCustomer>
+          <knowYourCustomer>
+            <leId>11018414</leId>
+            <KYCid>13610382</KYCid>
+            <documentOriginatingLocation>
+              <documentOriginatingId>13000018</documentOriginatingId>
+              <documentOriginatingCountry>CM</documentOriginatingCountry>
+              <documentOriginatingOrganization>SCCM</documentOriginatingOrganization>
+            </documentOriginatingLocation>
+            <mlRiskRating>
+              <stdCodeNumber>59</stdCodeNumber>
+              <stdCodeValue>L3</stdCodeValue>
+              <stdCodeDescription>Special Risk</stdCodeDescription>
+            </mlRiskRating>
+            <mlLastReviewDate>18-DEC-2001 12:00:00</mlLastReviewDate>
+            <mlNextReviewDate>18-JUN-2002 12:00:00</mlNextReviewDate>
+            <firstKYCreview>N</firstKYCreview>
+            <KYCdocumentSubmitted>N</KYCdocumentSubmitted>
+            <GICdocumentSubmitted>N</GICdocumentSubmitted>
+            <exceptionalApprovalObtained>N</exceptionalApprovalObtained>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </knowYourCustomer>
+          <knowYourCustomer>
+            <leId>11018414</leId>
+            <KYCid>13610384</KYCid>
+            <documentOriginatingLocation>
+              <documentOriginatingId>13000030</documentOriginatingId>
+              <documentOriginatingCountry>GM</documentOriginatingCountry>
+              <documentOriginatingOrganization>SCGM</documentOriginatingOrganization>
+            </documentOriginatingLocation>
+            <mlRiskRating>
+              <stdCodeNumber>59</stdCodeNumber>
+              <stdCodeValue>L3</stdCodeValue>
+              <stdCodeDescription>Special Risk</stdCodeDescription>
+            </mlRiskRating>
+            <mlLastReviewDate>18-DEC-2001 12:00:00</mlLastReviewDate>
+            <mlNextReviewDate>18-JUN-2002 12:00:00</mlNextReviewDate>
+            <firstKYCreview>N</firstKYCreview>
+            <KYCdocumentSubmitted>N</KYCdocumentSubmitted>
+            <GICdocumentSubmitted>N</GICdocumentSubmitted>
+            <exceptionalApprovalObtained>N</exceptionalApprovalObtained>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </knowYourCustomer>
+          <knowYourCustomer>
+            <leId>11018414</leId>
+            <KYCid>13007874</KYCid>
+            <documentOriginatingLocation>
+              <documentOriginatingId>13000032</documentOriginatingId>
+              <documentOriginatingCountry>HK</documentOriginatingCountry>
+              <documentOriginatingOrganization>SCHK</documentOriginatingOrganization>
+            </documentOriginatingLocation>
+            <mlRiskRating>
+              <stdCodeNumber>59</stdCodeNumber>
+              <stdCodeValue>L3</stdCodeValue>
+              <stdCodeDescription>Special Risk</stdCodeDescription>
+            </mlRiskRating>
+            <mlLastReviewDate>18-DEC-2001 12:00:00</mlLastReviewDate>
+            <mlNextReviewDate>17-JUN-2002 12:00:00</mlNextReviewDate>
+            <firstKYCreview>N</firstKYCreview>
+            <KYCdocumentSubmitted>N</KYCdocumentSubmitted>
+            <GICdocumentSubmitted>Y</GICdocumentSubmitted>
+            <exceptionalApprovalObtained>N</exceptionalApprovalObtained>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </knowYourCustomer>
+          <knowYourCustomer>
+            <leId>11018414</leId>
+            <KYCid>13089308</KYCid>
+            <documentOriginatingLocation>
+              <documentOriginatingId>13000035</documentOriginatingId>
+              <documentOriginatingCountry>IN</documentOriginatingCountry>
+              <documentOriginatingOrganization>SCBL</documentOriginatingOrganization>
+            </documentOriginatingLocation>
+            <mlRiskRating>
+              <stdCodeNumber>59</stdCodeNumber>
+              <stdCodeValue>L3</stdCodeValue>
+              <stdCodeDescription>Special Risk</stdCodeDescription>
+            </mlRiskRating>
+            <mlLastReviewDate>18-DEC-2001 12:00:00</mlLastReviewDate>
+            <mlNextReviewDate>18-JUN-2002 12:00:00</mlNextReviewDate>
+            <firstKYCreview>N</firstKYCreview>
+            <KYCdocumentSubmitted>Y</KYCdocumentSubmitted>
+            <GICdocumentSubmitted>N</GICdocumentSubmitted>
+            <exceptionalApprovalObtained>N</exceptionalApprovalObtained>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </knowYourCustomer>
+          <knowYourCustomer>
+            <leId>11018414</leId>
+            <KYCid>13200802</KYCid>
+            <documentOriginatingLocation>
+              <documentOriginatingId>13000053</documentOriginatingId>
+              <documentOriginatingCountry>JO</documentOriginatingCountry>
+              <documentOriginatingOrganization>SCBL</documentOriginatingOrganization>
+            </documentOriginatingLocation>
+            <mlRiskRating>
+              <stdCodeNumber>59</stdCodeNumber>
+              <stdCodeValue>L3</stdCodeValue>
+              <stdCodeDescription>Special Risk</stdCodeDescription>
+            </mlRiskRating>
+            <mlLastReviewDate>18-DEC-2001 12:00:00</mlLastReviewDate>
+            <mlNextReviewDate>18-JUN-2002 12:00:00</mlNextReviewDate>
+            <firstKYCreview>N</firstKYCreview>
+            <KYCdocumentSubmitted>N</KYCdocumentSubmitted>
+            <GICdocumentSubmitted>Y</GICdocumentSubmitted>
+            <exceptionalApprovalObtained>N</exceptionalApprovalObtained>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </knowYourCustomer>
+          <knowYourCustomer>
+            <leId>11018414</leId>
+            <KYCid>13007876</KYCid>
+            <documentOriginatingLocation>
+              <documentOriginatingId>13000054</documentOriginatingId>
+              <documentOriginatingCountry>JP</documentOriginatingCountry>
+              <documentOriginatingOrganization>SCBL</documentOriginatingOrganization>
+            </documentOriginatingLocation>
+            <mlRiskRating>
+              <stdCodeNumber>59</stdCodeNumber>
+              <stdCodeValue>L3</stdCodeValue>
+              <stdCodeDescription>Special Risk</stdCodeDescription>
+            </mlRiskRating>
+            <mlLastReviewDate>18-DEC-2001 12:00:00</mlLastReviewDate>
+            <mlNextReviewDate>17-JUN-2002 12:00:00</mlNextReviewDate>
+            <firstKYCreview>N</firstKYCreview>
+            <KYCdocumentSubmitted>N</KYCdocumentSubmitted>
+            <GICdocumentSubmitted>Y</GICdocumentSubmitted>
+            <exceptionalApprovalObtained>N</exceptionalApprovalObtained>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </knowYourCustomer>
+          <knowYourCustomer>
+            <leId>11018414</leId>
+            <KYCid>13610386</KYCid>
+            <documentOriginatingLocation>
+              <documentOriginatingId>13000055</documentOriginatingId>
+              <documentOriginatingCountry>KE</documentOriginatingCountry>
+              <documentOriginatingOrganization>SCKE</documentOriginatingOrganization>
+            </documentOriginatingLocation>
+            <mlRiskRating>
+              <stdCodeNumber>59</stdCodeNumber>
+              <stdCodeValue>L3</stdCodeValue>
+              <stdCodeDescription>Special Risk</stdCodeDescription>
+            </mlRiskRating>
+            <mlLastReviewDate>18-DEC-2001 12:00:00</mlLastReviewDate>
+            <mlNextReviewDate>18-JUN-2002 12:00:00</mlNextReviewDate>
+            <firstKYCreview>N</firstKYCreview>
+            <KYCdocumentSubmitted>N</KYCdocumentSubmitted>
+            <GICdocumentSubmitted>N</GICdocumentSubmitted>
+            <exceptionalApprovalObtained>N</exceptionalApprovalObtained>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </knowYourCustomer>
+          <knowYourCustomer>
+            <leId>11018414</leId>
+            <KYCid>13085766</KYCid>
+            <documentOriginatingLocation>
+              <documentOriginatingId>13000062</documentOriginatingId>
+              <documentOriginatingCountry>LK</documentOriginatingCountry>
+              <documentOriginatingOrganization>SCBL</documentOriginatingOrganization>
+            </documentOriginatingLocation>
+            <mlRiskRating>
+              <stdCodeNumber>59</stdCodeNumber>
+              <stdCodeValue>L3</stdCodeValue>
+              <stdCodeDescription>Special Risk</stdCodeDescription>
+            </mlRiskRating>
+            <mlLastReviewDate>18-DEC-2001 12:00:00</mlLastReviewDate>
+            <mlNextReviewDate>18-JUN-2002 12:00:00</mlNextReviewDate>
+            <firstKYCreview>N</firstKYCreview>
+            <KYCdocumentSubmitted>N</KYCdocumentSubmitted>
+            <GICdocumentSubmitted>Y</GICdocumentSubmitted>
+            <exceptionalApprovalObtained>N</exceptionalApprovalObtained>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </knowYourCustomer>
+          <knowYourCustomer>
+            <leId>11018414</leId>
+            <KYCid>13196731</KYCid>
+            <documentOriginatingLocation>
+              <documentOriginatingId>13000065</documentOriginatingId>
+              <documentOriginatingCountry>MO</documentOriginatingCountry>
+              <documentOriginatingOrganization>SCBL</documentOriginatingOrganization>
+            </documentOriginatingLocation>
+            <mlRiskRating>
+              <stdCodeNumber>59</stdCodeNumber>
+              <stdCodeValue>L3</stdCodeValue>
+              <stdCodeDescription>Special Risk</stdCodeDescription>
+            </mlRiskRating>
+            <mlLastReviewDate>18-DEC-2001 12:00:00</mlLastReviewDate>
+            <mlNextReviewDate>18-JUN-2002 12:00:00</mlNextReviewDate>
+            <firstKYCreview>N</firstKYCreview>
+            <KYCdocumentSubmitted>N</KYCdocumentSubmitted>
+            <GICdocumentSubmitted>N</GICdocumentSubmitted>
+            <exceptionalApprovalObtained>N</exceptionalApprovalObtained>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </knowYourCustomer>
+          <knowYourCustomer>
+            <leId>11018414</leId>
+            <KYCid>13610388</KYCid>
+            <documentOriginatingLocation>
+              <documentOriginatingId>13000070</documentOriginatingId>
+              <documentOriginatingCountry>NG</documentOriginatingCountry>
+              <documentOriginatingOrganization>SCNG</documentOriginatingOrganization>
+            </documentOriginatingLocation>
+            <mlRiskRating>
+              <stdCodeNumber>59</stdCodeNumber>
+              <stdCodeValue>L3</stdCodeValue>
+              <stdCodeDescription>Special Risk</stdCodeDescription>
+            </mlRiskRating>
+            <mlLastReviewDate>12-AUG-2001 12:00:00</mlLastReviewDate>
+            <mlNextReviewDate>12-FEB-2002 12:00:00</mlNextReviewDate>
+            <firstKYCreview>N</firstKYCreview>
+            <KYCdocumentSubmitted>N</KYCdocumentSubmitted>
+            <GICdocumentSubmitted>N</GICdocumentSubmitted>
+            <exceptionalApprovalObtained>N</exceptionalApprovalObtained>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </knowYourCustomer>
+          <knowYourCustomer>
+            <leId>11018414</leId>
+            <KYCid>13082842</KYCid>
+            <documentOriginatingLocation>
+              <documentOriginatingId>13000071</documentOriginatingId>
+              <documentOriginatingCountry>NP</documentOriginatingCountry>
+              <documentOriginatingOrganization>SCNL</documentOriginatingOrganization>
+            </documentOriginatingLocation>
+            <mlRiskRating>
+              <stdCodeNumber>59</stdCodeNumber>
+              <stdCodeValue>L3</stdCodeValue>
+              <stdCodeDescription>Special Risk</stdCodeDescription>
+            </mlRiskRating>
+            <mlLastReviewDate>18-DEC-2001 12:00:00</mlLastReviewDate>
+            <mlNextReviewDate>18-JUN-2002 12:00:00</mlNextReviewDate>
+            <firstKYCreview>N</firstKYCreview>
+            <KYCdocumentSubmitted>N</KYCdocumentSubmitted>
+            <GICdocumentSubmitted>Y</GICdocumentSubmitted>
+            <exceptionalApprovalObtained>N</exceptionalApprovalObtained>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </knowYourCustomer>
+          <knowYourCustomer>
+            <leId>11018414</leId>
+            <KYCid>13086457</KYCid>
+            <documentOriginatingLocation>
+              <documentOriginatingId>13000073</documentOriginatingId>
+              <documentOriginatingCountry>OM</documentOriginatingCountry>
+              <documentOriginatingOrganization>SCBL</documentOriginatingOrganization>
+            </documentOriginatingLocation>
+            <mlRiskRating>
+              <stdCodeNumber>59</stdCodeNumber>
+              <stdCodeValue>L3</stdCodeValue>
+              <stdCodeDescription>Special Risk</stdCodeDescription>
+            </mlRiskRating>
+            <mlLastReviewDate>18-DEC-2001 12:00:00</mlLastReviewDate>
+            <mlNextReviewDate>18-JUN-2002 12:00:00</mlNextReviewDate>
+            <firstKYCreview>N</firstKYCreview>
+            <KYCdocumentSubmitted>N</KYCdocumentSubmitted>
+            <GICdocumentSubmitted>Y</GICdocumentSubmitted>
+            <exceptionalApprovalObtained>N</exceptionalApprovalObtained>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </knowYourCustomer>
+          <knowYourCustomer>
+            <leId>11018414</leId>
+            <KYCid>13007879</KYCid>
+            <documentOriginatingLocation>
+              <documentOriginatingId>13000077</documentOriginatingId>
+              <documentOriginatingCountry>PH</documentOriginatingCountry>
+              <documentOriginatingOrganization>SCBL</documentOriginatingOrganization>
+            </documentOriginatingLocation>
+            <mlRiskRating>
+              <stdCodeNumber>59</stdCodeNumber>
+              <stdCodeValue>L3</stdCodeValue>
+              <stdCodeDescription>Special Risk</stdCodeDescription>
+            </mlRiskRating>
+            <mlLastReviewDate>18-DEC-2001 12:00:00</mlLastReviewDate>
+            <mlNextReviewDate>17-JUN-2002 12:00:00</mlNextReviewDate>
+            <firstKYCreview>N</firstKYCreview>
+            <KYCdocumentSubmitted>N</KYCdocumentSubmitted>
+            <GICdocumentSubmitted>Y</GICdocumentSubmitted>
+            <exceptionalApprovalObtained>N</exceptionalApprovalObtained>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </knowYourCustomer>
+          <knowYourCustomer>
+            <leId>11018414</leId>
+            <KYCid>13158013</KYCid>
+            <documentOriginatingLocation>
+              <documentOriginatingId>13000078</documentOriginatingId>
+              <documentOriginatingCountry>PK</documentOriginatingCountry>
+              <documentOriginatingOrganization>SCPK</documentOriginatingOrganization>
+            </documentOriginatingLocation>
+            <mlRiskRating>
+              <stdCodeNumber>59</stdCodeNumber>
+              <stdCodeValue>L3</stdCodeValue>
+              <stdCodeDescription>Special Risk</stdCodeDescription>
+            </mlRiskRating>
+            <mlLastReviewDate>18-DEC-2001 12:00:00</mlLastReviewDate>
+            <mlNextReviewDate>18-JUN-2002 12:00:00</mlNextReviewDate>
+            <firstKYCreview>N</firstKYCreview>
+            <KYCdocumentSubmitted>N</KYCdocumentSubmitted>
+            <GICdocumentSubmitted>N</GICdocumentSubmitted>
+            <exceptionalApprovalObtained>N</exceptionalApprovalObtained>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </knowYourCustomer>
+          <knowYourCustomer>
+            <leId>11018414</leId>
+            <KYCid>13007880</KYCid>
+            <documentOriginatingLocation>
+              <documentOriginatingId>13000080</documentOriginatingId>
+              <documentOriginatingCountry>QA</documentOriginatingCountry>
+              <documentOriginatingOrganization>SCBL</documentOriginatingOrganization>
+            </documentOriginatingLocation>
+            <mlRiskRating>
+              <stdCodeNumber>59</stdCodeNumber>
+              <stdCodeValue>L3</stdCodeValue>
+              <stdCodeDescription>Special Risk</stdCodeDescription>
+            </mlRiskRating>
+            <mlLastReviewDate>18-DEC-2001 12:00:00</mlLastReviewDate>
+            <mlNextReviewDate>18-JUN-2002 12:00:00</mlNextReviewDate>
+            <firstKYCreview>N</firstKYCreview>
+            <KYCdocumentSubmitted>N</KYCdocumentSubmitted>
+            <GICdocumentSubmitted>Y</GICdocumentSubmitted>
+            <exceptionalApprovalObtained>N</exceptionalApprovalObtained>
+            <updateStatusIndicator>U</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </knowYourCustomer>
+          <knowYourCustomer>
+            <leId>11018414</leId>
+            <KYCid>13007881</KYCid>
+            <documentOriginatingLocation>
+              <documentOriginatingId>13000081</documentOriginatingId>
+              <documentOriginatingCountry>SG</documentOriginatingCountry>
+              <documentOriginatingOrganization>SCBL</documentOriginatingOrganization>
+            </documentOriginatingLocation>
+            <mlRiskRating>
+              <stdCodeNumber>59</stdCodeNumber>
+              <stdCodeValue>L3</stdCodeValue>
+              <stdCodeDescription>Special Risk</stdCodeDescription>
+            </mlRiskRating>
+            <mlLastReviewDate>18-DEC-2001 12:00:00</mlLastReviewDate>
+            <mlNextReviewDate>18-JUN-2002 12:00:00</mlNextReviewDate>
+            <firstKYCreview>N</firstKYCreview>
+            <KYCdocumentSubmitted>Y</KYCdocumentSubmitted>
+            <GICdocumentSubmitted>N</GICdocumentSubmitted>
+            <exceptionalApprovalObtained>N</exceptionalApprovalObtained>
+            <updateStatusIndicator>U</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </knowYourCustomer>
+          <knowYourCustomer>
+            <leId>11018414</leId>
+            <KYCid>13610391</KYCid>
+            <documentOriginatingLocation>
+              <documentOriginatingId>13000082</documentOriginatingId>
+              <documentOriginatingCountry>SL</documentOriginatingCountry>
+              <documentOriginatingOrganization>SCSL</documentOriginatingOrganization>
+            </documentOriginatingLocation>
+            <mlRiskRating>
+              <stdCodeNumber>59</stdCodeNumber>
+              <stdCodeValue>L3</stdCodeValue>
+              <stdCodeDescription>Special Risk</stdCodeDescription>
+            </mlRiskRating>
+            <mlLastReviewDate>18-DEC-2001 12:00:00</mlLastReviewDate>
+            <mlNextReviewDate>18-JUN-2002 12:00:00</mlNextReviewDate>
+            <firstKYCreview>N</firstKYCreview>
+            <KYCdocumentSubmitted>N</KYCdocumentSubmitted>
+            <GICdocumentSubmitted>N</GICdocumentSubmitted>
+            <exceptionalApprovalObtained>N</exceptionalApprovalObtained>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </knowYourCustomer>
+          <knowYourCustomer>
+            <leId>11018414</leId>
+            <KYCid>13007884</KYCid>
+            <documentOriginatingLocation>
+              <documentOriginatingId>13000087</documentOriginatingId>
+              <documentOriginatingCountry>TW</documentOriginatingCountry>
+              <documentOriginatingOrganization>SCTW</documentOriginatingOrganization>
+            </documentOriginatingLocation>
+            <mlRiskRating>
+              <stdCodeNumber>59</stdCodeNumber>
+              <stdCodeValue>L3</stdCodeValue>
+              <stdCodeDescription>Special Risk</stdCodeDescription>
+            </mlRiskRating>
+            <mlLastReviewDate>18-DEC-2001 12:00:00</mlLastReviewDate>
+            <mlNextReviewDate>17-JUN-2002 12:00:00</mlNextReviewDate>
+            <firstKYCreview>N</firstKYCreview>
+            <KYCdocumentSubmitted>N</KYCdocumentSubmitted>
+            <GICdocumentSubmitted>Y</GICdocumentSubmitted>
+            <exceptionalApprovalObtained>N</exceptionalApprovalObtained>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </knowYourCustomer>
+          <knowYourCustomer>
+            <leId>11018414</leId>
+            <KYCid>13610392</KYCid>
+            <documentOriginatingLocation>
+              <documentOriginatingId>13000088</documentOriginatingId>
+              <documentOriginatingCountry>TZ</documentOriginatingCountry>
+              <documentOriginatingOrganization>SCTZ</documentOriginatingOrganization>
+            </documentOriginatingLocation>
+            <mlRiskRating>
+              <stdCodeNumber>59</stdCodeNumber>
+              <stdCodeValue>L3</stdCodeValue>
+              <stdCodeDescription>Special Risk</stdCodeDescription>
+            </mlRiskRating>
+            <mlLastReviewDate>18-DEC-2001 12:00:00</mlLastReviewDate>
+            <mlNextReviewDate>18-JUN-2002 12:00:00</mlNextReviewDate>
+            <firstKYCreview>N</firstKYCreview>
+            <KYCdocumentSubmitted>N</KYCdocumentSubmitted>
+            <GICdocumentSubmitted>N</GICdocumentSubmitted>
+            <exceptionalApprovalObtained>N</exceptionalApprovalObtained>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </knowYourCustomer>
+          <knowYourCustomer>
+            <leId>11018414</leId>
+            <KYCid>13610393</KYCid>
+            <documentOriginatingLocation>
+              <documentOriginatingId>13000089</documentOriginatingId>
+              <documentOriginatingCountry>UG</documentOriginatingCountry>
+              <documentOriginatingOrganization>SCUG</documentOriginatingOrganization>
+            </documentOriginatingLocation>
+            <mlRiskRating>
+              <stdCodeNumber>59</stdCodeNumber>
+              <stdCodeValue>L3</stdCodeValue>
+              <stdCodeDescription>Special Risk</stdCodeDescription>
+            </mlRiskRating>
+            <mlLastReviewDate>18-DEC-2001 12:00:00</mlLastReviewDate>
+            <mlNextReviewDate>18-JUN-2002 12:00:00</mlNextReviewDate>
+            <firstKYCreview>N</firstKYCreview>
+            <KYCdocumentSubmitted>N</KYCdocumentSubmitted>
+            <GICdocumentSubmitted>N</GICdocumentSubmitted>
+            <exceptionalApprovalObtained>N</exceptionalApprovalObtained>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </knowYourCustomer>
+          <knowYourCustomer>
+            <leId>11018414</leId>
+            <KYCid>13007885</KYCid>
+            <documentOriginatingLocation>
+              <documentOriginatingId>13000092</documentOriginatingId>
+              <documentOriginatingCountry>VN</documentOriginatingCountry>
+              <documentOriginatingOrganization>SCVN</documentOriginatingOrganization>
+            </documentOriginatingLocation>
+            <mlRiskRating>
+              <stdCodeNumber>59</stdCodeNumber>
+              <stdCodeValue>L3</stdCodeValue>
+              <stdCodeDescription>Special Risk</stdCodeDescription>
+            </mlRiskRating>
+            <mlLastReviewDate>18-DEC-2001 12:00:00</mlLastReviewDate>
+            <mlNextReviewDate>17-JUN-2002 12:00:00</mlNextReviewDate>
+            <firstKYCreview>N</firstKYCreview>
+            <KYCdocumentSubmitted>N</KYCdocumentSubmitted>
+            <GICdocumentSubmitted>Y</GICdocumentSubmitted>
+            <exceptionalApprovalObtained>N</exceptionalApprovalObtained>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </knowYourCustomer>
+          <knowYourCustomer>
+            <leId>11018414</leId>
+            <KYCid>13280547</KYCid>
+            <documentOriginatingLocation>
+              <documentOriginatingId>13000093</documentOriginatingId>
+              <documentOriginatingCountry>ZA</documentOriginatingCountry>
+              <documentOriginatingOrganization>SCBL</documentOriginatingOrganization>
+            </documentOriginatingLocation>
+            <mlRiskRating>
+              <stdCodeNumber>59</stdCodeNumber>
+              <stdCodeValue>L3</stdCodeValue>
+              <stdCodeDescription>Special Risk</stdCodeDescription>
+            </mlRiskRating>
+            <mlLastReviewDate>18-DEC-2001 12:00:00</mlLastReviewDate>
+            <mlNextReviewDate>18-JUN-2002 12:00:00</mlNextReviewDate>
+            <firstKYCreview>N</firstKYCreview>
+            <KYCdocumentSubmitted>N</KYCdocumentSubmitted>
+            <GICdocumentSubmitted>N</GICdocumentSubmitted>
+            <exceptionalApprovalObtained>N</exceptionalApprovalObtained>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </knowYourCustomer>
+          <knowYourCustomer>
+            <leId>11018414</leId>
+            <KYCid>13284592</KYCid>
+            <documentOriginatingLocation>
+              <documentOriginatingId>13000094</documentOriginatingId>
+              <documentOriginatingCountry>ZM</documentOriginatingCountry>
+              <documentOriginatingOrganization>SCZM</documentOriginatingOrganization>
+            </documentOriginatingLocation>
+            <mlRiskRating>
+              <stdCodeNumber>59</stdCodeNumber>
+              <stdCodeValue>L3</stdCodeValue>
+              <stdCodeDescription>Special Risk</stdCodeDescription>
+            </mlRiskRating>
+            <mlLastReviewDate>18-DEC-2001 12:00:00</mlLastReviewDate>
+            <mlNextReviewDate>18-JUN-2002 12:00:00</mlNextReviewDate>
+            <firstKYCreview>N</firstKYCreview>
+            <KYCdocumentSubmitted>N</KYCdocumentSubmitted>
+            <GICdocumentSubmitted>N</GICdocumentSubmitted>
+            <exceptionalApprovalObtained>N</exceptionalApprovalObtained>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </knowYourCustomer>
+          <knowYourCustomer>
+            <leId>11018414</leId>
+            <KYCid>13155653</KYCid>
+            <documentOriginatingLocation>
+              <documentOriginatingId>13010187</documentOriginatingId>
+              <documentOriginatingCountry>AE</documentOriginatingCountry>
+              <documentOriginatingOrganization>SCDF</documentOriginatingOrganization>
+            </documentOriginatingLocation>
+            <mlRiskRating>
+              <stdCodeNumber>59</stdCodeNumber>
+              <stdCodeValue>L3</stdCodeValue>
+              <stdCodeDescription>Special Risk</stdCodeDescription>
+            </mlRiskRating>
+            <mlLastReviewDate>18-DEC-2001 12:00:00</mlLastReviewDate>
+            <mlNextReviewDate>18-JUN-2002 12:00:00</mlNextReviewDate>
+            <firstKYCreview>N</firstKYCreview>
+            <KYCdocumentSubmitted>N</KYCdocumentSubmitted>
+            <GICdocumentSubmitted>N</GICdocumentSubmitted>
+            <exceptionalApprovalObtained>N</exceptionalApprovalObtained>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </knowYourCustomer>
+          <knowYourCustomer>
+            <leId>11018414</leId>
+            <KYCid>13524533</KYCid>
+            <documentOriginatingLocation>
+              <documentOriginatingId>13010248</documentOriginatingId>
+              <documentOriginatingCountry>DE</documentOriginatingCountry>
+              <documentOriginatingOrganization>SCBL</documentOriginatingOrganization>
+            </documentOriginatingLocation>
+            <mlRiskRating>
+              <stdCodeNumber>59</stdCodeNumber>
+              <stdCodeValue>L3</stdCodeValue>
+              <stdCodeDescription>Special Risk</stdCodeDescription>
+            </mlRiskRating>
+            <mlLastReviewDate>18-DEC-2001 12:00:00</mlLastReviewDate>
+            <mlNextReviewDate>18-JUN-2002 12:00:00</mlNextReviewDate>
+            <firstKYCreview>N</firstKYCreview>
+            <KYCdocumentSubmitted>N</KYCdocumentSubmitted>
+            <GICdocumentSubmitted>N</GICdocumentSubmitted>
+            <exceptionalApprovalObtained>N</exceptionalApprovalObtained>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </knowYourCustomer>
+          <knowYourCustomer>
+            <leId>11018414</leId>
+            <KYCid>13612945</KYCid>
+            <documentOriginatingLocation>
+              <documentOriginatingId>13010387</documentOriginatingId>
+              <documentOriginatingCountry>BR</documentOriginatingCountry>
+              <documentOriginatingOrganization>SCBR</documentOriginatingOrganization>
+            </documentOriginatingLocation>
+            <mlRiskRating>
+              <stdCodeNumber>59</stdCodeNumber>
+              <stdCodeValue>L3</stdCodeValue>
+              <stdCodeDescription>Special Risk</stdCodeDescription>
+            </mlRiskRating>
+            <mlLastReviewDate>18-DEC-2001 12:00:00</mlLastReviewDate>
+            <mlNextReviewDate>18-JUN-2002 12:00:00</mlNextReviewDate>
+            <firstKYCreview>N</firstKYCreview>
+            <KYCdocumentSubmitted>N</KYCdocumentSubmitted>
+            <GICdocumentSubmitted>N</GICdocumentSubmitted>
+            <exceptionalApprovalObtained>N</exceptionalApprovalObtained>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </knowYourCustomer>
+        </kycDetails>
+      </mainProfileDetails>
+      <subProfileDetails>
+        <subProfile>
+          <leId>11018414</leId>
+          <subProfileId>2</subProfileId>
+          <subProfileName>L NAME 11018414</subProfileName>
+          <domicileCountry>US</domicileCountry>
+          <domicileCountryRegistrationNumber/>
+          <swiftCountryCode>13000090</swiftCountryCode>
+          <CustomerOrgType>
+            <stdCodeNumber>53</stdCodeNumber>
+            <stdCodeValue>HO</stdCodeValue>
+            <stdCodeDescription>HEAD OFFICE</stdCodeDescription>
+          </CustomerOrgType>
+          <disclosureAgreementIndicator>Y</disclosureAgreementIndicator>
+          <agreementDate>25-APR-2004 12:00:00</agreementDate>
+          <languageCode>
+            <stdCodeNumber>11</stdCodeNumber>
+            <stdCodeValue>ENUK</stdCodeValue>
+            <stdCodeDescription>English (UK)</stdCodeDescription>
+          </languageCode>
+          <relationshipStartDate>18-JUL-1986 12:00:00</relationshipStartDate>
+          <serviceLevelPriority>
+            <stdCodeNumber/>
+            <stdCodeValue/>
+            <stdCodeDescription/>
+          </serviceLevelPriority>
+          <treaturyInd>
+            <stdCodeNumber>10</stdCodeNumber>
+            <stdCodeValue>1</stdCodeValue>
+            <stdCodeDescription>Category 1 as determined after completing the appropriateness profile</stdCodeDescription>
+          </treaturyInd>
+          <operationStatus2>
+            <stdCodeNumber>13</stdCodeNumber>
+            <stdCodeValue>ACTIVE</stdCodeValue>
+            <stdCodeDescription>ACTIVE</stdCodeDescription>
+          </operationStatus2>
+          <operationStatus2EffDate>31-JUL-2011 12:00:00</operationStatus2EffDate>
+          <updateStatusIndicator>U</updateStatusIndicator>
+          <changeIndicator>Y</changeIndicator>
+        </subProfile>
+        <officialAddressDetails>
+          <officialAddress>
+            <leId>11018414</leId>
+            <subProfileId>2</subProfileId>
+            <addressId>26293470</addressId>
+            <addressType>
+              <stdCodeNumber>4</stdCodeNumber>
+              <stdCodeValue>OFFICIAL</stdCodeValue>
+              <stdCodeDescription>OFFICIAL ADDRESS</stdCodeDescription>
+            </addressType>
+            <attnParty>Attn Party 11018414</attnParty>
+            <line1>Addr 111018414</line1>
+            <line2>Addr 211018414</line2>
+            <city>City 11018414</city>
+            <state>State 11018414</state>
+            <country>MY</country>
+            <postCode>Post 11018414</postCode>
+            <fax>Fax 11018414</fax>
+            <email>Email 11018414</email>
+            <phone>Phone 11018414</phone>
+            <telex>Telex 11018414</telex>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </officialAddress>
+          <officialAddress>
+            <leId>11018414</leId>
+            <subProfileId>2</subProfileId>
+            <addressId>26312313</addressId>
+            <addressType>
+              <stdCodeNumber>4</stdCodeNumber>
+              <stdCodeValue>RESS</stdCodeValue>
+              <stdCodeDescription>RESIDENTIAL ADDRESS</stdCodeDescription>
+            </addressType>
+            <attnParty>Attn Party 11018414</attnParty>
+            <line1>Addr 111018414</line1>
+            <line2>Addr 211018414</line2>
+            <city>City 11018414</city>
+            <state>State 11018414</state>
+            <country>US</country>
+            <postCode>Post 11018414</postCode>
+            <fax>Fax 11018414</fax>
+            <email>Email 11018414</email>
+            <phone>Phone 11018414</phone>
+            <telex>Telex 11018414</telex>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </officialAddress>
+		  <officialAddress>
+            <leId>11018414</leId>
+            <subProfileId>2</subProfileId>
+            <addressId>26312313</addressId>
+            <addressType>
+              <stdCodeNumber>4</stdCodeNumber>
+              <stdCodeValue>COMM</stdCodeValue>
+              <stdCodeDescription>COMMUNICATION ADDRESS</stdCodeDescription>
+            </addressType>
+            <attnParty>Attn Party 11018414</attnParty>
+            <line1>Addr 111018414</line1>
+            <line2>Addr 211018414</line2>
+            <city>City 11018414</city>
+            <state>State 11018414</state>
+            <country>US</country>
+            <postCode>Post 11018414</postCode>
+            <fax>Fax 11018414</fax>
+            <email>Email 11018414</email>
+            <phone>Phone 11018414</phone>
+            <telex>Telex 11018414</telex>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </officialAddress>
+        </officialAddressDetails>
+        <empRelationshipDetails>
+          <empRelationship>
+            <leId>11018414</leId>
+            <subProfileId>2</subProfileId>
+            <empEmpCodeMapId>5000272</empEmpCodeMapId>
+            <empMapId>14855176</empMapId>
+            <empId>1009951</empId>
+            <empCode>CCC</empCode>
+            <empName>Wright,Rosamund</empName>
+            <bkgLocation>
+              <bkgLocationId>13000082</bkgLocationId>
+              <bkgLocationCountry>SL</bkgLocationCountry>
+              <bkgLocationOrganization>SCSL</bkgLocationOrganization>
+            </bkgLocation>
+            <empRelationshipType>
+              <stdCodeNumber>22</stdCodeNumber>
+              <stdCodeValue>FAM</stdCodeValue>
+              <stdCodeDescription>Field Account Manager</stdCodeDescription>
+            </empRelationshipType>
+            <principalFAMInd>Y</principalFAMInd>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </empRelationship>
+          <empRelationship>
+            <leId>11018414</leId>
+            <subProfileId>2</subProfileId>
+            <empEmpCodeMapId>5000781</empEmpCodeMapId>
+            <empMapId>14427169</empMapId>
+            <empId>1393510</empId>
+            <empCode>202</empCode>
+            <empName>Ong, Darryl Teck Jin</empName>
+            <bkgLocation>
+              <bkgLocationId>13000067</bkgLocationId>
+              <bkgLocationCountry>MY</bkgLocationCountry>
+              <bkgLocationOrganization>SCMY</bkgLocationOrganization>
+            </bkgLocation>
+            <empRelationshipType>
+              <stdCodeNumber>22</stdCodeNumber>
+              <stdCodeValue>FAM</stdCodeValue>
+              <stdCodeDescription>Field Account Manager</stdCodeDescription>
+            </empRelationshipType>
+            <principalFAMInd>Y</principalFAMInd>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </empRelationship>
+          <empRelationship>
+            <leId>11018414</leId>
+            <subProfileId>2</subProfileId>
+            <empEmpCodeMapId>5000951</empEmpCodeMapId>
+            <empMapId>14246673</empMapId>
+            <empId>1138726</empId>
+            <empCode>TW</empCode>
+            <empName>Whyte, Tom</empName>
+            <bkgLocation>
+              <bkgLocationId>13000004</bkgLocationId>
+              <bkgLocationCountry>AU</bkgLocationCountry>
+              <bkgLocationOrganization>SCBL</bkgLocationOrganization>
+            </bkgLocation>
+            <empRelationshipType>
+              <stdCodeNumber>22</stdCodeNumber>
+              <stdCodeValue>FAM</stdCodeValue>
+              <stdCodeDescription>Field Account Manager</stdCodeDescription>
+            </empRelationshipType>
+            <principalFAMInd>Y</principalFAMInd>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </empRelationship>
+          <empRelationship>
+            <leId>11018414</leId>
+            <subProfileId>2</subProfileId>
+            <empEmpCodeMapId>5001358</empEmpCodeMapId>
+            <empMapId>14750090</empMapId>
+            <empId>1149368</empId>
+            <empCode>54</empCode>
+            <empName>JUNAID MASROOR</empName>
+            <bkgLocation>
+              <bkgLocationId>13000005</bkgLocationId>
+              <bkgLocationCountry>BD</bkgLocationCountry>
+              <bkgLocationOrganization>SCBL</bkgLocationOrganization>
+            </bkgLocation>
+            <empRelationshipType>
+              <stdCodeNumber>22</stdCodeNumber>
+              <stdCodeValue>FAM</stdCodeValue>
+              <stdCodeDescription>Field Account Manager</stdCodeDescription>
+            </empRelationshipType>
+            <principalFAMInd>Y</principalFAMInd>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </empRelationship>
+          <empRelationship>
+            <leId>11018414</leId>
+            <subProfileId>2</subProfileId>
+            <empEmpCodeMapId>5002144</empEmpCodeMapId>
+            <empMapId>14157126</empMapId>
+            <empId>1139772</empId>
+            <empCode>018</empCode>
+            <empName>ARUNA DE SILVA</empName>
+            <bkgLocation>
+              <bkgLocationId>13000062</bkgLocationId>
+              <bkgLocationCountry>LK</bkgLocationCountry>
+              <bkgLocationOrganization>SCBL</bkgLocationOrganization>
+            </bkgLocation>
+            <empRelationshipType>
+              <stdCodeNumber>22</stdCodeNumber>
+              <stdCodeValue>FAM</stdCodeValue>
+              <stdCodeDescription>Field Account Manager</stdCodeDescription>
+            </empRelationshipType>
+            <principalFAMInd>Y</principalFAMInd>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </empRelationship>
+          <empRelationship>
+            <leId>11018414</leId>
+            <subProfileId>2</subProfileId>
+            <empEmpCodeMapId>5003737</empEmpCodeMapId>
+            <empMapId>14405728</empMapId>
+            <empId>1006867</empId>
+            <empCode>FRRO</empCode>
+            <empName>FRANCO ROSSI</empName>
+            <bkgLocation>
+              <bkgLocationId>13000090</bkgLocationId>
+              <bkgLocationCountry>US</bkgLocationCountry>
+              <bkgLocationOrganization>SCBL</bkgLocationOrganization>
+            </bkgLocation>
+            <empRelationshipType>
+              <stdCodeNumber>22</stdCodeNumber>
+              <stdCodeValue>FAM</stdCodeValue>
+              <stdCodeDescription>Field Account Manager</stdCodeDescription>
+            </empRelationshipType>
+            <principalFAMInd>N</principalFAMInd>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </empRelationship>
+          <empRelationship>
+            <leId>11018414</leId>
+            <subProfileId>2</subProfileId>
+            <empEmpCodeMapId>5005615</empEmpCodeMapId>
+            <empMapId>14190946</empMapId>
+            <empId>1132447</empId>
+            <empCode>053</empCode>
+            <empName>Gavin Wishart</empName>
+            <bkgLocation>
+              <bkgLocationId>13000073</bkgLocationId>
+              <bkgLocationCountry>OM</bkgLocationCountry>
+              <bkgLocationOrganization>SCBL</bkgLocationOrganization>
+            </bkgLocation>
+            <empRelationshipType>
+              <stdCodeNumber>22</stdCodeNumber>
+              <stdCodeValue>FAM</stdCodeValue>
+              <stdCodeDescription>Field Account Manager</stdCodeDescription>
+            </empRelationshipType>
+            <principalFAMInd>Y</principalFAMInd>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </empRelationship>
+          <empRelationship>
+            <leId>11018414</leId>
+            <subProfileId>2</subProfileId>
+            <empEmpCodeMapId>5005620</empEmpCodeMapId>
+            <empMapId>14461127</empMapId>
+            <empId>1142962</empId>
+            <empCode>019</empCode>
+            <empName>KHAN, IMRAN A</empName>
+            <bkgLocation>
+              <bkgLocationId>13000007</bkgLocationId>
+              <bkgLocationCountry>BH</bkgLocationCountry>
+              <bkgLocationOrganization>SCBL</bkgLocationOrganization>
+            </bkgLocation>
+            <empRelationshipType>
+              <stdCodeNumber>22</stdCodeNumber>
+              <stdCodeValue>FAM</stdCodeValue>
+              <stdCodeDescription>Field Account Manager</stdCodeDescription>
+            </empRelationshipType>
+            <principalFAMInd>Y</principalFAMInd>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </empRelationship>
+          <empRelationship>
+            <leId>11018414</leId>
+            <subProfileId>2</subProfileId>
+            <empEmpCodeMapId>5005778</empEmpCodeMapId>
+            <empMapId>14556975</empMapId>
+            <empId>1148779</empId>
+            <empCode>TD</empCode>
+            <empName>Pachara Bunnag</empName>
+            <bkgLocation>
+              <bkgLocationId>13010147</bkgLocationId>
+              <bkgLocationCountry>TH</bkgLocationCountry>
+              <bkgLocationOrganization>SCBT</bkgLocationOrganization>
+            </bkgLocation>
+            <empRelationshipType>
+              <stdCodeNumber>22</stdCodeNumber>
+              <stdCodeValue>FAM</stdCodeValue>
+              <stdCodeDescription>Field Account Manager</stdCodeDescription>
+            </empRelationshipType>
+            <principalFAMInd>Y</principalFAMInd>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </empRelationship>
+          <empRelationship>
+            <leId>11018414</leId>
+            <subProfileId>2</subProfileId>
+            <empEmpCodeMapId>5007143</empEmpCodeMapId>
+            <empMapId>14353375</empMapId>
+            <empId>1366062</empId>
+            <empCode>LAD</empCode>
+            <empName>Risti Tobing, Ika</empName>
+            <bkgLocation>
+              <bkgLocationId>13000033</bkgLocationId>
+              <bkgLocationCountry>ID</bkgLocationCountry>
+              <bkgLocationOrganization>SCBL</bkgLocationOrganization>
+            </bkgLocation>
+            <empRelationshipType>
+              <stdCodeNumber>22</stdCodeNumber>
+              <stdCodeValue>FAM</stdCodeValue>
+              <stdCodeDescription>Field Account Manager</stdCodeDescription>
+            </empRelationshipType>
+            <principalFAMInd>Y</principalFAMInd>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </empRelationship>
+          <empRelationship>
+            <leId>11018414</leId>
+            <subProfileId>2</subProfileId>
+            <empEmpCodeMapId>5007370</empEmpCodeMapId>
+            <empMapId>14213779</empMapId>
+            <empId>1141369</empId>
+            <empCode>TAT</empCode>
+            <empName>ANITA LI</empName>
+            <bkgLocation>
+              <bkgLocationId>13000032</bkgLocationId>
+              <bkgLocationCountry>HK</bkgLocationCountry>
+              <bkgLocationOrganization>SCHK</bkgLocationOrganization>
+            </bkgLocation>
+            <empRelationshipType>
+              <stdCodeNumber>22</stdCodeNumber>
+              <stdCodeValue>FAM</stdCodeValue>
+              <stdCodeDescription>Field Account Manager</stdCodeDescription>
+            </empRelationshipType>
+            <principalFAMInd>Y</principalFAMInd>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </empRelationship>
+          <empRelationship>
+            <leId>11018414</leId>
+            <subProfileId>2</subProfileId>
+            <empEmpCodeMapId>5007924</empEmpCodeMapId>
+            <empMapId>14310721</empMapId>
+            <empId>1161092</empId>
+            <empCode>I03</empCode>
+            <empName>Ali Razi Azeem</empName>
+            <bkgLocation>
+              <bkgLocationId>13000054</bkgLocationId>
+              <bkgLocationCountry>JP</bkgLocationCountry>
+              <bkgLocationOrganization>SCBL</bkgLocationOrganization>
+            </bkgLocation>
+            <empRelationshipType>
+              <stdCodeNumber>22</stdCodeNumber>
+              <stdCodeValue>FAM</stdCodeValue>
+              <stdCodeDescription>Field Account Manager</stdCodeDescription>
+            </empRelationshipType>
+            <principalFAMInd>Y</principalFAMInd>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </empRelationship>
+          <empRelationship>
+            <leId>11018414</leId>
+            <subProfileId>2</subProfileId>
+            <empEmpCodeMapId>5008003</empEmpCodeMapId>
+            <empMapId>14229086</empMapId>
+            <empId>1378855</empId>
+            <empCode>EDC</empCode>
+            <empName>Tseng, Robert</empName>
+            <bkgLocation>
+              <bkgLocationId>13000087</bkgLocationId>
+              <bkgLocationCountry>TW</bkgLocationCountry>
+              <bkgLocationOrganization>SCTW</bkgLocationOrganization>
+            </bkgLocation>
+            <empRelationshipType>
+              <stdCodeNumber>22</stdCodeNumber>
+              <stdCodeValue>FAM</stdCodeValue>
+              <stdCodeDescription>Field Account Manager</stdCodeDescription>
+            </empRelationshipType>
+            <principalFAMInd>Y</principalFAMInd>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </empRelationship>
+          <empRelationship>
+            <leId>11018414</leId>
+            <subProfileId>2</subProfileId>
+            <empEmpCodeMapId>5008623</empEmpCodeMapId>
+            <empMapId>14399239</empMapId>
+            <empId>1222474</empId>
+            <empCode>MTY</empCode>
+            <empName>Michael Tan Yap</empName>
+            <bkgLocation>
+              <bkgLocationId>13000077</bkgLocationId>
+              <bkgLocationCountry>PH</bkgLocationCountry>
+              <bkgLocationOrganization>SCBL</bkgLocationOrganization>
+            </bkgLocation>
+            <empRelationshipType>
+              <stdCodeNumber>22</stdCodeNumber>
+              <stdCodeValue>FAM</stdCodeValue>
+              <stdCodeDescription>Field Account Manager</stdCodeDescription>
+            </empRelationshipType>
+            <principalFAMInd>Y</principalFAMInd>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </empRelationship>
+          <empRelationship>
+            <leId>11018414</leId>
+            <subProfileId>2</subProfileId>
+            <empEmpCodeMapId>5009043</empEmpCodeMapId>
+            <empMapId>14465284</empMapId>
+            <empId>1002793</empId>
+            <empCode>05E</empCode>
+            <empName>SHADA SHAHER RAFIK EL BORNO</empName>
+            <bkgLocation>
+              <bkgLocationId>13000001</bkgLocationId>
+              <bkgLocationCountry>AE</bkgLocationCountry>
+              <bkgLocationOrganization>SCBL</bkgLocationOrganization>
+            </bkgLocation>
+            <empRelationshipType>
+              <stdCodeNumber>22</stdCodeNumber>
+              <stdCodeValue>FAM</stdCodeValue>
+              <stdCodeDescription>Field Account Manager</stdCodeDescription>
+            </empRelationshipType>
+            <principalFAMInd>Y</principalFAMInd>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </empRelationship>
+          <empRelationship>
+            <leId>11018414</leId>
+            <subProfileId>2</subProfileId>
+            <empEmpCodeMapId>5009652</empEmpCodeMapId>
+            <empMapId>14263487</empMapId>
+            <empId>1147514</empId>
+            <empCode>TA</empCode>
+            <empName>Dilshad Hakim</empName>
+            <bkgLocation>
+              <bkgLocationId>13000035</bkgLocationId>
+              <bkgLocationCountry>IN</bkgLocationCountry>
+              <bkgLocationOrganization>SCBL</bkgLocationOrganization>
+            </bkgLocation>
+            <empRelationshipType>
+              <stdCodeNumber>22</stdCodeNumber>
+              <stdCodeValue>FAM</stdCodeValue>
+              <stdCodeDescription>Field Account Manager</stdCodeDescription>
+            </empRelationshipType>
+            <principalFAMInd>Y</principalFAMInd>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </empRelationship>
+          <empRelationship>
+            <leId>11018414</leId>
+            <subProfileId>2</subProfileId>
+            <empEmpCodeMapId>5009942</empEmpCodeMapId>
+            <empMapId>14855173</empMapId>
+            <empId>1008527</empId>
+            <empCode>DDD</empCode>
+            <empName>Asanatou Barry-Njie</empName>
+            <bkgLocation>
+              <bkgLocationId>13000030</bkgLocationId>
+              <bkgLocationCountry>GM</bkgLocationCountry>
+              <bkgLocationOrganization>SCGM</bkgLocationOrganization>
+            </bkgLocation>
+            <empRelationshipType>
+              <stdCodeNumber>22</stdCodeNumber>
+              <stdCodeValue>FAM</stdCodeValue>
+              <stdCodeDescription>Field Account Manager</stdCodeDescription>
+            </empRelationshipType>
+            <principalFAMInd>Y</principalFAMInd>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </empRelationship>
+          <empRelationship>
+            <leId>11018414</leId>
+            <subProfileId>2</subProfileId>
+            <empEmpCodeMapId>5010093</empEmpCodeMapId>
+            <empMapId>14855171</empMapId>
+            <empId>1232190</empId>
+            <empCode>CCC</empCode>
+            <empName>Issa Fadiga</empName>
+            <bkgLocation>
+              <bkgLocationId>13000017</bkgLocationId>
+              <bkgLocationCountry>CI</bkgLocationCountry>
+              <bkgLocationOrganization>SCCI</bkgLocationOrganization>
+            </bkgLocation>
+            <empRelationshipType>
+              <stdCodeNumber>22</stdCodeNumber>
+              <stdCodeValue>FAM</stdCodeValue>
+              <stdCodeDescription>Field Account Manager</stdCodeDescription>
+            </empRelationshipType>
+            <principalFAMInd>Y</principalFAMInd>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </empRelationship>
+          <empRelationship>
+            <leId>11018414</leId>
+            <subProfileId>2</subProfileId>
+            <empEmpCodeMapId>5010412</empEmpCodeMapId>
+            <empMapId>14650318</empMapId>
+            <empId>1200029</empId>
+            <empCode>410</empCode>
+            <empName>Teng, Joel Wenzhong</empName>
+            <bkgLocation>
+              <bkgLocationId>13000081</bkgLocationId>
+              <bkgLocationCountry>SG</bkgLocationCountry>
+              <bkgLocationOrganization>SCBL</bkgLocationOrganization>
+            </bkgLocation>
+            <empRelationshipType>
+              <stdCodeNumber>22</stdCodeNumber>
+              <stdCodeValue>FAM</stdCodeValue>
+              <stdCodeDescription>Field Account Manager</stdCodeDescription>
+            </empRelationshipType>
+            <principalFAMInd>Y</principalFAMInd>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </empRelationship>
+          <empRelationship>
+            <leId>11018414</leId>
+            <subProfileId>2</subProfileId>
+            <empEmpCodeMapId>5010413</empEmpCodeMapId>
+            <empMapId>14396021</empMapId>
+            <empId>1265574</empId>
+            <empCode>810</empCode>
+            <empName>SRINI NANDURI</empName>
+            <bkgLocation>
+              <bkgLocationId>13000081</bkgLocationId>
+              <bkgLocationCountry>SG</bkgLocationCountry>
+              <bkgLocationOrganization>SCBL</bkgLocationOrganization>
+            </bkgLocation>
+            <empRelationshipType>
+              <stdCodeNumber>22</stdCodeNumber>
+              <stdCodeValue>FAM</stdCodeValue>
+              <stdCodeDescription>Field Account Manager</stdCodeDescription>
+            </empRelationshipType>
+            <principalFAMInd>N</principalFAMInd>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </empRelationship>
+          <empRelationship>
+            <leId>11018414</leId>
+            <subProfileId>2</subProfileId>
+            <empEmpCodeMapId>5010542</empEmpCodeMapId>
+            <empMapId>14396020</empMapId>
+            <empId>1183747</empId>
+            <empCode>P214</empCode>
+            <empName>Geoff D Parry</empName>
+            <bkgLocation>
+              <bkgLocationId>13000081</bkgLocationId>
+              <bkgLocationCountry>SG</bkgLocationCountry>
+              <bkgLocationOrganization>SCBL</bkgLocationOrganization>
+            </bkgLocation>
+            <empRelationshipType>
+              <stdCodeNumber>22</stdCodeNumber>
+              <stdCodeValue>FAM</stdCodeValue>
+              <stdCodeDescription>Field Account Manager</stdCodeDescription>
+            </empRelationshipType>
+            <principalFAMInd>N</principalFAMInd>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </empRelationship>
+          <empRelationship>
+            <leId>11018414</leId>
+            <subProfileId>2</subProfileId>
+            <empEmpCodeMapId>5010756</empEmpCodeMapId>
+            <empMapId>14855172</empMapId>
+            <empId>1195295</empId>
+            <empCode>KKK</empCode>
+            <empName>Emmanuel Kynyock</empName>
+            <bkgLocation>
+              <bkgLocationId>13000018</bkgLocationId>
+              <bkgLocationCountry>CM</bkgLocationCountry>
+              <bkgLocationOrganization>SCCM</bkgLocationOrganization>
+            </bkgLocation>
+            <empRelationshipType>
+              <stdCodeNumber>22</stdCodeNumber>
+              <stdCodeValue>FAM</stdCodeValue>
+              <stdCodeDescription>Field Account Manager</stdCodeDescription>
+            </empRelationshipType>
+            <principalFAMInd>Y</principalFAMInd>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </empRelationship>
+          <empRelationship>
+            <leId>11018414</leId>
+            <subProfileId>2</subProfileId>
+            <empEmpCodeMapId>5011279</empEmpCodeMapId>
+            <empMapId>14578153</empMapId>
+            <empId>1150033</empId>
+            <empCode>F02</empCode>
+            <empName>Danayal Zia</empName>
+            <bkgLocation>
+              <bkgLocationId>13000078</bkgLocationId>
+              <bkgLocationCountry>PK</bkgLocationCountry>
+              <bkgLocationOrganization>SCPK</bkgLocationOrganization>
+            </bkgLocation>
+            <empRelationshipType>
+              <stdCodeNumber>22</stdCodeNumber>
+              <stdCodeValue>FAM</stdCodeValue>
+              <stdCodeDescription>Field Account Manager</stdCodeDescription>
+            </empRelationshipType>
+            <principalFAMInd>Y</principalFAMInd>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </empRelationship>
+          <empRelationship>
+            <leId>11018414</leId>
+            <subProfileId>2</subProfileId>
+            <empEmpCodeMapId>5011541</empEmpCodeMapId>
+            <empMapId>14577370</empMapId>
+            <empId>1242565</empId>
+            <empCode>HAL</empCode>
+            <empName>HOANG ANH LE</empName>
+            <bkgLocation>
+              <bkgLocationId>13000092</bkgLocationId>
+              <bkgLocationCountry>VN</bkgLocationCountry>
+              <bkgLocationOrganization>SCVN</bkgLocationOrganization>
+            </bkgLocation>
+            <empRelationshipType>
+              <stdCodeNumber>22</stdCodeNumber>
+              <stdCodeValue>FAM</stdCodeValue>
+              <stdCodeDescription>Field Account Manager</stdCodeDescription>
+            </empRelationshipType>
+            <principalFAMInd>Y</principalFAMInd>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </empRelationship>
+          <empRelationship>
+            <leId>11018414</leId>
+            <subProfileId>2</subProfileId>
+            <empEmpCodeMapId>5011942</empEmpCodeMapId>
+            <empMapId>14344217</empMapId>
+            <empId>1201014</empId>
+            <empCode>LB1</empCode>
+            <empName>Lidia Bozhevolnaya</empName>
+            <bkgLocation>
+              <bkgLocationId>13010187</bkgLocationId>
+              <bkgLocationCountry>AE</bkgLocationCountry>
+              <bkgLocationOrganization>SCDF</bkgLocationOrganization>
+            </bkgLocation>
+            <empRelationshipType>
+              <stdCodeNumber>22</stdCodeNumber>
+              <stdCodeValue>FAM</stdCodeValue>
+              <stdCodeDescription>Field Account Manager</stdCodeDescription>
+            </empRelationshipType>
+            <principalFAMInd>Y</principalFAMInd>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </empRelationship>
+          <empRelationship>
+            <leId>11018414</leId>
+            <subProfileId>2</subProfileId>
+            <empEmpCodeMapId>5012871</empEmpCodeMapId>
+            <empMapId>14477657</empMapId>
+            <empId>1001083</empId>
+            <empCode>020</empCode>
+            <empName>Paul Robertson</empName>
+            <bkgLocation>
+              <bkgLocationId>13000080</bkgLocationId>
+              <bkgLocationCountry>QA</bkgLocationCountry>
+              <bkgLocationOrganization>SCBL</bkgLocationOrganization>
+            </bkgLocation>
+            <empRelationshipType>
+              <stdCodeNumber>22</stdCodeNumber>
+              <stdCodeValue>FAM</stdCodeValue>
+              <stdCodeDescription>Field Account Manager</stdCodeDescription>
+            </empRelationshipType>
+            <principalFAMInd>Y</principalFAMInd>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </empRelationship>
+          <empRelationship>
+            <leId>11018414</leId>
+            <subProfileId>2</subProfileId>
+            <empEmpCodeMapId>5013124</empEmpCodeMapId>
+            <empMapId>14697090</empMapId>
+            <empId>824208</empId>
+            <empCode>WB0043</empCode>
+            <empName>Shin, Regina Young Hee</empName>
+            <bkgLocation>
+              <bkgLocationId>13000058</bkgLocationId>
+              <bkgLocationCountry>KR</bkgLocationCountry>
+              <bkgLocationOrganization>SCFB</bkgLocationOrganization>
+            </bkgLocation>
+            <empRelationshipType>
+              <stdCodeNumber>22</stdCodeNumber>
+              <stdCodeValue>FAM</stdCodeValue>
+              <stdCodeDescription>Field Account Manager</stdCodeDescription>
+            </empRelationshipType>
+            <principalFAMInd>Y</principalFAMInd>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </empRelationship>
+          <empRelationship>
+            <leId>11018414</leId>
+            <subProfileId>2</subProfileId>
+            <empEmpCodeMapId>5013200</empEmpCodeMapId>
+            <empMapId>14505049</empMapId>
+            <empId>1288551</empId>
+            <empCode>P596</empCode>
+            <empName>Ali Najeeb</empName>
+            <bkgLocation>
+              <bkgLocationId>13000007</bkgLocationId>
+              <bkgLocationCountry>BH</bkgLocationCountry>
+              <bkgLocationOrganization>SCBL</bkgLocationOrganization>
+            </bkgLocation>
+            <empRelationshipType>
+              <stdCodeNumber>22</stdCodeNumber>
+              <stdCodeValue>TBS</stdCodeValue>
+              <stdCodeDescription>Transaction Banking Sales</stdCodeDescription>
+            </empRelationshipType>
+            <principalFAMInd>N</principalFAMInd>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </empRelationship>
+          <empRelationship>
+            <leId>11018414</leId>
+            <subProfileId>2</subProfileId>
+            <empEmpCodeMapId>5013732</empEmpCodeMapId>
+            <empMapId>14855177</empMapId>
+            <empId>1330276</empId>
+            <empCode>W09</empCode>
+            <empName>Chale, Barry</empName>
+            <bkgLocation>
+              <bkgLocationId>13000088</bkgLocationId>
+              <bkgLocationCountry>TZ</bkgLocationCountry>
+              <bkgLocationOrganization>SCTZ</bkgLocationOrganization>
+            </bkgLocation>
+            <empRelationshipType>
+              <stdCodeNumber>22</stdCodeNumber>
+              <stdCodeValue>FAM</stdCodeValue>
+              <stdCodeDescription>Field Account Manager</stdCodeDescription>
+            </empRelationshipType>
+            <principalFAMInd>Y</principalFAMInd>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </empRelationship>
+          <empRelationship>
+            <leId>11018414</leId>
+            <subProfileId>2</subProfileId>
+            <empEmpCodeMapId>5013755</empEmpCodeMapId>
+            <empMapId>14690047</empMapId>
+            <empId>1315288</empId>
+            <empCode>W08</empCode>
+            <empName>Moremong, Itumeleng</empName>
+            <bkgLocation>
+              <bkgLocationId>13000014</bkgLocationId>
+              <bkgLocationCountry>BW</bkgLocationCountry>
+              <bkgLocationOrganization>SCBW</bkgLocationOrganization>
+            </bkgLocation>
+            <empRelationshipType>
+              <stdCodeNumber>22</stdCodeNumber>
+              <stdCodeValue>FAM</stdCodeValue>
+              <stdCodeDescription>Field Account Manager</stdCodeDescription>
+            </empRelationshipType>
+            <principalFAMInd>Y</principalFAMInd>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </empRelationship>
+          <empRelationship>
+            <leId>11018414</leId>
+            <subProfileId>2</subProfileId>
+            <empEmpCodeMapId>5014302</empEmpCodeMapId>
+            <empMapId>14855175</empMapId>
+            <empId>1018308</empId>
+            <empCode>W02</empCode>
+            <empName>BOLANLE ODUYALE</empName>
+            <bkgLocation>
+              <bkgLocationId>13000070</bkgLocationId>
+              <bkgLocationCountry>NG</bkgLocationCountry>
+              <bkgLocationOrganization>SCNG</bkgLocationOrganization>
+            </bkgLocation>
+            <empRelationshipType>
+              <stdCodeNumber>22</stdCodeNumber>
+              <stdCodeValue>FAM</stdCodeValue>
+              <stdCodeDescription>Field Account Manager</stdCodeDescription>
+            </empRelationshipType>
+            <principalFAMInd>Y</principalFAMInd>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </empRelationship>
+          <empRelationship>
+            <leId>11018414</leId>
+            <subProfileId>2</subProfileId>
+            <empEmpCodeMapId>5014397</empEmpCodeMapId>
+            <empMapId>14855174</empMapId>
+            <empId>1157017</empId>
+            <empCode>W02</empCode>
+            <empName>MUUNA, FRANCIS</empName>
+            <bkgLocation>
+              <bkgLocationId>13000055</bkgLocationId>
+              <bkgLocationCountry>KE</bkgLocationCountry>
+              <bkgLocationOrganization>SCKE</bkgLocationOrganization>
+            </bkgLocation>
+            <empRelationshipType>
+              <stdCodeNumber>22</stdCodeNumber>
+              <stdCodeValue>FAM</stdCodeValue>
+              <stdCodeDescription>Field Account Manager</stdCodeDescription>
+            </empRelationshipType>
+            <principalFAMInd>Y</principalFAMInd>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </empRelationship>
+          <empRelationship>
+            <leId>11018414</leId>
+            <subProfileId>2</subProfileId>
+            <empEmpCodeMapId>5014525</empEmpCodeMapId>
+            <empMapId>14512511</empMapId>
+            <empId>1135077</empId>
+            <empCode>0T2</empCode>
+            <empName>Anurag Mishra</empName>
+            <bkgLocation>
+              <bkgLocationId>13000071</bkgLocationId>
+              <bkgLocationCountry>NP</bkgLocationCountry>
+              <bkgLocationOrganization>SCNL</bkgLocationOrganization>
+            </bkgLocation>
+            <empRelationshipType>
+              <stdCodeNumber>22</stdCodeNumber>
+              <stdCodeValue>FAM</stdCodeValue>
+              <stdCodeDescription>Field Account Manager</stdCodeDescription>
+            </empRelationshipType>
+            <principalFAMInd>Y</principalFAMInd>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </empRelationship>
+          <empRelationship>
+            <leId>11018414</leId>
+            <subProfileId>2</subProfileId>
+            <empEmpCodeMapId>5014655</empEmpCodeMapId>
+            <empMapId>14505048</empMapId>
+            <empId>1259727</empId>
+            <empCode>P792</empCode>
+            <empName>Sen, Indranil</empName>
+            <bkgLocation>
+              <bkgLocationId>13000001</bkgLocationId>
+              <bkgLocationCountry>AE</bkgLocationCountry>
+              <bkgLocationOrganization>SCBL</bkgLocationOrganization>
+            </bkgLocation>
+            <empRelationshipType>
+              <stdCodeNumber>22</stdCodeNumber>
+              <stdCodeValue>TBS</stdCodeValue>
+              <stdCodeDescription>Transaction Banking Sales</stdCodeDescription>
+            </empRelationshipType>
+            <principalFAMInd>N</principalFAMInd>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </empRelationship>
+          <empRelationship>
+            <leId>11018414</leId>
+            <subProfileId>2</subProfileId>
+            <empEmpCodeMapId>5014710</empEmpCodeMapId>
+            <empMapId>14750633</empMapId>
+            <empId>1310454</empId>
+            <empCode>A2846</empCode>
+            <empName>Wittich, Michael</empName>
+            <bkgLocation>
+              <bkgLocationId>13000024</bkgLocationId>
+              <bkgLocationCountry>GB</bkgLocationCountry>
+              <bkgLocationOrganization>SCBL</bkgLocationOrganization>
+            </bkgLocation>
+            <empRelationshipType>
+              <stdCodeNumber>22</stdCodeNumber>
+              <stdCodeValue>FAM</stdCodeValue>
+              <stdCodeDescription>Field Account Manager</stdCodeDescription>
+            </empRelationshipType>
+            <principalFAMInd>Y</principalFAMInd>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </empRelationship>
+          <empRelationship>
+            <leId>11018414</leId>
+            <subProfileId>2</subProfileId>
+            <empEmpCodeMapId>5014736</empEmpCodeMapId>
+            <empMapId>14565604</empMapId>
+            <empId>1249236</empId>
+            <empCode>WF1</empCode>
+            <empName>Annor, Richard Bram</empName>
+            <bkgLocation>
+              <bkgLocationId>13000029</bkgLocationId>
+              <bkgLocationCountry>GH</bkgLocationCountry>
+              <bkgLocationOrganization>SCGH</bkgLocationOrganization>
+            </bkgLocation>
+            <empRelationshipType>
+              <stdCodeNumber>22</stdCodeNumber>
+              <stdCodeValue>FAM</stdCodeValue>
+              <stdCodeDescription>Field Account Manager</stdCodeDescription>
+            </empRelationshipType>
+            <principalFAMInd>Y</principalFAMInd>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </empRelationship>
+          <empRelationship>
+            <leId>11018414</leId>
+            <subProfileId>2</subProfileId>
+            <empEmpCodeMapId>5014761</empEmpCodeMapId>
+            <empMapId>14855178</empMapId>
+            <empId>1016646</empId>
+            <empCode>W11</empCode>
+            <empName>CLARE LUMBUYE</empName>
+            <bkgLocation>
+              <bkgLocationId>13000089</bkgLocationId>
+              <bkgLocationCountry>UG</bkgLocationCountry>
+              <bkgLocationOrganization>SCUG</bkgLocationOrganization>
+            </bkgLocation>
+            <empRelationshipType>
+              <stdCodeNumber>22</stdCodeNumber>
+              <stdCodeValue>FAM</stdCodeValue>
+              <stdCodeDescription>Field Account Manager</stdCodeDescription>
+            </empRelationshipType>
+            <principalFAMInd>Y</principalFAMInd>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </empRelationship>
+          <empRelationship>
+            <leId>11018414</leId>
+            <subProfileId>2</subProfileId>
+            <empEmpCodeMapId>5014787</empEmpCodeMapId>
+            <empMapId>14586153</empMapId>
+            <empId>1175453</empId>
+            <empCode>R14</empCode>
+            <empName>Zhao Wei</empName>
+            <bkgLocation>
+              <bkgLocationId>13000019</bkgLocationId>
+              <bkgLocationCountry>CN</bkgLocationCountry>
+              <bkgLocationOrganization>SCCN</bkgLocationOrganization>
+            </bkgLocation>
+            <empRelationshipType>
+              <stdCodeNumber>22</stdCodeNumber>
+              <stdCodeValue>FAM</stdCodeValue>
+              <stdCodeDescription>Field Account Manager</stdCodeDescription>
+            </empRelationshipType>
+            <principalFAMInd>Y</principalFAMInd>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </empRelationship>
+          <empRelationship>
+            <leId>11018414</leId>
+            <subProfileId>2</subProfileId>
+            <empEmpCodeMapId>5015535</empEmpCodeMapId>
+            <empMapId>14590025</empMapId>
+            <empId>1017093</empId>
+            <empCode>W16</empCode>
+            <empName>Kapumpe C Kaunda</empName>
+            <bkgLocation>
+              <bkgLocationId>13000094</bkgLocationId>
+              <bkgLocationCountry>ZM</bkgLocationCountry>
+              <bkgLocationOrganization>SCZM</bkgLocationOrganization>
+            </bkgLocation>
+            <empRelationshipType>
+              <stdCodeNumber>22</stdCodeNumber>
+              <stdCodeValue>FAM</stdCodeValue>
+              <stdCodeDescription>Field Account Manager</stdCodeDescription>
+            </empRelationshipType>
+            <principalFAMInd>Y</principalFAMInd>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </empRelationship>
+          <empRelationship>
+            <leId>11018414</leId>
+            <subProfileId>2</subProfileId>
+            <empEmpCodeMapId>5016313</empEmpCodeMapId>
+            <empMapId>14625566</empMapId>
+            <empId>1183634</empId>
+            <empCode>T007</empCode>
+            <empName>RAFAEL GOWLAND</empName>
+            <bkgLocation>
+              <bkgLocationId>13000003</bkgLocationId>
+              <bkgLocationCountry>AR</bkgLocationCountry>
+              <bkgLocationOrganization>SCBL</bkgLocationOrganization>
+            </bkgLocation>
+            <empRelationshipType>
+              <stdCodeNumber>22</stdCodeNumber>
+              <stdCodeValue>TBS</stdCodeValue>
+              <stdCodeDescription>Transaction Banking Sales</stdCodeDescription>
+            </empRelationshipType>
+            <principalFAMInd>N</principalFAMInd>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </empRelationship>
+          <empRelationship>
+            <leId>11018414</leId>
+            <subProfileId>2</subProfileId>
+            <empEmpCodeMapId>5017683</empEmpCodeMapId>
+            <empMapId>14959679</empMapId>
+            <empId>1332782</empId>
+            <empCode>W18</empCode>
+            <empName>Grossmann, Daniel</empName>
+            <bkgLocation>
+              <bkgLocationId>13000093</bkgLocationId>
+              <bkgLocationCountry>ZA</bkgLocationCountry>
+              <bkgLocationOrganization>SCBL</bkgLocationOrganization>
+            </bkgLocation>
+            <empRelationshipType>
+              <stdCodeNumber>22</stdCodeNumber>
+              <stdCodeValue>FAM</stdCodeValue>
+              <stdCodeDescription>Field Account Manager</stdCodeDescription>
+            </empRelationshipType>
+            <principalFAMInd>Y</principalFAMInd>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </empRelationship>
+          <empRelationship>
+            <leId>11018414</leId>
+            <subProfileId>2</subProfileId>
+            <empEmpCodeMapId>5018339</empEmpCodeMapId>
+            <empMapId>14718698</empMapId>
+            <empId>1135132</empId>
+            <empCode>766</empCode>
+            <empName>FERRO, LEON</empName>
+            <bkgLocation>
+              <bkgLocationId>13000090</bkgLocationId>
+              <bkgLocationCountry>US</bkgLocationCountry>
+              <bkgLocationOrganization>SCBL</bkgLocationOrganization>
+            </bkgLocation>
+            <empRelationshipType>
+              <stdCodeNumber>22</stdCodeNumber>
+              <stdCodeValue>FAM</stdCodeValue>
+              <stdCodeDescription>Field Account Manager</stdCodeDescription>
+            </empRelationshipType>
+            <principalFAMInd>Y</principalFAMInd>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </empRelationship>
+          <empRelationship>
+            <leId>11018414</leId>
+            <subProfileId>2</subProfileId>
+            <empEmpCodeMapId>5020202</empEmpCodeMapId>
+            <empMapId>14846853</empMapId>
+            <empId>1234295</empId>
+            <empCode>W23</empCode>
+            <empName>Smit, Craig</empName>
+            <bkgLocation>
+              <bkgLocationId>13000093</bkgLocationId>
+              <bkgLocationCountry>ZA</bkgLocationCountry>
+              <bkgLocationOrganization>SCBL</bkgLocationOrganization>
+            </bkgLocation>
+            <empRelationshipType>
+              <stdCodeNumber>22</stdCodeNumber>
+              <stdCodeValue>FAM</stdCodeValue>
+              <stdCodeDescription>Field Account Manager</stdCodeDescription>
+            </empRelationshipType>
+            <principalFAMInd>Y</principalFAMInd>
+            <updateStatusIndicator>D</updateStatusIndicator>
+            <changeIndicator>N</changeIndicator>
+          </empRelationship>
+        </empRelationshipDetails>
+      </subProfileDetails>
+      <fmDetails>
+        <fmGlobalInfo>
+          <leId>11018414</leId>
+          <subProfileId>2</subProfileId>
+          <fmGlblInfSysGenId>34174</fmGlblInfSysGenId>
+          <mifidClntClass>
+            <stdCodeNumber>401</stdCodeNumber>
+            <stdCodeValue>UC</stdCodeValue>
+            <stdCodeDescription>Unclassified Counterparty</stdCodeDescription>
+          </mifidClntClass>
+          <ultRiskCntry>AS</ultRiskCntry>
+          <scbAffltCode>
+            <stdCodeNumber>402</stdCodeNumber>
+            <stdCodeValue>024</stdCodeValue>
+            <stdCodeDescription>Standard Chartered Bank Gambia Ltd</stdCodeDescription>
+          </scbAffltCode>
+          <omgAlertAcronym>CX</omgAlertAcronym>
+          <omgOgdAcronym>XC</omgOgdAcronym>
+          <updateStatusIndicator>I</updateStatusIndicator>
+          <changeIndicator>Y</changeIndicator>
+        </fmGlobalInfo>
+        <fmAccountInfo>
+          <fmProfileInfo>
+            <leId>11018414</leId>
+            <subProfileId>2</subProfileId>
+            <fmProfileSysGenId>400187895</fmProfileSysGenId>
+            <fmCode>TESTGO7</fmCode>
+            <fmProfileShortName>SNTESTGO7</fmProfileShortName>
+            <fmMnemonic>DGLKSFD</fmMnemonic>
+            <fmProfileStatus>
+              <stdCodeNumber>403</stdCodeNumber>
+              <stdCodeValue>ACTIVE</stdCodeValue>
+              <stdCodeDescription>ACTIVE</stdCodeDescription>
+            </fmProfileStatus>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>Y</changeIndicator>
+          </fmProfileInfo>
+          <fmEntityInfo>
+            <leId>11018414</leId>
+            <subProfileId>2</subProfileId>
+            <fmId>400187895</fmId>
+            <fmLeSysGenId>34039</fmLeSysGenId>
+            <fmLongName>LN TESTGO7</fmLongName>
+            <fmLongName1>LN1TESTGO7</fmLongName1>
+            <ultParentFmId>400187895</ultParentFmId>
+            <limitType>
+              <stdCodeNumber>405</stdCodeNumber>
+              <stdCodeValue>GLBLKD</stdCodeValue>
+              <stdCodeDescription>Global Locked</stdCodeDescription>
+            </limitType>
+            <dvpCustInd>0</dvpCustInd>
+            <scbFmEntityInd>N</scbFmEntityInd>
+            <cddId/>
+            <imlaCertification>N</imlaCertification>
+            <omgAlertAccount>GETRGLE</omgAlertAccount>
+            <omgOgdAccount>GPRRFES</omgOgdAccount>
+            <omgCtmAccount/>
+            <markitWireId/>
+            <iceLinkId/>
+            <btsId/>
+            <rmfFlag/>
+            <euroCompInd/>
+            <bisWeighting/>
+            <languageCode>
+              <stdCodeNumber/>
+              <stdCodeValue/>
+              <stdCodeDescription/>
+            </languageCode>
+            <ccilCpId/>
+            <topBankInd/>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>Y</changeIndicator>
+          </fmEntityInfo>
+          <fmEntityMoreInfo>
+            <leId>11018414</leId>
+            <subProfileId>2</subProfileId>
+            <fmId>400187895</fmId>
+            <fmMoreDtlSysGenId>33999</fmMoreDtlSysGenId>
+            <scbClassCode>76</scbClassCode>
+            <fmType>
+              <stdCodeNumber>407</stdCodeNumber>
+              <stdCodeValue>CORP</stdCodeValue>
+              <stdCodeDescription>Corporation</stdCodeDescription>
+            </fmType>
+            <opicsClassCode>778</opicsClassCode>
+            <fmClassCode>
+              <stdCodeNumber>409</stdCodeNumber>
+              <stdCodeValue>BK</stdCodeValue>
+              <stdCodeDescription>BANKS</stdCodeDescription>
+            </fmClassCode>
+            <finInstType>
+              <stdCodeNumber>410</stdCodeNumber>
+              <stdCodeValue>N</stdCodeValue>
+              <stdCodeDescription>Leasing Company</stdCodeDescription>
+            </finInstType>
+            <instSector>
+              <stdCodeNumber>424</stdCodeNumber>
+              <stdCodeValue>220</stdCodeValue>
+              <stdCodeDescription>Public corporations-commercial</stdCodeDescription>
+            </instSector>
+            <clsEigibility>N</clsEigibility>
+            <clsCustType>
+              <stdCodeNumber>408</stdCodeNumber>
+              <stdCodeValue>SUBLOCA</stdCodeValue>
+              <stdCodeDescription>SCB Branches with Access to CLS</stdCodeDescription>
+            </clsCustType>
+            <clsStartDate/>
+            <brokerId/>
+            <armEmpCodeMapId>5000951</armEmpCodeMapId>
+            <armId>14011567</armId>
+            <armCode>TW</armCode>
+            <armEmpId>1138726</armEmpId>
+            <armEmpName>Whyte, Tom</armEmpName>
+            <armLocationId>13000004</armLocationId>
+            <armLocationCountry>AU</armLocationCountry>
+            <armLocationOrganization>SCBL</armLocationOrganization>
+            <dataProtInd/>
+            <fmNote/>
+            <nrdSignedInd/>
+            <confReqInd/>
+            <tradingInd/>
+            <dateOfSigningOfDiscAgr/>
+            <disclosureAgrRecInd/>
+            <docCompletionInd/>
+            <docCompletionDate>2011-06-24 19:00:37.0</docCompletionDate>
+            <bankingSecrecyActInd/>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>Y</changeIndicator>
+          </fmEntityMoreInfo>
+          <fmHierarchyDetails>
+            <fmHierarchy>
+              <leId>11018414</leId>
+              <subProfileId>2</subProfileId>
+              <fmId>400187895</fmId>
+              <fmHrySysGenId>34059</fmHrySysGenId>
+              <parentFmId>400187895</parentFmId>
+              <hierarchyType>
+                <stdCodeNumber>411</stdCodeNumber>
+                <stdCodeValue>BRANCH</stdCodeValue>
+                <stdCodeDescription>Branch</stdCodeDescription>
+              </hierarchyType>
+              <updateStatusIndicator>I</updateStatusIndicator>
+              <changeIndicator>Y</changeIndicator>
+            </fmHierarchy>
+          </fmHierarchyDetails>
+          <fmAddressDetails>
+            <fmAddress>
+              <leId>11018414</leId>
+              <subProfileId>2</subProfileId>
+              <fmId>400187895</fmId>
+              <fmAddrSysGenId>698869</fmAddrSysGenId>
+              <addrType>
+                <stdCodeNumber>412</stdCodeNumber>
+                <stdCodeValue>MXG</stdCodeValue>
+                <stdCodeDescription>Main Address for Mx G2000</stdCodeDescription>
+              </addrType>
+              <addrLine1>JHFJ</addrLine1>
+              <addrLine2/>
+              <country>IN</country>
+              <city>HYD</city>
+              <postCode/>
+              <state>HGCJV</state>
+              <altName/>
+              <contEmail/>
+              <contPhone/>
+              <description/>
+              <contRole/>
+              <contTitle>
+                <stdCodeNumber/>
+                <stdCodeValue/>
+                <stdCodeDescription/>
+              </contTitle>
+              <contFirstName/>
+              <contLastName/>
+              <contFax/>
+              <contTelex/>
+              <startDate>2011-06-24 19:02:37.0</startDate>
+              <updateStatusIndicator>I</updateStatusIndicator>
+              <changeIndicator>Y</changeIndicator>
+            </fmAddress>			
+          </fmAddressDetails>
+          <fmBranchDetails>
+            <fmBranch>
+              <leId>11018414</leId>
+              <subProfileId>2</subProfileId>
+              <fmId>400187895</fmId>
+              <fmBranchSysGenId>34017</fmBranchSysGenId>
+              <scbFmId>11111111</scbFmId>
+              <custStatusRsnCode>YF</custStatusRsnCode>
+              <custStatusChngDate/>
+              <phoneConfirm>N</phoneConfirm>
+              <phoneNumber/>
+              <faxNumber/>
+              <netSettle>
+                <stdCodeNumber/>
+                <stdCodeValue/>
+                <stdCodeDescription/>
+              </netSettle>
+              <novation>
+                <stdCodeNumber/>
+                <stdCodeValue/>
+                <stdCodeDescription/>
+              </novation>
+              <custStatus>
+                <stdCodeNumber/>
+                <stdCodeValue/>
+                <stdCodeDescription/>
+              </custStatus>
+              <manualSettle>N</manualSettle>
+              <armEmpCodeMapId>5010093</armEmpCodeMapId>
+              <armId>14024203</armId>
+              <armCode>CCC</armCode>
+              <armEmpId>1232190</armEmpId>
+              <armEmpName>Issa Fadiga</armEmpName>
+              <armLocationId>13000017</armLocationId>
+              <armLocationCountry>CI</armLocationCountry>
+              <armLocationOrganization>SCCI</armLocationOrganization>
+              <extrnlSystmCode>
+                <stdCodeNumber>418</stdCodeNumber>
+                <stdCodeValue>RISQUE</stdCodeValue>
+                <stdCodeDescription>Sophis</stdCodeDescription>
+              </extrnlSystmCode>
+              <updateStatusIndicator>I</updateStatusIndicator>
+              <changeIndicator>Y</changeIndicator>
+            </fmBranch>
+          </fmBranchDetails>
+          <fmSysContactDetails>
+            <fmSysContact>
+              <leId>11018414</leId>
+              <subProfileId>2</subProfileId>
+              <fmId>400187895</fmId>
+              <fmSysContSysGenId>166246</fmSysContSysGenId>
+              <mediumCode>
+                <stdCodeNumber>419</stdCodeNumber>
+                <stdCodeValue>FXNET</stdCodeValue>
+                <stdCodeDescription>FXNET</stdCodeDescription>
+              </mediumCode>
+              <mediumUsage>
+                <stdCodeNumber>420</stdCodeNumber>
+                <stdCodeValue>MAIN</stdCodeValue>
+                <stdCodeDescription>MAIN</stdCodeDescription>
+              </mediumUsage>
+              <addrLine>JHVHJVHJ</addrLine>
+              <confirmationText/>
+              <description/>
+              <updateStatusIndicator>I</updateStatusIndicator>
+              <changeIndicator>Y</changeIndicator>
+            </fmSysContact>
+          </fmSysContactDetails>
+          <fmCrossReferenceDetails>
+            <fmCrossReference>
+              <leId>11018414</leId>
+              <subProfileId>2</subProfileId>
+              <fmId>400187895</fmId>
+              <fmXrefSysGenId>34062</fmXrefSysGenId>
+              <xrefLocation>MUM</xrefLocation>
+              <xrefSystem>RDM67</xrefSystem>
+              <xrefExternalId>MMM</xrefExternalId>
+              <immsMnemonic/>
+              <updateStatusIndicator>I</updateStatusIndicator>
+              <changeIndicator>Y</changeIndicator>
+            </fmCrossReference>
+          </fmCrossReferenceDetails>
+                <fmSynInfo>
+            <leId>11018414</leId>
+            <subProfileId>2</subProfileId>
+            <fmId>400187895</fmId>
+            <clientFidessaViewCode/>
+			<accountFidessaViewCode/>
+			<contractingRelationships>
+				<contractingRelationship>
+				  <stdCodeNumber>425</stdCodeNumber>
+				  <stdCodeValue>SCBHK</stdCodeValue>
+				  <stdCodeDescription>SCBHK Standard Chartered Bank (Hong Kong) Pte Ltd</stdCodeDescription>
+				</contractingRelationship>
+				<contractingRelationship>
+				  <stdCodeNumber>425</stdCodeNumber>
+				  <stdCodeValue>SCBUK</stdCodeValue>
+				  <stdCodeDescription>SCBUK Standard Chartered Bank London Branch</stdCodeDescription>
+				</contractingRelationship>			
+			</contractingRelationships>
+            <vatFlag/>
+            <euVatRegistrationNo/>
+            <micCode/>
+            <symbology>
+              <stdCodeNumber/>
+              <stdCodeValue/>
+              <stdCodeDescription/>
+            </symbology>
+            <usTaxId/>
+            <oasysLevel>
+              <stdCodeNumber/>
+              <stdCodeValue/>
+              <stdCodeDescription/>
+            </oasysLevel>
+				<fmProfileType>
+				  <stdCodeNumber>433</stdCodeNumber> 
+				  <stdCodeValue>TRADACC</stdCodeValue> 
+				  <stdCodeDescription>TRADING ACCOUNT</stdCodeDescription> 
+				</fmProfileType>
+				 <fmTradingAccountType>
+				  <stdCodeNumber>428</stdCodeNumber> 
+				  <stdCodeValue>UNALLOC</stdCodeValue> 
+				  <stdCodeDescription>UNALLOCATED ACCOUNT</stdCodeDescription> 
+				 </fmTradingAccountType>
+			  <synRoles>
+				<synRole>
+					<stdCodeNumber>429</stdCodeNumber> 
+					<stdCodeValue>BROKER</stdCodeValue> 
+					<stdCodeDescription>BROKER</stdCodeDescription>
+				</synRole>
+				<synRole>
+					<stdCodeNumber>429</stdCodeNumber> 
+					<stdCodeValue>DEPO</stdCodeValue> 
+					<stdCodeDescription>DEPOSITARY</stdCodeDescription>
+				</synRole>
+				<synRole>
+					<stdCodeNumber>429</stdCodeNumber> 
+					<stdCodeValue>EXCHANGE</stdCodeValue> 
+					<stdCodeDescription>EXCHANGE</stdCodeDescription>
+				</synRole>
+			  </synRoles>
+			  <investorIds>
+				<investorId>
+					<market>
+						<stdCodeNumber>430</stdCodeNumber> 
+						<stdCodeValue>KRX</stdCodeValue> 
+						<stdCodeDescription>KOREA MARKET</stdCodeDescription>
+					</market>
+					<code>13545A</code>
+				</investorId>
+			 </investorIds>
+            <updateStatusIndicator>I</updateStatusIndicator>
+            <changeIndicator>Y</changeIndicator>
+		</fmSynInfo>
+        </fmAccountInfo>
+      </fmDetails>
+    </legalEntity>
+  </message>
+</SCIMessages>

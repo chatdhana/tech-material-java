@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<?xml:stylesheet type="text/xsl" href="games.xsl"?>
+<sports>
+
+   <game title="cricket">
+     <id>243</id>
+
+     <para>
+      More popular among commonwealth nations.
+     </para>
+   </game>
+
+  <game title="baseball">
+
+     <id>433</id>
+     <para>
+     More popular in America.
+     </para>
+  </game>
+
+  <game title="soccer">
+    <id>123</id>
+
+    <para>
+       Most popular sport in the world.
+    </para>
+
+  </game>
+
+ </sports>

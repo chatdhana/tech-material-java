@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<atlasMessage>
+	<RESPONSE atlasMessageID="400534797" publishedDateTime="10-Aug-2010 11:08:23" subscriberName="BENCH" messageType ="C_HOL" subscriberLocation="GBL">
+		<ACKNOWLEDGEMENT>
+		</ACKNOWLEDGEMENT>
+		<NEGATIVE-ACKNOWLEDGEMENT>
+			<REASON>Currency Holiday Atlas Delta event NOT FOUND in BENCH database: com.scb.ecom.fx.calendar.CurrencyHoliday@29d2af[id=&lt;null&gt;,currency=SGD,date=29/04/1996 00:00:00:000 UTC]
+			</REASON>
+		</NEGATIVE-ACKNOWLEDGEMENT>
+	</RESPONSE>
+</atlasMessage>

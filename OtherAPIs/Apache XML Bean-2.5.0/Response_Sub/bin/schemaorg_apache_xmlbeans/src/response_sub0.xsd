@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="REASON" type="xs:string"/>
+  <xs:element name="ACKNOWLEDGEMENT" type="xs:string"/>
+  <xs:element name="NEGATIVE-ACKNOWLEDGEMENT">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="REASON"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RESPONSE">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ACKNOWLEDGEMENT"/>
+        <xs:element ref="NEGATIVE-ACKNOWLEDGEMENT"/>
+      </xs:sequence>
+      <xs:attribute type="xs:string" name="atlasMessageID"/>
+      <xs:attribute type="xs:string" name="publishedDateTime"/>
+      <xs:attribute type="xs:string" name="subscriberName"/>
+      <xs:attribute type="xs:string" name="messageType"/>
+      <xs:attribute type="xs:string" name="subscriberLocation"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="atlasMessage">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="RESPONSE"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
